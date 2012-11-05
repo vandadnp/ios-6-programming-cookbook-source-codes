@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6D4BB8513D82E9300A62257 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D4BB8413D82E9300A62257 /* UIKit.framework */; };
+		A6D4BB8713D82E9300A62257 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D4BB8613D82E9300A62257 /* Foundation.framework */; };
+		A6D4BB8913D82E9300A62257 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D4BB8813D82E9300A62257 /* CoreGraphics.framework */; };
+		A6D4BB8F13D82E9300A62257 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6D4BB8D13D82E9300A62257 /* InfoPlist.strings */; };
+		A6D4BB9113D82E9300A62257 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D4BB9013D82E9300A62257 /* main.m */; };
+		A6D4BB9513D82E9300A62257 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D4BB9413D82E9300A62257 /* AppDelegate.m */; };
+		A6D4BBAA13D82EA400A62257 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D4BBA913D82EA400A62257 /* AddressBook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6D4BB8013D82E9300A62257 /* Inserting a Person Entry into the Address Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Inserting a Person Entry into the Address Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6D4BB8413D82E9300A62257 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6D4BB8613D82E9300A62257 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6D4BB8813D82E9300A62257 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6D4BB8C13D82E9300A62257 /* Inserting a Person Entry into the Address Book-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Inserting a Person Entry into the Address Book-Info.plist"; sourceTree = "<group>"; };
+		A6D4BB8E13D82E9300A62257 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6D4BB9013D82E9300A62257 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6D4BB9213D82E9300A62257 /* Inserting a Person Entry into the Address Book-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Inserting a Person Entry into the Address Book-Prefix.pch"; sourceTree = "<group>"; };
+		A6D4BB9313D82E9300A62257 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6D4BB9413D82E9300A62257 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6D4BBA913D82EA400A62257 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6D4BB7D13D82E9300A62257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D4BBAA13D82EA400A62257 /* AddressBook.framework in Frameworks */,
+				A6D4BB8513D82E9300A62257 /* UIKit.framework in Frameworks */,
+				A6D4BB8713D82E9300A62257 /* Foundation.framework in Frameworks */,
+				A6D4BB8913D82E9300A62257 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6D4BB7513D82E9300A62257 = {
+			isa = PBXGroup;
+			children = (
+				A6D4BB8A13D82E9300A62257 /* Inserting a Person Entry into the Address Book */,
+				A6D4BB8313D82E9300A62257 /* Frameworks */,
+				A6D4BB8113D82E9300A62257 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6D4BB8113D82E9300A62257 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6D4BB8013D82E9300A62257 /* Inserting a Person Entry into the Address Book.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6D4BB8313D82E9300A62257 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6D4BBA913D82EA400A62257 /* AddressBook.framework */,
+				A6D4BB8413D82E9300A62257 /* UIKit.framework */,
+				A6D4BB8613D82E9300A62257 /* Foundation.framework */,
+				A6D4BB8813D82E9300A62257 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6D4BB8A13D82E9300A62257 /* Inserting a Person Entry into the Address Book */ = {
+			isa = PBXGroup;
+			children = (
+				A6D4BB9313D82E9300A62257 /* AppDelegate.h */,
+				A6D4BB9413D82E9300A62257 /* AppDelegate.m */,
+				A6D4BB8B13D82E9300A62257 /* Supporting Files */,
+			);
+			path = "Inserting a Person Entry into the Address Book";
+			sourceTree = "<group>";
+		};
+		A6D4BB8B13D82E9300A62257 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6D4BB8C13D82E9300A62257 /* Inserting a Person Entry into the Address Book-Info.plist */,
+				A6D4BB8D13D82E9300A62257 /* InfoPlist.strings */,
+				A6D4BB9013D82E9300A62257 /* main.m */,
+				A6D4BB9213D82E9300A62257 /* Inserting a Person Entry into the Address Book-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6D4BB7F13D82E9300A62257 /* Inserting a Person Entry into the Address Book */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6D4BB9813D82E9300A62257 /* Build configuration list for PBXNativeTarget "Inserting a Person Entry into the Address Book" */;
+			buildPhases = (
+				A6D4BB7C13D82E9300A62257 /* Sources */,
+				A6D4BB7D13D82E9300A62257 /* Frameworks */,
+				A6D4BB7E13D82E9300A62257 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Inserting a Person Entry into the Address Book";
+			productName = "Inserting a Person Entry into the Address Book";
+			productReference = A6D4BB8013D82E9300A62257 /* Inserting a Person Entry into the Address Book.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6D4BB7713D82E9300A62257 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6D4BB7A13D82E9300A62257 /* Build configuration list for PBXProject "Inserting a Person Entry into the Address Book" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6D4BB7513D82E9300A62257;
+			productRefGroup = A6D4BB8113D82E9300A62257 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6D4BB7F13D82E9300A62257 /* Inserting a Person Entry into the Address Book */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6D4BB7E13D82E9300A62257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D4BB8F13D82E9300A62257 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6D4BB7C13D82E9300A62257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D4BB9113D82E9300A62257 /* main.m in Sources */,
+				A6D4BB9513D82E9300A62257 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6D4BB8D13D82E9300A62257 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6D4BB8E13D82E9300A62257 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6D4BB9613D82E9300A62257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6D4BB9713D82E9300A62257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6D4BB9913D82E9300A62257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Inserting a Person Entry into the Address Book/Inserting a Person Entry into the Address Book-Prefix.pch";
+				INFOPLIST_FILE = "Inserting a Person Entry into the Address Book/Inserting a Person Entry into the Address Book-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6D4BB9A13D82E9300A62257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Inserting a Person Entry into the Address Book/Inserting a Person Entry into the Address Book-Prefix.pch";
+				INFOPLIST_FILE = "Inserting a Person Entry into the Address Book/Inserting a Person Entry into the Address Book-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6D4BB7A13D82E9300A62257 /* Build configuration list for PBXProject "Inserting a Person Entry into the Address Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D4BB9613D82E9300A62257 /* Debug */,
+				A6D4BB9713D82E9300A62257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6D4BB9813D82E9300A62257 /* Build configuration list for PBXNativeTarget "Inserting a Person Entry into the Address Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D4BB9913D82E9300A62257 /* Debug */,
+				A6D4BB9A13D82E9300A62257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6D4BB7713D82E9300A62257 /* Project object */;
+}

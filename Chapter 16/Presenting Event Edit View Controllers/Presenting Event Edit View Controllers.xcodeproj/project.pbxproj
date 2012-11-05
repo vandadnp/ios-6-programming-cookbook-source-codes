@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6B12AC213DC1DF300CA0DB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B12AC113DC1DF300CA0DB2 /* UIKit.framework */; };
+		A6B12AC413DC1DF300CA0DB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B12AC313DC1DF300CA0DB2 /* Foundation.framework */; };
+		A6B12AC613DC1DF300CA0DB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B12AC513DC1DF300CA0DB2 /* CoreGraphics.framework */; };
+		A6B12ACC13DC1DF300CA0DB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6B12ACA13DC1DF300CA0DB2 /* InfoPlist.strings */; };
+		A6B12ACE13DC1DF300CA0DB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B12ACD13DC1DF300CA0DB2 /* main.m */; };
+		A6B12AD213DC1DF400CA0DB2 /* Presenting_Event_Edit_View_ControllersAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B12AD113DC1DF300CA0DB2 /* Presenting_Event_Edit_View_ControllersAppDelegate.m */; };
+		A6B12AD513DC1DF400CA0DB2 /* Presenting_Event_Edit_View_ControllersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B12AD413DC1DF400CA0DB2 /* Presenting_Event_Edit_View_ControllersViewController.m */; };
+		A6B12AD813DC1DF400CA0DB2 /* Presenting_Event_Edit_View_ControllersViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6B12AD613DC1DF400CA0DB2 /* Presenting_Event_Edit_View_ControllersViewController_iPhone.xib */; };
+		A6B12ADB13DC1DF400CA0DB2 /* Presenting_Event_Edit_View_ControllersViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6B12AD913DC1DF400CA0DB2 /* Presenting_Event_Edit_View_ControllersViewController_iPad.xib */; };
+		A6B12AED13DC1E6300CA0DB2 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B12AEB13DC1E6300CA0DB2 /* EventKit.framework */; };
+		A6B12AEE13DC1E6300CA0DB2 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B12AEC13DC1E6300CA0DB2 /* EventKitUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6B12ABD13DC1DF300CA0DB2 /* Presenting Event Edit View Controllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Presenting Event Edit View Controllers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B12AC113DC1DF300CA0DB2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6B12AC313DC1DF300CA0DB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6B12AC513DC1DF300CA0DB2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6B12AC913DC1DF300CA0DB2 /* Presenting Event Edit View Controllers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Presenting Event Edit View Controllers-Info.plist"; sourceTree = "<group>"; };
+		A6B12ACB13DC1DF300CA0DB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6B12ACD13DC1DF300CA0DB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6B12ACF13DC1DF300CA0DB2 /* Presenting Event Edit View Controllers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Presenting Event Edit View Controllers-Prefix.pch"; sourceTree = "<group>"; };
+		A6B12AD013DC1DF300CA0DB2 /* Presenting_Event_Edit_View_ControllersAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Presenting_Event_Edit_View_ControllersAppDelegate.h; sourceTree = "<group>"; };
+		A6B12AD113DC1DF300CA0DB2 /* Presenting_Event_Edit_View_ControllersAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Presenting_Event_Edit_View_ControllersAppDelegate.m; sourceTree = "<group>"; };
+		A6B12AD313DC1DF400CA0DB2 /* Presenting_Event_Edit_View_ControllersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Presenting_Event_Edit_View_ControllersViewController.h; sourceTree = "<group>"; };
+		A6B12AD413DC1DF400CA0DB2 /* Presenting_Event_Edit_View_ControllersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Presenting_Event_Edit_View_ControllersViewController.m; sourceTree = "<group>"; };
+		A6B12AD713DC1DF400CA0DB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Presenting_Event_Edit_View_ControllersViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6B12ADA13DC1DF400CA0DB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Presenting_Event_Edit_View_ControllersViewController_iPad.xib; sourceTree = "<group>"; };
+		A6B12AEB13DC1E6300CA0DB2 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		A6B12AEC13DC1E6300CA0DB2 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6B12ABA13DC1DF300CA0DB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B12AED13DC1E6300CA0DB2 /* EventKit.framework in Frameworks */,
+				A6B12AEE13DC1E6300CA0DB2 /* EventKitUI.framework in Frameworks */,
+				A6B12AC213DC1DF300CA0DB2 /* UIKit.framework in Frameworks */,
+				A6B12AC413DC1DF300CA0DB2 /* Foundation.framework in Frameworks */,
+				A6B12AC613DC1DF300CA0DB2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6B12AB213DC1DF300CA0DB2 = {
+			isa = PBXGroup;
+			children = (
+				A6B12AC713DC1DF300CA0DB2 /* Presenting Event Edit View Controllers */,
+				A6B12AC013DC1DF300CA0DB2 /* Frameworks */,
+				A6B12ABE13DC1DF300CA0DB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6B12ABE13DC1DF300CA0DB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6B12ABD13DC1DF300CA0DB2 /* Presenting Event Edit View Controllers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6B12AC013DC1DF300CA0DB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6B12AEB13DC1E6300CA0DB2 /* EventKit.framework */,
+				A6B12AEC13DC1E6300CA0DB2 /* EventKitUI.framework */,
+				A6B12AC113DC1DF300CA0DB2 /* UIKit.framework */,
+				A6B12AC313DC1DF300CA0DB2 /* Foundation.framework */,
+				A6B12AC513DC1DF300CA0DB2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6B12AC713DC1DF300CA0DB2 /* Presenting Event Edit View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A6B12AD013DC1DF300CA0DB2 /* Presenting_Event_Edit_View_ControllersAppDelegate.h */,
+				A6B12AD113DC1DF300CA0DB2 /* Presenting_Event_Edit_View_ControllersAppDelegate.m */,
+				A6B12AD313DC1DF400CA0DB2 /* Presenting_Event_Edit_View_ControllersViewController.h */,
+				A6B12AD413DC1DF400CA0DB2 /* Presenting_Event_Edit_View_ControllersViewController.m */,
+				A6B12AD613DC1DF400CA0DB2 /* Presenting_Event_Edit_View_ControllersViewController_iPhone.xib */,
+				A6B12AD913DC1DF400CA0DB2 /* Presenting_Event_Edit_View_ControllersViewController_iPad.xib */,
+				A6B12AC813DC1DF300CA0DB2 /* Supporting Files */,
+			);
+			path = "Presenting Event Edit View Controllers";
+			sourceTree = "<group>";
+		};
+		A6B12AC813DC1DF300CA0DB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6B12AC913DC1DF300CA0DB2 /* Presenting Event Edit View Controllers-Info.plist */,
+				A6B12ACA13DC1DF300CA0DB2 /* InfoPlist.strings */,
+				A6B12ACD13DC1DF300CA0DB2 /* main.m */,
+				A6B12ACF13DC1DF300CA0DB2 /* Presenting Event Edit View Controllers-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6B12ABC13DC1DF300CA0DB2 /* Presenting Event Edit View Controllers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6B12ADE13DC1DF400CA0DB2 /* Build configuration list for PBXNativeTarget "Presenting Event Edit View Controllers" */;
+			buildPhases = (
+				A6B12AB913DC1DF300CA0DB2 /* Sources */,
+				A6B12ABA13DC1DF300CA0DB2 /* Frameworks */,
+				A6B12ABB13DC1DF300CA0DB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Presenting Event Edit View Controllers";
+			productName = "Presenting Event Edit View Controllers";
+			productReference = A6B12ABD13DC1DF300CA0DB2 /* Presenting Event Edit View Controllers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6B12AB413DC1DF300CA0DB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6B12AB713DC1DF300CA0DB2 /* Build configuration list for PBXProject "Presenting Event Edit View Controllers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6B12AB213DC1DF300CA0DB2;
+			productRefGroup = A6B12ABE13DC1DF300CA0DB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6B12ABC13DC1DF300CA0DB2 /* Presenting Event Edit View Controllers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6B12ABB13DC1DF300CA0DB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B12ACC13DC1DF300CA0DB2 /* InfoPlist.strings in Resources */,
+				A6B12AD813DC1DF400CA0DB2 /* Presenting_Event_Edit_View_ControllersViewController_iPhone.xib in Resources */,
+				A6B12ADB13DC1DF400CA0DB2 /* Presenting_Event_Edit_View_ControllersViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6B12AB913DC1DF300CA0DB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B12ACE13DC1DF300CA0DB2 /* main.m in Sources */,
+				A6B12AD213DC1DF400CA0DB2 /* Presenting_Event_Edit_View_ControllersAppDelegate.m in Sources */,
+				A6B12AD513DC1DF400CA0DB2 /* Presenting_Event_Edit_View_ControllersViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6B12ACA13DC1DF300CA0DB2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6B12ACB13DC1DF300CA0DB2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6B12AD613DC1DF400CA0DB2 /* Presenting_Event_Edit_View_ControllersViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6B12AD713DC1DF400CA0DB2 /* en */,
+			);
+			name = Presenting_Event_Edit_View_ControllersViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6B12AD913DC1DF400CA0DB2 /* Presenting_Event_Edit_View_ControllersViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6B12ADA13DC1DF400CA0DB2 /* en */,
+			);
+			name = Presenting_Event_Edit_View_ControllersViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6B12ADC13DC1DF400CA0DB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6B12ADD13DC1DF400CA0DB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6B12ADF13DC1DF400CA0DB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Presenting Event Edit View Controllers/Presenting Event Edit View Controllers-Prefix.pch";
+				INFOPLIST_FILE = "Presenting Event Edit View Controllers/Presenting Event Edit View Controllers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6B12AE013DC1DF400CA0DB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Presenting Event Edit View Controllers/Presenting Event Edit View Controllers-Prefix.pch";
+				INFOPLIST_FILE = "Presenting Event Edit View Controllers/Presenting Event Edit View Controllers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6B12AB713DC1DF300CA0DB2 /* Build configuration list for PBXProject "Presenting Event Edit View Controllers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B12ADC13DC1DF400CA0DB2 /* Debug */,
+				A6B12ADD13DC1DF400CA0DB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6B12ADE13DC1DF400CA0DB2 /* Build configuration list for PBXNativeTarget "Presenting Event Edit View Controllers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B12ADF13DC1DF400CA0DB2 /* Debug */,
+				A6B12AE013DC1DF400CA0DB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6B12AB413DC1DF300CA0DB2 /* Project object */;
+}

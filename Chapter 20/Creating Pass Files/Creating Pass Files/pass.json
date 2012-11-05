@@ -1,0 +1,61 @@
+{
+  "formatVersion" : 1,
+  "passTypeIdentifier" : "pass.pixolity.testingpasskit",
+  "serialNumber" : "p69f2J",
+  "teamIdentifier" : "F3FU372W5M",
+  "description" : "Train Ticket Example",
+  "locations" : [
+    {
+      "longitude" : -0.170867,
+      "latitude" : 50.834948
+    }
+  ],
+  "barcode" : {
+    "message" : "1234567890",
+    "format" : "PKBarcodeFormatPDF417",
+    "messageEncoding" : "iso-8859-1"
+  },
+  "organizationName" : "O'Reilly Railways",
+  "logoText" : "O'Reilly Railways",
+  "foregroundColor" : "rgb(255, 255, 255)",
+  "backgroundColor" : "rgb(100, 100, 100)",
+  "boardingPass" : {
+    "transitType" : "PKTransitTypeTrain",
+    "primaryFields" : [
+      {
+        "key" : "departure",
+        "label" : "Departs From",
+        "value" : "Hove, 07:37",
+      },
+      {
+        "key" : "departurePlatform",
+        "label" : "Departs from Platform",
+        "value" : "2",
+      }
+    ],
+    "auxiliaryFields" : [
+      {
+        "key" : "arrival",
+        "label" : "Arrives At",
+        "value" : "London Bridge, 08:41"
+      },
+      {
+        "key" : "arrivalPlatform",
+        "label" : "Arrives at Platform",
+        "value" : "13"
+      }
+    ],
+    "backFields" : [
+      {
+        "key" : "oreillyRailways",
+        "label" : "O'Reilly Railways",
+        "value" : "For more information about our services, visit www.oreilly.com"
+      },
+      {
+        "key" : "termsAndConditions",
+        "label" : "Terms and Conditions",
+        "value" : "To be filled later"
+      }
+    ]
+  }
+}

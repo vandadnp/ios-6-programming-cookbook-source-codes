@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6C2BD7013CEBB0E00415BB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C2BD6F13CEBB0E00415BB1 /* UIKit.framework */; };
+		A6C2BD7213CEBB0E00415BB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C2BD7113CEBB0E00415BB1 /* Foundation.framework */; };
+		A6C2BD7413CEBB0E00415BB1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C2BD7313CEBB0E00415BB1 /* CoreGraphics.framework */; };
+		A6C2BD7A13CEBB0E00415BB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6C2BD7813CEBB0E00415BB1 /* InfoPlist.strings */; };
+		A6C2BD7C13CEBB0E00415BB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2BD7B13CEBB0E00415BB1 /* main.m */; };
+		A6C2BD8013CEBB0E00415BB1 /* Running_Tasks_Asynchronously_with_OperationsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2BD7F13CEBB0E00415BB1 /* Running_Tasks_Asynchronously_with_OperationsAppDelegate.m */; };
+		A6C2BD9213CEBE1E00415BB1 /* SimpleOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2BD9113CEBE1E00415BB1 /* SimpleOperation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6C2BD6B13CEBB0E00415BB1 /* Running Tasks Asynchronously with Operations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Running Tasks Asynchronously with Operations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C2BD6F13CEBB0E00415BB1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6C2BD7113CEBB0E00415BB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6C2BD7313CEBB0E00415BB1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6C2BD7713CEBB0E00415BB1 /* Running Tasks Asynchronously with Operations-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Running Tasks Asynchronously with Operations-Info.plist"; sourceTree = "<group>"; };
+		A6C2BD7913CEBB0E00415BB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6C2BD7B13CEBB0E00415BB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6C2BD7D13CEBB0E00415BB1 /* Running Tasks Asynchronously with Operations-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Running Tasks Asynchronously with Operations-Prefix.pch"; sourceTree = "<group>"; };
+		A6C2BD7E13CEBB0E00415BB1 /* Running_Tasks_Asynchronously_with_OperationsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Running_Tasks_Asynchronously_with_OperationsAppDelegate.h; sourceTree = "<group>"; };
+		A6C2BD7F13CEBB0E00415BB1 /* Running_Tasks_Asynchronously_with_OperationsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Running_Tasks_Asynchronously_with_OperationsAppDelegate.m; sourceTree = "<group>"; };
+		A6C2BD9013CEBE1E00415BB1 /* SimpleOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleOperation.h; sourceTree = "<group>"; };
+		A6C2BD9113CEBE1E00415BB1 /* SimpleOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleOperation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6C2BD6813CEBB0E00415BB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C2BD7013CEBB0E00415BB1 /* UIKit.framework in Frameworks */,
+				A6C2BD7213CEBB0E00415BB1 /* Foundation.framework in Frameworks */,
+				A6C2BD7413CEBB0E00415BB1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6C2BD6013CEBB0E00415BB1 = {
+			isa = PBXGroup;
+			children = (
+				A6C2BD7513CEBB0E00415BB1 /* Running Tasks Asynchronously with Operations */,
+				A6C2BD6E13CEBB0E00415BB1 /* Frameworks */,
+				A6C2BD6C13CEBB0E00415BB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6C2BD6C13CEBB0E00415BB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6C2BD6B13CEBB0E00415BB1 /* Running Tasks Asynchronously with Operations.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6C2BD6E13CEBB0E00415BB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6C2BD6F13CEBB0E00415BB1 /* UIKit.framework */,
+				A6C2BD7113CEBB0E00415BB1 /* Foundation.framework */,
+				A6C2BD7313CEBB0E00415BB1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6C2BD7513CEBB0E00415BB1 /* Running Tasks Asynchronously with Operations */ = {
+			isa = PBXGroup;
+			children = (
+				A6C2BD9013CEBE1E00415BB1 /* SimpleOperation.h */,
+				A6C2BD9113CEBE1E00415BB1 /* SimpleOperation.m */,
+				A6C2BD7E13CEBB0E00415BB1 /* Running_Tasks_Asynchronously_with_OperationsAppDelegate.h */,
+				A6C2BD7F13CEBB0E00415BB1 /* Running_Tasks_Asynchronously_with_OperationsAppDelegate.m */,
+				A6C2BD7613CEBB0E00415BB1 /* Supporting Files */,
+			);
+			path = "Running Tasks Asynchronously with Operations";
+			sourceTree = "<group>";
+		};
+		A6C2BD7613CEBB0E00415BB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6C2BD7713CEBB0E00415BB1 /* Running Tasks Asynchronously with Operations-Info.plist */,
+				A6C2BD7813CEBB0E00415BB1 /* InfoPlist.strings */,
+				A6C2BD7B13CEBB0E00415BB1 /* main.m */,
+				A6C2BD7D13CEBB0E00415BB1 /* Running Tasks Asynchronously with Operations-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6C2BD6A13CEBB0E00415BB1 /* Running Tasks Asynchronously with Operations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C2BD8313CEBB0E00415BB1 /* Build configuration list for PBXNativeTarget "Running Tasks Asynchronously with Operations" */;
+			buildPhases = (
+				A6C2BD6713CEBB0E00415BB1 /* Sources */,
+				A6C2BD6813CEBB0E00415BB1 /* Frameworks */,
+				A6C2BD6913CEBB0E00415BB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Running Tasks Asynchronously with Operations";
+			productName = "Running Tasks Asynchronously with Operations";
+			productReference = A6C2BD6B13CEBB0E00415BB1 /* Running Tasks Asynchronously with Operations.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6C2BD6213CEBB0E00415BB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6C2BD6513CEBB0E00415BB1 /* Build configuration list for PBXProject "Running Tasks Asynchronously with Operations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6C2BD6013CEBB0E00415BB1;
+			productRefGroup = A6C2BD6C13CEBB0E00415BB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6C2BD6A13CEBB0E00415BB1 /* Running Tasks Asynchronously with Operations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6C2BD6913CEBB0E00415BB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C2BD7A13CEBB0E00415BB1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6C2BD6713CEBB0E00415BB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C2BD7C13CEBB0E00415BB1 /* main.m in Sources */,
+				A6C2BD8013CEBB0E00415BB1 /* Running_Tasks_Asynchronously_with_OperationsAppDelegate.m in Sources */,
+				A6C2BD9213CEBE1E00415BB1 /* SimpleOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6C2BD7813CEBB0E00415BB1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C2BD7913CEBB0E00415BB1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6C2BD8113CEBB0E00415BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6C2BD8213CEBB0E00415BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6C2BD8413CEBB0E00415BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Running Tasks Asynchronously with Operations/Running Tasks Asynchronously with Operations-Prefix.pch";
+				INFOPLIST_FILE = "Running Tasks Asynchronously with Operations/Running Tasks Asynchronously with Operations-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6C2BD8513CEBB0E00415BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Running Tasks Asynchronously with Operations/Running Tasks Asynchronously with Operations-Prefix.pch";
+				INFOPLIST_FILE = "Running Tasks Asynchronously with Operations/Running Tasks Asynchronously with Operations-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6C2BD6513CEBB0E00415BB1 /* Build configuration list for PBXProject "Running Tasks Asynchronously with Operations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C2BD8113CEBB0E00415BB1 /* Debug */,
+				A6C2BD8213CEBB0E00415BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C2BD8313CEBB0E00415BB1 /* Build configuration list for PBXNativeTarget "Running Tasks Asynchronously with Operations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C2BD8413CEBB0E00415BB1 /* Debug */,
+				A6C2BD8513CEBB0E00415BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6C2BD6213CEBB0E00415BB1 /* Project object */;
+}

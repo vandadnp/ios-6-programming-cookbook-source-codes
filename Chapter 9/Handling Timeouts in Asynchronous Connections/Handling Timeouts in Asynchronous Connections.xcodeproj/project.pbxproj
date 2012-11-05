@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A633715513D5949D002DDF16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A633715413D5949D002DDF16 /* UIKit.framework */; };
+		A633715713D5949D002DDF16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A633715613D5949D002DDF16 /* Foundation.framework */; };
+		A633715913D5949D002DDF16 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A633715813D5949D002DDF16 /* CoreGraphics.framework */; };
+		A633715F13D5949D002DDF16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A633715D13D5949D002DDF16 /* InfoPlist.strings */; };
+		A633716113D5949D002DDF16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A633716013D5949D002DDF16 /* main.m */; };
+		A633716513D5949D002DDF16 /* Handling_Timeouts_in_Asynchronous_ConnectionsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A633716413D5949D002DDF16 /* Handling_Timeouts_in_Asynchronous_ConnectionsAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A633715013D5949D002DDF16 /* Handling Timeouts in Asynchronous Connections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Handling Timeouts in Asynchronous Connections.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A633715413D5949D002DDF16 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A633715613D5949D002DDF16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A633715813D5949D002DDF16 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A633715C13D5949D002DDF16 /* Handling Timeouts in Asynchronous Connections-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Handling Timeouts in Asynchronous Connections-Info.plist"; sourceTree = "<group>"; };
+		A633715E13D5949D002DDF16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A633716013D5949D002DDF16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A633716213D5949D002DDF16 /* Handling Timeouts in Asynchronous Connections-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Handling Timeouts in Asynchronous Connections-Prefix.pch"; sourceTree = "<group>"; };
+		A633716313D5949D002DDF16 /* Handling_Timeouts_in_Asynchronous_ConnectionsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Handling_Timeouts_in_Asynchronous_ConnectionsAppDelegate.h; sourceTree = "<group>"; };
+		A633716413D5949D002DDF16 /* Handling_Timeouts_in_Asynchronous_ConnectionsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Handling_Timeouts_in_Asynchronous_ConnectionsAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A633714D13D5949D002DDF16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A633715513D5949D002DDF16 /* UIKit.framework in Frameworks */,
+				A633715713D5949D002DDF16 /* Foundation.framework in Frameworks */,
+				A633715913D5949D002DDF16 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A633714513D5949D002DDF16 = {
+			isa = PBXGroup;
+			children = (
+				A633715A13D5949D002DDF16 /* Handling Timeouts in Asynchronous Connections */,
+				A633715313D5949D002DDF16 /* Frameworks */,
+				A633715113D5949D002DDF16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A633715113D5949D002DDF16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A633715013D5949D002DDF16 /* Handling Timeouts in Asynchronous Connections.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A633715313D5949D002DDF16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A633715413D5949D002DDF16 /* UIKit.framework */,
+				A633715613D5949D002DDF16 /* Foundation.framework */,
+				A633715813D5949D002DDF16 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A633715A13D5949D002DDF16 /* Handling Timeouts in Asynchronous Connections */ = {
+			isa = PBXGroup;
+			children = (
+				A633716313D5949D002DDF16 /* Handling_Timeouts_in_Asynchronous_ConnectionsAppDelegate.h */,
+				A633716413D5949D002DDF16 /* Handling_Timeouts_in_Asynchronous_ConnectionsAppDelegate.m */,
+				A633715B13D5949D002DDF16 /* Supporting Files */,
+			);
+			path = "Handling Timeouts in Asynchronous Connections";
+			sourceTree = "<group>";
+		};
+		A633715B13D5949D002DDF16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A633715C13D5949D002DDF16 /* Handling Timeouts in Asynchronous Connections-Info.plist */,
+				A633715D13D5949D002DDF16 /* InfoPlist.strings */,
+				A633716013D5949D002DDF16 /* main.m */,
+				A633716213D5949D002DDF16 /* Handling Timeouts in Asynchronous Connections-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A633714F13D5949D002DDF16 /* Handling Timeouts in Asynchronous Connections */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A633716813D5949D002DDF16 /* Build configuration list for PBXNativeTarget "Handling Timeouts in Asynchronous Connections" */;
+			buildPhases = (
+				A633714C13D5949D002DDF16 /* Sources */,
+				A633714D13D5949D002DDF16 /* Frameworks */,
+				A633714E13D5949D002DDF16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Handling Timeouts in Asynchronous Connections";
+			productName = "Handling Timeouts in Asynchronous Connections";
+			productReference = A633715013D5949D002DDF16 /* Handling Timeouts in Asynchronous Connections.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A633714713D5949D002DDF16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A633714A13D5949D002DDF16 /* Build configuration list for PBXProject "Handling Timeouts in Asynchronous Connections" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A633714513D5949D002DDF16;
+			productRefGroup = A633715113D5949D002DDF16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A633714F13D5949D002DDF16 /* Handling Timeouts in Asynchronous Connections */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A633714E13D5949D002DDF16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A633715F13D5949D002DDF16 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A633714C13D5949D002DDF16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A633716113D5949D002DDF16 /* main.m in Sources */,
+				A633716513D5949D002DDF16 /* Handling_Timeouts_in_Asynchronous_ConnectionsAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A633715D13D5949D002DDF16 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A633715E13D5949D002DDF16 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A633716613D5949D002DDF16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A633716713D5949D002DDF16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A633716913D5949D002DDF16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Handling Timeouts in Asynchronous Connections/Handling Timeouts in Asynchronous Connections-Prefix.pch";
+				INFOPLIST_FILE = "Handling Timeouts in Asynchronous Connections/Handling Timeouts in Asynchronous Connections-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A633716A13D5949D002DDF16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Handling Timeouts in Asynchronous Connections/Handling Timeouts in Asynchronous Connections-Prefix.pch";
+				INFOPLIST_FILE = "Handling Timeouts in Asynchronous Connections/Handling Timeouts in Asynchronous Connections-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A633714A13D5949D002DDF16 /* Build configuration list for PBXProject "Handling Timeouts in Asynchronous Connections" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A633716613D5949D002DDF16 /* Debug */,
+				A633716713D5949D002DDF16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A633716813D5949D002DDF16 /* Build configuration list for PBXNativeTarget "Handling Timeouts in Asynchronous Connections" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A633716913D5949D002DDF16 /* Debug */,
+				A633716A13D5949D002DDF16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A633714713D5949D002DDF16 /* Project object */;
+}

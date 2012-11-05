@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6EC923113D0994F003E444C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EC923013D0994F003E444C /* UIKit.framework */; };
+		A6EC923313D0994F003E444C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EC923213D0994F003E444C /* Foundation.framework */; };
+		A6EC923513D0994F003E444C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EC923413D0994F003E444C /* CoreGraphics.framework */; };
+		A6EC923B13D0994F003E444C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6EC923913D0994F003E444C /* InfoPlist.strings */; };
+		A6EC923D13D0994F003E444C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EC923C13D0994F003E444C /* main.m */; };
+		A6EC924113D0994F003E444C /* Handling_Interruptions_While_Playing_AudioAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EC924013D0994F003E444C /* Handling_Interruptions_While_Playing_AudioAppDelegate.m */; };
+		A6EC924413D0994F003E444C /* Handling_Interruptions_While_Playing_AudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EC924313D0994F003E444C /* Handling_Interruptions_While_Playing_AudioViewController.m */; };
+		A6EC924713D0994F003E444C /* Handling_Interruptions_While_Playing_AudioViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6EC924513D0994F003E444C /* Handling_Interruptions_While_Playing_AudioViewController_iPhone.xib */; };
+		A6EC924A13D0994F003E444C /* Handling_Interruptions_While_Playing_AudioViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6EC924813D0994F003E444C /* Handling_Interruptions_While_Playing_AudioViewController_iPad.xib */; };
+		A6EC925B13D099A8003E444C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EC925A13D099A8003E444C /* AVFoundation.framework */; };
+		A6EC925E13D099D8003E444C /* MySong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6EC925D13D099D8003E444C /* MySong.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6EC922C13D0994F003E444C /* Handling Interruptions While Playing Audio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Handling Interruptions While Playing Audio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6EC923013D0994F003E444C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6EC923213D0994F003E444C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6EC923413D0994F003E444C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6EC923813D0994F003E444C /* Handling Interruptions While Playing Audio-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Handling Interruptions While Playing Audio-Info.plist"; sourceTree = "<group>"; };
+		A6EC923A13D0994F003E444C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6EC923C13D0994F003E444C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6EC923E13D0994F003E444C /* Handling Interruptions While Playing Audio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Handling Interruptions While Playing Audio-Prefix.pch"; sourceTree = "<group>"; };
+		A6EC923F13D0994F003E444C /* Handling_Interruptions_While_Playing_AudioAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Handling_Interruptions_While_Playing_AudioAppDelegate.h; sourceTree = "<group>"; };
+		A6EC924013D0994F003E444C /* Handling_Interruptions_While_Playing_AudioAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Handling_Interruptions_While_Playing_AudioAppDelegate.m; sourceTree = "<group>"; };
+		A6EC924213D0994F003E444C /* Handling_Interruptions_While_Playing_AudioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Handling_Interruptions_While_Playing_AudioViewController.h; sourceTree = "<group>"; };
+		A6EC924313D0994F003E444C /* Handling_Interruptions_While_Playing_AudioViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Handling_Interruptions_While_Playing_AudioViewController.m; sourceTree = "<group>"; };
+		A6EC924613D0994F003E444C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Handling_Interruptions_While_Playing_AudioViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6EC924913D0994F003E444C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Handling_Interruptions_While_Playing_AudioViewController_iPad.xib; sourceTree = "<group>"; };
+		A6EC925A13D099A8003E444C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A6EC925D13D099D8003E444C /* MySong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MySong.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6EC922913D0994F003E444C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EC925B13D099A8003E444C /* AVFoundation.framework in Frameworks */,
+				A6EC923113D0994F003E444C /* UIKit.framework in Frameworks */,
+				A6EC923313D0994F003E444C /* Foundation.framework in Frameworks */,
+				A6EC923513D0994F003E444C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6EC922113D0994F003E444C = {
+			isa = PBXGroup;
+			children = (
+				A6EC923613D0994F003E444C /* Handling Interruptions While Playing Audio */,
+				A6EC922F13D0994F003E444C /* Frameworks */,
+				A6EC922D13D0994F003E444C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6EC922D13D0994F003E444C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6EC922C13D0994F003E444C /* Handling Interruptions While Playing Audio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6EC922F13D0994F003E444C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6EC925A13D099A8003E444C /* AVFoundation.framework */,
+				A6EC923013D0994F003E444C /* UIKit.framework */,
+				A6EC923213D0994F003E444C /* Foundation.framework */,
+				A6EC923413D0994F003E444C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6EC923613D0994F003E444C /* Handling Interruptions While Playing Audio */ = {
+			isa = PBXGroup;
+			children = (
+				A6EC923F13D0994F003E444C /* Handling_Interruptions_While_Playing_AudioAppDelegate.h */,
+				A6EC924013D0994F003E444C /* Handling_Interruptions_While_Playing_AudioAppDelegate.m */,
+				A6EC924213D0994F003E444C /* Handling_Interruptions_While_Playing_AudioViewController.h */,
+				A6EC924313D0994F003E444C /* Handling_Interruptions_While_Playing_AudioViewController.m */,
+				A6EC924513D0994F003E444C /* Handling_Interruptions_While_Playing_AudioViewController_iPhone.xib */,
+				A6EC924813D0994F003E444C /* Handling_Interruptions_While_Playing_AudioViewController_iPad.xib */,
+				A6EC923713D0994F003E444C /* Supporting Files */,
+			);
+			path = "Handling Interruptions While Playing Audio";
+			sourceTree = "<group>";
+		};
+		A6EC923713D0994F003E444C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6EC925D13D099D8003E444C /* MySong.mp3 */,
+				A6EC923813D0994F003E444C /* Handling Interruptions While Playing Audio-Info.plist */,
+				A6EC923913D0994F003E444C /* InfoPlist.strings */,
+				A6EC923C13D0994F003E444C /* main.m */,
+				A6EC923E13D0994F003E444C /* Handling Interruptions While Playing Audio-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6EC922B13D0994F003E444C /* Handling Interruptions While Playing Audio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6EC924D13D0994F003E444C /* Build configuration list for PBXNativeTarget "Handling Interruptions While Playing Audio" */;
+			buildPhases = (
+				A6EC922813D0994F003E444C /* Sources */,
+				A6EC922913D0994F003E444C /* Frameworks */,
+				A6EC922A13D0994F003E444C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Handling Interruptions While Playing Audio";
+			productName = "Handling Interruptions While Playing Audio";
+			productReference = A6EC922C13D0994F003E444C /* Handling Interruptions While Playing Audio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6EC922313D0994F003E444C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6EC922613D0994F003E444C /* Build configuration list for PBXProject "Handling Interruptions While Playing Audio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6EC922113D0994F003E444C;
+			productRefGroup = A6EC922D13D0994F003E444C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6EC922B13D0994F003E444C /* Handling Interruptions While Playing Audio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6EC922A13D0994F003E444C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EC923B13D0994F003E444C /* InfoPlist.strings in Resources */,
+				A6EC924713D0994F003E444C /* Handling_Interruptions_While_Playing_AudioViewController_iPhone.xib in Resources */,
+				A6EC924A13D0994F003E444C /* Handling_Interruptions_While_Playing_AudioViewController_iPad.xib in Resources */,
+				A6EC925E13D099D8003E444C /* MySong.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6EC922813D0994F003E444C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EC923D13D0994F003E444C /* main.m in Sources */,
+				A6EC924113D0994F003E444C /* Handling_Interruptions_While_Playing_AudioAppDelegate.m in Sources */,
+				A6EC924413D0994F003E444C /* Handling_Interruptions_While_Playing_AudioViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6EC923913D0994F003E444C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6EC923A13D0994F003E444C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6EC924513D0994F003E444C /* Handling_Interruptions_While_Playing_AudioViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6EC924613D0994F003E444C /* en */,
+			);
+			name = Handling_Interruptions_While_Playing_AudioViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6EC924813D0994F003E444C /* Handling_Interruptions_While_Playing_AudioViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6EC924913D0994F003E444C /* en */,
+			);
+			name = Handling_Interruptions_While_Playing_AudioViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6EC924B13D0994F003E444C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6EC924C13D0994F003E444C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6EC924E13D0994F003E444C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Handling Interruptions While Playing Audio/Handling Interruptions While Playing Audio-Prefix.pch";
+				INFOPLIST_FILE = "Handling Interruptions While Playing Audio/Handling Interruptions While Playing Audio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6EC924F13D0994F003E444C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Handling Interruptions While Playing Audio/Handling Interruptions While Playing Audio-Prefix.pch";
+				INFOPLIST_FILE = "Handling Interruptions While Playing Audio/Handling Interruptions While Playing Audio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6EC922613D0994F003E444C /* Build configuration list for PBXProject "Handling Interruptions While Playing Audio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EC924B13D0994F003E444C /* Debug */,
+				A6EC924C13D0994F003E444C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6EC924D13D0994F003E444C /* Build configuration list for PBXNativeTarget "Handling Interruptions While Playing Audio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EC924E13D0994F003E444C /* Debug */,
+				A6EC924F13D0994F003E444C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6EC922313D0994F003E444C /* Project object */;
+}

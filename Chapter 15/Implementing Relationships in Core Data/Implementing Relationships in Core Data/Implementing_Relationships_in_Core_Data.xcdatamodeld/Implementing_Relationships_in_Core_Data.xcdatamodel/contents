@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="848" systemVersion="10K540" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Employee" representedClassName="Employee">
+        <attribute name="age" optional="YES" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="firstName" optional="YES" attributeType="String"/>
+        <attribute name="lastName" optional="YES" attributeType="String"/>
+        <relationship name="FKEmployeeToManagers" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Manager" inverseName="FKManagerToEmployees" inverseEntity="Manager"/>
+    </entity>
+    <entity name="Manager" representedClassName="Manager">
+        <attribute name="age" optional="YES" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="firstName" optional="YES" attributeType="String"/>
+        <attribute name="lastName" optional="YES" attributeType="String"/>
+        <relationship name="FKManagerToEmployees" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Employee" inverseName="FKEmployeeToManagers" inverseEntity="Employee"/>
+    </entity>
+    <elements>
+        <element name="Employee" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="Manager" positionX="421" positionY="189" width="128" height="105"/>
+    </elements>
+</model>

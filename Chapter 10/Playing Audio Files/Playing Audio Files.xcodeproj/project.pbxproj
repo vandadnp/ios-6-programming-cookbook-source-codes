@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A605FDC713D0876800E1EBBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A605FDC613D0876800E1EBBB /* UIKit.framework */; };
+		A605FDC913D0876800E1EBBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A605FDC813D0876800E1EBBB /* Foundation.framework */; };
+		A605FDCB13D0876800E1EBBB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A605FDCA13D0876800E1EBBB /* CoreGraphics.framework */; };
+		A605FDD113D0876800E1EBBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A605FDCF13D0876800E1EBBB /* InfoPlist.strings */; };
+		A605FDD313D0876800E1EBBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A605FDD213D0876800E1EBBB /* main.m */; };
+		A605FDD713D0876800E1EBBB /* Playing_Audio_FilesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A605FDD613D0876800E1EBBB /* Playing_Audio_FilesAppDelegate.m */; };
+		A605FDDA13D0876800E1EBBB /* Playing_Audio_FilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A605FDD913D0876800E1EBBB /* Playing_Audio_FilesViewController.m */; };
+		A605FDDD13D0876800E1EBBB /* Playing_Audio_FilesViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A605FDDB13D0876800E1EBBB /* Playing_Audio_FilesViewController_iPhone.xib */; };
+		A605FDE013D0876800E1EBBB /* Playing_Audio_FilesViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A605FDDE13D0876800E1EBBB /* Playing_Audio_FilesViewController_iPad.xib */; };
+		A605FDF713D0878F00E1EBBB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A605FDF613D0878F00E1EBBB /* AVFoundation.framework */; };
+		A605FDFA13D087C700E1EBBB /* MySong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A605FDF913D087C700E1EBBB /* MySong.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A605FDC213D0876800E1EBBB /* Playing Audio Files.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Playing Audio Files.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A605FDC613D0876800E1EBBB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A605FDC813D0876800E1EBBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A605FDCA13D0876800E1EBBB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A605FDCE13D0876800E1EBBB /* Playing Audio Files-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Playing Audio Files-Info.plist"; sourceTree = "<group>"; };
+		A605FDD013D0876800E1EBBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A605FDD213D0876800E1EBBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A605FDD413D0876800E1EBBB /* Playing Audio Files-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Playing Audio Files-Prefix.pch"; sourceTree = "<group>"; };
+		A605FDD513D0876800E1EBBB /* Playing_Audio_FilesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Playing_Audio_FilesAppDelegate.h; sourceTree = "<group>"; };
+		A605FDD613D0876800E1EBBB /* Playing_Audio_FilesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Playing_Audio_FilesAppDelegate.m; sourceTree = "<group>"; };
+		A605FDD813D0876800E1EBBB /* Playing_Audio_FilesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Playing_Audio_FilesViewController.h; sourceTree = "<group>"; };
+		A605FDD913D0876800E1EBBB /* Playing_Audio_FilesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Playing_Audio_FilesViewController.m; sourceTree = "<group>"; };
+		A605FDDC13D0876800E1EBBB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Playing_Audio_FilesViewController_iPhone.xib; sourceTree = "<group>"; };
+		A605FDDF13D0876800E1EBBB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Playing_Audio_FilesViewController_iPad.xib; sourceTree = "<group>"; };
+		A605FDF613D0878F00E1EBBB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A605FDF913D087C700E1EBBB /* MySong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MySong.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A605FDBF13D0876800E1EBBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A605FDF713D0878F00E1EBBB /* AVFoundation.framework in Frameworks */,
+				A605FDC713D0876800E1EBBB /* UIKit.framework in Frameworks */,
+				A605FDC913D0876800E1EBBB /* Foundation.framework in Frameworks */,
+				A605FDCB13D0876800E1EBBB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A605FDB713D0876800E1EBBB = {
+			isa = PBXGroup;
+			children = (
+				A605FDCC13D0876800E1EBBB /* Playing Audio Files */,
+				A605FDC513D0876800E1EBBB /* Frameworks */,
+				A605FDC313D0876800E1EBBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A605FDC313D0876800E1EBBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A605FDC213D0876800E1EBBB /* Playing Audio Files.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A605FDC513D0876800E1EBBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A605FDF613D0878F00E1EBBB /* AVFoundation.framework */,
+				A605FDC613D0876800E1EBBB /* UIKit.framework */,
+				A605FDC813D0876800E1EBBB /* Foundation.framework */,
+				A605FDCA13D0876800E1EBBB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A605FDCC13D0876800E1EBBB /* Playing Audio Files */ = {
+			isa = PBXGroup;
+			children = (
+				A605FDD513D0876800E1EBBB /* Playing_Audio_FilesAppDelegate.h */,
+				A605FDD613D0876800E1EBBB /* Playing_Audio_FilesAppDelegate.m */,
+				A605FDD813D0876800E1EBBB /* Playing_Audio_FilesViewController.h */,
+				A605FDD913D0876800E1EBBB /* Playing_Audio_FilesViewController.m */,
+				A605FDDB13D0876800E1EBBB /* Playing_Audio_FilesViewController_iPhone.xib */,
+				A605FDDE13D0876800E1EBBB /* Playing_Audio_FilesViewController_iPad.xib */,
+				A605FDCD13D0876800E1EBBB /* Supporting Files */,
+			);
+			path = "Playing Audio Files";
+			sourceTree = "<group>";
+		};
+		A605FDCD13D0876800E1EBBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A605FDF913D087C700E1EBBB /* MySong.mp3 */,
+				A605FDCE13D0876800E1EBBB /* Playing Audio Files-Info.plist */,
+				A605FDCF13D0876800E1EBBB /* InfoPlist.strings */,
+				A605FDD213D0876800E1EBBB /* main.m */,
+				A605FDD413D0876800E1EBBB /* Playing Audio Files-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A605FDC113D0876800E1EBBB /* Playing Audio Files */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A605FDE313D0876800E1EBBB /* Build configuration list for PBXNativeTarget "Playing Audio Files" */;
+			buildPhases = (
+				A605FDBE13D0876800E1EBBB /* Sources */,
+				A605FDBF13D0876800E1EBBB /* Frameworks */,
+				A605FDC013D0876800E1EBBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Playing Audio Files";
+			productName = "Playing Audio Files";
+			productReference = A605FDC213D0876800E1EBBB /* Playing Audio Files.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A605FDB913D0876800E1EBBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A605FDBC13D0876800E1EBBB /* Build configuration list for PBXProject "Playing Audio Files" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A605FDB713D0876800E1EBBB;
+			productRefGroup = A605FDC313D0876800E1EBBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A605FDC113D0876800E1EBBB /* Playing Audio Files */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A605FDC013D0876800E1EBBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A605FDD113D0876800E1EBBB /* InfoPlist.strings in Resources */,
+				A605FDDD13D0876800E1EBBB /* Playing_Audio_FilesViewController_iPhone.xib in Resources */,
+				A605FDE013D0876800E1EBBB /* Playing_Audio_FilesViewController_iPad.xib in Resources */,
+				A605FDFA13D087C700E1EBBB /* MySong.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A605FDBE13D0876800E1EBBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A605FDD313D0876800E1EBBB /* main.m in Sources */,
+				A605FDD713D0876800E1EBBB /* Playing_Audio_FilesAppDelegate.m in Sources */,
+				A605FDDA13D0876800E1EBBB /* Playing_Audio_FilesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A605FDCF13D0876800E1EBBB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A605FDD013D0876800E1EBBB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A605FDDB13D0876800E1EBBB /* Playing_Audio_FilesViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A605FDDC13D0876800E1EBBB /* en */,
+			);
+			name = Playing_Audio_FilesViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A605FDDE13D0876800E1EBBB /* Playing_Audio_FilesViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A605FDDF13D0876800E1EBBB /* en */,
+			);
+			name = Playing_Audio_FilesViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A605FDE113D0876800E1EBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A605FDE213D0876800E1EBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A605FDE413D0876800E1EBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Playing Audio Files/Playing Audio Files-Prefix.pch";
+				INFOPLIST_FILE = "Playing Audio Files/Playing Audio Files-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A605FDE513D0876800E1EBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Playing Audio Files/Playing Audio Files-Prefix.pch";
+				INFOPLIST_FILE = "Playing Audio Files/Playing Audio Files-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A605FDBC13D0876800E1EBBB /* Build configuration list for PBXProject "Playing Audio Files" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A605FDE113D0876800E1EBBB /* Debug */,
+				A605FDE213D0876800E1EBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A605FDE313D0876800E1EBBB /* Build configuration list for PBXNativeTarget "Playing Audio Files" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A605FDE413D0876800E1EBBB /* Debug */,
+				A605FDE513D0876800E1EBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A605FDB913D0876800E1EBBB /* Project object */;
+}

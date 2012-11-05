@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A604501813D18BB500A619C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A604501713D18BB500A619C1 /* UIKit.framework */; };
+		A604501A13D18BB500A619C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A604501913D18BB500A619C1 /* Foundation.framework */; };
+		A604501C13D18BB500A619C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A604501B13D18BB500A619C1 /* CoreGraphics.framework */; };
+		A604502213D18BB500A619C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A604502013D18BB500A619C1 /* InfoPlist.strings */; };
+		A604502413D18BB500A619C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A604502313D18BB500A619C1 /* main.m */; };
+		A604502813D18BB500A619C1 /* Accessing_the_Music_LibraryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A604502713D18BB500A619C1 /* Accessing_the_Music_LibraryAppDelegate.m */; };
+		A604502B13D18BB500A619C1 /* Accessing_the_Music_LibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A604502A13D18BB500A619C1 /* Accessing_the_Music_LibraryViewController.m */; };
+		A604502E13D18BB500A619C1 /* Accessing_the_Music_LibraryViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A604502C13D18BB500A619C1 /* Accessing_the_Music_LibraryViewController_iPhone.xib */; };
+		A604503113D18BB500A619C1 /* Accessing_the_Music_LibraryViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A604502F13D18BB500A619C1 /* Accessing_the_Music_LibraryViewController_iPad.xib */; };
+		A604504613D18BFC00A619C1 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A604504513D18BFC00A619C1 /* MediaPlayer.framework */; };
+		A604504913D18BFF00A619C1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A604504813D18BFF00A619C1 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A604501313D18BB500A619C1 /* Accessing the Music Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Accessing the Music Library.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A604501713D18BB500A619C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A604501913D18BB500A619C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A604501B13D18BB500A619C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A604501F13D18BB500A619C1 /* Accessing the Music Library-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Accessing the Music Library-Info.plist"; sourceTree = "<group>"; };
+		A604502113D18BB500A619C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A604502313D18BB500A619C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A604502513D18BB500A619C1 /* Accessing the Music Library-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Accessing the Music Library-Prefix.pch"; sourceTree = "<group>"; };
+		A604502613D18BB500A619C1 /* Accessing_the_Music_LibraryAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Accessing_the_Music_LibraryAppDelegate.h; sourceTree = "<group>"; };
+		A604502713D18BB500A619C1 /* Accessing_the_Music_LibraryAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Accessing_the_Music_LibraryAppDelegate.m; sourceTree = "<group>"; };
+		A604502913D18BB500A619C1 /* Accessing_the_Music_LibraryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Accessing_the_Music_LibraryViewController.h; sourceTree = "<group>"; };
+		A604502A13D18BB500A619C1 /* Accessing_the_Music_LibraryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Accessing_the_Music_LibraryViewController.m; sourceTree = "<group>"; };
+		A604502D13D18BB500A619C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Accessing_the_Music_LibraryViewController_iPhone.xib; sourceTree = "<group>"; };
+		A604503013D18BB500A619C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Accessing_the_Music_LibraryViewController_iPad.xib; sourceTree = "<group>"; };
+		A604504513D18BFC00A619C1 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A604504813D18BFF00A619C1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A604501013D18BB500A619C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A604504913D18BFF00A619C1 /* AVFoundation.framework in Frameworks */,
+				A604504613D18BFC00A619C1 /* MediaPlayer.framework in Frameworks */,
+				A604501813D18BB500A619C1 /* UIKit.framework in Frameworks */,
+				A604501A13D18BB500A619C1 /* Foundation.framework in Frameworks */,
+				A604501C13D18BB500A619C1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A604500813D18BB500A619C1 = {
+			isa = PBXGroup;
+			children = (
+				A604501D13D18BB500A619C1 /* Accessing the Music Library */,
+				A604501613D18BB500A619C1 /* Frameworks */,
+				A604501413D18BB500A619C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A604501413D18BB500A619C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A604501313D18BB500A619C1 /* Accessing the Music Library.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A604501613D18BB500A619C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A604504813D18BFF00A619C1 /* AVFoundation.framework */,
+				A604504513D18BFC00A619C1 /* MediaPlayer.framework */,
+				A604501713D18BB500A619C1 /* UIKit.framework */,
+				A604501913D18BB500A619C1 /* Foundation.framework */,
+				A604501B13D18BB500A619C1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A604501D13D18BB500A619C1 /* Accessing the Music Library */ = {
+			isa = PBXGroup;
+			children = (
+				A604502613D18BB500A619C1 /* Accessing_the_Music_LibraryAppDelegate.h */,
+				A604502713D18BB500A619C1 /* Accessing_the_Music_LibraryAppDelegate.m */,
+				A604502913D18BB500A619C1 /* Accessing_the_Music_LibraryViewController.h */,
+				A604502A13D18BB500A619C1 /* Accessing_the_Music_LibraryViewController.m */,
+				A604502C13D18BB500A619C1 /* Accessing_the_Music_LibraryViewController_iPhone.xib */,
+				A604502F13D18BB500A619C1 /* Accessing_the_Music_LibraryViewController_iPad.xib */,
+				A604501E13D18BB500A619C1 /* Supporting Files */,
+			);
+			path = "Accessing the Music Library";
+			sourceTree = "<group>";
+		};
+		A604501E13D18BB500A619C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A604501F13D18BB500A619C1 /* Accessing the Music Library-Info.plist */,
+				A604502013D18BB500A619C1 /* InfoPlist.strings */,
+				A604502313D18BB500A619C1 /* main.m */,
+				A604502513D18BB500A619C1 /* Accessing the Music Library-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A604501213D18BB500A619C1 /* Accessing the Music Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A604503413D18BB500A619C1 /* Build configuration list for PBXNativeTarget "Accessing the Music Library" */;
+			buildPhases = (
+				A604500F13D18BB500A619C1 /* Sources */,
+				A604501013D18BB500A619C1 /* Frameworks */,
+				A604501113D18BB500A619C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Accessing the Music Library";
+			productName = "Accessing the Music Library";
+			productReference = A604501313D18BB500A619C1 /* Accessing the Music Library.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A604500A13D18BB500A619C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A604500D13D18BB500A619C1 /* Build configuration list for PBXProject "Accessing the Music Library" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A604500813D18BB500A619C1;
+			productRefGroup = A604501413D18BB500A619C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A604501213D18BB500A619C1 /* Accessing the Music Library */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A604501113D18BB500A619C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A604502213D18BB500A619C1 /* InfoPlist.strings in Resources */,
+				A604502E13D18BB500A619C1 /* Accessing_the_Music_LibraryViewController_iPhone.xib in Resources */,
+				A604503113D18BB500A619C1 /* Accessing_the_Music_LibraryViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A604500F13D18BB500A619C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A604502413D18BB500A619C1 /* main.m in Sources */,
+				A604502813D18BB500A619C1 /* Accessing_the_Music_LibraryAppDelegate.m in Sources */,
+				A604502B13D18BB500A619C1 /* Accessing_the_Music_LibraryViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A604502013D18BB500A619C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A604502113D18BB500A619C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A604502C13D18BB500A619C1 /* Accessing_the_Music_LibraryViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A604502D13D18BB500A619C1 /* en */,
+			);
+			name = Accessing_the_Music_LibraryViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A604502F13D18BB500A619C1 /* Accessing_the_Music_LibraryViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A604503013D18BB500A619C1 /* en */,
+			);
+			name = Accessing_the_Music_LibraryViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A604503213D18BB500A619C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A604503313D18BB500A619C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A604503513D18BB500A619C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Accessing the Music Library/Accessing the Music Library-Prefix.pch";
+				INFOPLIST_FILE = "Accessing the Music Library/Accessing the Music Library-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A604503613D18BB500A619C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Accessing the Music Library/Accessing the Music Library-Prefix.pch";
+				INFOPLIST_FILE = "Accessing the Music Library/Accessing the Music Library-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A604500D13D18BB500A619C1 /* Build configuration list for PBXProject "Accessing the Music Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A604503213D18BB500A619C1 /* Debug */,
+				A604503313D18BB500A619C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A604503413D18BB500A619C1 /* Build configuration list for PBXNativeTarget "Accessing the Music Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A604503513D18BB500A619C1 /* Debug */,
+				A604503613D18BB500A619C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A604500A13D18BB500A619C1 /* Project object */;
+}

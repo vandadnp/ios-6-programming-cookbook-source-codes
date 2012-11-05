@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D9224F5145C0CCC002DC7AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9224F4145C0CCC002DC7AD /* UIKit.framework */; };
+		9D9224F7145C0CCC002DC7AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9224F6145C0CCC002DC7AD /* Foundation.framework */; };
+		9D9224F9145C0CCC002DC7AD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9224F8145C0CCC002DC7AD /* CoreGraphics.framework */; };
+		9D9224FF145C0CCC002DC7AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D9224FD145C0CCC002DC7AD /* InfoPlist.strings */; };
+		9D922501145C0CCC002DC7AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D922500145C0CCC002DC7AD /* main.m */; };
+		9D922505145C0CCC002DC7AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D922504145C0CCC002DC7AD /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9D9224F0145C0CCC002DC7AD /* Defining Two or More Methods with the Same Name.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Defining Two or More Methods with the Same Name.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D9224F4145C0CCC002DC7AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D9224F6145C0CCC002DC7AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D9224F8145C0CCC002DC7AD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D9224FC145C0CCC002DC7AD /* Defining Two or More Methods with the Same Name-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Defining Two or More Methods with the Same Name-Info.plist"; sourceTree = "<group>"; };
+		9D9224FE145C0CCC002DC7AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D922500145C0CCC002DC7AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D922502145C0CCC002DC7AD /* Defining Two or More Methods with the Same Name-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Defining Two or More Methods with the Same Name-Prefix.pch"; sourceTree = "<group>"; };
+		9D922503145C0CCC002DC7AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D922504145C0CCC002DC7AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D9224ED145C0CCC002DC7AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D9224F5145C0CCC002DC7AD /* UIKit.framework in Frameworks */,
+				9D9224F7145C0CCC002DC7AD /* Foundation.framework in Frameworks */,
+				9D9224F9145C0CCC002DC7AD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D9224E5145C0CCC002DC7AD = {
+			isa = PBXGroup;
+			children = (
+				9D9224FA145C0CCC002DC7AD /* Defining Two or More Methods with the Same Name */,
+				9D9224F3145C0CCC002DC7AD /* Frameworks */,
+				9D9224F1145C0CCC002DC7AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D9224F1145C0CCC002DC7AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D9224F0145C0CCC002DC7AD /* Defining Two or More Methods with the Same Name.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D9224F3145C0CCC002DC7AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D9224F4145C0CCC002DC7AD /* UIKit.framework */,
+				9D9224F6145C0CCC002DC7AD /* Foundation.framework */,
+				9D9224F8145C0CCC002DC7AD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D9224FA145C0CCC002DC7AD /* Defining Two or More Methods with the Same Name */ = {
+			isa = PBXGroup;
+			children = (
+				9D922503145C0CCC002DC7AD /* AppDelegate.h */,
+				9D922504145C0CCC002DC7AD /* AppDelegate.m */,
+				9D9224FB145C0CCC002DC7AD /* Supporting Files */,
+			);
+			path = "Defining Two or More Methods with the Same Name";
+			sourceTree = "<group>";
+		};
+		9D9224FB145C0CCC002DC7AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D9224FC145C0CCC002DC7AD /* Defining Two or More Methods with the Same Name-Info.plist */,
+				9D9224FD145C0CCC002DC7AD /* InfoPlist.strings */,
+				9D922500145C0CCC002DC7AD /* main.m */,
+				9D922502145C0CCC002DC7AD /* Defining Two or More Methods with the Same Name-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D9224EF145C0CCC002DC7AD /* Defining Two or More Methods with the Same Name */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D922508145C0CCC002DC7AD /* Build configuration list for PBXNativeTarget "Defining Two or More Methods with the Same Name" */;
+			buildPhases = (
+				9D9224EC145C0CCC002DC7AD /* Sources */,
+				9D9224ED145C0CCC002DC7AD /* Frameworks */,
+				9D9224EE145C0CCC002DC7AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Defining Two or More Methods with the Same Name";
+			productName = "Defining Two or More Methods with the Same Name";
+			productReference = 9D9224F0145C0CCC002DC7AD /* Defining Two or More Methods with the Same Name.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D9224E7145C0CCC002DC7AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = 9D9224EA145C0CCC002DC7AD /* Build configuration list for PBXProject "Defining Two or More Methods with the Same Name" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9D9224E5145C0CCC002DC7AD;
+			productRefGroup = 9D9224F1145C0CCC002DC7AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D9224EF145C0CCC002DC7AD /* Defining Two or More Methods with the Same Name */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D9224EE145C0CCC002DC7AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D9224FF145C0CCC002DC7AD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D9224EC145C0CCC002DC7AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D922501145C0CCC002DC7AD /* main.m in Sources */,
+				9D922505145C0CCC002DC7AD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9D9224FD145C0CCC002DC7AD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D9224FE145C0CCC002DC7AD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D922506145C0CCC002DC7AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D922507145C0CCC002DC7AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D922509145C0CCC002DC7AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Defining Two or More Methods with the Same Name/Defining Two or More Methods with the Same Name-Prefix.pch";
+				INFOPLIST_FILE = "Defining Two or More Methods with the Same Name/Defining Two or More Methods with the Same Name-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D92250A145C0CCC002DC7AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Defining Two or More Methods with the Same Name/Defining Two or More Methods with the Same Name-Prefix.pch";
+				INFOPLIST_FILE = "Defining Two or More Methods with the Same Name/Defining Two or More Methods with the Same Name-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D9224EA145C0CCC002DC7AD /* Build configuration list for PBXProject "Defining Two or More Methods with the Same Name" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D922506145C0CCC002DC7AD /* Debug */,
+				9D922507145C0CCC002DC7AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D922508145C0CCC002DC7AD /* Build configuration list for PBXNativeTarget "Defining Two or More Methods with the Same Name" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D922509145C0CCC002DC7AD /* Debug */,
+				9D92250A145C0CCC002DC7AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D9224E7145C0CCC002DC7AD /* Project object */;
+}

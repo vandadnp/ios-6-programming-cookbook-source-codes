@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6DBC9BA13D803B50064C82A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DBC9B913D803B50064C82A /* UIKit.framework */; };
+		A6DBC9BC13D803B50064C82A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DBC9BB13D803B50064C82A /* Foundation.framework */; };
+		A6DBC9BE13D803B50064C82A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DBC9BD13D803B50064C82A /* CoreGraphics.framework */; };
+		A6DBC9C413D803B50064C82A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6DBC9C213D803B50064C82A /* InfoPlist.strings */; };
+		A6DBC9C613D803B50064C82A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DBC9C513D803B50064C82A /* main.m */; };
+		A6DBC9CA13D803B50064C82A /* Handling_Notifications_Delivered_to_a_Waking_AppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DBC9C913D803B50064C82A /* Handling_Notifications_Delivered_to_a_Waking_AppAppDelegate.m */; };
+		A6DBC9CD13D803B50064C82A /* Handling_Notifications_Delivered_to_a_Waking_AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DBC9CC13D803B50064C82A /* Handling_Notifications_Delivered_to_a_Waking_AppViewController.m */; };
+		A6DBC9D013D803B50064C82A /* Handling_Notifications_Delivered_to_a_Waking_AppViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6DBC9CE13D803B50064C82A /* Handling_Notifications_Delivered_to_a_Waking_AppViewController_iPhone.xib */; };
+		A6DBC9D313D803B60064C82A /* Handling_Notifications_Delivered_to_a_Waking_AppViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6DBC9D113D803B60064C82A /* Handling_Notifications_Delivered_to_a_Waking_AppViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6DBC9B513D803B50064C82A /* Handling Notifications Delivered to a Waking App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Handling Notifications Delivered to a Waking App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6DBC9B913D803B50064C82A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6DBC9BB13D803B50064C82A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6DBC9BD13D803B50064C82A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6DBC9C113D803B50064C82A /* Handling Notifications Delivered to a Waking App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Handling Notifications Delivered to a Waking App-Info.plist"; sourceTree = "<group>"; };
+		A6DBC9C313D803B50064C82A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6DBC9C513D803B50064C82A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6DBC9C713D803B50064C82A /* Handling Notifications Delivered to a Waking App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Handling Notifications Delivered to a Waking App-Prefix.pch"; sourceTree = "<group>"; };
+		A6DBC9C813D803B50064C82A /* Handling_Notifications_Delivered_to_a_Waking_AppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Handling_Notifications_Delivered_to_a_Waking_AppAppDelegate.h; sourceTree = "<group>"; };
+		A6DBC9C913D803B50064C82A /* Handling_Notifications_Delivered_to_a_Waking_AppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Handling_Notifications_Delivered_to_a_Waking_AppAppDelegate.m; sourceTree = "<group>"; };
+		A6DBC9CB13D803B50064C82A /* Handling_Notifications_Delivered_to_a_Waking_AppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Handling_Notifications_Delivered_to_a_Waking_AppViewController.h; sourceTree = "<group>"; };
+		A6DBC9CC13D803B50064C82A /* Handling_Notifications_Delivered_to_a_Waking_AppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Handling_Notifications_Delivered_to_a_Waking_AppViewController.m; sourceTree = "<group>"; };
+		A6DBC9CF13D803B50064C82A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Handling_Notifications_Delivered_to_a_Waking_AppViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6DBC9D213D803B60064C82A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Handling_Notifications_Delivered_to_a_Waking_AppViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6DBC9B213D803B50064C82A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DBC9BA13D803B50064C82A /* UIKit.framework in Frameworks */,
+				A6DBC9BC13D803B50064C82A /* Foundation.framework in Frameworks */,
+				A6DBC9BE13D803B50064C82A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6DBC9AA13D803B50064C82A = {
+			isa = PBXGroup;
+			children = (
+				A6DBC9BF13D803B50064C82A /* Handling Notifications Delivered to a Waking App */,
+				A6DBC9B813D803B50064C82A /* Frameworks */,
+				A6DBC9B613D803B50064C82A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6DBC9B613D803B50064C82A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6DBC9B513D803B50064C82A /* Handling Notifications Delivered to a Waking App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6DBC9B813D803B50064C82A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6DBC9B913D803B50064C82A /* UIKit.framework */,
+				A6DBC9BB13D803B50064C82A /* Foundation.framework */,
+				A6DBC9BD13D803B50064C82A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6DBC9BF13D803B50064C82A /* Handling Notifications Delivered to a Waking App */ = {
+			isa = PBXGroup;
+			children = (
+				A6DBC9C813D803B50064C82A /* Handling_Notifications_Delivered_to_a_Waking_AppAppDelegate.h */,
+				A6DBC9C913D803B50064C82A /* Handling_Notifications_Delivered_to_a_Waking_AppAppDelegate.m */,
+				A6DBC9CB13D803B50064C82A /* Handling_Notifications_Delivered_to_a_Waking_AppViewController.h */,
+				A6DBC9CC13D803B50064C82A /* Handling_Notifications_Delivered_to_a_Waking_AppViewController.m */,
+				A6DBC9CE13D803B50064C82A /* Handling_Notifications_Delivered_to_a_Waking_AppViewController_iPhone.xib */,
+				A6DBC9D113D803B60064C82A /* Handling_Notifications_Delivered_to_a_Waking_AppViewController_iPad.xib */,
+				A6DBC9C013D803B50064C82A /* Supporting Files */,
+			);
+			path = "Handling Notifications Delivered to a Waking App";
+			sourceTree = "<group>";
+		};
+		A6DBC9C013D803B50064C82A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6DBC9C113D803B50064C82A /* Handling Notifications Delivered to a Waking App-Info.plist */,
+				A6DBC9C213D803B50064C82A /* InfoPlist.strings */,
+				A6DBC9C513D803B50064C82A /* main.m */,
+				A6DBC9C713D803B50064C82A /* Handling Notifications Delivered to a Waking App-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6DBC9B413D803B50064C82A /* Handling Notifications Delivered to a Waking App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6DBC9D613D803B60064C82A /* Build configuration list for PBXNativeTarget "Handling Notifications Delivered to a Waking App" */;
+			buildPhases = (
+				A6DBC9B113D803B50064C82A /* Sources */,
+				A6DBC9B213D803B50064C82A /* Frameworks */,
+				A6DBC9B313D803B50064C82A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Handling Notifications Delivered to a Waking App";
+			productName = "Handling Notifications Delivered to a Waking App";
+			productReference = A6DBC9B513D803B50064C82A /* Handling Notifications Delivered to a Waking App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6DBC9AC13D803B50064C82A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6DBC9AF13D803B50064C82A /* Build configuration list for PBXProject "Handling Notifications Delivered to a Waking App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6DBC9AA13D803B50064C82A;
+			productRefGroup = A6DBC9B613D803B50064C82A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6DBC9B413D803B50064C82A /* Handling Notifications Delivered to a Waking App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6DBC9B313D803B50064C82A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DBC9C413D803B50064C82A /* InfoPlist.strings in Resources */,
+				A6DBC9D013D803B50064C82A /* Handling_Notifications_Delivered_to_a_Waking_AppViewController_iPhone.xib in Resources */,
+				A6DBC9D313D803B60064C82A /* Handling_Notifications_Delivered_to_a_Waking_AppViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6DBC9B113D803B50064C82A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DBC9C613D803B50064C82A /* main.m in Sources */,
+				A6DBC9CA13D803B50064C82A /* Handling_Notifications_Delivered_to_a_Waking_AppAppDelegate.m in Sources */,
+				A6DBC9CD13D803B50064C82A /* Handling_Notifications_Delivered_to_a_Waking_AppViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6DBC9C213D803B50064C82A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6DBC9C313D803B50064C82A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6DBC9CE13D803B50064C82A /* Handling_Notifications_Delivered_to_a_Waking_AppViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6DBC9CF13D803B50064C82A /* en */,
+			);
+			name = Handling_Notifications_Delivered_to_a_Waking_AppViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6DBC9D113D803B60064C82A /* Handling_Notifications_Delivered_to_a_Waking_AppViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6DBC9D213D803B60064C82A /* en */,
+			);
+			name = Handling_Notifications_Delivered_to_a_Waking_AppViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6DBC9D413D803B60064C82A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6DBC9D513D803B60064C82A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6DBC9D713D803B60064C82A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Handling Notifications Delivered to a Waking App/Handling Notifications Delivered to a Waking App-Prefix.pch";
+				INFOPLIST_FILE = "Handling Notifications Delivered to a Waking App/Handling Notifications Delivered to a Waking App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6DBC9D813D803B60064C82A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Handling Notifications Delivered to a Waking App/Handling Notifications Delivered to a Waking App-Prefix.pch";
+				INFOPLIST_FILE = "Handling Notifications Delivered to a Waking App/Handling Notifications Delivered to a Waking App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6DBC9AF13D803B50064C82A /* Build configuration list for PBXProject "Handling Notifications Delivered to a Waking App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6DBC9D413D803B60064C82A /* Debug */,
+				A6DBC9D513D803B60064C82A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6DBC9D613D803B60064C82A /* Build configuration list for PBXNativeTarget "Handling Notifications Delivered to a Waking App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6DBC9D713D803B60064C82A /* Debug */,
+				A6DBC9D813D803B60064C82A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6DBC9AC13D803B50064C82A /* Project object */;
+}

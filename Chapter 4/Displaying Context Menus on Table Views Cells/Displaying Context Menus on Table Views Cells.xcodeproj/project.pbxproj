@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6CC3CED13E5DD0D0015CC16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6CC3CEC13E5DD0D0015CC16 /* UIKit.framework */; };
+		A6CC3CEF13E5DD0D0015CC16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6CC3CEE13E5DD0D0015CC16 /* Foundation.framework */; };
+		A6CC3CF113E5DD0D0015CC16 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6CC3CF013E5DD0D0015CC16 /* CoreGraphics.framework */; };
+		A6CC3CF713E5DD0D0015CC16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6CC3CF513E5DD0D0015CC16 /* InfoPlist.strings */; };
+		A6CC3CF913E5DD0D0015CC16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CC3CF813E5DD0D0015CC16 /* main.m */; };
+		A6CC3CFD13E5DD0D0015CC16 /* Displaying_Context_Menus_on_Table_Views_CellsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CC3CFC13E5DD0D0015CC16 /* Displaying_Context_Menus_on_Table_Views_CellsAppDelegate.m */; };
+		A6CC3D0013E5DD0D0015CC16 /* Displaying_Context_Menus_on_Table_Views_CellsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CC3CFF13E5DD0D0015CC16 /* Displaying_Context_Menus_on_Table_Views_CellsViewController.m */; };
+		A6CC3D0313E5DD0D0015CC16 /* Displaying_Context_Menus_on_Table_Views_CellsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6CC3D0113E5DD0D0015CC16 /* Displaying_Context_Menus_on_Table_Views_CellsViewController_iPhone.xib */; };
+		A6CC3D0613E5DD0D0015CC16 /* Displaying_Context_Menus_on_Table_Views_CellsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6CC3D0413E5DD0D0015CC16 /* Displaying_Context_Menus_on_Table_Views_CellsViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6CC3CE813E5DD0D0015CC16 /* Displaying Context Menus on Table Views Cells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Displaying Context Menus on Table Views Cells.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6CC3CEC13E5DD0D0015CC16 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6CC3CEE13E5DD0D0015CC16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6CC3CF013E5DD0D0015CC16 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6CC3CF413E5DD0D0015CC16 /* Displaying Context Menus on Table Views Cells-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Displaying Context Menus on Table Views Cells-Info.plist"; sourceTree = "<group>"; };
+		A6CC3CF613E5DD0D0015CC16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6CC3CF813E5DD0D0015CC16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6CC3CFA13E5DD0D0015CC16 /* Displaying Context Menus on Table Views Cells-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Displaying Context Menus on Table Views Cells-Prefix.pch"; sourceTree = "<group>"; };
+		A6CC3CFB13E5DD0D0015CC16 /* Displaying_Context_Menus_on_Table_Views_CellsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Displaying_Context_Menus_on_Table_Views_CellsAppDelegate.h; sourceTree = "<group>"; };
+		A6CC3CFC13E5DD0D0015CC16 /* Displaying_Context_Menus_on_Table_Views_CellsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Displaying_Context_Menus_on_Table_Views_CellsAppDelegate.m; sourceTree = "<group>"; };
+		A6CC3CFE13E5DD0D0015CC16 /* Displaying_Context_Menus_on_Table_Views_CellsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Displaying_Context_Menus_on_Table_Views_CellsViewController.h; sourceTree = "<group>"; };
+		A6CC3CFF13E5DD0D0015CC16 /* Displaying_Context_Menus_on_Table_Views_CellsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Displaying_Context_Menus_on_Table_Views_CellsViewController.m; sourceTree = "<group>"; };
+		A6CC3D0213E5DD0D0015CC16 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Displaying_Context_Menus_on_Table_Views_CellsViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6CC3D0513E5DD0D0015CC16 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Displaying_Context_Menus_on_Table_Views_CellsViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6CC3CE513E5DD0D0015CC16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6CC3CED13E5DD0D0015CC16 /* UIKit.framework in Frameworks */,
+				A6CC3CEF13E5DD0D0015CC16 /* Foundation.framework in Frameworks */,
+				A6CC3CF113E5DD0D0015CC16 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6CC3CDD13E5DD0D0015CC16 = {
+			isa = PBXGroup;
+			children = (
+				A6CC3CF213E5DD0D0015CC16 /* Displaying Context Menus on Table Views Cells */,
+				A6CC3CEB13E5DD0D0015CC16 /* Frameworks */,
+				A6CC3CE913E5DD0D0015CC16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6CC3CE913E5DD0D0015CC16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6CC3CE813E5DD0D0015CC16 /* Displaying Context Menus on Table Views Cells.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6CC3CEB13E5DD0D0015CC16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6CC3CEC13E5DD0D0015CC16 /* UIKit.framework */,
+				A6CC3CEE13E5DD0D0015CC16 /* Foundation.framework */,
+				A6CC3CF013E5DD0D0015CC16 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6CC3CF213E5DD0D0015CC16 /* Displaying Context Menus on Table Views Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A6CC3CFB13E5DD0D0015CC16 /* Displaying_Context_Menus_on_Table_Views_CellsAppDelegate.h */,
+				A6CC3CFC13E5DD0D0015CC16 /* Displaying_Context_Menus_on_Table_Views_CellsAppDelegate.m */,
+				A6CC3CFE13E5DD0D0015CC16 /* Displaying_Context_Menus_on_Table_Views_CellsViewController.h */,
+				A6CC3CFF13E5DD0D0015CC16 /* Displaying_Context_Menus_on_Table_Views_CellsViewController.m */,
+				A6CC3D0113E5DD0D0015CC16 /* Displaying_Context_Menus_on_Table_Views_CellsViewController_iPhone.xib */,
+				A6CC3D0413E5DD0D0015CC16 /* Displaying_Context_Menus_on_Table_Views_CellsViewController_iPad.xib */,
+				A6CC3CF313E5DD0D0015CC16 /* Supporting Files */,
+			);
+			path = "Displaying Context Menus on Table Views Cells";
+			sourceTree = "<group>";
+		};
+		A6CC3CF313E5DD0D0015CC16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6CC3CF413E5DD0D0015CC16 /* Displaying Context Menus on Table Views Cells-Info.plist */,
+				A6CC3CF513E5DD0D0015CC16 /* InfoPlist.strings */,
+				A6CC3CF813E5DD0D0015CC16 /* main.m */,
+				A6CC3CFA13E5DD0D0015CC16 /* Displaying Context Menus on Table Views Cells-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6CC3CE713E5DD0D0015CC16 /* Displaying Context Menus on Table Views Cells */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6CC3D0913E5DD0D0015CC16 /* Build configuration list for PBXNativeTarget "Displaying Context Menus on Table Views Cells" */;
+			buildPhases = (
+				A6CC3CE413E5DD0D0015CC16 /* Sources */,
+				A6CC3CE513E5DD0D0015CC16 /* Frameworks */,
+				A6CC3CE613E5DD0D0015CC16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Displaying Context Menus on Table Views Cells";
+			productName = "Displaying Context Menus on Table Views Cells";
+			productReference = A6CC3CE813E5DD0D0015CC16 /* Displaying Context Menus on Table Views Cells.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6CC3CDF13E5DD0D0015CC16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6CC3CE213E5DD0D0015CC16 /* Build configuration list for PBXProject "Displaying Context Menus on Table Views Cells" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6CC3CDD13E5DD0D0015CC16;
+			productRefGroup = A6CC3CE913E5DD0D0015CC16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6CC3CE713E5DD0D0015CC16 /* Displaying Context Menus on Table Views Cells */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6CC3CE613E5DD0D0015CC16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6CC3CF713E5DD0D0015CC16 /* InfoPlist.strings in Resources */,
+				A6CC3D0313E5DD0D0015CC16 /* Displaying_Context_Menus_on_Table_Views_CellsViewController_iPhone.xib in Resources */,
+				A6CC3D0613E5DD0D0015CC16 /* Displaying_Context_Menus_on_Table_Views_CellsViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6CC3CE413E5DD0D0015CC16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6CC3CF913E5DD0D0015CC16 /* main.m in Sources */,
+				A6CC3CFD13E5DD0D0015CC16 /* Displaying_Context_Menus_on_Table_Views_CellsAppDelegate.m in Sources */,
+				A6CC3D0013E5DD0D0015CC16 /* Displaying_Context_Menus_on_Table_Views_CellsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6CC3CF513E5DD0D0015CC16 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6CC3CF613E5DD0D0015CC16 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6CC3D0113E5DD0D0015CC16 /* Displaying_Context_Menus_on_Table_Views_CellsViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6CC3D0213E5DD0D0015CC16 /* en */,
+			);
+			name = Displaying_Context_Menus_on_Table_Views_CellsViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6CC3D0413E5DD0D0015CC16 /* Displaying_Context_Menus_on_Table_Views_CellsViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6CC3D0513E5DD0D0015CC16 /* en */,
+			);
+			name = Displaying_Context_Menus_on_Table_Views_CellsViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6CC3D0713E5DD0D0015CC16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6CC3D0813E5DD0D0015CC16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6CC3D0A13E5DD0D0015CC16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Displaying Context Menus on Table Views Cells/Displaying Context Menus on Table Views Cells-Prefix.pch";
+				INFOPLIST_FILE = "Displaying Context Menus on Table Views Cells/Displaying Context Menus on Table Views Cells-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6CC3D0B13E5DD0D0015CC16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Displaying Context Menus on Table Views Cells/Displaying Context Menus on Table Views Cells-Prefix.pch";
+				INFOPLIST_FILE = "Displaying Context Menus on Table Views Cells/Displaying Context Menus on Table Views Cells-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6CC3CE213E5DD0D0015CC16 /* Build configuration list for PBXProject "Displaying Context Menus on Table Views Cells" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6CC3D0713E5DD0D0015CC16 /* Debug */,
+				A6CC3D0813E5DD0D0015CC16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6CC3D0913E5DD0D0015CC16 /* Build configuration list for PBXNativeTarget "Displaying Context Menus on Table Views Cells" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6CC3D0A13E5DD0D0015CC16 /* Debug */,
+				A6CC3D0B13E5DD0D0015CC16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6CC3CDF13E5DD0D0015CC16 /* Project object */;
+}

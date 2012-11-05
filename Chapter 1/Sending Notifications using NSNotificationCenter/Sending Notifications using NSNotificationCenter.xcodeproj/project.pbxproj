@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DA50FB113FE459D009CAA90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA50FB013FE459D009CAA90 /* UIKit.framework */; };
+		9DA50FB313FE459D009CAA90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA50FB213FE459D009CAA90 /* Foundation.framework */; };
+		9DA50FB913FE459D009CAA90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DA50FB713FE459D009CAA90 /* InfoPlist.strings */; };
+		9DA50FBB13FE459D009CAA90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA50FBA13FE459D009CAA90 /* main.m */; };
+		9DA50FBF13FE459D009CAA90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA50FBE13FE459D009CAA90 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9DA50FAC13FE459D009CAA90 /* Sending Notifications using NSNotificationCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sending Notifications using NSNotificationCenter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA50FB013FE459D009CAA90 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9DA50FB213FE459D009CAA90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9DA50FB613FE459D009CAA90 /* Sending Notifications using NSNotificationCenter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sending Notifications using NSNotificationCenter-Info.plist"; sourceTree = "<group>"; };
+		9DA50FB813FE459D009CAA90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9DA50FBA13FE459D009CAA90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DA50FBC13FE459D009CAA90 /* Sending Notifications using NSNotificationCenter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sending Notifications using NSNotificationCenter-Prefix.pch"; sourceTree = "<group>"; };
+		9DA50FBD13FE459D009CAA90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9DA50FBE13FE459D009CAA90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DA50FA913FE459D009CAA90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA50FB113FE459D009CAA90 /* UIKit.framework in Frameworks */,
+				9DA50FB313FE459D009CAA90 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DA50FA113FE459D009CAA90 = {
+			isa = PBXGroup;
+			children = (
+				9DA50FB413FE459D009CAA90 /* Sending Notifications using NSNotificationCenter */,
+				9DA50FAF13FE459D009CAA90 /* Frameworks */,
+				9DA50FAD13FE459D009CAA90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DA50FAD13FE459D009CAA90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DA50FAC13FE459D009CAA90 /* Sending Notifications using NSNotificationCenter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DA50FAF13FE459D009CAA90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DA50FB013FE459D009CAA90 /* UIKit.framework */,
+				9DA50FB213FE459D009CAA90 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DA50FB413FE459D009CAA90 /* Sending Notifications using NSNotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				9DA50FBD13FE459D009CAA90 /* AppDelegate.h */,
+				9DA50FBE13FE459D009CAA90 /* AppDelegate.m */,
+				9DA50FB513FE459D009CAA90 /* Supporting Files */,
+			);
+			path = "Sending Notifications using NSNotificationCenter";
+			sourceTree = "<group>";
+		};
+		9DA50FB513FE459D009CAA90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DA50FB613FE459D009CAA90 /* Sending Notifications using NSNotificationCenter-Info.plist */,
+				9DA50FB713FE459D009CAA90 /* InfoPlist.strings */,
+				9DA50FBA13FE459D009CAA90 /* main.m */,
+				9DA50FBC13FE459D009CAA90 /* Sending Notifications using NSNotificationCenter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DA50FAB13FE459D009CAA90 /* Sending Notifications using NSNotificationCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DA50FC213FE459D009CAA90 /* Build configuration list for PBXNativeTarget "Sending Notifications using NSNotificationCenter" */;
+			buildPhases = (
+				9DA50FA813FE459D009CAA90 /* Sources */,
+				9DA50FA913FE459D009CAA90 /* Frameworks */,
+				9DA50FAA13FE459D009CAA90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sending Notifications using NSNotificationCenter";
+			productName = "Sending Notifications using NSNotificationCenter";
+			productReference = 9DA50FAC13FE459D009CAA90 /* Sending Notifications using NSNotificationCenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DA50FA313FE459D009CAA90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = 9DA50FA613FE459D009CAA90 /* Build configuration list for PBXProject "Sending Notifications using NSNotificationCenter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9DA50FA113FE459D009CAA90;
+			productRefGroup = 9DA50FAD13FE459D009CAA90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DA50FAB13FE459D009CAA90 /* Sending Notifications using NSNotificationCenter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DA50FAA13FE459D009CAA90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA50FB913FE459D009CAA90 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DA50FA813FE459D009CAA90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA50FBB13FE459D009CAA90 /* main.m in Sources */,
+				9DA50FBF13FE459D009CAA90 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DA50FB713FE459D009CAA90 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DA50FB813FE459D009CAA90 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DA50FC013FE459D009CAA90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DA50FC113FE459D009CAA90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DA50FC313FE459D009CAA90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sending Notifications using NSNotificationCenter/Sending Notifications using NSNotificationCenter-Prefix.pch";
+				INFOPLIST_FILE = "Sending Notifications using NSNotificationCenter/Sending Notifications using NSNotificationCenter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9DA50FC413FE459D009CAA90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sending Notifications using NSNotificationCenter/Sending Notifications using NSNotificationCenter-Prefix.pch";
+				INFOPLIST_FILE = "Sending Notifications using NSNotificationCenter/Sending Notifications using NSNotificationCenter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DA50FA613FE459D009CAA90 /* Build configuration list for PBXProject "Sending Notifications using NSNotificationCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA50FC013FE459D009CAA90 /* Debug */,
+				9DA50FC113FE459D009CAA90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DA50FC213FE459D009CAA90 /* Build configuration list for PBXNativeTarget "Sending Notifications using NSNotificationCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA50FC313FE459D009CAA90 /* Debug */,
+				9DA50FC413FE459D009CAA90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DA50FA313FE459D009CAA90 /* Project object */;
+}

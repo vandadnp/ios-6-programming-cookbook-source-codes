@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A66E950213C5EB900020508C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66E950113C5EB900020508C /* UIKit.framework */; };
+		A66E950413C5EB900020508C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66E950313C5EB900020508C /* Foundation.framework */; };
+		A66E950613C5EB900020508C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66E950513C5EB900020508C /* CoreGraphics.framework */; };
+		A66E950C13C5EB900020508C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A66E950A13C5EB900020508C /* InfoPlist.strings */; };
+		A66E950E13C5EB900020508C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A66E950D13C5EB900020508C /* main.m */; };
+		A66E951213C5EB900020508C /* Adding_Properties_to_ClassesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A66E951113C5EB900020508C /* Adding_Properties_to_ClassesAppDelegate.m */; };
+		A66E952413C5ED5E0020508C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A66E952313C5ED5E0020508C /* Person.m */; };
+		A66E952813C5F0F30020508C /* SomeOtherClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A66E952713C5F0F20020508C /* SomeOtherClass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A66E94FD13C5EB900020508C /* Adding Properties to Classes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adding Properties to Classes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A66E950113C5EB900020508C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A66E950313C5EB900020508C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A66E950513C5EB900020508C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A66E950913C5EB900020508C /* Adding Properties to Classes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Adding Properties to Classes-Info.plist"; sourceTree = "<group>"; };
+		A66E950B13C5EB900020508C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A66E950D13C5EB900020508C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A66E950F13C5EB900020508C /* Adding Properties to Classes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Adding Properties to Classes-Prefix.pch"; sourceTree = "<group>"; };
+		A66E951013C5EB900020508C /* Adding_Properties_to_ClassesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adding_Properties_to_ClassesAppDelegate.h; sourceTree = "<group>"; };
+		A66E951113C5EB900020508C /* Adding_Properties_to_ClassesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Adding_Properties_to_ClassesAppDelegate.m; sourceTree = "<group>"; };
+		A66E952213C5ED5E0020508C /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A66E952313C5ED5E0020508C /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A66E952613C5F0F20020508C /* SomeOtherClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SomeOtherClass.h; sourceTree = "<group>"; };
+		A66E952713C5F0F20020508C /* SomeOtherClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomeOtherClass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A66E94FA13C5EB900020508C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66E950213C5EB900020508C /* UIKit.framework in Frameworks */,
+				A66E950413C5EB900020508C /* Foundation.framework in Frameworks */,
+				A66E950613C5EB900020508C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A66E94F213C5EB900020508C = {
+			isa = PBXGroup;
+			children = (
+				A66E950713C5EB900020508C /* Adding Properties to Classes */,
+				A66E950013C5EB900020508C /* Frameworks */,
+				A66E94FE13C5EB900020508C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A66E94FE13C5EB900020508C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A66E94FD13C5EB900020508C /* Adding Properties to Classes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A66E950013C5EB900020508C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A66E950113C5EB900020508C /* UIKit.framework */,
+				A66E950313C5EB900020508C /* Foundation.framework */,
+				A66E950513C5EB900020508C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A66E950713C5EB900020508C /* Adding Properties to Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A66E951013C5EB900020508C /* Adding_Properties_to_ClassesAppDelegate.h */,
+				A66E951113C5EB900020508C /* Adding_Properties_to_ClassesAppDelegate.m */,
+				A66E950813C5EB900020508C /* Supporting Files */,
+				A66E952213C5ED5E0020508C /* Person.h */,
+				A66E952313C5ED5E0020508C /* Person.m */,
+				A66E952613C5F0F20020508C /* SomeOtherClass.h */,
+				A66E952713C5F0F20020508C /* SomeOtherClass.m */,
+			);
+			path = "Adding Properties to Classes";
+			sourceTree = "<group>";
+		};
+		A66E950813C5EB900020508C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A66E950913C5EB900020508C /* Adding Properties to Classes-Info.plist */,
+				A66E950A13C5EB900020508C /* InfoPlist.strings */,
+				A66E950D13C5EB900020508C /* main.m */,
+				A66E950F13C5EB900020508C /* Adding Properties to Classes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A66E94FC13C5EB900020508C /* Adding Properties to Classes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A66E951513C5EB900020508C /* Build configuration list for PBXNativeTarget "Adding Properties to Classes" */;
+			buildPhases = (
+				A66E94F913C5EB900020508C /* Sources */,
+				A66E94FA13C5EB900020508C /* Frameworks */,
+				A66E94FB13C5EB900020508C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Adding Properties to Classes";
+			productName = "Adding Properties to Classes";
+			productReference = A66E94FD13C5EB900020508C /* Adding Properties to Classes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A66E94F413C5EB900020508C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A66E94F713C5EB900020508C /* Build configuration list for PBXProject "Adding Properties to Classes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A66E94F213C5EB900020508C;
+			productRefGroup = A66E94FE13C5EB900020508C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A66E94FC13C5EB900020508C /* Adding Properties to Classes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A66E94FB13C5EB900020508C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66E950C13C5EB900020508C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A66E94F913C5EB900020508C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66E950E13C5EB900020508C /* main.m in Sources */,
+				A66E951213C5EB900020508C /* Adding_Properties_to_ClassesAppDelegate.m in Sources */,
+				A66E952413C5ED5E0020508C /* Person.m in Sources */,
+				A66E952813C5F0F30020508C /* SomeOtherClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A66E950A13C5EB900020508C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A66E950B13C5EB900020508C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A66E951313C5EB900020508C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A66E951413C5EB900020508C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A66E951613C5EB900020508C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adding Properties to Classes/Adding Properties to Classes-Prefix.pch";
+				INFOPLIST_FILE = "Adding Properties to Classes/Adding Properties to Classes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A66E951713C5EB900020508C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adding Properties to Classes/Adding Properties to Classes-Prefix.pch";
+				INFOPLIST_FILE = "Adding Properties to Classes/Adding Properties to Classes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A66E94F713C5EB900020508C /* Build configuration list for PBXProject "Adding Properties to Classes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A66E951313C5EB900020508C /* Debug */,
+				A66E951413C5EB900020508C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A66E951513C5EB900020508C /* Build configuration list for PBXNativeTarget "Adding Properties to Classes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A66E951613C5EB900020508C /* Debug */,
+				A66E951713C5EB900020508C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A66E94F413C5EB900020508C /* Project object */;
+}

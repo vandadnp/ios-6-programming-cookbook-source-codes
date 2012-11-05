@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6EA70BB13D07592000D181B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EA70BA13D07592000D181B /* UIKit.framework */; };
+		A6EA70BD13D07592000D181B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EA70BC13D07592000D181B /* Foundation.framework */; };
+		A6EA70BF13D07592000D181B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EA70BE13D07592000D181B /* CoreGraphics.framework */; };
+		A6EA70C513D07592000D181B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6EA70C313D07592000D181B /* InfoPlist.strings */; };
+		A6EA70C713D07592000D181B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA70C613D07592000D181B /* main.m */; };
+		A6EA70CB13D07592000D181B /* Detecting_Long_Press_GesturesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA70CA13D07592000D181B /* Detecting_Long_Press_GesturesAppDelegate.m */; };
+		A6EA70CE13D07592000D181B /* Detecting_Long_Press_GesturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA70CD13D07592000D181B /* Detecting_Long_Press_GesturesViewController.m */; };
+		A6EA70D113D07592000D181B /* Detecting_Long_Press_GesturesViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6EA70CF13D07592000D181B /* Detecting_Long_Press_GesturesViewController_iPhone.xib */; };
+		A6EA70D413D07592000D181B /* Detecting_Long_Press_GesturesViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6EA70D213D07592000D181B /* Detecting_Long_Press_GesturesViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6EA70B613D07592000D181B /* Detecting Long Press Gestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Detecting Long Press Gestures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6EA70BA13D07592000D181B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6EA70BC13D07592000D181B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6EA70BE13D07592000D181B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6EA70C213D07592000D181B /* Detecting Long Press Gestures-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Detecting Long Press Gestures-Info.plist"; sourceTree = "<group>"; };
+		A6EA70C413D07592000D181B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6EA70C613D07592000D181B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6EA70C813D07592000D181B /* Detecting Long Press Gestures-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Detecting Long Press Gestures-Prefix.pch"; sourceTree = "<group>"; };
+		A6EA70C913D07592000D181B /* Detecting_Long_Press_GesturesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Detecting_Long_Press_GesturesAppDelegate.h; sourceTree = "<group>"; };
+		A6EA70CA13D07592000D181B /* Detecting_Long_Press_GesturesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Detecting_Long_Press_GesturesAppDelegate.m; sourceTree = "<group>"; };
+		A6EA70CC13D07592000D181B /* Detecting_Long_Press_GesturesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Detecting_Long_Press_GesturesViewController.h; sourceTree = "<group>"; };
+		A6EA70CD13D07592000D181B /* Detecting_Long_Press_GesturesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Detecting_Long_Press_GesturesViewController.m; sourceTree = "<group>"; };
+		A6EA70D013D07592000D181B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Detecting_Long_Press_GesturesViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6EA70D313D07592000D181B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Detecting_Long_Press_GesturesViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6EA70B313D07592000D181B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EA70BB13D07592000D181B /* UIKit.framework in Frameworks */,
+				A6EA70BD13D07592000D181B /* Foundation.framework in Frameworks */,
+				A6EA70BF13D07592000D181B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6EA70AB13D07592000D181B = {
+			isa = PBXGroup;
+			children = (
+				A6EA70C013D07592000D181B /* Detecting Long Press Gestures */,
+				A6EA70B913D07592000D181B /* Frameworks */,
+				A6EA70B713D07592000D181B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6EA70B713D07592000D181B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6EA70B613D07592000D181B /* Detecting Long Press Gestures.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6EA70B913D07592000D181B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6EA70BA13D07592000D181B /* UIKit.framework */,
+				A6EA70BC13D07592000D181B /* Foundation.framework */,
+				A6EA70BE13D07592000D181B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6EA70C013D07592000D181B /* Detecting Long Press Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				A6EA70C913D07592000D181B /* Detecting_Long_Press_GesturesAppDelegate.h */,
+				A6EA70CA13D07592000D181B /* Detecting_Long_Press_GesturesAppDelegate.m */,
+				A6EA70CC13D07592000D181B /* Detecting_Long_Press_GesturesViewController.h */,
+				A6EA70CD13D07592000D181B /* Detecting_Long_Press_GesturesViewController.m */,
+				A6EA70CF13D07592000D181B /* Detecting_Long_Press_GesturesViewController_iPhone.xib */,
+				A6EA70D213D07592000D181B /* Detecting_Long_Press_GesturesViewController_iPad.xib */,
+				A6EA70C113D07592000D181B /* Supporting Files */,
+			);
+			path = "Detecting Long Press Gestures";
+			sourceTree = "<group>";
+		};
+		A6EA70C113D07592000D181B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6EA70C213D07592000D181B /* Detecting Long Press Gestures-Info.plist */,
+				A6EA70C313D07592000D181B /* InfoPlist.strings */,
+				A6EA70C613D07592000D181B /* main.m */,
+				A6EA70C813D07592000D181B /* Detecting Long Press Gestures-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6EA70B513D07592000D181B /* Detecting Long Press Gestures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6EA70D713D07592000D181B /* Build configuration list for PBXNativeTarget "Detecting Long Press Gestures" */;
+			buildPhases = (
+				A6EA70B213D07592000D181B /* Sources */,
+				A6EA70B313D07592000D181B /* Frameworks */,
+				A6EA70B413D07592000D181B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Detecting Long Press Gestures";
+			productName = "Detecting Long Press Gestures";
+			productReference = A6EA70B613D07592000D181B /* Detecting Long Press Gestures.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6EA70AD13D07592000D181B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6EA70B013D07592000D181B /* Build configuration list for PBXProject "Detecting Long Press Gestures" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6EA70AB13D07592000D181B;
+			productRefGroup = A6EA70B713D07592000D181B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6EA70B513D07592000D181B /* Detecting Long Press Gestures */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6EA70B413D07592000D181B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EA70C513D07592000D181B /* InfoPlist.strings in Resources */,
+				A6EA70D113D07592000D181B /* Detecting_Long_Press_GesturesViewController_iPhone.xib in Resources */,
+				A6EA70D413D07592000D181B /* Detecting_Long_Press_GesturesViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6EA70B213D07592000D181B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EA70C713D07592000D181B /* main.m in Sources */,
+				A6EA70CB13D07592000D181B /* Detecting_Long_Press_GesturesAppDelegate.m in Sources */,
+				A6EA70CE13D07592000D181B /* Detecting_Long_Press_GesturesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6EA70C313D07592000D181B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6EA70C413D07592000D181B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6EA70CF13D07592000D181B /* Detecting_Long_Press_GesturesViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6EA70D013D07592000D181B /* en */,
+			);
+			name = Detecting_Long_Press_GesturesViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6EA70D213D07592000D181B /* Detecting_Long_Press_GesturesViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6EA70D313D07592000D181B /* en */,
+			);
+			name = Detecting_Long_Press_GesturesViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6EA70D513D07592000D181B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6EA70D613D07592000D181B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6EA70D813D07592000D181B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Detecting Long Press Gestures/Detecting Long Press Gestures-Prefix.pch";
+				INFOPLIST_FILE = "Detecting Long Press Gestures/Detecting Long Press Gestures-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6EA70D913D07592000D181B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Detecting Long Press Gestures/Detecting Long Press Gestures-Prefix.pch";
+				INFOPLIST_FILE = "Detecting Long Press Gestures/Detecting Long Press Gestures-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6EA70B013D07592000D181B /* Build configuration list for PBXProject "Detecting Long Press Gestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EA70D513D07592000D181B /* Debug */,
+				A6EA70D613D07592000D181B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6EA70D713D07592000D181B /* Build configuration list for PBXNativeTarget "Detecting Long Press Gestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EA70D813D07592000D181B /* Debug */,
+				A6EA70D913D07592000D181B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6EA70AD13D07592000D181B /* Project object */;
+}

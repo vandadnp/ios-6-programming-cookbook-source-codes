@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A62BA0E613C9A5260060F652 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A62BA0E513C9A5260060F652 /* UIKit.framework */; };
+		A62BA0E813C9A5260060F652 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A62BA0E713C9A5260060F652 /* Foundation.framework */; };
+		A62BA0EA13C9A5260060F652 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A62BA0E913C9A5260060F652 /* CoreGraphics.framework */; };
+		A62BA0F013C9A5260060F652 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A62BA0EE13C9A5260060F652 /* InfoPlist.strings */; };
+		A62BA0F213C9A5270060F652 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A62BA0F113C9A5270060F652 /* main.m */; };
+		A62BA0F613C9A5270060F652 /* Adding_Buttons_to_the_User_Interface_with_UIButtonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A62BA0F513C9A5270060F652 /* Adding_Buttons_to_the_User_Interface_with_UIButtonAppDelegate.m */; };
+		A62BA0F813C9A5270060F652 /* Adding_Buttons_to_the_User_Interface_with_UIButtonViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = A62BA0F713C9A5270060F652 /* Adding_Buttons_to_the_User_Interface_with_UIButtonViewController.h */; };
+		A62BA0FA13C9A5270060F652 /* Adding_Buttons_to_the_User_Interface_with_UIButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A62BA0F913C9A5270060F652 /* Adding_Buttons_to_the_User_Interface_with_UIButtonViewController.m */; };
+		A62BA0FD13C9A5270060F652 /* Adding_Buttons_to_the_User_Interface_with_UIButtonViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A62BA0FB13C9A5270060F652 /* Adding_Buttons_to_the_User_Interface_with_UIButtonViewController_iPhone.xib */; };
+		A62BA10013C9A5270060F652 /* Adding_Buttons_to_the_User_Interface_with_UIButtonViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A62BA0FE13C9A5270060F652 /* Adding_Buttons_to_the_User_Interface_with_UIButtonViewController_iPad.xib */; };
+		A62BA11513C9AE390060F652 /* NormalBlueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A62BA11113C9AE390060F652 /* NormalBlueButton.png */; };
+		A62BA11613C9AE390060F652 /* NormalBlueButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A62BA11213C9AE390060F652 /* NormalBlueButton@2x.png */; };
+		A62BA11713C9AE390060F652 /* HighlightedBlueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = A62BA11313C9AE390060F652 /* HighlightedBlueButton.png */; };
+		A62BA11813C9AE390060F652 /* HighlightedBlueButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A62BA11413C9AE390060F652 /* HighlightedBlueButton@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A62BA0E113C9A5260060F652 /* Adding Buttons to the User Interface with UIButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adding Buttons to the User Interface with UIButton.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62BA0E513C9A5260060F652 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A62BA0E713C9A5260060F652 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A62BA0E913C9A5260060F652 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A62BA0ED13C9A5260060F652 /* Adding Buttons to the User Interface with UIButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Adding Buttons to the User Interface with UIButton-Info.plist"; sourceTree = "<group>"; };
+		A62BA0EF13C9A5260060F652 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A62BA0F113C9A5270060F652 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A62BA0F313C9A5270060F652 /* Adding Buttons to the User Interface with UIButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Adding Buttons to the User Interface with UIButton-Prefix.pch"; sourceTree = "<group>"; };
+		A62BA0F413C9A5270060F652 /* Adding_Buttons_to_the_User_Interface_with_UIButtonAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adding_Buttons_to_the_User_Interface_with_UIButtonAppDelegate.h; sourceTree = "<group>"; };
+		A62BA0F513C9A5270060F652 /* Adding_Buttons_to_the_User_Interface_with_UIButtonAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Adding_Buttons_to_the_User_Interface_with_UIButtonAppDelegate.m; sourceTree = "<group>"; };
+		A62BA0F713C9A5270060F652 /* Adding_Buttons_to_the_User_Interface_with_UIButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adding_Buttons_to_the_User_Interface_with_UIButtonViewController.h; sourceTree = "<group>"; };
+		A62BA0F913C9A5270060F652 /* Adding_Buttons_to_the_User_Interface_with_UIButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Adding_Buttons_to_the_User_Interface_with_UIButtonViewController.m; sourceTree = "<group>"; };
+		A62BA0FC13C9A5270060F652 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Adding_Buttons_to_the_User_Interface_with_UIButtonViewController_iPhone.xib; sourceTree = "<group>"; };
+		A62BA0FF13C9A5270060F652 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Adding_Buttons_to_the_User_Interface_with_UIButtonViewController_iPad.xib; sourceTree = "<group>"; };
+		A62BA11113C9AE390060F652 /* NormalBlueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NormalBlueButton.png; sourceTree = "<group>"; };
+		A62BA11213C9AE390060F652 /* NormalBlueButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NormalBlueButton@2x.png"; sourceTree = "<group>"; };
+		A62BA11313C9AE390060F652 /* HighlightedBlueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HighlightedBlueButton.png; sourceTree = "<group>"; };
+		A62BA11413C9AE390060F652 /* HighlightedBlueButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HighlightedBlueButton@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A62BA0DE13C9A5260060F652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62BA0E613C9A5260060F652 /* UIKit.framework in Frameworks */,
+				A62BA0E813C9A5260060F652 /* Foundation.framework in Frameworks */,
+				A62BA0EA13C9A5260060F652 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A62BA0D613C9A5260060F652 = {
+			isa = PBXGroup;
+			children = (
+				A62BA0EB13C9A5260060F652 /* Adding Buttons to the User Interface with UIButton */,
+				A62BA0E413C9A5260060F652 /* Frameworks */,
+				A62BA0E213C9A5260060F652 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A62BA0E213C9A5260060F652 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A62BA0E113C9A5260060F652 /* Adding Buttons to the User Interface with UIButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A62BA0E413C9A5260060F652 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A62BA0E513C9A5260060F652 /* UIKit.framework */,
+				A62BA0E713C9A5260060F652 /* Foundation.framework */,
+				A62BA0E913C9A5260060F652 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A62BA0EB13C9A5260060F652 /* Adding Buttons to the User Interface with UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				A62BA0F413C9A5270060F652 /* Adding_Buttons_to_the_User_Interface_with_UIButtonAppDelegate.h */,
+				A62BA0F513C9A5270060F652 /* Adding_Buttons_to_the_User_Interface_with_UIButtonAppDelegate.m */,
+				A62BA0F713C9A5270060F652 /* Adding_Buttons_to_the_User_Interface_with_UIButtonViewController.h */,
+				A62BA0F913C9A5270060F652 /* Adding_Buttons_to_the_User_Interface_with_UIButtonViewController.m */,
+				A62BA0FB13C9A5270060F652 /* Adding_Buttons_to_the_User_Interface_with_UIButtonViewController_iPhone.xib */,
+				A62BA0FE13C9A5270060F652 /* Adding_Buttons_to_the_User_Interface_with_UIButtonViewController_iPad.xib */,
+				A62BA0EC13C9A5260060F652 /* Supporting Files */,
+			);
+			path = "Adding Buttons to the User Interface with UIButton";
+			sourceTree = "<group>";
+		};
+		A62BA0EC13C9A5260060F652 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A62BA11113C9AE390060F652 /* NormalBlueButton.png */,
+				A62BA11213C9AE390060F652 /* NormalBlueButton@2x.png */,
+				A62BA11313C9AE390060F652 /* HighlightedBlueButton.png */,
+				A62BA11413C9AE390060F652 /* HighlightedBlueButton@2x.png */,
+				A62BA0ED13C9A5260060F652 /* Adding Buttons to the User Interface with UIButton-Info.plist */,
+				A62BA0EE13C9A5260060F652 /* InfoPlist.strings */,
+				A62BA0F113C9A5270060F652 /* main.m */,
+				A62BA0F313C9A5270060F652 /* Adding Buttons to the User Interface with UIButton-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A62BA0E013C9A5260060F652 /* Adding Buttons to the User Interface with UIButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A62BA10313C9A5270060F652 /* Build configuration list for PBXNativeTarget "Adding Buttons to the User Interface with UIButton" */;
+			buildPhases = (
+				A62BA0DD13C9A5260060F652 /* Sources */,
+				A62BA0DE13C9A5260060F652 /* Frameworks */,
+				A62BA0DF13C9A5260060F652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Adding Buttons to the User Interface with UIButton";
+			productName = "Adding Buttons to the User Interface with UIButton";
+			productReference = A62BA0E113C9A5260060F652 /* Adding Buttons to the User Interface with UIButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A62BA0D813C9A5260060F652 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A62BA0DB13C9A5260060F652 /* Build configuration list for PBXProject "Adding Buttons to the User Interface with UIButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A62BA0D613C9A5260060F652;
+			productRefGroup = A62BA0E213C9A5260060F652 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A62BA0E013C9A5260060F652 /* Adding Buttons to the User Interface with UIButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A62BA0DF13C9A5260060F652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62BA0F013C9A5260060F652 /* InfoPlist.strings in Resources */,
+				A62BA0F813C9A5270060F652 /* Adding_Buttons_to_the_User_Interface_with_UIButtonViewController.h in Resources */,
+				A62BA0FD13C9A5270060F652 /* Adding_Buttons_to_the_User_Interface_with_UIButtonViewController_iPhone.xib in Resources */,
+				A62BA10013C9A5270060F652 /* Adding_Buttons_to_the_User_Interface_with_UIButtonViewController_iPad.xib in Resources */,
+				A62BA11513C9AE390060F652 /* NormalBlueButton.png in Resources */,
+				A62BA11613C9AE390060F652 /* NormalBlueButton@2x.png in Resources */,
+				A62BA11713C9AE390060F652 /* HighlightedBlueButton.png in Resources */,
+				A62BA11813C9AE390060F652 /* HighlightedBlueButton@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A62BA0DD13C9A5260060F652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62BA0F213C9A5270060F652 /* main.m in Sources */,
+				A62BA0F613C9A5270060F652 /* Adding_Buttons_to_the_User_Interface_with_UIButtonAppDelegate.m in Sources */,
+				A62BA0FA13C9A5270060F652 /* Adding_Buttons_to_the_User_Interface_with_UIButtonViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A62BA0EE13C9A5260060F652 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A62BA0EF13C9A5260060F652 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A62BA0FB13C9A5270060F652 /* Adding_Buttons_to_the_User_Interface_with_UIButtonViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A62BA0FC13C9A5270060F652 /* en */,
+			);
+			name = Adding_Buttons_to_the_User_Interface_with_UIButtonViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A62BA0FE13C9A5270060F652 /* Adding_Buttons_to_the_User_Interface_with_UIButtonViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A62BA0FF13C9A5270060F652 /* en */,
+			);
+			name = Adding_Buttons_to_the_User_Interface_with_UIButtonViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A62BA10113C9A5270060F652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A62BA10213C9A5270060F652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A62BA10413C9A5270060F652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adding Buttons to the User Interface with UIButton/Adding Buttons to the User Interface with UIButton-Prefix.pch";
+				INFOPLIST_FILE = "Adding Buttons to the User Interface with UIButton/Adding Buttons to the User Interface with UIButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A62BA10513C9A5270060F652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adding Buttons to the User Interface with UIButton/Adding Buttons to the User Interface with UIButton-Prefix.pch";
+				INFOPLIST_FILE = "Adding Buttons to the User Interface with UIButton/Adding Buttons to the User Interface with UIButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A62BA0DB13C9A5260060F652 /* Build configuration list for PBXProject "Adding Buttons to the User Interface with UIButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A62BA10113C9A5270060F652 /* Debug */,
+				A62BA10213C9A5270060F652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A62BA10313C9A5270060F652 /* Build configuration list for PBXNativeTarget "Adding Buttons to the User Interface with UIButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A62BA10413C9A5270060F652 /* Debug */,
+				A62BA10513C9A5270060F652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A62BA0D813C9A5260060F652 /* Project object */;
+}

@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6C4083713E31A5D00267CFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C4083613E31A5D00267CFA /* UIKit.framework */; };
+		A6C4083913E31A5D00267CFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C4083813E31A5D00267CFA /* Foundation.framework */; };
+		A6C4083B13E31A5D00267CFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C4083A13E31A5D00267CFA /* CoreGraphics.framework */; };
+		A6C4084113E31A5D00267CFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6C4083F13E31A5D00267CFA /* InfoPlist.strings */; };
+		A6C4084313E31A5D00267CFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C4084213E31A5D00267CFA /* main.m */; };
+		A6C4084713E31A5D00267CFA /* Using_Different_Types_of_Accessories_in_a_Table_View_CellAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C4084613E31A5D00267CFA /* Using_Different_Types_of_Accessories_in_a_Table_View_CellAppDelegate.m */; };
+		A6C4084A13E31A5D00267CFA /* Using_Different_Types_of_Accessories_in_a_Table_View_CellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C4084913E31A5D00267CFA /* Using_Different_Types_of_Accessories_in_a_Table_View_CellViewController.m */; };
+		A6C4084D13E31A5D00267CFA /* Using_Different_Types_of_Accessories_in_a_Table_View_CellViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C4084B13E31A5D00267CFA /* Using_Different_Types_of_Accessories_in_a_Table_View_CellViewController_iPhone.xib */; };
+		A6C4085013E31A5D00267CFA /* Using_Different_Types_of_Accessories_in_a_Table_View_CellViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C4084E13E31A5D00267CFA /* Using_Different_Types_of_Accessories_in_a_Table_View_CellViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6C4083213E31A5D00267CFA /* Using Different Types of Accessories in a Table View Cell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Using Different Types of Accessories in a Table View Cell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C4083613E31A5D00267CFA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6C4083813E31A5D00267CFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6C4083A13E31A5D00267CFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6C4083E13E31A5D00267CFA /* Using Different Types of Accessories in a Table View Cell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Using Different Types of Accessories in a Table View Cell-Info.plist"; sourceTree = "<group>"; };
+		A6C4084013E31A5D00267CFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6C4084213E31A5D00267CFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6C4084413E31A5D00267CFA /* Using Different Types of Accessories in a Table View Cell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Using Different Types of Accessories in a Table View Cell-Prefix.pch"; sourceTree = "<group>"; };
+		A6C4084513E31A5D00267CFA /* Using_Different_Types_of_Accessories_in_a_Table_View_CellAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Using_Different_Types_of_Accessories_in_a_Table_View_CellAppDelegate.h; sourceTree = "<group>"; };
+		A6C4084613E31A5D00267CFA /* Using_Different_Types_of_Accessories_in_a_Table_View_CellAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Using_Different_Types_of_Accessories_in_a_Table_View_CellAppDelegate.m; sourceTree = "<group>"; };
+		A6C4084813E31A5D00267CFA /* Using_Different_Types_of_Accessories_in_a_Table_View_CellViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Using_Different_Types_of_Accessories_in_a_Table_View_CellViewController.h; sourceTree = "<group>"; };
+		A6C4084913E31A5D00267CFA /* Using_Different_Types_of_Accessories_in_a_Table_View_CellViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Using_Different_Types_of_Accessories_in_a_Table_View_CellViewController.m; sourceTree = "<group>"; };
+		A6C4084C13E31A5D00267CFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Using_Different_Types_of_Accessories_in_a_Table_View_CellViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6C4084F13E31A5D00267CFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Using_Different_Types_of_Accessories_in_a_Table_View_CellViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6C4082F13E31A5D00267CFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C4083713E31A5D00267CFA /* UIKit.framework in Frameworks */,
+				A6C4083913E31A5D00267CFA /* Foundation.framework in Frameworks */,
+				A6C4083B13E31A5D00267CFA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6C4082713E31A5D00267CFA = {
+			isa = PBXGroup;
+			children = (
+				A6C4083C13E31A5D00267CFA /* Using Different Types of Accessories in a Table View Cell */,
+				A6C4083513E31A5D00267CFA /* Frameworks */,
+				A6C4083313E31A5D00267CFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6C4083313E31A5D00267CFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6C4083213E31A5D00267CFA /* Using Different Types of Accessories in a Table View Cell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6C4083513E31A5D00267CFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6C4083613E31A5D00267CFA /* UIKit.framework */,
+				A6C4083813E31A5D00267CFA /* Foundation.framework */,
+				A6C4083A13E31A5D00267CFA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6C4083C13E31A5D00267CFA /* Using Different Types of Accessories in a Table View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A6C4084513E31A5D00267CFA /* Using_Different_Types_of_Accessories_in_a_Table_View_CellAppDelegate.h */,
+				A6C4084613E31A5D00267CFA /* Using_Different_Types_of_Accessories_in_a_Table_View_CellAppDelegate.m */,
+				A6C4084813E31A5D00267CFA /* Using_Different_Types_of_Accessories_in_a_Table_View_CellViewController.h */,
+				A6C4084913E31A5D00267CFA /* Using_Different_Types_of_Accessories_in_a_Table_View_CellViewController.m */,
+				A6C4084B13E31A5D00267CFA /* Using_Different_Types_of_Accessories_in_a_Table_View_CellViewController_iPhone.xib */,
+				A6C4084E13E31A5D00267CFA /* Using_Different_Types_of_Accessories_in_a_Table_View_CellViewController_iPad.xib */,
+				A6C4083D13E31A5D00267CFA /* Supporting Files */,
+			);
+			path = "Using Different Types of Accessories in a Table View Cell";
+			sourceTree = "<group>";
+		};
+		A6C4083D13E31A5D00267CFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6C4083E13E31A5D00267CFA /* Using Different Types of Accessories in a Table View Cell-Info.plist */,
+				A6C4083F13E31A5D00267CFA /* InfoPlist.strings */,
+				A6C4084213E31A5D00267CFA /* main.m */,
+				A6C4084413E31A5D00267CFA /* Using Different Types of Accessories in a Table View Cell-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6C4083113E31A5D00267CFA /* Using Different Types of Accessories in a Table View Cell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C4085313E31A5D00267CFA /* Build configuration list for PBXNativeTarget "Using Different Types of Accessories in a Table View Cell" */;
+			buildPhases = (
+				A6C4082E13E31A5D00267CFA /* Sources */,
+				A6C4082F13E31A5D00267CFA /* Frameworks */,
+				A6C4083013E31A5D00267CFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Using Different Types of Accessories in a Table View Cell";
+			productName = "Using Different Types of Accessories in a Table View Cell";
+			productReference = A6C4083213E31A5D00267CFA /* Using Different Types of Accessories in a Table View Cell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6C4082913E31A5D00267CFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6C4082C13E31A5D00267CFA /* Build configuration list for PBXProject "Using Different Types of Accessories in a Table View Cell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6C4082713E31A5D00267CFA;
+			productRefGroup = A6C4083313E31A5D00267CFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6C4083113E31A5D00267CFA /* Using Different Types of Accessories in a Table View Cell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6C4083013E31A5D00267CFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C4084113E31A5D00267CFA /* InfoPlist.strings in Resources */,
+				A6C4084D13E31A5D00267CFA /* Using_Different_Types_of_Accessories_in_a_Table_View_CellViewController_iPhone.xib in Resources */,
+				A6C4085013E31A5D00267CFA /* Using_Different_Types_of_Accessories_in_a_Table_View_CellViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6C4082E13E31A5D00267CFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C4084313E31A5D00267CFA /* main.m in Sources */,
+				A6C4084713E31A5D00267CFA /* Using_Different_Types_of_Accessories_in_a_Table_View_CellAppDelegate.m in Sources */,
+				A6C4084A13E31A5D00267CFA /* Using_Different_Types_of_Accessories_in_a_Table_View_CellViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6C4083F13E31A5D00267CFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C4084013E31A5D00267CFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6C4084B13E31A5D00267CFA /* Using_Different_Types_of_Accessories_in_a_Table_View_CellViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C4084C13E31A5D00267CFA /* en */,
+			);
+			name = Using_Different_Types_of_Accessories_in_a_Table_View_CellViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6C4084E13E31A5D00267CFA /* Using_Different_Types_of_Accessories_in_a_Table_View_CellViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C4084F13E31A5D00267CFA /* en */,
+			);
+			name = Using_Different_Types_of_Accessories_in_a_Table_View_CellViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6C4085113E31A5D00267CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6C4085213E31A5D00267CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6C4085413E31A5D00267CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Using Different Types of Accessories in a Table View Cell/Using Different Types of Accessories in a Table View Cell-Prefix.pch";
+				INFOPLIST_FILE = "Using Different Types of Accessories in a Table View Cell/Using Different Types of Accessories in a Table View Cell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6C4085513E31A5D00267CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Using Different Types of Accessories in a Table View Cell/Using Different Types of Accessories in a Table View Cell-Prefix.pch";
+				INFOPLIST_FILE = "Using Different Types of Accessories in a Table View Cell/Using Different Types of Accessories in a Table View Cell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6C4082C13E31A5D00267CFA /* Build configuration list for PBXProject "Using Different Types of Accessories in a Table View Cell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C4085113E31A5D00267CFA /* Debug */,
+				A6C4085213E31A5D00267CFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C4085313E31A5D00267CFA /* Build configuration list for PBXNativeTarget "Using Different Types of Accessories in a Table View Cell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C4085413E31A5D00267CFA /* Debug */,
+				A6C4085513E31A5D00267CFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6C4082913E31A5D00267CFA /* Project object */;
+}

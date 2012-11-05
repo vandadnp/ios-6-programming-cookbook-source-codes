@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6DBBE9413C712A0008C199F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DBBE9313C712A0008C199F /* UIKit.framework */; };
+		A6DBBE9613C712A0008C199F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DBBE9513C712A0008C199F /* Foundation.framework */; };
+		A6DBBE9813C712A0008C199F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DBBE9713C712A0008C199F /* CoreGraphics.framework */; };
+		A6DBBE9E13C712A0008C199F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6DBBE9C13C712A0008C199F /* InfoPlist.strings */; };
+		A6DBBEA013C712A0008C199F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DBBE9F13C712A0008C199F /* main.m */; };
+		A6DBBEA413C712A0008C199F /* Creating_and_Using_Switches_with_UISwitchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DBBEA313C712A0008C199F /* Creating_and_Using_Switches_with_UISwitchAppDelegate.m */; };
+		A6DBBEA613C712A0008C199F /* Creating_and_Using_Switches_with_UISwitchViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = A6DBBEA513C712A0008C199F /* Creating_and_Using_Switches_with_UISwitchViewController.h */; };
+		A6DBBEA813C712A0008C199F /* Creating_and_Using_Switches_with_UISwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DBBEA713C712A0008C199F /* Creating_and_Using_Switches_with_UISwitchViewController.m */; };
+		A6DBBEAB13C712A0008C199F /* Creating_and_Using_Switches_with_UISwitchViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6DBBEA913C712A0008C199F /* Creating_and_Using_Switches_with_UISwitchViewController_iPhone.xib */; };
+		A6DBBEAE13C712A0008C199F /* Creating_and_Using_Switches_with_UISwitchViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6DBBEAC13C712A0008C199F /* Creating_and_Using_Switches_with_UISwitchViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6DBBE8F13C712A0008C199F /* Creating and Using Switches with UISwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Creating and Using Switches with UISwitch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6DBBE9313C712A0008C199F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6DBBE9513C712A0008C199F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6DBBE9713C712A0008C199F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6DBBE9B13C712A0008C199F /* Creating and Using Switches with UISwitch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Creating and Using Switches with UISwitch-Info.plist"; sourceTree = "<group>"; };
+		A6DBBE9D13C712A0008C199F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6DBBE9F13C712A0008C199F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6DBBEA113C712A0008C199F /* Creating and Using Switches with UISwitch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Creating and Using Switches with UISwitch-Prefix.pch"; sourceTree = "<group>"; };
+		A6DBBEA213C712A0008C199F /* Creating_and_Using_Switches_with_UISwitchAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Creating_and_Using_Switches_with_UISwitchAppDelegate.h; sourceTree = "<group>"; };
+		A6DBBEA313C712A0008C199F /* Creating_and_Using_Switches_with_UISwitchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Creating_and_Using_Switches_with_UISwitchAppDelegate.m; sourceTree = "<group>"; };
+		A6DBBEA513C712A0008C199F /* Creating_and_Using_Switches_with_UISwitchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Creating_and_Using_Switches_with_UISwitchViewController.h; sourceTree = "<group>"; };
+		A6DBBEA713C712A0008C199F /* Creating_and_Using_Switches_with_UISwitchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Creating_and_Using_Switches_with_UISwitchViewController.m; sourceTree = "<group>"; };
+		A6DBBEAA13C712A0008C199F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Creating_and_Using_Switches_with_UISwitchViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6DBBEAD13C712A0008C199F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Creating_and_Using_Switches_with_UISwitchViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6DBBE8C13C712A0008C199F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DBBE9413C712A0008C199F /* UIKit.framework in Frameworks */,
+				A6DBBE9613C712A0008C199F /* Foundation.framework in Frameworks */,
+				A6DBBE9813C712A0008C199F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6DBBE8413C712A0008C199F = {
+			isa = PBXGroup;
+			children = (
+				A6DBBE9913C712A0008C199F /* Creating and Using Switches with UISwitch */,
+				A6DBBE9213C712A0008C199F /* Frameworks */,
+				A6DBBE9013C712A0008C199F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6DBBE9013C712A0008C199F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6DBBE8F13C712A0008C199F /* Creating and Using Switches with UISwitch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6DBBE9213C712A0008C199F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6DBBE9313C712A0008C199F /* UIKit.framework */,
+				A6DBBE9513C712A0008C199F /* Foundation.framework */,
+				A6DBBE9713C712A0008C199F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6DBBE9913C712A0008C199F /* Creating and Using Switches with UISwitch */ = {
+			isa = PBXGroup;
+			children = (
+				A6DBBEA213C712A0008C199F /* Creating_and_Using_Switches_with_UISwitchAppDelegate.h */,
+				A6DBBEA313C712A0008C199F /* Creating_and_Using_Switches_with_UISwitchAppDelegate.m */,
+				A6DBBEA513C712A0008C199F /* Creating_and_Using_Switches_with_UISwitchViewController.h */,
+				A6DBBEA713C712A0008C199F /* Creating_and_Using_Switches_with_UISwitchViewController.m */,
+				A6DBBEA913C712A0008C199F /* Creating_and_Using_Switches_with_UISwitchViewController_iPhone.xib */,
+				A6DBBEAC13C712A0008C199F /* Creating_and_Using_Switches_with_UISwitchViewController_iPad.xib */,
+				A6DBBE9A13C712A0008C199F /* Supporting Files */,
+			);
+			path = "Creating and Using Switches with UISwitch";
+			sourceTree = "<group>";
+		};
+		A6DBBE9A13C712A0008C199F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6DBBE9B13C712A0008C199F /* Creating and Using Switches with UISwitch-Info.plist */,
+				A6DBBE9C13C712A0008C199F /* InfoPlist.strings */,
+				A6DBBE9F13C712A0008C199F /* main.m */,
+				A6DBBEA113C712A0008C199F /* Creating and Using Switches with UISwitch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6DBBE8E13C712A0008C199F /* Creating and Using Switches with UISwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6DBBEB113C712A0008C199F /* Build configuration list for PBXNativeTarget "Creating and Using Switches with UISwitch" */;
+			buildPhases = (
+				A6DBBE8B13C712A0008C199F /* Sources */,
+				A6DBBE8C13C712A0008C199F /* Frameworks */,
+				A6DBBE8D13C712A0008C199F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Creating and Using Switches with UISwitch";
+			productName = "Creating and Using Switches with UISwitch";
+			productReference = A6DBBE8F13C712A0008C199F /* Creating and Using Switches with UISwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6DBBE8613C712A0008C199F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6DBBE8913C712A0008C199F /* Build configuration list for PBXProject "Creating and Using Switches with UISwitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6DBBE8413C712A0008C199F;
+			productRefGroup = A6DBBE9013C712A0008C199F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6DBBE8E13C712A0008C199F /* Creating and Using Switches with UISwitch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6DBBE8D13C712A0008C199F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DBBE9E13C712A0008C199F /* InfoPlist.strings in Resources */,
+				A6DBBEA613C712A0008C199F /* Creating_and_Using_Switches_with_UISwitchViewController.h in Resources */,
+				A6DBBEAB13C712A0008C199F /* Creating_and_Using_Switches_with_UISwitchViewController_iPhone.xib in Resources */,
+				A6DBBEAE13C712A0008C199F /* Creating_and_Using_Switches_with_UISwitchViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6DBBE8B13C712A0008C199F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DBBEA013C712A0008C199F /* main.m in Sources */,
+				A6DBBEA413C712A0008C199F /* Creating_and_Using_Switches_with_UISwitchAppDelegate.m in Sources */,
+				A6DBBEA813C712A0008C199F /* Creating_and_Using_Switches_with_UISwitchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6DBBE9C13C712A0008C199F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6DBBE9D13C712A0008C199F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6DBBEA913C712A0008C199F /* Creating_and_Using_Switches_with_UISwitchViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6DBBEAA13C712A0008C199F /* en */,
+			);
+			name = Creating_and_Using_Switches_with_UISwitchViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6DBBEAC13C712A0008C199F /* Creating_and_Using_Switches_with_UISwitchViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6DBBEAD13C712A0008C199F /* en */,
+			);
+			name = Creating_and_Using_Switches_with_UISwitchViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6DBBEAF13C712A0008C199F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6DBBEB013C712A0008C199F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6DBBEB213C712A0008C199F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Creating and Using Switches with UISwitch/Creating and Using Switches with UISwitch-Prefix.pch";
+				INFOPLIST_FILE = "Creating and Using Switches with UISwitch/Creating and Using Switches with UISwitch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6DBBEB313C712A0008C199F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Creating and Using Switches with UISwitch/Creating and Using Switches with UISwitch-Prefix.pch";
+				INFOPLIST_FILE = "Creating and Using Switches with UISwitch/Creating and Using Switches with UISwitch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6DBBE8913C712A0008C199F /* Build configuration list for PBXProject "Creating and Using Switches with UISwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6DBBEAF13C712A0008C199F /* Debug */,
+				A6DBBEB013C712A0008C199F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6DBBEB113C712A0008C199F /* Build configuration list for PBXNativeTarget "Creating and Using Switches with UISwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6DBBEB213C712A0008C199F /* Debug */,
+				A6DBBEB313C712A0008C199F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6DBBE8613C712A0008C199F /* Project object */;
+}

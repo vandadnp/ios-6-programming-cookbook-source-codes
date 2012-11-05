@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A69A180E13D2FBC60002A32B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69A180D13D2FBC60002A32B /* UIKit.framework */; };
+		A69A181013D2FBC60002A32B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69A180F13D2FBC60002A32B /* Foundation.framework */; };
+		A69A181213D2FBC60002A32B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69A181113D2FBC60002A32B /* CoreGraphics.framework */; };
+		A69A181813D2FBC60002A32B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A69A181613D2FBC60002A32B /* InfoPlist.strings */; };
+		A69A181A13D2FBC60002A32B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A69A181913D2FBC60002A32B /* main.m */; };
+		A69A181E13D2FBC60002A32B /* Drawing_RectanglesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A69A181D13D2FBC60002A32B /* Drawing_RectanglesAppDelegate.m */; };
+		A69A182113D2FBC60002A32B /* Drawing_RectanglesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A69A182013D2FBC60002A32B /* Drawing_RectanglesViewController.m */; };
+		A69A182413D2FBC60002A32B /* Drawing_RectanglesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A69A182213D2FBC60002A32B /* Drawing_RectanglesViewController.xib */; };
+		A69A183613D2FBDA0002A32B /* GraphicsViewControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A69A183513D2FBDA0002A32B /* GraphicsViewControllerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A69A180913D2FBC60002A32B /* Drawing Rectangles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drawing Rectangles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A69A180D13D2FBC60002A32B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A69A180F13D2FBC60002A32B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A69A181113D2FBC60002A32B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A69A181513D2FBC60002A32B /* Drawing Rectangles-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drawing Rectangles-Info.plist"; sourceTree = "<group>"; };
+		A69A181713D2FBC60002A32B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A69A181913D2FBC60002A32B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A69A181B13D2FBC60002A32B /* Drawing Rectangles-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Drawing Rectangles-Prefix.pch"; sourceTree = "<group>"; };
+		A69A181C13D2FBC60002A32B /* Drawing_RectanglesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Drawing_RectanglesAppDelegate.h; sourceTree = "<group>"; };
+		A69A181D13D2FBC60002A32B /* Drawing_RectanglesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drawing_RectanglesAppDelegate.m; sourceTree = "<group>"; };
+		A69A181F13D2FBC60002A32B /* Drawing_RectanglesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Drawing_RectanglesViewController.h; sourceTree = "<group>"; };
+		A69A182013D2FBC60002A32B /* Drawing_RectanglesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drawing_RectanglesViewController.m; sourceTree = "<group>"; };
+		A69A182313D2FBC60002A32B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Drawing_RectanglesViewController.xib; sourceTree = "<group>"; };
+		A69A183413D2FBDA0002A32B /* GraphicsViewControllerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsViewControllerView.h; sourceTree = "<group>"; };
+		A69A183513D2FBDA0002A32B /* GraphicsViewControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsViewControllerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A69A180613D2FBC60002A32B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69A180E13D2FBC60002A32B /* UIKit.framework in Frameworks */,
+				A69A181013D2FBC60002A32B /* Foundation.framework in Frameworks */,
+				A69A181213D2FBC60002A32B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A69A17FE13D2FBC60002A32B = {
+			isa = PBXGroup;
+			children = (
+				A69A181313D2FBC60002A32B /* Drawing Rectangles */,
+				A69A180C13D2FBC60002A32B /* Frameworks */,
+				A69A180A13D2FBC60002A32B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A69A180A13D2FBC60002A32B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A69A180913D2FBC60002A32B /* Drawing Rectangles.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A69A180C13D2FBC60002A32B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A69A180D13D2FBC60002A32B /* UIKit.framework */,
+				A69A180F13D2FBC60002A32B /* Foundation.framework */,
+				A69A181113D2FBC60002A32B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A69A181313D2FBC60002A32B /* Drawing Rectangles */ = {
+			isa = PBXGroup;
+			children = (
+				A69A181C13D2FBC60002A32B /* Drawing_RectanglesAppDelegate.h */,
+				A69A181D13D2FBC60002A32B /* Drawing_RectanglesAppDelegate.m */,
+				A69A181F13D2FBC60002A32B /* Drawing_RectanglesViewController.h */,
+				A69A182013D2FBC60002A32B /* Drawing_RectanglesViewController.m */,
+				A69A182213D2FBC60002A32B /* Drawing_RectanglesViewController.xib */,
+				A69A181413D2FBC60002A32B /* Supporting Files */,
+				A69A183413D2FBDA0002A32B /* GraphicsViewControllerView.h */,
+				A69A183513D2FBDA0002A32B /* GraphicsViewControllerView.m */,
+			);
+			path = "Drawing Rectangles";
+			sourceTree = "<group>";
+		};
+		A69A181413D2FBC60002A32B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A69A181513D2FBC60002A32B /* Drawing Rectangles-Info.plist */,
+				A69A181613D2FBC60002A32B /* InfoPlist.strings */,
+				A69A181913D2FBC60002A32B /* main.m */,
+				A69A181B13D2FBC60002A32B /* Drawing Rectangles-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A69A180813D2FBC60002A32B /* Drawing Rectangles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A69A182713D2FBC60002A32B /* Build configuration list for PBXNativeTarget "Drawing Rectangles" */;
+			buildPhases = (
+				A69A180513D2FBC60002A32B /* Sources */,
+				A69A180613D2FBC60002A32B /* Frameworks */,
+				A69A180713D2FBC60002A32B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Drawing Rectangles";
+			productName = "Drawing Rectangles";
+			productReference = A69A180913D2FBC60002A32B /* Drawing Rectangles.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A69A180013D2FBC60002A32B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A69A180313D2FBC60002A32B /* Build configuration list for PBXProject "Drawing Rectangles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A69A17FE13D2FBC60002A32B;
+			productRefGroup = A69A180A13D2FBC60002A32B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A69A180813D2FBC60002A32B /* Drawing Rectangles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A69A180713D2FBC60002A32B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69A181813D2FBC60002A32B /* InfoPlist.strings in Resources */,
+				A69A182413D2FBC60002A32B /* Drawing_RectanglesViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A69A180513D2FBC60002A32B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69A181A13D2FBC60002A32B /* main.m in Sources */,
+				A69A181E13D2FBC60002A32B /* Drawing_RectanglesAppDelegate.m in Sources */,
+				A69A182113D2FBC60002A32B /* Drawing_RectanglesViewController.m in Sources */,
+				A69A183613D2FBDA0002A32B /* GraphicsViewControllerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A69A181613D2FBC60002A32B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A69A181713D2FBC60002A32B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A69A182213D2FBC60002A32B /* Drawing_RectanglesViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A69A182313D2FBC60002A32B /* en */,
+			);
+			name = Drawing_RectanglesViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A69A182513D2FBC60002A32B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A69A182613D2FBC60002A32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A69A182813D2FBC60002A32B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drawing Rectangles/Drawing Rectangles-Prefix.pch";
+				INFOPLIST_FILE = "Drawing Rectangles/Drawing Rectangles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A69A182913D2FBC60002A32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drawing Rectangles/Drawing Rectangles-Prefix.pch";
+				INFOPLIST_FILE = "Drawing Rectangles/Drawing Rectangles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A69A180313D2FBC60002A32B /* Build configuration list for PBXProject "Drawing Rectangles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69A182513D2FBC60002A32B /* Debug */,
+				A69A182613D2FBC60002A32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A69A182713D2FBC60002A32B /* Build configuration list for PBXNativeTarget "Drawing Rectangles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69A182813D2FBC60002A32B /* Debug */,
+				A69A182913D2FBC60002A32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A69A180013D2FBC60002A32B /* Project object */;
+}

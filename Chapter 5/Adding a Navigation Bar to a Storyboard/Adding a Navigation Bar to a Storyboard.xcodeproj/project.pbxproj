@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A69B2E3213CC685300F9587E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69B2E3113CC685300F9587E /* UIKit.framework */; };
+		A69B2E3413CC685300F9587E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69B2E3313CC685300F9587E /* Foundation.framework */; };
+		A69B2E3613CC685300F9587E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69B2E3513CC685300F9587E /* CoreGraphics.framework */; };
+		A69B2E3C13CC685300F9587E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A69B2E3A13CC685300F9587E /* InfoPlist.strings */; };
+		A69B2E3E13CC685300F9587E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A69B2E3D13CC685300F9587E /* main.m */; };
+		A69B2E4213CC685300F9587E /* Adding_a_Navigation_Bar_to_a_StoryboardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A69B2E4113CC685300F9587E /* Adding_a_Navigation_Bar_to_a_StoryboardAppDelegate.m */; };
+		A69B2E4513CC685300F9587E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A69B2E4313CC685300F9587E /* MainStoryboard_iPhone.storyboard */; };
+		A69B2E4813CC685300F9587E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A69B2E4613CC685300F9587E /* MainStoryboard_iPad.storyboard */; };
+		A69B2E4B13CC685300F9587E /* Adding_a_Navigation_Bar_to_a_StoryboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A69B2E4A13CC685300F9587E /* Adding_a_Navigation_Bar_to_a_StoryboardViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A69B2E2D13CC685300F9587E /* Adding a Navigation Bar to a Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adding a Navigation Bar to a Storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A69B2E3113CC685300F9587E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A69B2E3313CC685300F9587E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A69B2E3513CC685300F9587E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A69B2E3913CC685300F9587E /* Adding a Navigation Bar to a Storyboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Adding a Navigation Bar to a Storyboard-Info.plist"; sourceTree = "<group>"; };
+		A69B2E3B13CC685300F9587E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A69B2E3D13CC685300F9587E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A69B2E3F13CC685300F9587E /* Adding a Navigation Bar to a Storyboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Adding a Navigation Bar to a Storyboard-Prefix.pch"; sourceTree = "<group>"; };
+		A69B2E4013CC685300F9587E /* Adding_a_Navigation_Bar_to_a_StoryboardAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adding_a_Navigation_Bar_to_a_StoryboardAppDelegate.h; sourceTree = "<group>"; };
+		A69B2E4113CC685300F9587E /* Adding_a_Navigation_Bar_to_a_StoryboardAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Adding_a_Navigation_Bar_to_a_StoryboardAppDelegate.m; sourceTree = "<group>"; };
+		A69B2E4413CC685300F9587E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		A69B2E4713CC685300F9587E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		A69B2E4913CC685300F9587E /* Adding_a_Navigation_Bar_to_a_StoryboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adding_a_Navigation_Bar_to_a_StoryboardViewController.h; sourceTree = "<group>"; };
+		A69B2E4A13CC685300F9587E /* Adding_a_Navigation_Bar_to_a_StoryboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Adding_a_Navigation_Bar_to_a_StoryboardViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A69B2E2A13CC685300F9587E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69B2E3213CC685300F9587E /* UIKit.framework in Frameworks */,
+				A69B2E3413CC685300F9587E /* Foundation.framework in Frameworks */,
+				A69B2E3613CC685300F9587E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A69B2E2213CC685300F9587E = {
+			isa = PBXGroup;
+			children = (
+				A69B2E3713CC685300F9587E /* Adding a Navigation Bar to a Storyboard */,
+				A69B2E3013CC685300F9587E /* Frameworks */,
+				A69B2E2E13CC685300F9587E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A69B2E2E13CC685300F9587E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A69B2E2D13CC685300F9587E /* Adding a Navigation Bar to a Storyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A69B2E3013CC685300F9587E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A69B2E3113CC685300F9587E /* UIKit.framework */,
+				A69B2E3313CC685300F9587E /* Foundation.framework */,
+				A69B2E3513CC685300F9587E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A69B2E3713CC685300F9587E /* Adding a Navigation Bar to a Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A69B2E4013CC685300F9587E /* Adding_a_Navigation_Bar_to_a_StoryboardAppDelegate.h */,
+				A69B2E4113CC685300F9587E /* Adding_a_Navigation_Bar_to_a_StoryboardAppDelegate.m */,
+				A69B2E4313CC685300F9587E /* MainStoryboard_iPhone.storyboard */,
+				A69B2E4613CC685300F9587E /* MainStoryboard_iPad.storyboard */,
+				A69B2E4913CC685300F9587E /* Adding_a_Navigation_Bar_to_a_StoryboardViewController.h */,
+				A69B2E4A13CC685300F9587E /* Adding_a_Navigation_Bar_to_a_StoryboardViewController.m */,
+				A69B2E3813CC685300F9587E /* Supporting Files */,
+			);
+			path = "Adding a Navigation Bar to a Storyboard";
+			sourceTree = "<group>";
+		};
+		A69B2E3813CC685300F9587E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A69B2E3913CC685300F9587E /* Adding a Navigation Bar to a Storyboard-Info.plist */,
+				A69B2E3A13CC685300F9587E /* InfoPlist.strings */,
+				A69B2E3D13CC685300F9587E /* main.m */,
+				A69B2E3F13CC685300F9587E /* Adding a Navigation Bar to a Storyboard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A69B2E2C13CC685300F9587E /* Adding a Navigation Bar to a Storyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A69B2E4E13CC685300F9587E /* Build configuration list for PBXNativeTarget "Adding a Navigation Bar to a Storyboard" */;
+			buildPhases = (
+				A69B2E2913CC685300F9587E /* Sources */,
+				A69B2E2A13CC685300F9587E /* Frameworks */,
+				A69B2E2B13CC685300F9587E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Adding a Navigation Bar to a Storyboard";
+			productName = "Adding a Navigation Bar to a Storyboard";
+			productReference = A69B2E2D13CC685300F9587E /* Adding a Navigation Bar to a Storyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A69B2E2413CC685300F9587E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A69B2E2713CC685300F9587E /* Build configuration list for PBXProject "Adding a Navigation Bar to a Storyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A69B2E2213CC685300F9587E;
+			productRefGroup = A69B2E2E13CC685300F9587E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A69B2E2C13CC685300F9587E /* Adding a Navigation Bar to a Storyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A69B2E2B13CC685300F9587E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69B2E3C13CC685300F9587E /* InfoPlist.strings in Resources */,
+				A69B2E4513CC685300F9587E /* MainStoryboard_iPhone.storyboard in Resources */,
+				A69B2E4813CC685300F9587E /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A69B2E2913CC685300F9587E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69B2E3E13CC685300F9587E /* main.m in Sources */,
+				A69B2E4213CC685300F9587E /* Adding_a_Navigation_Bar_to_a_StoryboardAppDelegate.m in Sources */,
+				A69B2E4B13CC685300F9587E /* Adding_a_Navigation_Bar_to_a_StoryboardViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A69B2E3A13CC685300F9587E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A69B2E3B13CC685300F9587E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A69B2E4313CC685300F9587E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A69B2E4413CC685300F9587E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A69B2E4613CC685300F9587E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A69B2E4713CC685300F9587E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A69B2E4C13CC685300F9587E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A69B2E4D13CC685300F9587E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A69B2E4F13CC685300F9587E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adding a Navigation Bar to a Storyboard/Adding a Navigation Bar to a Storyboard-Prefix.pch";
+				INFOPLIST_FILE = "Adding a Navigation Bar to a Storyboard/Adding a Navigation Bar to a Storyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A69B2E5013CC685300F9587E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adding a Navigation Bar to a Storyboard/Adding a Navigation Bar to a Storyboard-Prefix.pch";
+				INFOPLIST_FILE = "Adding a Navigation Bar to a Storyboard/Adding a Navigation Bar to a Storyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A69B2E2713CC685300F9587E /* Build configuration list for PBXProject "Adding a Navigation Bar to a Storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69B2E4C13CC685300F9587E /* Debug */,
+				A69B2E4D13CC685300F9587E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A69B2E4E13CC685300F9587E /* Build configuration list for PBXNativeTarget "Adding a Navigation Bar to a Storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69B2E4F13CC685300F9587E /* Debug */,
+				A69B2E5013CC685300F9587E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A69B2E2413CC685300F9587E /* Project object */;
+}

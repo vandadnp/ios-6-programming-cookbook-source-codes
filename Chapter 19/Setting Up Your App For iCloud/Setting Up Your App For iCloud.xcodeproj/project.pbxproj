@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DA6E6A313F7F59000DAFCCF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA6E6A213F7F58F00DAFCCF /* UIKit.framework */; };
+		9DA6E6A513F7F59000DAFCCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA6E6A413F7F59000DAFCCF /* Foundation.framework */; };
+		9DA6E6AB13F7F59000DAFCCF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DA6E6A913F7F59000DAFCCF /* InfoPlist.strings */; };
+		9DA6E6AD13F7F59000DAFCCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA6E6AC13F7F59000DAFCCF /* main.m */; };
+		9DA6E6B113F7F59000DAFCCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA6E6B013F7F59000DAFCCF /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9DA6E69E13F7F58F00DAFCCF /* Setting Up Your App For iCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Setting Up Your App For iCloud.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA6E6A213F7F58F00DAFCCF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9DA6E6A413F7F59000DAFCCF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9DA6E6A813F7F59000DAFCCF /* Setting Up Your App For iCloud-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Setting Up Your App For iCloud-Info.plist"; sourceTree = "<group>"; };
+		9DA6E6AA13F7F59000DAFCCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9DA6E6AC13F7F59000DAFCCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DA6E6AE13F7F59000DAFCCF /* Setting Up Your App For iCloud-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Setting Up Your App For iCloud-Prefix.pch"; sourceTree = "<group>"; };
+		9DA6E6AF13F7F59000DAFCCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9DA6E6B013F7F59000DAFCCF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9DA6E6C813F8265900DAFCCF /* Setting Up Your App For iCloud.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Setting Up Your App For iCloud.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DA6E69B13F7F58F00DAFCCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA6E6A313F7F59000DAFCCF /* UIKit.framework in Frameworks */,
+				9DA6E6A513F7F59000DAFCCF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DA6E69313F7F58F00DAFCCF = {
+			isa = PBXGroup;
+			children = (
+				9DA6E6A613F7F59000DAFCCF /* Setting Up Your App For iCloud */,
+				9DA6E6A113F7F58F00DAFCCF /* Frameworks */,
+				9DA6E69F13F7F58F00DAFCCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DA6E69F13F7F58F00DAFCCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DA6E69E13F7F58F00DAFCCF /* Setting Up Your App For iCloud.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DA6E6A113F7F58F00DAFCCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DA6E6A213F7F58F00DAFCCF /* UIKit.framework */,
+				9DA6E6A413F7F59000DAFCCF /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DA6E6A613F7F59000DAFCCF /* Setting Up Your App For iCloud */ = {
+			isa = PBXGroup;
+			children = (
+				9DA6E6C813F8265900DAFCCF /* Setting Up Your App For iCloud.entitlements */,
+				9DA6E6AF13F7F59000DAFCCF /* AppDelegate.h */,
+				9DA6E6B013F7F59000DAFCCF /* AppDelegate.m */,
+				9DA6E6A713F7F59000DAFCCF /* Supporting Files */,
+			);
+			path = "Setting Up Your App For iCloud";
+			sourceTree = "<group>";
+		};
+		9DA6E6A713F7F59000DAFCCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DA6E6A813F7F59000DAFCCF /* Setting Up Your App For iCloud-Info.plist */,
+				9DA6E6A913F7F59000DAFCCF /* InfoPlist.strings */,
+				9DA6E6AC13F7F59000DAFCCF /* main.m */,
+				9DA6E6AE13F7F59000DAFCCF /* Setting Up Your App For iCloud-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DA6E69D13F7F58F00DAFCCF /* Setting Up Your App For iCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DA6E6B413F7F59000DAFCCF /* Build configuration list for PBXNativeTarget "Setting Up Your App For iCloud" */;
+			buildPhases = (
+				9DA6E69A13F7F58F00DAFCCF /* Sources */,
+				9DA6E69B13F7F58F00DAFCCF /* Frameworks */,
+				9DA6E69C13F7F58F00DAFCCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Setting Up Your App For iCloud";
+			productName = "Setting Up Your App For iCloud";
+			productReference = 9DA6E69E13F7F58F00DAFCCF /* Setting Up Your App For iCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DA6E69513F7F58F00DAFCCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = 9DA6E69813F7F58F00DAFCCF /* Build configuration list for PBXProject "Setting Up Your App For iCloud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9DA6E69313F7F58F00DAFCCF;
+			productRefGroup = 9DA6E69F13F7F58F00DAFCCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DA6E69D13F7F58F00DAFCCF /* Setting Up Your App For iCloud */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DA6E69C13F7F58F00DAFCCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA6E6AB13F7F59000DAFCCF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DA6E69A13F7F58F00DAFCCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA6E6AD13F7F59000DAFCCF /* main.m in Sources */,
+				9DA6E6B113F7F59000DAFCCF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DA6E6A913F7F59000DAFCCF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DA6E6AA13F7F59000DAFCCF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DA6E6B213F7F59000DAFCCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DA6E6B313F7F59000DAFCCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DA6E6B513F7F59000DAFCCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Setting Up Your App For iCloud/Setting Up Your App For iCloud.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vandad Nahavandipoor (J54K6K24Z3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vandad Nahavandipoor (J54K6K24Z3)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Setting Up Your App For iCloud/Setting Up Your App For iCloud-Prefix.pch";
+				INFOPLIST_FILE = "Setting Up Your App For iCloud/Setting Up Your App For iCloud-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5EC0C993-8467-435C-84DC-3D1875F485FF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5EC0C993-8467-435C-84DC-3D1875F485FF";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9DA6E6B613F7F59000DAFCCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Setting Up Your App For iCloud/Setting Up Your App For iCloud.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Pixolity Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Pixolity Ltd.";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Setting Up Your App For iCloud/Setting Up Your App For iCloud-Prefix.pch";
+				INFOPLIST_FILE = "Setting Up Your App For iCloud/Setting Up Your App For iCloud-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B0F01585-EC24-4C81-BEE9-8DDA249B15B9";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B0F01585-EC24-4C81-BEE9-8DDA249B15B9";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DA6E69813F7F58F00DAFCCF /* Build configuration list for PBXProject "Setting Up Your App For iCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA6E6B213F7F59000DAFCCF /* Debug */,
+				9DA6E6B313F7F59000DAFCCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DA6E6B413F7F59000DAFCCF /* Build configuration list for PBXNativeTarget "Setting Up Your App For iCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA6E6B513F7F59000DAFCCF /* Debug */,
+				9DA6E6B613F7F59000DAFCCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DA6E69513F7F58F00DAFCCF /* Project object */;
+}

@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6F016F413D9602400E83909 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F016F313D9602400E83909 /* UIKit.framework */; };
+		A6F016F613D9602400E83909 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F016F513D9602400E83909 /* Foundation.framework */; };
+		A6F016F813D9602400E83909 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F016F713D9602400E83909 /* CoreGraphics.framework */; };
+		A6F016FE13D9602400E83909 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6F016FC13D9602400E83909 /* InfoPlist.strings */; };
+		A6F0170013D9602400E83909 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F016FF13D9602400E83909 /* main.m */; };
+		A6F0170413D9602400E83909 /* Taking_Videos_with_the_CameraAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F0170313D9602400E83909 /* Taking_Videos_with_the_CameraAppDelegate.m */; };
+		A6F0170713D9602400E83909 /* Taking_Videos_with_the_CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F0170613D9602400E83909 /* Taking_Videos_with_the_CameraViewController.m */; };
+		A6F0170A13D9602400E83909 /* Taking_Videos_with_the_CameraViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6F0170813D9602400E83909 /* Taking_Videos_with_the_CameraViewController_iPhone.xib */; };
+		A6F0170D13D9602400E83909 /* Taking_Videos_with_the_CameraViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6F0170B13D9602400E83909 /* Taking_Videos_with_the_CameraViewController_iPad.xib */; };
+		A6F0171E13D9603300E83909 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F0171D13D9603300E83909 /* MobileCoreServices.framework */; };
+		A6F0172113D9603700E83909 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F0172013D9603700E83909 /* AssetsLibrary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6F016EF13D9602400E83909 /* Taking Videos with the Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taking Videos with the Camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F016F313D9602400E83909 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6F016F513D9602400E83909 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6F016F713D9602400E83909 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6F016FB13D9602400E83909 /* Taking Videos with the Camera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Taking Videos with the Camera-Info.plist"; sourceTree = "<group>"; };
+		A6F016FD13D9602400E83909 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6F016FF13D9602400E83909 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6F0170113D9602400E83909 /* Taking Videos with the Camera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Taking Videos with the Camera-Prefix.pch"; sourceTree = "<group>"; };
+		A6F0170213D9602400E83909 /* Taking_Videos_with_the_CameraAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Taking_Videos_with_the_CameraAppDelegate.h; sourceTree = "<group>"; };
+		A6F0170313D9602400E83909 /* Taking_Videos_with_the_CameraAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Taking_Videos_with_the_CameraAppDelegate.m; sourceTree = "<group>"; };
+		A6F0170513D9602400E83909 /* Taking_Videos_with_the_CameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Taking_Videos_with_the_CameraViewController.h; sourceTree = "<group>"; };
+		A6F0170613D9602400E83909 /* Taking_Videos_with_the_CameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Taking_Videos_with_the_CameraViewController.m; sourceTree = "<group>"; };
+		A6F0170913D9602400E83909 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Taking_Videos_with_the_CameraViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6F0170C13D9602400E83909 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Taking_Videos_with_the_CameraViewController_iPad.xib; sourceTree = "<group>"; };
+		A6F0171D13D9603300E83909 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A6F0172013D9603700E83909 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6F016EC13D9602400E83909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F0172113D9603700E83909 /* AssetsLibrary.framework in Frameworks */,
+				A6F0171E13D9603300E83909 /* MobileCoreServices.framework in Frameworks */,
+				A6F016F413D9602400E83909 /* UIKit.framework in Frameworks */,
+				A6F016F613D9602400E83909 /* Foundation.framework in Frameworks */,
+				A6F016F813D9602400E83909 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6F016E413D9602400E83909 = {
+			isa = PBXGroup;
+			children = (
+				A6F016F913D9602400E83909 /* Taking Videos with the Camera */,
+				A6F016F213D9602400E83909 /* Frameworks */,
+				A6F016F013D9602400E83909 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6F016F013D9602400E83909 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6F016EF13D9602400E83909 /* Taking Videos with the Camera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6F016F213D9602400E83909 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0172013D9603700E83909 /* AssetsLibrary.framework */,
+				A6F0171D13D9603300E83909 /* MobileCoreServices.framework */,
+				A6F016F313D9602400E83909 /* UIKit.framework */,
+				A6F016F513D9602400E83909 /* Foundation.framework */,
+				A6F016F713D9602400E83909 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6F016F913D9602400E83909 /* Taking Videos with the Camera */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0170213D9602400E83909 /* Taking_Videos_with_the_CameraAppDelegate.h */,
+				A6F0170313D9602400E83909 /* Taking_Videos_with_the_CameraAppDelegate.m */,
+				A6F0170513D9602400E83909 /* Taking_Videos_with_the_CameraViewController.h */,
+				A6F0170613D9602400E83909 /* Taking_Videos_with_the_CameraViewController.m */,
+				A6F0170813D9602400E83909 /* Taking_Videos_with_the_CameraViewController_iPhone.xib */,
+				A6F0170B13D9602400E83909 /* Taking_Videos_with_the_CameraViewController_iPad.xib */,
+				A6F016FA13D9602400E83909 /* Supporting Files */,
+			);
+			path = "Taking Videos with the Camera";
+			sourceTree = "<group>";
+		};
+		A6F016FA13D9602400E83909 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6F016FB13D9602400E83909 /* Taking Videos with the Camera-Info.plist */,
+				A6F016FC13D9602400E83909 /* InfoPlist.strings */,
+				A6F016FF13D9602400E83909 /* main.m */,
+				A6F0170113D9602400E83909 /* Taking Videos with the Camera-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6F016EE13D9602400E83909 /* Taking Videos with the Camera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6F0171013D9602400E83909 /* Build configuration list for PBXNativeTarget "Taking Videos with the Camera" */;
+			buildPhases = (
+				A6F016EB13D9602400E83909 /* Sources */,
+				A6F016EC13D9602400E83909 /* Frameworks */,
+				A6F016ED13D9602400E83909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Taking Videos with the Camera";
+			productName = "Taking Videos with the Camera";
+			productReference = A6F016EF13D9602400E83909 /* Taking Videos with the Camera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6F016E613D9602400E83909 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6F016E913D9602400E83909 /* Build configuration list for PBXProject "Taking Videos with the Camera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6F016E413D9602400E83909;
+			productRefGroup = A6F016F013D9602400E83909 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6F016EE13D9602400E83909 /* Taking Videos with the Camera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6F016ED13D9602400E83909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F016FE13D9602400E83909 /* InfoPlist.strings in Resources */,
+				A6F0170A13D9602400E83909 /* Taking_Videos_with_the_CameraViewController_iPhone.xib in Resources */,
+				A6F0170D13D9602400E83909 /* Taking_Videos_with_the_CameraViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6F016EB13D9602400E83909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F0170013D9602400E83909 /* main.m in Sources */,
+				A6F0170413D9602400E83909 /* Taking_Videos_with_the_CameraAppDelegate.m in Sources */,
+				A6F0170713D9602400E83909 /* Taking_Videos_with_the_CameraViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6F016FC13D9602400E83909 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F016FD13D9602400E83909 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6F0170813D9602400E83909 /* Taking_Videos_with_the_CameraViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F0170913D9602400E83909 /* en */,
+			);
+			name = Taking_Videos_with_the_CameraViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6F0170B13D9602400E83909 /* Taking_Videos_with_the_CameraViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F0170C13D9602400E83909 /* en */,
+			);
+			name = Taking_Videos_with_the_CameraViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6F0170E13D9602400E83909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6F0170F13D9602400E83909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6F0171113D9602400E83909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Taking Videos with the Camera/Taking Videos with the Camera-Prefix.pch";
+				INFOPLIST_FILE = "Taking Videos with the Camera/Taking Videos with the Camera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6F0171213D9602400E83909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Taking Videos with the Camera/Taking Videos with the Camera-Prefix.pch";
+				INFOPLIST_FILE = "Taking Videos with the Camera/Taking Videos with the Camera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6F016E913D9602400E83909 /* Build configuration list for PBXProject "Taking Videos with the Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F0170E13D9602400E83909 /* Debug */,
+				A6F0170F13D9602400E83909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F0171013D9602400E83909 /* Build configuration list for PBXNativeTarget "Taking Videos with the Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F0171113D9602400E83909 /* Debug */,
+				A6F0171213D9602400E83909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6F016E613D9602400E83909 /* Project object */;
+}

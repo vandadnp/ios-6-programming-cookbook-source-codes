@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6E9E8FF13D70BA200DA309F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E9E8FE13D70BA200DA309F /* UIKit.framework */; };
+		A6E9E90113D70BA200DA309F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E9E90013D70BA200DA309F /* Foundation.framework */; };
+		A6E9E90313D70BA200DA309F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E9E90213D70BA200DA309F /* CoreGraphics.framework */; };
+		A6E9E90913D70BA200DA309F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6E9E90713D70BA200DA309F /* InfoPlist.strings */; };
+		A6E9E90B13D70BA200DA309F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E9E90A13D70BA200DA309F /* main.m */; };
+		A6E9E90F13D70BA300DA309F /* Detecting_the_Availability_of_MultitaskingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E9E90E13D70BA300DA309F /* Detecting_the_Availability_of_MultitaskingAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6E9E8FA13D70BA200DA309F /* Detecting the Availability of Multitasking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Detecting the Availability of Multitasking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E9E8FE13D70BA200DA309F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6E9E90013D70BA200DA309F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6E9E90213D70BA200DA309F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6E9E90613D70BA200DA309F /* Detecting the Availability of Multitasking-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Detecting the Availability of Multitasking-Info.plist"; sourceTree = "<group>"; };
+		A6E9E90813D70BA200DA309F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6E9E90A13D70BA200DA309F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6E9E90C13D70BA200DA309F /* Detecting the Availability of Multitasking-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Detecting the Availability of Multitasking-Prefix.pch"; sourceTree = "<group>"; };
+		A6E9E90D13D70BA300DA309F /* Detecting_the_Availability_of_MultitaskingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Detecting_the_Availability_of_MultitaskingAppDelegate.h; sourceTree = "<group>"; };
+		A6E9E90E13D70BA300DA309F /* Detecting_the_Availability_of_MultitaskingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Detecting_the_Availability_of_MultitaskingAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6E9E8F713D70BA200DA309F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E9E8FF13D70BA200DA309F /* UIKit.framework in Frameworks */,
+				A6E9E90113D70BA200DA309F /* Foundation.framework in Frameworks */,
+				A6E9E90313D70BA200DA309F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6E9E8EF13D70BA200DA309F = {
+			isa = PBXGroup;
+			children = (
+				A6E9E90413D70BA200DA309F /* Detecting the Availability of Multitasking */,
+				A6E9E8FD13D70BA200DA309F /* Frameworks */,
+				A6E9E8FB13D70BA200DA309F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6E9E8FB13D70BA200DA309F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6E9E8FA13D70BA200DA309F /* Detecting the Availability of Multitasking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6E9E8FD13D70BA200DA309F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6E9E8FE13D70BA200DA309F /* UIKit.framework */,
+				A6E9E90013D70BA200DA309F /* Foundation.framework */,
+				A6E9E90213D70BA200DA309F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6E9E90413D70BA200DA309F /* Detecting the Availability of Multitasking */ = {
+			isa = PBXGroup;
+			children = (
+				A6E9E90D13D70BA300DA309F /* Detecting_the_Availability_of_MultitaskingAppDelegate.h */,
+				A6E9E90E13D70BA300DA309F /* Detecting_the_Availability_of_MultitaskingAppDelegate.m */,
+				A6E9E90513D70BA200DA309F /* Supporting Files */,
+			);
+			path = "Detecting the Availability of Multitasking";
+			sourceTree = "<group>";
+		};
+		A6E9E90513D70BA200DA309F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6E9E90613D70BA200DA309F /* Detecting the Availability of Multitasking-Info.plist */,
+				A6E9E90713D70BA200DA309F /* InfoPlist.strings */,
+				A6E9E90A13D70BA200DA309F /* main.m */,
+				A6E9E90C13D70BA200DA309F /* Detecting the Availability of Multitasking-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6E9E8F913D70BA200DA309F /* Detecting the Availability of Multitasking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6E9E91213D70BA300DA309F /* Build configuration list for PBXNativeTarget "Detecting the Availability of Multitasking" */;
+			buildPhases = (
+				A6E9E8F613D70BA200DA309F /* Sources */,
+				A6E9E8F713D70BA200DA309F /* Frameworks */,
+				A6E9E8F813D70BA200DA309F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Detecting the Availability of Multitasking";
+			productName = "Detecting the Availability of Multitasking";
+			productReference = A6E9E8FA13D70BA200DA309F /* Detecting the Availability of Multitasking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6E9E8F113D70BA200DA309F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6E9E8F413D70BA200DA309F /* Build configuration list for PBXProject "Detecting the Availability of Multitasking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6E9E8EF13D70BA200DA309F;
+			productRefGroup = A6E9E8FB13D70BA200DA309F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6E9E8F913D70BA200DA309F /* Detecting the Availability of Multitasking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6E9E8F813D70BA200DA309F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E9E90913D70BA200DA309F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6E9E8F613D70BA200DA309F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E9E90B13D70BA200DA309F /* main.m in Sources */,
+				A6E9E90F13D70BA300DA309F /* Detecting_the_Availability_of_MultitaskingAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6E9E90713D70BA200DA309F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6E9E90813D70BA200DA309F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6E9E91013D70BA300DA309F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6E9E91113D70BA300DA309F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6E9E91313D70BA300DA309F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Detecting the Availability of Multitasking/Detecting the Availability of Multitasking-Prefix.pch";
+				INFOPLIST_FILE = "Detecting the Availability of Multitasking/Detecting the Availability of Multitasking-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6E9E91413D70BA300DA309F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Detecting the Availability of Multitasking/Detecting the Availability of Multitasking-Prefix.pch";
+				INFOPLIST_FILE = "Detecting the Availability of Multitasking/Detecting the Availability of Multitasking-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6E9E8F413D70BA200DA309F /* Build configuration list for PBXProject "Detecting the Availability of Multitasking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E9E91013D70BA300DA309F /* Debug */,
+				A6E9E91113D70BA300DA309F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6E9E91213D70BA300DA309F /* Build configuration list for PBXNativeTarget "Detecting the Availability of Multitasking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E9E91313D70BA300DA309F /* Debug */,
+				A6E9E91413D70BA300DA309F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6E9E8F113D70BA200DA309F /* Project object */;
+}

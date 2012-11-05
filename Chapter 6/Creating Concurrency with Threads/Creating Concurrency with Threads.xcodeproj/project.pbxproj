@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6C2BE0413CED76600415BB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C2BE0313CED76600415BB1 /* UIKit.framework */; };
+		A6C2BE0613CED76600415BB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C2BE0513CED76600415BB1 /* Foundation.framework */; };
+		A6C2BE0813CED76600415BB1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C2BE0713CED76600415BB1 /* CoreGraphics.framework */; };
+		A6C2BE0E13CED76600415BB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6C2BE0C13CED76600415BB1 /* InfoPlist.strings */; };
+		A6C2BE1013CED76600415BB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2BE0F13CED76600415BB1 /* main.m */; };
+		A6C2BE1413CED76600415BB1 /* Creating_Concurrency_with_ThreadsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2BE1313CED76600415BB1 /* Creating_Concurrency_with_ThreadsAppDelegate.m */; };
+		A6C2BE2613CEDB1700415BB1 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2BE2513CEDB1700415BB1 /* RootViewController.m */; };
+		A6C2BE2913CEDC4000415BB1 /* AnImage.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C2BE2813CEDC4000415BB1 /* AnImage.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6C2BDFF13CED76600415BB1 /* Creating Concurrency with Threads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Creating Concurrency with Threads.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C2BE0313CED76600415BB1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6C2BE0513CED76600415BB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6C2BE0713CED76600415BB1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6C2BE0B13CED76600415BB1 /* Creating Concurrency with Threads-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Creating Concurrency with Threads-Info.plist"; sourceTree = "<group>"; };
+		A6C2BE0D13CED76600415BB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6C2BE0F13CED76600415BB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6C2BE1113CED76600415BB1 /* Creating Concurrency with Threads-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Creating Concurrency with Threads-Prefix.pch"; sourceTree = "<group>"; };
+		A6C2BE1213CED76600415BB1 /* Creating_Concurrency_with_ThreadsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Creating_Concurrency_with_ThreadsAppDelegate.h; sourceTree = "<group>"; };
+		A6C2BE1313CED76600415BB1 /* Creating_Concurrency_with_ThreadsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Creating_Concurrency_with_ThreadsAppDelegate.m; sourceTree = "<group>"; };
+		A6C2BE2413CEDB1700415BB1 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A6C2BE2513CEDB1700415BB1 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A6C2BE2813CEDC4000415BB1 /* AnImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AnImage.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6C2BDFC13CED76600415BB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C2BE0413CED76600415BB1 /* UIKit.framework in Frameworks */,
+				A6C2BE0613CED76600415BB1 /* Foundation.framework in Frameworks */,
+				A6C2BE0813CED76600415BB1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6C2BDF413CED76600415BB1 = {
+			isa = PBXGroup;
+			children = (
+				A6C2BE0913CED76600415BB1 /* Creating Concurrency with Threads */,
+				A6C2BE0213CED76600415BB1 /* Frameworks */,
+				A6C2BE0013CED76600415BB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6C2BE0013CED76600415BB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6C2BDFF13CED76600415BB1 /* Creating Concurrency with Threads.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6C2BE0213CED76600415BB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6C2BE0313CED76600415BB1 /* UIKit.framework */,
+				A6C2BE0513CED76600415BB1 /* Foundation.framework */,
+				A6C2BE0713CED76600415BB1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6C2BE0913CED76600415BB1 /* Creating Concurrency with Threads */ = {
+			isa = PBXGroup;
+			children = (
+				A6C2BE1213CED76600415BB1 /* Creating_Concurrency_with_ThreadsAppDelegate.h */,
+				A6C2BE1313CED76600415BB1 /* Creating_Concurrency_with_ThreadsAppDelegate.m */,
+				A6C2BE2413CEDB1700415BB1 /* RootViewController.h */,
+				A6C2BE2513CEDB1700415BB1 /* RootViewController.m */,
+				A6C2BE0A13CED76600415BB1 /* Supporting Files */,
+			);
+			path = "Creating Concurrency with Threads";
+			sourceTree = "<group>";
+		};
+		A6C2BE0A13CED76600415BB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6C2BE2813CEDC4000415BB1 /* AnImage.png */,
+				A6C2BE0B13CED76600415BB1 /* Creating Concurrency with Threads-Info.plist */,
+				A6C2BE0C13CED76600415BB1 /* InfoPlist.strings */,
+				A6C2BE0F13CED76600415BB1 /* main.m */,
+				A6C2BE1113CED76600415BB1 /* Creating Concurrency with Threads-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6C2BDFE13CED76600415BB1 /* Creating Concurrency with Threads */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C2BE1713CED76600415BB1 /* Build configuration list for PBXNativeTarget "Creating Concurrency with Threads" */;
+			buildPhases = (
+				A6C2BDFB13CED76600415BB1 /* Sources */,
+				A6C2BDFC13CED76600415BB1 /* Frameworks */,
+				A6C2BDFD13CED76600415BB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Creating Concurrency with Threads";
+			productName = "Creating Concurrency with Threads";
+			productReference = A6C2BDFF13CED76600415BB1 /* Creating Concurrency with Threads.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6C2BDF613CED76600415BB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6C2BDF913CED76600415BB1 /* Build configuration list for PBXProject "Creating Concurrency with Threads" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6C2BDF413CED76600415BB1;
+			productRefGroup = A6C2BE0013CED76600415BB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6C2BDFE13CED76600415BB1 /* Creating Concurrency with Threads */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6C2BDFD13CED76600415BB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C2BE0E13CED76600415BB1 /* InfoPlist.strings in Resources */,
+				A6C2BE2913CEDC4000415BB1 /* AnImage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6C2BDFB13CED76600415BB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C2BE1013CED76600415BB1 /* main.m in Sources */,
+				A6C2BE1413CED76600415BB1 /* Creating_Concurrency_with_ThreadsAppDelegate.m in Sources */,
+				A6C2BE2613CEDB1700415BB1 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6C2BE0C13CED76600415BB1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C2BE0D13CED76600415BB1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6C2BE1513CED76600415BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6C2BE1613CED76600415BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6C2BE1813CED76600415BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Creating Concurrency with Threads/Creating Concurrency with Threads-Prefix.pch";
+				INFOPLIST_FILE = "Creating Concurrency with Threads/Creating Concurrency with Threads-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6C2BE1913CED76600415BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Creating Concurrency with Threads/Creating Concurrency with Threads-Prefix.pch";
+				INFOPLIST_FILE = "Creating Concurrency with Threads/Creating Concurrency with Threads-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6C2BDF913CED76600415BB1 /* Build configuration list for PBXProject "Creating Concurrency with Threads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C2BE1513CED76600415BB1 /* Debug */,
+				A6C2BE1613CED76600415BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C2BE1713CED76600415BB1 /* Build configuration list for PBXNativeTarget "Creating Concurrency with Threads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C2BE1813CED76600415BB1 /* Debug */,
+				A6C2BE1913CED76600415BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6C2BDF613CED76600415BB1 /* Project object */;
+}

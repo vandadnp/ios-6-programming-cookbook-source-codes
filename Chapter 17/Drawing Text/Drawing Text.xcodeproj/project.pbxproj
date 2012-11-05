@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6F3C04013D2D98A0019FDB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F3C03F13D2D98A0019FDB0 /* UIKit.framework */; };
+		A6F3C04213D2D98A0019FDB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F3C04113D2D98A0019FDB0 /* Foundation.framework */; };
+		A6F3C04413D2D98A0019FDB0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F3C04313D2D98A0019FDB0 /* CoreGraphics.framework */; };
+		A6F3C04A13D2D98A0019FDB0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6F3C04813D2D98A0019FDB0 /* InfoPlist.strings */; };
+		A6F3C04C13D2D98A0019FDB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F3C04B13D2D98A0019FDB0 /* main.m */; };
+		A6F3C05013D2D98A0019FDB0 /* Drawing_TextAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F3C04F13D2D98A0019FDB0 /* Drawing_TextAppDelegate.m */; };
+		A6F3C05313D2D98A0019FDB0 /* Drawing_TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F3C05213D2D98A0019FDB0 /* Drawing_TextViewController.m */; };
+		A6F3C05613D2D98A0019FDB0 /* Drawing_TextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6F3C05413D2D98A0019FDB0 /* Drawing_TextViewController.xib */; };
+		A6F3C06813D2D9D30019FDB0 /* GraphicsViewControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F3C06713D2D9D30019FDB0 /* GraphicsViewControllerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6F3C03B13D2D98A0019FDB0 /* Drawing Text.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drawing Text.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F3C03F13D2D98A0019FDB0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6F3C04113D2D98A0019FDB0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6F3C04313D2D98A0019FDB0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6F3C04713D2D98A0019FDB0 /* Drawing Text-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drawing Text-Info.plist"; sourceTree = "<group>"; };
+		A6F3C04913D2D98A0019FDB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6F3C04B13D2D98A0019FDB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6F3C04D13D2D98A0019FDB0 /* Drawing Text-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Drawing Text-Prefix.pch"; sourceTree = "<group>"; };
+		A6F3C04E13D2D98A0019FDB0 /* Drawing_TextAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Drawing_TextAppDelegate.h; sourceTree = "<group>"; };
+		A6F3C04F13D2D98A0019FDB0 /* Drawing_TextAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drawing_TextAppDelegate.m; sourceTree = "<group>"; };
+		A6F3C05113D2D98A0019FDB0 /* Drawing_TextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Drawing_TextViewController.h; sourceTree = "<group>"; };
+		A6F3C05213D2D98A0019FDB0 /* Drawing_TextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drawing_TextViewController.m; sourceTree = "<group>"; };
+		A6F3C05513D2D98A0019FDB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Drawing_TextViewController.xib; sourceTree = "<group>"; };
+		A6F3C06613D2D9D30019FDB0 /* GraphicsViewControllerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsViewControllerView.h; sourceTree = "<group>"; };
+		A6F3C06713D2D9D30019FDB0 /* GraphicsViewControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsViewControllerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6F3C03813D2D98A0019FDB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F3C04013D2D98A0019FDB0 /* UIKit.framework in Frameworks */,
+				A6F3C04213D2D98A0019FDB0 /* Foundation.framework in Frameworks */,
+				A6F3C04413D2D98A0019FDB0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6F3C03013D2D98A0019FDB0 = {
+			isa = PBXGroup;
+			children = (
+				A6F3C04513D2D98A0019FDB0 /* Drawing Text */,
+				A6F3C03E13D2D98A0019FDB0 /* Frameworks */,
+				A6F3C03C13D2D98A0019FDB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6F3C03C13D2D98A0019FDB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6F3C03B13D2D98A0019FDB0 /* Drawing Text.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6F3C03E13D2D98A0019FDB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6F3C03F13D2D98A0019FDB0 /* UIKit.framework */,
+				A6F3C04113D2D98A0019FDB0 /* Foundation.framework */,
+				A6F3C04313D2D98A0019FDB0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6F3C04513D2D98A0019FDB0 /* Drawing Text */ = {
+			isa = PBXGroup;
+			children = (
+				A6F3C04E13D2D98A0019FDB0 /* Drawing_TextAppDelegate.h */,
+				A6F3C04F13D2D98A0019FDB0 /* Drawing_TextAppDelegate.m */,
+				A6F3C05113D2D98A0019FDB0 /* Drawing_TextViewController.h */,
+				A6F3C05213D2D98A0019FDB0 /* Drawing_TextViewController.m */,
+				A6F3C05413D2D98A0019FDB0 /* Drawing_TextViewController.xib */,
+				A6F3C04613D2D98A0019FDB0 /* Supporting Files */,
+				A6F3C06613D2D9D30019FDB0 /* GraphicsViewControllerView.h */,
+				A6F3C06713D2D9D30019FDB0 /* GraphicsViewControllerView.m */,
+			);
+			path = "Drawing Text";
+			sourceTree = "<group>";
+		};
+		A6F3C04613D2D98A0019FDB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6F3C04713D2D98A0019FDB0 /* Drawing Text-Info.plist */,
+				A6F3C04813D2D98A0019FDB0 /* InfoPlist.strings */,
+				A6F3C04B13D2D98A0019FDB0 /* main.m */,
+				A6F3C04D13D2D98A0019FDB0 /* Drawing Text-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6F3C03A13D2D98A0019FDB0 /* Drawing Text */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6F3C05913D2D98A0019FDB0 /* Build configuration list for PBXNativeTarget "Drawing Text" */;
+			buildPhases = (
+				A6F3C03713D2D98A0019FDB0 /* Sources */,
+				A6F3C03813D2D98A0019FDB0 /* Frameworks */,
+				A6F3C03913D2D98A0019FDB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Drawing Text";
+			productName = "Drawing Text";
+			productReference = A6F3C03B13D2D98A0019FDB0 /* Drawing Text.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6F3C03213D2D98A0019FDB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6F3C03513D2D98A0019FDB0 /* Build configuration list for PBXProject "Drawing Text" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6F3C03013D2D98A0019FDB0;
+			productRefGroup = A6F3C03C13D2D98A0019FDB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6F3C03A13D2D98A0019FDB0 /* Drawing Text */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6F3C03913D2D98A0019FDB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F3C04A13D2D98A0019FDB0 /* InfoPlist.strings in Resources */,
+				A6F3C05613D2D98A0019FDB0 /* Drawing_TextViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6F3C03713D2D98A0019FDB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F3C04C13D2D98A0019FDB0 /* main.m in Sources */,
+				A6F3C05013D2D98A0019FDB0 /* Drawing_TextAppDelegate.m in Sources */,
+				A6F3C05313D2D98A0019FDB0 /* Drawing_TextViewController.m in Sources */,
+				A6F3C06813D2D9D30019FDB0 /* GraphicsViewControllerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6F3C04813D2D98A0019FDB0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F3C04913D2D98A0019FDB0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6F3C05413D2D98A0019FDB0 /* Drawing_TextViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F3C05513D2D98A0019FDB0 /* en */,
+			);
+			name = Drawing_TextViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6F3C05713D2D98A0019FDB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6F3C05813D2D98A0019FDB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6F3C05A13D2D98A0019FDB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drawing Text/Drawing Text-Prefix.pch";
+				INFOPLIST_FILE = "Drawing Text/Drawing Text-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6F3C05B13D2D98A0019FDB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drawing Text/Drawing Text-Prefix.pch";
+				INFOPLIST_FILE = "Drawing Text/Drawing Text-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6F3C03513D2D98A0019FDB0 /* Build configuration list for PBXProject "Drawing Text" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F3C05713D2D98A0019FDB0 /* Debug */,
+				A6F3C05813D2D98A0019FDB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F3C05913D2D98A0019FDB0 /* Build configuration list for PBXNativeTarget "Drawing Text" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F3C05A13D2D98A0019FDB0 /* Debug */,
+				A6F3C05B13D2D98A0019FDB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6F3C03213D2D98A0019FDB0 /* Project object */;
+}

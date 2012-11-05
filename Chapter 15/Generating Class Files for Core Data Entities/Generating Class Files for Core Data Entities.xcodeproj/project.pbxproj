@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A60C9F6D13DADACE0098CED2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A60C9F6C13DADACE0098CED2 /* UIKit.framework */; };
+		A60C9F6F13DADACE0098CED2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A60C9F6E13DADACE0098CED2 /* Foundation.framework */; };
+		A60C9F7113DADACE0098CED2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A60C9F7013DADACE0098CED2 /* CoreGraphics.framework */; };
+		A60C9F7313DADACE0098CED2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A60C9F7213DADACE0098CED2 /* CoreData.framework */; };
+		A60C9F7913DADACE0098CED2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A60C9F7713DADACE0098CED2 /* InfoPlist.strings */; };
+		A60C9F7B13DADACE0098CED2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A60C9F7A13DADACE0098CED2 /* main.m */; };
+		A60C9F7F13DADACE0098CED2 /* Generating_Class_Files_for_Core_Data_EntitiesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A60C9F7E13DADACE0098CED2 /* Generating_Class_Files_for_Core_Data_EntitiesAppDelegate.m */; };
+		A60C9F8213DADACE0098CED2 /* Generating_Class_Files_for_Core_Data_Entities.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A60C9F8013DADACE0098CED2 /* Generating_Class_Files_for_Core_Data_Entities.xcdatamodeld */; };
+		A60C9F9813DADB7B0098CED2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A60C9F9713DADB7A0098CED2 /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A60C9F6813DADACE0098CED2 /* Generating Class Files for Core Data Entities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Generating Class Files for Core Data Entities.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60C9F6C13DADACE0098CED2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A60C9F6E13DADACE0098CED2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A60C9F7013DADACE0098CED2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A60C9F7213DADACE0098CED2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A60C9F7613DADACE0098CED2 /* Generating Class Files for Core Data Entities-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Generating Class Files for Core Data Entities-Info.plist"; sourceTree = "<group>"; };
+		A60C9F7813DADACE0098CED2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A60C9F7A13DADACE0098CED2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A60C9F7C13DADACE0098CED2 /* Generating Class Files for Core Data Entities-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Generating Class Files for Core Data Entities-Prefix.pch"; sourceTree = "<group>"; };
+		A60C9F7D13DADACE0098CED2 /* Generating_Class_Files_for_Core_Data_EntitiesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Generating_Class_Files_for_Core_Data_EntitiesAppDelegate.h; sourceTree = "<group>"; };
+		A60C9F7E13DADACE0098CED2 /* Generating_Class_Files_for_Core_Data_EntitiesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Generating_Class_Files_for_Core_Data_EntitiesAppDelegate.m; sourceTree = "<group>"; };
+		A60C9F8113DADACE0098CED2 /* Generating_Class_Files_for_Core_Data_Entities.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Generating_Class_Files_for_Core_Data_Entities.xcdatamodel; sourceTree = "<group>"; };
+		A60C9F9613DADB7A0098CED2 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A60C9F9713DADB7A0098CED2 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A60C9F6513DADACE0098CED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60C9F6D13DADACE0098CED2 /* UIKit.framework in Frameworks */,
+				A60C9F6F13DADACE0098CED2 /* Foundation.framework in Frameworks */,
+				A60C9F7113DADACE0098CED2 /* CoreGraphics.framework in Frameworks */,
+				A60C9F7313DADACE0098CED2 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A60C9F5D13DADACE0098CED2 = {
+			isa = PBXGroup;
+			children = (
+				A60C9F7413DADACE0098CED2 /* Generating Class Files for Core Data Entities */,
+				A60C9F6B13DADACE0098CED2 /* Frameworks */,
+				A60C9F6913DADACE0098CED2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A60C9F6913DADACE0098CED2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A60C9F6813DADACE0098CED2 /* Generating Class Files for Core Data Entities.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A60C9F6B13DADACE0098CED2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A60C9F6C13DADACE0098CED2 /* UIKit.framework */,
+				A60C9F6E13DADACE0098CED2 /* Foundation.framework */,
+				A60C9F7013DADACE0098CED2 /* CoreGraphics.framework */,
+				A60C9F7213DADACE0098CED2 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A60C9F7413DADACE0098CED2 /* Generating Class Files for Core Data Entities */ = {
+			isa = PBXGroup;
+			children = (
+				A60C9F7D13DADACE0098CED2 /* Generating_Class_Files_for_Core_Data_EntitiesAppDelegate.h */,
+				A60C9F7E13DADACE0098CED2 /* Generating_Class_Files_for_Core_Data_EntitiesAppDelegate.m */,
+				A60C9F8013DADACE0098CED2 /* Generating_Class_Files_for_Core_Data_Entities.xcdatamodeld */,
+				A60C9F9613DADB7A0098CED2 /* Person.h */,
+				A60C9F9713DADB7A0098CED2 /* Person.m */,
+				A60C9F7513DADACE0098CED2 /* Supporting Files */,
+			);
+			path = "Generating Class Files for Core Data Entities";
+			sourceTree = "<group>";
+		};
+		A60C9F7513DADACE0098CED2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A60C9F7613DADACE0098CED2 /* Generating Class Files for Core Data Entities-Info.plist */,
+				A60C9F7713DADACE0098CED2 /* InfoPlist.strings */,
+				A60C9F7A13DADACE0098CED2 /* main.m */,
+				A60C9F7C13DADACE0098CED2 /* Generating Class Files for Core Data Entities-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A60C9F6713DADACE0098CED2 /* Generating Class Files for Core Data Entities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60C9F8513DADACE0098CED2 /* Build configuration list for PBXNativeTarget "Generating Class Files for Core Data Entities" */;
+			buildPhases = (
+				A60C9F6413DADACE0098CED2 /* Sources */,
+				A60C9F6513DADACE0098CED2 /* Frameworks */,
+				A60C9F6613DADACE0098CED2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Generating Class Files for Core Data Entities";
+			productName = "Generating Class Files for Core Data Entities";
+			productReference = A60C9F6813DADACE0098CED2 /* Generating Class Files for Core Data Entities.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A60C9F5F13DADACE0098CED2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A60C9F6213DADACE0098CED2 /* Build configuration list for PBXProject "Generating Class Files for Core Data Entities" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A60C9F5D13DADACE0098CED2;
+			productRefGroup = A60C9F6913DADACE0098CED2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A60C9F6713DADACE0098CED2 /* Generating Class Files for Core Data Entities */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A60C9F6613DADACE0098CED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60C9F7913DADACE0098CED2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A60C9F6413DADACE0098CED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60C9F7B13DADACE0098CED2 /* main.m in Sources */,
+				A60C9F7F13DADACE0098CED2 /* Generating_Class_Files_for_Core_Data_EntitiesAppDelegate.m in Sources */,
+				A60C9F8213DADACE0098CED2 /* Generating_Class_Files_for_Core_Data_Entities.xcdatamodeld in Sources */,
+				A60C9F9813DADB7B0098CED2 /* Person.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A60C9F7713DADACE0098CED2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A60C9F7813DADACE0098CED2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A60C9F8313DADACE0098CED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A60C9F8413DADACE0098CED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A60C9F8613DADACE0098CED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Generating Class Files for Core Data Entities/Generating Class Files for Core Data Entities-Prefix.pch";
+				INFOPLIST_FILE = "Generating Class Files for Core Data Entities/Generating Class Files for Core Data Entities-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A60C9F8713DADACE0098CED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Generating Class Files for Core Data Entities/Generating Class Files for Core Data Entities-Prefix.pch";
+				INFOPLIST_FILE = "Generating Class Files for Core Data Entities/Generating Class Files for Core Data Entities-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A60C9F6213DADACE0098CED2 /* Build configuration list for PBXProject "Generating Class Files for Core Data Entities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60C9F8313DADACE0098CED2 /* Debug */,
+				A60C9F8413DADACE0098CED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A60C9F8513DADACE0098CED2 /* Build configuration list for PBXNativeTarget "Generating Class Files for Core Data Entities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60C9F8613DADACE0098CED2 /* Debug */,
+				A60C9F8713DADACE0098CED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A60C9F8013DADACE0098CED2 /* Generating_Class_Files_for_Core_Data_Entities.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A60C9F8113DADACE0098CED2 /* Generating_Class_Files_for_Core_Data_Entities.xcdatamodel */,
+			);
+			currentVersion = A60C9F8113DADACE0098CED2 /* Generating_Class_Files_for_Core_Data_Entities.xcdatamodel */;
+			path = Generating_Class_Files_for_Core_Data_Entities.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A60C9F5F13DADACE0098CED2 /* Project object */;
+}

@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A616B44713D9A04D00327BFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A616B44613D9A04D00327BFC /* UIKit.framework */; };
+		A616B44913D9A04D00327BFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A616B44813D9A04D00327BFC /* Foundation.framework */; };
+		A616B44B13D9A04D00327BFC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A616B44A13D9A04D00327BFC /* CoreGraphics.framework */; };
+		A616B45113D9A04D00327BFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A616B44F13D9A04D00327BFC /* InfoPlist.strings */; };
+		A616B45313D9A04D00327BFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A616B45213D9A04D00327BFC /* main.m */; };
+		A616B45713D9A04D00327BFC /* Detecting_the_Availability_of_a_GyroscopeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A616B45613D9A04D00327BFC /* Detecting_the_Availability_of_a_GyroscopeAppDelegate.m */; };
+		A616B46C13D9A07D00327BFC /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A616B46B13D9A07D00327BFC /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A616B44213D9A04D00327BFC /* Detecting the Availability of a Gyroscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Detecting the Availability of a Gyroscope.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A616B44613D9A04D00327BFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A616B44813D9A04D00327BFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A616B44A13D9A04D00327BFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A616B44E13D9A04D00327BFC /* Detecting the Availability of a Gyroscope-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Detecting the Availability of a Gyroscope-Info.plist"; sourceTree = "<group>"; };
+		A616B45013D9A04D00327BFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A616B45213D9A04D00327BFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A616B45413D9A04D00327BFC /* Detecting the Availability of a Gyroscope-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Detecting the Availability of a Gyroscope-Prefix.pch"; sourceTree = "<group>"; };
+		A616B45513D9A04D00327BFC /* Detecting_the_Availability_of_a_GyroscopeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Detecting_the_Availability_of_a_GyroscopeAppDelegate.h; sourceTree = "<group>"; };
+		A616B45613D9A04D00327BFC /* Detecting_the_Availability_of_a_GyroscopeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Detecting_the_Availability_of_a_GyroscopeAppDelegate.m; sourceTree = "<group>"; };
+		A616B46B13D9A07D00327BFC /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A616B43F13D9A04D00327BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A616B46C13D9A07D00327BFC /* CoreMotion.framework in Frameworks */,
+				A616B44713D9A04D00327BFC /* UIKit.framework in Frameworks */,
+				A616B44913D9A04D00327BFC /* Foundation.framework in Frameworks */,
+				A616B44B13D9A04D00327BFC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A616B43713D9A04D00327BFC = {
+			isa = PBXGroup;
+			children = (
+				A616B44C13D9A04D00327BFC /* Detecting the Availability of a Gyroscope */,
+				A616B44513D9A04D00327BFC /* Frameworks */,
+				A616B44313D9A04D00327BFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A616B44313D9A04D00327BFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A616B44213D9A04D00327BFC /* Detecting the Availability of a Gyroscope.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A616B44513D9A04D00327BFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A616B46B13D9A07D00327BFC /* CoreMotion.framework */,
+				A616B44613D9A04D00327BFC /* UIKit.framework */,
+				A616B44813D9A04D00327BFC /* Foundation.framework */,
+				A616B44A13D9A04D00327BFC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A616B44C13D9A04D00327BFC /* Detecting the Availability of a Gyroscope */ = {
+			isa = PBXGroup;
+			children = (
+				A616B45513D9A04D00327BFC /* Detecting_the_Availability_of_a_GyroscopeAppDelegate.h */,
+				A616B45613D9A04D00327BFC /* Detecting_the_Availability_of_a_GyroscopeAppDelegate.m */,
+				A616B44D13D9A04D00327BFC /* Supporting Files */,
+			);
+			path = "Detecting the Availability of a Gyroscope";
+			sourceTree = "<group>";
+		};
+		A616B44D13D9A04D00327BFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A616B44E13D9A04D00327BFC /* Detecting the Availability of a Gyroscope-Info.plist */,
+				A616B44F13D9A04D00327BFC /* InfoPlist.strings */,
+				A616B45213D9A04D00327BFC /* main.m */,
+				A616B45413D9A04D00327BFC /* Detecting the Availability of a Gyroscope-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A616B44113D9A04D00327BFC /* Detecting the Availability of a Gyroscope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A616B45A13D9A04D00327BFC /* Build configuration list for PBXNativeTarget "Detecting the Availability of a Gyroscope" */;
+			buildPhases = (
+				A616B43E13D9A04D00327BFC /* Sources */,
+				A616B43F13D9A04D00327BFC /* Frameworks */,
+				A616B44013D9A04D00327BFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Detecting the Availability of a Gyroscope";
+			productName = "Detecting the Availability of a Gyroscope";
+			productReference = A616B44213D9A04D00327BFC /* Detecting the Availability of a Gyroscope.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A616B43913D9A04D00327BFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A616B43C13D9A04D00327BFC /* Build configuration list for PBXProject "Detecting the Availability of a Gyroscope" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A616B43713D9A04D00327BFC;
+			productRefGroup = A616B44313D9A04D00327BFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A616B44113D9A04D00327BFC /* Detecting the Availability of a Gyroscope */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A616B44013D9A04D00327BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A616B45113D9A04D00327BFC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A616B43E13D9A04D00327BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A616B45313D9A04D00327BFC /* main.m in Sources */,
+				A616B45713D9A04D00327BFC /* Detecting_the_Availability_of_a_GyroscopeAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A616B44F13D9A04D00327BFC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A616B45013D9A04D00327BFC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A616B45813D9A04D00327BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A616B45913D9A04D00327BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A616B45B13D9A04D00327BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Detecting the Availability of a Gyroscope/Detecting the Availability of a Gyroscope-Prefix.pch";
+				INFOPLIST_FILE = "Detecting the Availability of a Gyroscope/Detecting the Availability of a Gyroscope-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A616B45C13D9A04D00327BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Detecting the Availability of a Gyroscope/Detecting the Availability of a Gyroscope-Prefix.pch";
+				INFOPLIST_FILE = "Detecting the Availability of a Gyroscope/Detecting the Availability of a Gyroscope-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A616B43C13D9A04D00327BFC /* Build configuration list for PBXProject "Detecting the Availability of a Gyroscope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A616B45813D9A04D00327BFC /* Debug */,
+				A616B45913D9A04D00327BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A616B45A13D9A04D00327BFC /* Build configuration list for PBXNativeTarget "Detecting the Availability of a Gyroscope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A616B45B13D9A04D00327BFC /* Debug */,
+				A616B45C13D9A04D00327BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A616B43913D9A04D00327BFC /* Project object */;
+}

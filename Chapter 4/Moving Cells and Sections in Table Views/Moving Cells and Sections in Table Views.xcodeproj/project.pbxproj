@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A66259EE13EEA486005C3804 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66259ED13EEA486005C3804 /* UIKit.framework */; };
+		A66259F013EEA486005C3804 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66259EF13EEA486005C3804 /* Foundation.framework */; };
+		A66259F213EEA486005C3804 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66259F113EEA486005C3804 /* CoreGraphics.framework */; };
+		A66259F813EEA486005C3804 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A66259F613EEA486005C3804 /* InfoPlist.strings */; };
+		A66259FA13EEA486005C3804 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A66259F913EEA486005C3804 /* main.m */; };
+		A66259FE13EEA486005C3804 /* Moving_Cells_and_Sections_in_Table_ViewsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A66259FD13EEA486005C3804 /* Moving_Cells_and_Sections_in_Table_ViewsAppDelegate.m */; };
+		A6625A0113EEA486005C3804 /* Moving_Cells_and_Sections_in_Table_ViewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6625A0013EEA486005C3804 /* Moving_Cells_and_Sections_in_Table_ViewsViewController.m */; };
+		A6625A0413EEA486005C3804 /* Moving_Cells_and_Sections_in_Table_ViewsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6625A0213EEA486005C3804 /* Moving_Cells_and_Sections_in_Table_ViewsViewController_iPhone.xib */; };
+		A6625A0713EEA486005C3804 /* Moving_Cells_and_Sections_in_Table_ViewsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6625A0513EEA486005C3804 /* Moving_Cells_and_Sections_in_Table_ViewsViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A66259E913EEA486005C3804 /* Moving Cells and Sections in Table Views.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moving Cells and Sections in Table Views.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A66259ED13EEA486005C3804 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A66259EF13EEA486005C3804 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A66259F113EEA486005C3804 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A66259F513EEA486005C3804 /* Moving Cells and Sections in Table Views-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Moving Cells and Sections in Table Views-Info.plist"; sourceTree = "<group>"; };
+		A66259F713EEA486005C3804 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A66259F913EEA486005C3804 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A66259FB13EEA486005C3804 /* Moving Cells and Sections in Table Views-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Moving Cells and Sections in Table Views-Prefix.pch"; sourceTree = "<group>"; };
+		A66259FC13EEA486005C3804 /* Moving_Cells_and_Sections_in_Table_ViewsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Moving_Cells_and_Sections_in_Table_ViewsAppDelegate.h; sourceTree = "<group>"; };
+		A66259FD13EEA486005C3804 /* Moving_Cells_and_Sections_in_Table_ViewsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Moving_Cells_and_Sections_in_Table_ViewsAppDelegate.m; sourceTree = "<group>"; };
+		A66259FF13EEA486005C3804 /* Moving_Cells_and_Sections_in_Table_ViewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Moving_Cells_and_Sections_in_Table_ViewsViewController.h; sourceTree = "<group>"; };
+		A6625A0013EEA486005C3804 /* Moving_Cells_and_Sections_in_Table_ViewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Moving_Cells_and_Sections_in_Table_ViewsViewController.m; sourceTree = "<group>"; };
+		A6625A0313EEA486005C3804 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Moving_Cells_and_Sections_in_Table_ViewsViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6625A0613EEA486005C3804 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Moving_Cells_and_Sections_in_Table_ViewsViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A66259E613EEA486005C3804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66259EE13EEA486005C3804 /* UIKit.framework in Frameworks */,
+				A66259F013EEA486005C3804 /* Foundation.framework in Frameworks */,
+				A66259F213EEA486005C3804 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A66259DE13EEA486005C3804 = {
+			isa = PBXGroup;
+			children = (
+				A66259F313EEA486005C3804 /* Moving Cells and Sections in Table Views */,
+				A66259EC13EEA486005C3804 /* Frameworks */,
+				A66259EA13EEA486005C3804 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A66259EA13EEA486005C3804 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A66259E913EEA486005C3804 /* Moving Cells and Sections in Table Views.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A66259EC13EEA486005C3804 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A66259ED13EEA486005C3804 /* UIKit.framework */,
+				A66259EF13EEA486005C3804 /* Foundation.framework */,
+				A66259F113EEA486005C3804 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A66259F313EEA486005C3804 /* Moving Cells and Sections in Table Views */ = {
+			isa = PBXGroup;
+			children = (
+				A66259FC13EEA486005C3804 /* Moving_Cells_and_Sections_in_Table_ViewsAppDelegate.h */,
+				A66259FD13EEA486005C3804 /* Moving_Cells_and_Sections_in_Table_ViewsAppDelegate.m */,
+				A66259FF13EEA486005C3804 /* Moving_Cells_and_Sections_in_Table_ViewsViewController.h */,
+				A6625A0013EEA486005C3804 /* Moving_Cells_and_Sections_in_Table_ViewsViewController.m */,
+				A6625A0213EEA486005C3804 /* Moving_Cells_and_Sections_in_Table_ViewsViewController_iPhone.xib */,
+				A6625A0513EEA486005C3804 /* Moving_Cells_and_Sections_in_Table_ViewsViewController_iPad.xib */,
+				A66259F413EEA486005C3804 /* Supporting Files */,
+			);
+			path = "Moving Cells and Sections in Table Views";
+			sourceTree = "<group>";
+		};
+		A66259F413EEA486005C3804 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A66259F513EEA486005C3804 /* Moving Cells and Sections in Table Views-Info.plist */,
+				A66259F613EEA486005C3804 /* InfoPlist.strings */,
+				A66259F913EEA486005C3804 /* main.m */,
+				A66259FB13EEA486005C3804 /* Moving Cells and Sections in Table Views-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A66259E813EEA486005C3804 /* Moving Cells and Sections in Table Views */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6625A0A13EEA486005C3804 /* Build configuration list for PBXNativeTarget "Moving Cells and Sections in Table Views" */;
+			buildPhases = (
+				A66259E513EEA486005C3804 /* Sources */,
+				A66259E613EEA486005C3804 /* Frameworks */,
+				A66259E713EEA486005C3804 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Moving Cells and Sections in Table Views";
+			productName = "Moving Cells and Sections in Table Views";
+			productReference = A66259E913EEA486005C3804 /* Moving Cells and Sections in Table Views.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A66259E013EEA486005C3804 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A66259E313EEA486005C3804 /* Build configuration list for PBXProject "Moving Cells and Sections in Table Views" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A66259DE13EEA486005C3804;
+			productRefGroup = A66259EA13EEA486005C3804 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A66259E813EEA486005C3804 /* Moving Cells and Sections in Table Views */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A66259E713EEA486005C3804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66259F813EEA486005C3804 /* InfoPlist.strings in Resources */,
+				A6625A0413EEA486005C3804 /* Moving_Cells_and_Sections_in_Table_ViewsViewController_iPhone.xib in Resources */,
+				A6625A0713EEA486005C3804 /* Moving_Cells_and_Sections_in_Table_ViewsViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A66259E513EEA486005C3804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66259FA13EEA486005C3804 /* main.m in Sources */,
+				A66259FE13EEA486005C3804 /* Moving_Cells_and_Sections_in_Table_ViewsAppDelegate.m in Sources */,
+				A6625A0113EEA486005C3804 /* Moving_Cells_and_Sections_in_Table_ViewsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A66259F613EEA486005C3804 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A66259F713EEA486005C3804 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6625A0213EEA486005C3804 /* Moving_Cells_and_Sections_in_Table_ViewsViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6625A0313EEA486005C3804 /* en */,
+			);
+			name = Moving_Cells_and_Sections_in_Table_ViewsViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6625A0513EEA486005C3804 /* Moving_Cells_and_Sections_in_Table_ViewsViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6625A0613EEA486005C3804 /* en */,
+			);
+			name = Moving_Cells_and_Sections_in_Table_ViewsViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6625A0813EEA486005C3804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6625A0913EEA486005C3804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6625A0B13EEA486005C3804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Moving Cells and Sections in Table Views/Moving Cells and Sections in Table Views-Prefix.pch";
+				INFOPLIST_FILE = "Moving Cells and Sections in Table Views/Moving Cells and Sections in Table Views-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6625A0C13EEA486005C3804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Moving Cells and Sections in Table Views/Moving Cells and Sections in Table Views-Prefix.pch";
+				INFOPLIST_FILE = "Moving Cells and Sections in Table Views/Moving Cells and Sections in Table Views-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A66259E313EEA486005C3804 /* Build configuration list for PBXProject "Moving Cells and Sections in Table Views" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6625A0813EEA486005C3804 /* Debug */,
+				A6625A0913EEA486005C3804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6625A0A13EEA486005C3804 /* Build configuration list for PBXNativeTarget "Moving Cells and Sections in Table Views" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6625A0B13EEA486005C3804 /* Debug */,
+				A6625A0C13EEA486005C3804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A66259E013EEA486005C3804 /* Project object */;
+}

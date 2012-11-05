@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A61016C413DBF36D00B705B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61016C313DBF36D00B705B5 /* UIKit.framework */; };
+		A61016C613DBF36D00B705B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61016C513DBF36D00B705B5 /* Foundation.framework */; };
+		A61016C813DBF36D00B705B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61016C713DBF36D00B705B5 /* CoreGraphics.framework */; };
+		A61016CE13DBF36D00B705B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A61016CC13DBF36D00B705B5 /* InfoPlist.strings */; };
+		A61016D013DBF36D00B705B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A61016CF13DBF36D00B705B5 /* main.m */; };
+		A61016D413DBF36D00B705B5 /* Removing_Events_from_CalendarsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A61016D313DBF36D00B705B5 /* Removing_Events_from_CalendarsAppDelegate.m */; };
+		A61016E613DBF37F00B705B5 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61016E413DBF37F00B705B5 /* EventKit.framework */; };
+		A61016E713DBF37F00B705B5 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61016E513DBF37F00B705B5 /* EventKitUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A61016BF13DBF36D00B705B5 /* Removing Events from Calendars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Removing Events from Calendars.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61016C313DBF36D00B705B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A61016C513DBF36D00B705B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A61016C713DBF36D00B705B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A61016CB13DBF36D00B705B5 /* Removing Events from Calendars-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Removing Events from Calendars-Info.plist"; sourceTree = "<group>"; };
+		A61016CD13DBF36D00B705B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A61016CF13DBF36D00B705B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A61016D113DBF36D00B705B5 /* Removing Events from Calendars-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Removing Events from Calendars-Prefix.pch"; sourceTree = "<group>"; };
+		A61016D213DBF36D00B705B5 /* Removing_Events_from_CalendarsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Removing_Events_from_CalendarsAppDelegate.h; sourceTree = "<group>"; };
+		A61016D313DBF36D00B705B5 /* Removing_Events_from_CalendarsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Removing_Events_from_CalendarsAppDelegate.m; sourceTree = "<group>"; };
+		A61016E413DBF37F00B705B5 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		A61016E513DBF37F00B705B5 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A61016BC13DBF36D00B705B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61016E613DBF37F00B705B5 /* EventKit.framework in Frameworks */,
+				A61016E713DBF37F00B705B5 /* EventKitUI.framework in Frameworks */,
+				A61016C413DBF36D00B705B5 /* UIKit.framework in Frameworks */,
+				A61016C613DBF36D00B705B5 /* Foundation.framework in Frameworks */,
+				A61016C813DBF36D00B705B5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A61016B413DBF36D00B705B5 = {
+			isa = PBXGroup;
+			children = (
+				A61016C913DBF36D00B705B5 /* Removing Events from Calendars */,
+				A61016C213DBF36D00B705B5 /* Frameworks */,
+				A61016C013DBF36D00B705B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A61016C013DBF36D00B705B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A61016BF13DBF36D00B705B5 /* Removing Events from Calendars.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A61016C213DBF36D00B705B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A61016E413DBF37F00B705B5 /* EventKit.framework */,
+				A61016E513DBF37F00B705B5 /* EventKitUI.framework */,
+				A61016C313DBF36D00B705B5 /* UIKit.framework */,
+				A61016C513DBF36D00B705B5 /* Foundation.framework */,
+				A61016C713DBF36D00B705B5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A61016C913DBF36D00B705B5 /* Removing Events from Calendars */ = {
+			isa = PBXGroup;
+			children = (
+				A61016D213DBF36D00B705B5 /* Removing_Events_from_CalendarsAppDelegate.h */,
+				A61016D313DBF36D00B705B5 /* Removing_Events_from_CalendarsAppDelegate.m */,
+				A61016CA13DBF36D00B705B5 /* Supporting Files */,
+			);
+			path = "Removing Events from Calendars";
+			sourceTree = "<group>";
+		};
+		A61016CA13DBF36D00B705B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A61016CB13DBF36D00B705B5 /* Removing Events from Calendars-Info.plist */,
+				A61016CC13DBF36D00B705B5 /* InfoPlist.strings */,
+				A61016CF13DBF36D00B705B5 /* main.m */,
+				A61016D113DBF36D00B705B5 /* Removing Events from Calendars-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A61016BE13DBF36D00B705B5 /* Removing Events from Calendars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A61016D713DBF36D00B705B5 /* Build configuration list for PBXNativeTarget "Removing Events from Calendars" */;
+			buildPhases = (
+				A61016BB13DBF36D00B705B5 /* Sources */,
+				A61016BC13DBF36D00B705B5 /* Frameworks */,
+				A61016BD13DBF36D00B705B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Removing Events from Calendars";
+			productName = "Removing Events from Calendars";
+			productReference = A61016BF13DBF36D00B705B5 /* Removing Events from Calendars.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A61016B613DBF36D00B705B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A61016B913DBF36D00B705B5 /* Build configuration list for PBXProject "Removing Events from Calendars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A61016B413DBF36D00B705B5;
+			productRefGroup = A61016C013DBF36D00B705B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A61016BE13DBF36D00B705B5 /* Removing Events from Calendars */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A61016BD13DBF36D00B705B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61016CE13DBF36D00B705B5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A61016BB13DBF36D00B705B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61016D013DBF36D00B705B5 /* main.m in Sources */,
+				A61016D413DBF36D00B705B5 /* Removing_Events_from_CalendarsAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A61016CC13DBF36D00B705B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A61016CD13DBF36D00B705B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A61016D513DBF36D00B705B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A61016D613DBF36D00B705B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A61016D813DBF36D00B705B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Removing Events from Calendars/Removing Events from Calendars-Prefix.pch";
+				INFOPLIST_FILE = "Removing Events from Calendars/Removing Events from Calendars-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A61016D913DBF36D00B705B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Removing Events from Calendars/Removing Events from Calendars-Prefix.pch";
+				INFOPLIST_FILE = "Removing Events from Calendars/Removing Events from Calendars-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A61016B913DBF36D00B705B5 /* Build configuration list for PBXProject "Removing Events from Calendars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61016D513DBF36D00B705B5 /* Debug */,
+				A61016D613DBF36D00B705B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A61016D713DBF36D00B705B5 /* Build configuration list for PBXNativeTarget "Removing Events from Calendars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61016D813DBF36D00B705B5 /* Debug */,
+				A61016D913DBF36D00B705B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A61016B613DBF36D00B705B5 /* Project object */;
+}

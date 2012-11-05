@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6C6577B13D743E6000CEE9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C6577A13D743E6000CEE9C /* UIKit.framework */; };
+		A6C6577D13D743E6000CEE9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C6577C13D743E6000CEE9C /* Foundation.framework */; };
+		A6C6577F13D743E6000CEE9C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C6577E13D743E6000CEE9C /* CoreGraphics.framework */; };
+		A6C6578513D743E6000CEE9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6C6578313D743E6000CEE9C /* InfoPlist.strings */; };
+		A6C6578713D743E6000CEE9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C6578613D743E6000CEE9C /* main.m */; };
+		A6C6578B13D743E6000CEE9C /* Handling_Network_Connections_in_the_BackgroundAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C6578A13D743E6000CEE9C /* Handling_Network_Connections_in_the_BackgroundAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6C6577613D743E6000CEE9C /* Handling Network Connections in the Background.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Handling Network Connections in the Background.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C6577A13D743E6000CEE9C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6C6577C13D743E6000CEE9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6C6577E13D743E6000CEE9C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6C6578213D743E6000CEE9C /* Handling Network Connections in the Background-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Handling Network Connections in the Background-Info.plist"; sourceTree = "<group>"; };
+		A6C6578413D743E6000CEE9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6C6578613D743E6000CEE9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6C6578813D743E6000CEE9C /* Handling Network Connections in the Background-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Handling Network Connections in the Background-Prefix.pch"; sourceTree = "<group>"; };
+		A6C6578913D743E6000CEE9C /* Handling_Network_Connections_in_the_BackgroundAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Handling_Network_Connections_in_the_BackgroundAppDelegate.h; sourceTree = "<group>"; };
+		A6C6578A13D743E6000CEE9C /* Handling_Network_Connections_in_the_BackgroundAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Handling_Network_Connections_in_the_BackgroundAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6C6577313D743E6000CEE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C6577B13D743E6000CEE9C /* UIKit.framework in Frameworks */,
+				A6C6577D13D743E6000CEE9C /* Foundation.framework in Frameworks */,
+				A6C6577F13D743E6000CEE9C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6C6576B13D743E6000CEE9C = {
+			isa = PBXGroup;
+			children = (
+				A6C6578013D743E6000CEE9C /* Handling Network Connections in the Background */,
+				A6C6577913D743E6000CEE9C /* Frameworks */,
+				A6C6577713D743E6000CEE9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6C6577713D743E6000CEE9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6C6577613D743E6000CEE9C /* Handling Network Connections in the Background.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6C6577913D743E6000CEE9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6C6577A13D743E6000CEE9C /* UIKit.framework */,
+				A6C6577C13D743E6000CEE9C /* Foundation.framework */,
+				A6C6577E13D743E6000CEE9C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6C6578013D743E6000CEE9C /* Handling Network Connections in the Background */ = {
+			isa = PBXGroup;
+			children = (
+				A6C6578913D743E6000CEE9C /* Handling_Network_Connections_in_the_BackgroundAppDelegate.h */,
+				A6C6578A13D743E6000CEE9C /* Handling_Network_Connections_in_the_BackgroundAppDelegate.m */,
+				A6C6578113D743E6000CEE9C /* Supporting Files */,
+			);
+			path = "Handling Network Connections in the Background";
+			sourceTree = "<group>";
+		};
+		A6C6578113D743E6000CEE9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6C6578213D743E6000CEE9C /* Handling Network Connections in the Background-Info.plist */,
+				A6C6578313D743E6000CEE9C /* InfoPlist.strings */,
+				A6C6578613D743E6000CEE9C /* main.m */,
+				A6C6578813D743E6000CEE9C /* Handling Network Connections in the Background-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6C6577513D743E6000CEE9C /* Handling Network Connections in the Background */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C6578E13D743E6000CEE9C /* Build configuration list for PBXNativeTarget "Handling Network Connections in the Background" */;
+			buildPhases = (
+				A6C6577213D743E6000CEE9C /* Sources */,
+				A6C6577313D743E6000CEE9C /* Frameworks */,
+				A6C6577413D743E6000CEE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Handling Network Connections in the Background";
+			productName = "Handling Network Connections in the Background";
+			productReference = A6C6577613D743E6000CEE9C /* Handling Network Connections in the Background.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6C6576D13D743E6000CEE9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6C6577013D743E6000CEE9C /* Build configuration list for PBXProject "Handling Network Connections in the Background" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6C6576B13D743E6000CEE9C;
+			productRefGroup = A6C6577713D743E6000CEE9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6C6577513D743E6000CEE9C /* Handling Network Connections in the Background */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6C6577413D743E6000CEE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C6578513D743E6000CEE9C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6C6577213D743E6000CEE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C6578713D743E6000CEE9C /* main.m in Sources */,
+				A6C6578B13D743E6000CEE9C /* Handling_Network_Connections_in_the_BackgroundAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6C6578313D743E6000CEE9C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C6578413D743E6000CEE9C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6C6578C13D743E6000CEE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6C6578D13D743E6000CEE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6C6578F13D743E6000CEE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Handling Network Connections in the Background/Handling Network Connections in the Background-Prefix.pch";
+				INFOPLIST_FILE = "Handling Network Connections in the Background/Handling Network Connections in the Background-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6C6579013D743E6000CEE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Handling Network Connections in the Background/Handling Network Connections in the Background-Prefix.pch";
+				INFOPLIST_FILE = "Handling Network Connections in the Background/Handling Network Connections in the Background-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6C6577013D743E6000CEE9C /* Build configuration list for PBXProject "Handling Network Connections in the Background" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C6578C13D743E6000CEE9C /* Debug */,
+				A6C6578D13D743E6000CEE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C6578E13D743E6000CEE9C /* Build configuration list for PBXNativeTarget "Handling Network Connections in the Background" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C6578F13D743E6000CEE9C /* Debug */,
+				A6C6579013D743E6000CEE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6C6576D13D743E6000CEE9C /* Project object */;
+}

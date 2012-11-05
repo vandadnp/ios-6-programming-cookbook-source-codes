@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A680CBCD13C9DFE40092D0DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A680CBCC13C9DFE40092D0DE /* UIKit.framework */; };
+		A680CBCF13C9DFE40092D0DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A680CBCE13C9DFE40092D0DE /* Foundation.framework */; };
+		A680CBD113C9DFE40092D0DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A680CBD013C9DFE40092D0DE /* CoreGraphics.framework */; };
+		A680CBD713C9DFE40092D0DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A680CBD513C9DFE40092D0DE /* InfoPlist.strings */; };
+		A680CBD913C9DFE40092D0DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A680CBD813C9DFE40092D0DE /* main.m */; };
+		A680CBDD13C9DFE40092D0DE /* Creating_Scrollable_Content_with_UIScrollViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A680CBDC13C9DFE40092D0DE /* Creating_Scrollable_Content_with_UIScrollViewAppDelegate.m */; };
+		A680CBDF13C9DFE40092D0DE /* Creating_Scrollable_Content_with_UIScrollViewViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = A680CBDE13C9DFE40092D0DE /* Creating_Scrollable_Content_with_UIScrollViewViewController.h */; };
+		A680CBE113C9DFE40092D0DE /* Creating_Scrollable_Content_with_UIScrollViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A680CBE013C9DFE40092D0DE /* Creating_Scrollable_Content_with_UIScrollViewViewController.m */; };
+		A680CBE413C9DFE40092D0DE /* Creating_Scrollable_Content_with_UIScrollViewViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A680CBE213C9DFE40092D0DE /* Creating_Scrollable_Content_with_UIScrollViewViewController_iPhone.xib */; };
+		A680CBE713C9DFE50092D0DE /* Creating_Scrollable_Content_with_UIScrollViewViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A680CBE513C9DFE50092D0DE /* Creating_Scrollable_Content_with_UIScrollViewViewController_iPad.xib */; };
+		A680CBF813C9E00E0092D0DE /* MacBookAir.png in Resources */ = {isa = PBXBuildFile; fileRef = A680CBF713C9E00E0092D0DE /* MacBookAir.png */; };
+		A680CBFD13C9EEF30092D0DE /* iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = A680CBFB13C9EEF30092D0DE /* iPhone.png */; };
+		A680CBFE13C9EEF30092D0DE /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = A680CBFC13C9EEF30092D0DE /* iPad.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A680CBC813C9DFE40092D0DE /* Creating Scrollable Content with UIScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Creating Scrollable Content with UIScrollView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A680CBCC13C9DFE40092D0DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A680CBCE13C9DFE40092D0DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A680CBD013C9DFE40092D0DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A680CBD413C9DFE40092D0DE /* Creating Scrollable Content with UIScrollView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Creating Scrollable Content with UIScrollView-Info.plist"; sourceTree = "<group>"; };
+		A680CBD613C9DFE40092D0DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A680CBD813C9DFE40092D0DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A680CBDA13C9DFE40092D0DE /* Creating Scrollable Content with UIScrollView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Creating Scrollable Content with UIScrollView-Prefix.pch"; sourceTree = "<group>"; };
+		A680CBDB13C9DFE40092D0DE /* Creating_Scrollable_Content_with_UIScrollViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Creating_Scrollable_Content_with_UIScrollViewAppDelegate.h; sourceTree = "<group>"; };
+		A680CBDC13C9DFE40092D0DE /* Creating_Scrollable_Content_with_UIScrollViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Creating_Scrollable_Content_with_UIScrollViewAppDelegate.m; sourceTree = "<group>"; };
+		A680CBDE13C9DFE40092D0DE /* Creating_Scrollable_Content_with_UIScrollViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Creating_Scrollable_Content_with_UIScrollViewViewController.h; sourceTree = "<group>"; };
+		A680CBE013C9DFE40092D0DE /* Creating_Scrollable_Content_with_UIScrollViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Creating_Scrollable_Content_with_UIScrollViewViewController.m; sourceTree = "<group>"; };
+		A680CBE313C9DFE40092D0DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Creating_Scrollable_Content_with_UIScrollViewViewController_iPhone.xib; sourceTree = "<group>"; };
+		A680CBE613C9DFE50092D0DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Creating_Scrollable_Content_with_UIScrollViewViewController_iPad.xib; sourceTree = "<group>"; };
+		A680CBF713C9E00E0092D0DE /* MacBookAir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MacBookAir.png; sourceTree = "<group>"; };
+		A680CBFB13C9EEF30092D0DE /* iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone.png; sourceTree = "<group>"; };
+		A680CBFC13C9EEF30092D0DE /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPad.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A680CBC513C9DFE40092D0DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A680CBCD13C9DFE40092D0DE /* UIKit.framework in Frameworks */,
+				A680CBCF13C9DFE40092D0DE /* Foundation.framework in Frameworks */,
+				A680CBD113C9DFE40092D0DE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A680CBBD13C9DFE40092D0DE = {
+			isa = PBXGroup;
+			children = (
+				A680CBD213C9DFE40092D0DE /* Creating Scrollable Content with UIScrollView */,
+				A680CBCB13C9DFE40092D0DE /* Frameworks */,
+				A680CBC913C9DFE40092D0DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A680CBC913C9DFE40092D0DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A680CBC813C9DFE40092D0DE /* Creating Scrollable Content with UIScrollView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A680CBCB13C9DFE40092D0DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A680CBCC13C9DFE40092D0DE /* UIKit.framework */,
+				A680CBCE13C9DFE40092D0DE /* Foundation.framework */,
+				A680CBD013C9DFE40092D0DE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A680CBD213C9DFE40092D0DE /* Creating Scrollable Content with UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				A680CBDB13C9DFE40092D0DE /* Creating_Scrollable_Content_with_UIScrollViewAppDelegate.h */,
+				A680CBDC13C9DFE40092D0DE /* Creating_Scrollable_Content_with_UIScrollViewAppDelegate.m */,
+				A680CBDE13C9DFE40092D0DE /* Creating_Scrollable_Content_with_UIScrollViewViewController.h */,
+				A680CBE013C9DFE40092D0DE /* Creating_Scrollable_Content_with_UIScrollViewViewController.m */,
+				A680CBE213C9DFE40092D0DE /* Creating_Scrollable_Content_with_UIScrollViewViewController_iPhone.xib */,
+				A680CBE513C9DFE50092D0DE /* Creating_Scrollable_Content_with_UIScrollViewViewController_iPad.xib */,
+				A680CBD313C9DFE40092D0DE /* Supporting Files */,
+			);
+			path = "Creating Scrollable Content with UIScrollView";
+			sourceTree = "<group>";
+		};
+		A680CBD313C9DFE40092D0DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A680CBFB13C9EEF30092D0DE /* iPhone.png */,
+				A680CBFC13C9EEF30092D0DE /* iPad.png */,
+				A680CBF713C9E00E0092D0DE /* MacBookAir.png */,
+				A680CBD413C9DFE40092D0DE /* Creating Scrollable Content with UIScrollView-Info.plist */,
+				A680CBD513C9DFE40092D0DE /* InfoPlist.strings */,
+				A680CBD813C9DFE40092D0DE /* main.m */,
+				A680CBDA13C9DFE40092D0DE /* Creating Scrollable Content with UIScrollView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A680CBC713C9DFE40092D0DE /* Creating Scrollable Content with UIScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A680CBEA13C9DFE50092D0DE /* Build configuration list for PBXNativeTarget "Creating Scrollable Content with UIScrollView" */;
+			buildPhases = (
+				A680CBC413C9DFE40092D0DE /* Sources */,
+				A680CBC513C9DFE40092D0DE /* Frameworks */,
+				A680CBC613C9DFE40092D0DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Creating Scrollable Content with UIScrollView";
+			productName = "Creating Scrollable Content with UIScrollView";
+			productReference = A680CBC813C9DFE40092D0DE /* Creating Scrollable Content with UIScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A680CBBF13C9DFE40092D0DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A680CBC213C9DFE40092D0DE /* Build configuration list for PBXProject "Creating Scrollable Content with UIScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A680CBBD13C9DFE40092D0DE;
+			productRefGroup = A680CBC913C9DFE40092D0DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A680CBC713C9DFE40092D0DE /* Creating Scrollable Content with UIScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A680CBC613C9DFE40092D0DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A680CBD713C9DFE40092D0DE /* InfoPlist.strings in Resources */,
+				A680CBDF13C9DFE40092D0DE /* Creating_Scrollable_Content_with_UIScrollViewViewController.h in Resources */,
+				A680CBE413C9DFE40092D0DE /* Creating_Scrollable_Content_with_UIScrollViewViewController_iPhone.xib in Resources */,
+				A680CBE713C9DFE50092D0DE /* Creating_Scrollable_Content_with_UIScrollViewViewController_iPad.xib in Resources */,
+				A680CBF813C9E00E0092D0DE /* MacBookAir.png in Resources */,
+				A680CBFD13C9EEF30092D0DE /* iPhone.png in Resources */,
+				A680CBFE13C9EEF30092D0DE /* iPad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A680CBC413C9DFE40092D0DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A680CBD913C9DFE40092D0DE /* main.m in Sources */,
+				A680CBDD13C9DFE40092D0DE /* Creating_Scrollable_Content_with_UIScrollViewAppDelegate.m in Sources */,
+				A680CBE113C9DFE40092D0DE /* Creating_Scrollable_Content_with_UIScrollViewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A680CBD513C9DFE40092D0DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A680CBD613C9DFE40092D0DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A680CBE213C9DFE40092D0DE /* Creating_Scrollable_Content_with_UIScrollViewViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A680CBE313C9DFE40092D0DE /* en */,
+			);
+			name = Creating_Scrollable_Content_with_UIScrollViewViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A680CBE513C9DFE50092D0DE /* Creating_Scrollable_Content_with_UIScrollViewViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A680CBE613C9DFE50092D0DE /* en */,
+			);
+			name = Creating_Scrollable_Content_with_UIScrollViewViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A680CBE813C9DFE50092D0DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A680CBE913C9DFE50092D0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A680CBEB13C9DFE50092D0DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Creating Scrollable Content with UIScrollView/Creating Scrollable Content with UIScrollView-Prefix.pch";
+				INFOPLIST_FILE = "Creating Scrollable Content with UIScrollView/Creating Scrollable Content with UIScrollView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A680CBEC13C9DFE50092D0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Creating Scrollable Content with UIScrollView/Creating Scrollable Content with UIScrollView-Prefix.pch";
+				INFOPLIST_FILE = "Creating Scrollable Content with UIScrollView/Creating Scrollable Content with UIScrollView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A680CBC213C9DFE40092D0DE /* Build configuration list for PBXProject "Creating Scrollable Content with UIScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A680CBE813C9DFE50092D0DE /* Debug */,
+				A680CBE913C9DFE50092D0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A680CBEA13C9DFE50092D0DE /* Build configuration list for PBXNativeTarget "Creating Scrollable Content with UIScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A680CBEB13C9DFE50092D0DE /* Debug */,
+				A680CBEC13C9DFE50092D0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A680CBBF13C9DFE40092D0DE /* Project object */;
+}

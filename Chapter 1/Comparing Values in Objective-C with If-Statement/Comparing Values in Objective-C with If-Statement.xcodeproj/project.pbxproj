@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DAF99AC1403857A00AA9AAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DAF99AB1403857A00AA9AAD /* UIKit.framework */; };
+		9DAF99AE1403857A00AA9AAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DAF99AD1403857A00AA9AAD /* Foundation.framework */; };
+		9DAF99B41403857A00AA9AAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DAF99B21403857A00AA9AAD /* InfoPlist.strings */; };
+		9DAF99B61403857A00AA9AAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAF99B51403857A00AA9AAD /* main.m */; };
+		9DAF99BA1403857A00AA9AAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAF99B91403857A00AA9AAD /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9DAF99A71403857A00AA9AAD /* Comparing Values in Objective-C with If-Statement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Comparing Values in Objective-C with If-Statement.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DAF99AB1403857A00AA9AAD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9DAF99AD1403857A00AA9AAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9DAF99B11403857A00AA9AAD /* Comparing Values in Objective-C with If-Statement-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Comparing Values in Objective-C with If-Statement-Info.plist"; sourceTree = "<group>"; };
+		9DAF99B31403857A00AA9AAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9DAF99B51403857A00AA9AAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DAF99B71403857A00AA9AAD /* Comparing Values in Objective-C with If-Statement-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Comparing Values in Objective-C with If-Statement-Prefix.pch"; sourceTree = "<group>"; };
+		9DAF99B81403857A00AA9AAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9DAF99B91403857A00AA9AAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DAF99A41403857A00AA9AAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DAF99AC1403857A00AA9AAD /* UIKit.framework in Frameworks */,
+				9DAF99AE1403857A00AA9AAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DAF999C1403857A00AA9AAD = {
+			isa = PBXGroup;
+			children = (
+				9DAF99AF1403857A00AA9AAD /* Comparing Values in Objective-C with If-Statement */,
+				9DAF99AA1403857A00AA9AAD /* Frameworks */,
+				9DAF99A81403857A00AA9AAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DAF99A81403857A00AA9AAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DAF99A71403857A00AA9AAD /* Comparing Values in Objective-C with If-Statement.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DAF99AA1403857A00AA9AAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DAF99AB1403857A00AA9AAD /* UIKit.framework */,
+				9DAF99AD1403857A00AA9AAD /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DAF99AF1403857A00AA9AAD /* Comparing Values in Objective-C with If-Statement */ = {
+			isa = PBXGroup;
+			children = (
+				9DAF99B81403857A00AA9AAD /* AppDelegate.h */,
+				9DAF99B91403857A00AA9AAD /* AppDelegate.m */,
+				9DAF99B01403857A00AA9AAD /* Supporting Files */,
+			);
+			path = "Comparing Values in Objective-C with If-Statement";
+			sourceTree = "<group>";
+		};
+		9DAF99B01403857A00AA9AAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DAF99B11403857A00AA9AAD /* Comparing Values in Objective-C with If-Statement-Info.plist */,
+				9DAF99B21403857A00AA9AAD /* InfoPlist.strings */,
+				9DAF99B51403857A00AA9AAD /* main.m */,
+				9DAF99B71403857A00AA9AAD /* Comparing Values in Objective-C with If-Statement-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DAF99A61403857A00AA9AAD /* Comparing Values in Objective-C with If-Statement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DAF99BD1403857A00AA9AAD /* Build configuration list for PBXNativeTarget "Comparing Values in Objective-C with If-Statement" */;
+			buildPhases = (
+				9DAF99A31403857A00AA9AAD /* Sources */,
+				9DAF99A41403857A00AA9AAD /* Frameworks */,
+				9DAF99A51403857A00AA9AAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Comparing Values in Objective-C with If-Statement";
+			productName = "Comparing Values in Objective-C with If-Statement";
+			productReference = 9DAF99A71403857A00AA9AAD /* Comparing Values in Objective-C with If-Statement.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DAF999E1403857A00AA9AAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = 9DAF99A11403857A00AA9AAD /* Build configuration list for PBXProject "Comparing Values in Objective-C with If-Statement" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9DAF999C1403857A00AA9AAD;
+			productRefGroup = 9DAF99A81403857A00AA9AAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DAF99A61403857A00AA9AAD /* Comparing Values in Objective-C with If-Statement */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DAF99A51403857A00AA9AAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DAF99B41403857A00AA9AAD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DAF99A31403857A00AA9AAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DAF99B61403857A00AA9AAD /* main.m in Sources */,
+				9DAF99BA1403857A00AA9AAD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DAF99B21403857A00AA9AAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DAF99B31403857A00AA9AAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DAF99BB1403857A00AA9AAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DAF99BC1403857A00AA9AAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DAF99BE1403857A00AA9AAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Comparing Values in Objective-C with If-Statement/Comparing Values in Objective-C with If-Statement-Prefix.pch";
+				INFOPLIST_FILE = "Comparing Values in Objective-C with If-Statement/Comparing Values in Objective-C with If-Statement-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9DAF99BF1403857A00AA9AAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Comparing Values in Objective-C with If-Statement/Comparing Values in Objective-C with If-Statement-Prefix.pch";
+				INFOPLIST_FILE = "Comparing Values in Objective-C with If-Statement/Comparing Values in Objective-C with If-Statement-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DAF99A11403857A00AA9AAD /* Build configuration list for PBXProject "Comparing Values in Objective-C with If-Statement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DAF99BB1403857A00AA9AAD /* Debug */,
+				9DAF99BC1403857A00AA9AAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DAF99BD1403857A00AA9AAD /* Build configuration list for PBXNativeTarget "Comparing Values in Objective-C with If-Statement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DAF99BE1403857A00AA9AAD /* Debug */,
+				9DAF99BF1403857A00AA9AAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DAF999E1403857A00AA9AAD /* Project object */;
+}

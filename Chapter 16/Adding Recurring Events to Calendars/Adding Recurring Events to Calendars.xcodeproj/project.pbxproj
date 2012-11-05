@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A61016F913DBF98D00B705B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61016F813DBF98D00B705B5 /* UIKit.framework */; };
+		A61016FB13DBF98D00B705B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61016FA13DBF98D00B705B5 /* Foundation.framework */; };
+		A61016FD13DBF98D00B705B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61016FC13DBF98D00B705B5 /* CoreGraphics.framework */; };
+		A610170313DBF98D00B705B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A610170113DBF98D00B705B5 /* InfoPlist.strings */; };
+		A610170513DBF98D00B705B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A610170413DBF98D00B705B5 /* main.m */; };
+		A610170913DBF98D00B705B5 /* Adding_Recurring_Events_to_CalendarsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A610170813DBF98D00B705B5 /* Adding_Recurring_Events_to_CalendarsAppDelegate.m */; };
+		A610171B13DBFB3A00B705B5 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A610171913DBFB3A00B705B5 /* EventKit.framework */; };
+		A610171C13DBFB3A00B705B5 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A610171A13DBFB3A00B705B5 /* EventKitUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A61016F413DBF98D00B705B5 /* Adding Recurring Events to Calendars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adding Recurring Events to Calendars.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61016F813DBF98D00B705B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A61016FA13DBF98D00B705B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A61016FC13DBF98D00B705B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A610170013DBF98D00B705B5 /* Adding Recurring Events to Calendars-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Adding Recurring Events to Calendars-Info.plist"; sourceTree = "<group>"; };
+		A610170213DBF98D00B705B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A610170413DBF98D00B705B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A610170613DBF98D00B705B5 /* Adding Recurring Events to Calendars-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Adding Recurring Events to Calendars-Prefix.pch"; sourceTree = "<group>"; };
+		A610170713DBF98D00B705B5 /* Adding_Recurring_Events_to_CalendarsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adding_Recurring_Events_to_CalendarsAppDelegate.h; sourceTree = "<group>"; };
+		A610170813DBF98D00B705B5 /* Adding_Recurring_Events_to_CalendarsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Adding_Recurring_Events_to_CalendarsAppDelegate.m; sourceTree = "<group>"; };
+		A610171913DBFB3A00B705B5 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		A610171A13DBFB3A00B705B5 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A61016F113DBF98D00B705B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A610171B13DBFB3A00B705B5 /* EventKit.framework in Frameworks */,
+				A610171C13DBFB3A00B705B5 /* EventKitUI.framework in Frameworks */,
+				A61016F913DBF98D00B705B5 /* UIKit.framework in Frameworks */,
+				A61016FB13DBF98D00B705B5 /* Foundation.framework in Frameworks */,
+				A61016FD13DBF98D00B705B5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A61016E913DBF98D00B705B5 = {
+			isa = PBXGroup;
+			children = (
+				A61016FE13DBF98D00B705B5 /* Adding Recurring Events to Calendars */,
+				A61016F713DBF98D00B705B5 /* Frameworks */,
+				A61016F513DBF98D00B705B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A61016F513DBF98D00B705B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A61016F413DBF98D00B705B5 /* Adding Recurring Events to Calendars.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A61016F713DBF98D00B705B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A610171913DBFB3A00B705B5 /* EventKit.framework */,
+				A610171A13DBFB3A00B705B5 /* EventKitUI.framework */,
+				A61016F813DBF98D00B705B5 /* UIKit.framework */,
+				A61016FA13DBF98D00B705B5 /* Foundation.framework */,
+				A61016FC13DBF98D00B705B5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A61016FE13DBF98D00B705B5 /* Adding Recurring Events to Calendars */ = {
+			isa = PBXGroup;
+			children = (
+				A610170713DBF98D00B705B5 /* Adding_Recurring_Events_to_CalendarsAppDelegate.h */,
+				A610170813DBF98D00B705B5 /* Adding_Recurring_Events_to_CalendarsAppDelegate.m */,
+				A61016FF13DBF98D00B705B5 /* Supporting Files */,
+			);
+			path = "Adding Recurring Events to Calendars";
+			sourceTree = "<group>";
+		};
+		A61016FF13DBF98D00B705B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A610170013DBF98D00B705B5 /* Adding Recurring Events to Calendars-Info.plist */,
+				A610170113DBF98D00B705B5 /* InfoPlist.strings */,
+				A610170413DBF98D00B705B5 /* main.m */,
+				A610170613DBF98D00B705B5 /* Adding Recurring Events to Calendars-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A61016F313DBF98D00B705B5 /* Adding Recurring Events to Calendars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A610170C13DBF98D00B705B5 /* Build configuration list for PBXNativeTarget "Adding Recurring Events to Calendars" */;
+			buildPhases = (
+				A61016F013DBF98D00B705B5 /* Sources */,
+				A61016F113DBF98D00B705B5 /* Frameworks */,
+				A61016F213DBF98D00B705B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Adding Recurring Events to Calendars";
+			productName = "Adding Recurring Events to Calendars";
+			productReference = A61016F413DBF98D00B705B5 /* Adding Recurring Events to Calendars.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A61016EB13DBF98D00B705B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A61016EE13DBF98D00B705B5 /* Build configuration list for PBXProject "Adding Recurring Events to Calendars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A61016E913DBF98D00B705B5;
+			productRefGroup = A61016F513DBF98D00B705B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A61016F313DBF98D00B705B5 /* Adding Recurring Events to Calendars */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A61016F213DBF98D00B705B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A610170313DBF98D00B705B5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A61016F013DBF98D00B705B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A610170513DBF98D00B705B5 /* main.m in Sources */,
+				A610170913DBF98D00B705B5 /* Adding_Recurring_Events_to_CalendarsAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A610170113DBF98D00B705B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A610170213DBF98D00B705B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A610170A13DBF98D00B705B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A610170B13DBF98D00B705B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A610170D13DBF98D00B705B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adding Recurring Events to Calendars/Adding Recurring Events to Calendars-Prefix.pch";
+				INFOPLIST_FILE = "Adding Recurring Events to Calendars/Adding Recurring Events to Calendars-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A610170E13DBF98D00B705B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adding Recurring Events to Calendars/Adding Recurring Events to Calendars-Prefix.pch";
+				INFOPLIST_FILE = "Adding Recurring Events to Calendars/Adding Recurring Events to Calendars-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A61016EE13DBF98D00B705B5 /* Build configuration list for PBXProject "Adding Recurring Events to Calendars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A610170A13DBF98D00B705B5 /* Debug */,
+				A610170B13DBF98D00B705B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A610170C13DBF98D00B705B5 /* Build configuration list for PBXNativeTarget "Adding Recurring Events to Calendars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A610170D13DBF98D00B705B5 /* Debug */,
+				A610170E13DBF98D00B705B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A61016EB13DBF98D00B705B5 /* Project object */;
+}

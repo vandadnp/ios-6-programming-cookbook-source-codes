@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A63983C513CB0C9B000B6D75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63983C413CB0C9B000B6D75 /* UIKit.framework */; };
+		A63983C713CB0C9B000B6D75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63983C613CB0C9B000B6D75 /* Foundation.framework */; };
+		A63983C913CB0C9B000B6D75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63983C813CB0C9B000B6D75 /* CoreGraphics.framework */; };
+		A63983CF13CB0C9B000B6D75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A63983CD13CB0C9B000B6D75 /* InfoPlist.strings */; };
+		A63983D113CB0C9B000B6D75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A63983D013CB0C9B000B6D75 /* main.m */; };
+		A63983D513CB0C9B000B6D75 /* Assigning_a_Delegate_to_a_Table_ViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A63983D413CB0C9B000B6D75 /* Assigning_a_Delegate_to_a_Table_ViewAppDelegate.m */; };
+		A63983D713CB0C9C000B6D75 /* Assigning_a_Delegate_to_a_Table_ViewViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = A63983D613CB0C9B000B6D75 /* Assigning_a_Delegate_to_a_Table_ViewViewController.h */; };
+		A63983D913CB0C9C000B6D75 /* Assigning_a_Delegate_to_a_Table_ViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A63983D813CB0C9C000B6D75 /* Assigning_a_Delegate_to_a_Table_ViewViewController.m */; };
+		A63983DC13CB0C9C000B6D75 /* Assigning_a_Delegate_to_a_Table_ViewViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A63983DA13CB0C9C000B6D75 /* Assigning_a_Delegate_to_a_Table_ViewViewController_iPhone.xib */; };
+		A63983DF13CB0C9C000B6D75 /* Assigning_a_Delegate_to_a_Table_ViewViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A63983DD13CB0C9C000B6D75 /* Assigning_a_Delegate_to_a_Table_ViewViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A63983C013CB0C9B000B6D75 /* Assigning a Delegate to a Table View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assigning a Delegate to a Table View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A63983C413CB0C9B000B6D75 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A63983C613CB0C9B000B6D75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A63983C813CB0C9B000B6D75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A63983CC13CB0C9B000B6D75 /* Assigning a Delegate to a Table View-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Assigning a Delegate to a Table View-Info.plist"; sourceTree = "<group>"; };
+		A63983CE13CB0C9B000B6D75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A63983D013CB0C9B000B6D75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A63983D213CB0C9B000B6D75 /* Assigning a Delegate to a Table View-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Assigning a Delegate to a Table View-Prefix.pch"; sourceTree = "<group>"; };
+		A63983D313CB0C9B000B6D75 /* Assigning_a_Delegate_to_a_Table_ViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Assigning_a_Delegate_to_a_Table_ViewAppDelegate.h; sourceTree = "<group>"; };
+		A63983D413CB0C9B000B6D75 /* Assigning_a_Delegate_to_a_Table_ViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assigning_a_Delegate_to_a_Table_ViewAppDelegate.m; sourceTree = "<group>"; };
+		A63983D613CB0C9B000B6D75 /* Assigning_a_Delegate_to_a_Table_ViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Assigning_a_Delegate_to_a_Table_ViewViewController.h; sourceTree = "<group>"; };
+		A63983D813CB0C9C000B6D75 /* Assigning_a_Delegate_to_a_Table_ViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assigning_a_Delegate_to_a_Table_ViewViewController.m; sourceTree = "<group>"; };
+		A63983DB13CB0C9C000B6D75 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Assigning_a_Delegate_to_a_Table_ViewViewController_iPhone.xib; sourceTree = "<group>"; };
+		A63983DE13CB0C9C000B6D75 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Assigning_a_Delegate_to_a_Table_ViewViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A63983BD13CB0C9B000B6D75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63983C513CB0C9B000B6D75 /* UIKit.framework in Frameworks */,
+				A63983C713CB0C9B000B6D75 /* Foundation.framework in Frameworks */,
+				A63983C913CB0C9B000B6D75 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A63983B513CB0C9B000B6D75 = {
+			isa = PBXGroup;
+			children = (
+				A63983CA13CB0C9B000B6D75 /* Assigning a Delegate to a Table View */,
+				A63983C313CB0C9B000B6D75 /* Frameworks */,
+				A63983C113CB0C9B000B6D75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A63983C113CB0C9B000B6D75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A63983C013CB0C9B000B6D75 /* Assigning a Delegate to a Table View.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A63983C313CB0C9B000B6D75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A63983C413CB0C9B000B6D75 /* UIKit.framework */,
+				A63983C613CB0C9B000B6D75 /* Foundation.framework */,
+				A63983C813CB0C9B000B6D75 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A63983CA13CB0C9B000B6D75 /* Assigning a Delegate to a Table View */ = {
+			isa = PBXGroup;
+			children = (
+				A63983D313CB0C9B000B6D75 /* Assigning_a_Delegate_to_a_Table_ViewAppDelegate.h */,
+				A63983D413CB0C9B000B6D75 /* Assigning_a_Delegate_to_a_Table_ViewAppDelegate.m */,
+				A63983D613CB0C9B000B6D75 /* Assigning_a_Delegate_to_a_Table_ViewViewController.h */,
+				A63983D813CB0C9C000B6D75 /* Assigning_a_Delegate_to_a_Table_ViewViewController.m */,
+				A63983DA13CB0C9C000B6D75 /* Assigning_a_Delegate_to_a_Table_ViewViewController_iPhone.xib */,
+				A63983DD13CB0C9C000B6D75 /* Assigning_a_Delegate_to_a_Table_ViewViewController_iPad.xib */,
+				A63983CB13CB0C9B000B6D75 /* Supporting Files */,
+			);
+			path = "Assigning a Delegate to a Table View";
+			sourceTree = "<group>";
+		};
+		A63983CB13CB0C9B000B6D75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A63983CC13CB0C9B000B6D75 /* Assigning a Delegate to a Table View-Info.plist */,
+				A63983CD13CB0C9B000B6D75 /* InfoPlist.strings */,
+				A63983D013CB0C9B000B6D75 /* main.m */,
+				A63983D213CB0C9B000B6D75 /* Assigning a Delegate to a Table View-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A63983BF13CB0C9B000B6D75 /* Assigning a Delegate to a Table View */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A63983E213CB0C9C000B6D75 /* Build configuration list for PBXNativeTarget "Assigning a Delegate to a Table View" */;
+			buildPhases = (
+				A63983BC13CB0C9B000B6D75 /* Sources */,
+				A63983BD13CB0C9B000B6D75 /* Frameworks */,
+				A63983BE13CB0C9B000B6D75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Assigning a Delegate to a Table View";
+			productName = "Assigning a Delegate to a Table View";
+			productReference = A63983C013CB0C9B000B6D75 /* Assigning a Delegate to a Table View.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A63983B713CB0C9B000B6D75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A63983BA13CB0C9B000B6D75 /* Build configuration list for PBXProject "Assigning a Delegate to a Table View" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A63983B513CB0C9B000B6D75;
+			productRefGroup = A63983C113CB0C9B000B6D75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A63983BF13CB0C9B000B6D75 /* Assigning a Delegate to a Table View */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A63983BE13CB0C9B000B6D75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63983CF13CB0C9B000B6D75 /* InfoPlist.strings in Resources */,
+				A63983D713CB0C9C000B6D75 /* Assigning_a_Delegate_to_a_Table_ViewViewController.h in Resources */,
+				A63983DC13CB0C9C000B6D75 /* Assigning_a_Delegate_to_a_Table_ViewViewController_iPhone.xib in Resources */,
+				A63983DF13CB0C9C000B6D75 /* Assigning_a_Delegate_to_a_Table_ViewViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A63983BC13CB0C9B000B6D75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63983D113CB0C9B000B6D75 /* main.m in Sources */,
+				A63983D513CB0C9B000B6D75 /* Assigning_a_Delegate_to_a_Table_ViewAppDelegate.m in Sources */,
+				A63983D913CB0C9C000B6D75 /* Assigning_a_Delegate_to_a_Table_ViewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A63983CD13CB0C9B000B6D75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A63983CE13CB0C9B000B6D75 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A63983DA13CB0C9C000B6D75 /* Assigning_a_Delegate_to_a_Table_ViewViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A63983DB13CB0C9C000B6D75 /* en */,
+			);
+			name = Assigning_a_Delegate_to_a_Table_ViewViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A63983DD13CB0C9C000B6D75 /* Assigning_a_Delegate_to_a_Table_ViewViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A63983DE13CB0C9C000B6D75 /* en */,
+			);
+			name = Assigning_a_Delegate_to_a_Table_ViewViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A63983E013CB0C9C000B6D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A63983E113CB0C9C000B6D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A63983E313CB0C9C000B6D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Assigning a Delegate to a Table View/Assigning a Delegate to a Table View-Prefix.pch";
+				INFOPLIST_FILE = "Assigning a Delegate to a Table View/Assigning a Delegate to a Table View-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A63983E413CB0C9C000B6D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Assigning a Delegate to a Table View/Assigning a Delegate to a Table View-Prefix.pch";
+				INFOPLIST_FILE = "Assigning a Delegate to a Table View/Assigning a Delegate to a Table View-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A63983BA13CB0C9B000B6D75 /* Build configuration list for PBXProject "Assigning a Delegate to a Table View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A63983E013CB0C9C000B6D75 /* Debug */,
+				A63983E113CB0C9C000B6D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A63983E213CB0C9C000B6D75 /* Build configuration list for PBXNativeTarget "Assigning a Delegate to a Table View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A63983E313CB0C9C000B6D75 /* Debug */,
+				A63983E413CB0C9C000B6D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A63983B713CB0C9B000B6D75 /* Project object */;
+}

@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A618D66713DD4BA700E6B81F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A618D66613DD4BA700E6B81F /* UIKit.framework */; };
+		A618D66913DD4BA700E6B81F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A618D66813DD4BA700E6B81F /* Foundation.framework */; };
+		A618D66B13DD4BA700E6B81F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A618D66A13DD4BA700E6B81F /* CoreGraphics.framework */; };
+		A618D67113DD4BA700E6B81F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A618D66F13DD4BA700E6B81F /* InfoPlist.strings */; };
+		A618D67313DD4BA700E6B81F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A618D67213DD4BA700E6B81F /* main.m */; };
+		A618D67713DD4BA700E6B81F /* Moving_from_Manual_Reference_Counting_to_ARCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A618D67613DD4BA700E6B81F /* Moving_from_Manual_Reference_Counting_to_ARCAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A618D66213DD4BA700E6B81F /* Moving from Manual Reference Counting to ARC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moving from Manual Reference Counting to ARC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A618D66613DD4BA700E6B81F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A618D66813DD4BA700E6B81F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A618D66A13DD4BA700E6B81F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A618D66E13DD4BA700E6B81F /* Moving from Manual Reference Counting to ARC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Moving from Manual Reference Counting to ARC-Info.plist"; sourceTree = "<group>"; };
+		A618D67013DD4BA700E6B81F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A618D67213DD4BA700E6B81F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A618D67413DD4BA700E6B81F /* Moving from Manual Reference Counting to ARC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Moving from Manual Reference Counting to ARC-Prefix.pch"; sourceTree = "<group>"; };
+		A618D67513DD4BA700E6B81F /* Moving_from_Manual_Reference_Counting_to_ARCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Moving_from_Manual_Reference_Counting_to_ARCAppDelegate.h; sourceTree = "<group>"; };
+		A618D67613DD4BA700E6B81F /* Moving_from_Manual_Reference_Counting_to_ARCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Moving_from_Manual_Reference_Counting_to_ARCAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A618D65F13DD4BA700E6B81F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A618D66713DD4BA700E6B81F /* UIKit.framework in Frameworks */,
+				A618D66913DD4BA700E6B81F /* Foundation.framework in Frameworks */,
+				A618D66B13DD4BA700E6B81F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A618D65713DD4BA700E6B81F = {
+			isa = PBXGroup;
+			children = (
+				A618D66C13DD4BA700E6B81F /* Moving from Manual Reference Counting to ARC */,
+				A618D66513DD4BA700E6B81F /* Frameworks */,
+				A618D66313DD4BA700E6B81F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A618D66313DD4BA700E6B81F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A618D66213DD4BA700E6B81F /* Moving from Manual Reference Counting to ARC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A618D66513DD4BA700E6B81F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A618D66613DD4BA700E6B81F /* UIKit.framework */,
+				A618D66813DD4BA700E6B81F /* Foundation.framework */,
+				A618D66A13DD4BA700E6B81F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A618D66C13DD4BA700E6B81F /* Moving from Manual Reference Counting to ARC */ = {
+			isa = PBXGroup;
+			children = (
+				A618D67513DD4BA700E6B81F /* Moving_from_Manual_Reference_Counting_to_ARCAppDelegate.h */,
+				A618D67613DD4BA700E6B81F /* Moving_from_Manual_Reference_Counting_to_ARCAppDelegate.m */,
+				A618D66D13DD4BA700E6B81F /* Supporting Files */,
+			);
+			path = "Moving from Manual Reference Counting to ARC";
+			sourceTree = "<group>";
+		};
+		A618D66D13DD4BA700E6B81F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A618D66E13DD4BA700E6B81F /* Moving from Manual Reference Counting to ARC-Info.plist */,
+				A618D66F13DD4BA700E6B81F /* InfoPlist.strings */,
+				A618D67213DD4BA700E6B81F /* main.m */,
+				A618D67413DD4BA700E6B81F /* Moving from Manual Reference Counting to ARC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A618D66113DD4BA700E6B81F /* Moving from Manual Reference Counting to ARC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A618D67A13DD4BA700E6B81F /* Build configuration list for PBXNativeTarget "Moving from Manual Reference Counting to ARC" */;
+			buildPhases = (
+				A618D65E13DD4BA700E6B81F /* Sources */,
+				A618D65F13DD4BA700E6B81F /* Frameworks */,
+				A618D66013DD4BA700E6B81F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Moving from Manual Reference Counting to ARC";
+			productName = "Moving from Manual Reference Counting to ARC";
+			productReference = A618D66213DD4BA700E6B81F /* Moving from Manual Reference Counting to ARC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A618D65913DD4BA700E6B81F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A618D65C13DD4BA700E6B81F /* Build configuration list for PBXProject "Moving from Manual Reference Counting to ARC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A618D65713DD4BA700E6B81F;
+			productRefGroup = A618D66313DD4BA700E6B81F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A618D66113DD4BA700E6B81F /* Moving from Manual Reference Counting to ARC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A618D66013DD4BA700E6B81F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A618D67113DD4BA700E6B81F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A618D65E13DD4BA700E6B81F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A618D67313DD4BA700E6B81F /* main.m in Sources */,
+				A618D67713DD4BA700E6B81F /* Moving_from_Manual_Reference_Counting_to_ARCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A618D66F13DD4BA700E6B81F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A618D67013DD4BA700E6B81F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A618D67813DD4BA700E6B81F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A618D67913DD4BA700E6B81F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A618D67B13DD4BA700E6B81F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Moving from Manual Reference Counting to ARC/Moving from Manual Reference Counting to ARC-Prefix.pch";
+				INFOPLIST_FILE = "Moving from Manual Reference Counting to ARC/Moving from Manual Reference Counting to ARC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A618D67C13DD4BA700E6B81F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Moving from Manual Reference Counting to ARC/Moving from Manual Reference Counting to ARC-Prefix.pch";
+				INFOPLIST_FILE = "Moving from Manual Reference Counting to ARC/Moving from Manual Reference Counting to ARC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A618D65C13DD4BA700E6B81F /* Build configuration list for PBXProject "Moving from Manual Reference Counting to ARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A618D67813DD4BA700E6B81F /* Debug */,
+				A618D67913DD4BA700E6B81F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A618D67A13DD4BA700E6B81F /* Build configuration list for PBXNativeTarget "Moving from Manual Reference Counting to ARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A618D67B13DD4BA700E6B81F /* Debug */,
+				A618D67C13DD4BA700E6B81F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A618D65913DD4BA700E6B81F /* Project object */;
+}

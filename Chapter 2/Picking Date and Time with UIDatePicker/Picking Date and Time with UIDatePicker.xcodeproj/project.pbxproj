@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6293C7513C7541F0027923A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6293C7413C7541F0027923A /* UIKit.framework */; };
+		A6293C7713C7541F0027923A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6293C7613C7541F0027923A /* Foundation.framework */; };
+		A6293C7913C7541F0027923A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6293C7813C7541F0027923A /* CoreGraphics.framework */; };
+		A6293C7F13C7541F0027923A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6293C7D13C7541F0027923A /* InfoPlist.strings */; };
+		A6293C8113C754200027923A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6293C8013C754200027923A /* main.m */; };
+		A6293C8513C754200027923A /* Picking_Date_and_Time_with_UIDatePickerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6293C8413C754200027923A /* Picking_Date_and_Time_with_UIDatePickerAppDelegate.m */; };
+		A6293C8713C754200027923A /* Picking_Date_and_Time_with_UIDatePickerViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = A6293C8613C754200027923A /* Picking_Date_and_Time_with_UIDatePickerViewController.h */; };
+		A6293C8913C754200027923A /* Picking_Date_and_Time_with_UIDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6293C8813C754200027923A /* Picking_Date_and_Time_with_UIDatePickerViewController.m */; };
+		A6293C8C13C754200027923A /* Picking_Date_and_Time_with_UIDatePickerViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6293C8A13C754200027923A /* Picking_Date_and_Time_with_UIDatePickerViewController_iPhone.xib */; };
+		A6293C8F13C754200027923A /* Picking_Date_and_Time_with_UIDatePickerViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6293C8D13C754200027923A /* Picking_Date_and_Time_with_UIDatePickerViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6293C7013C7541F0027923A /* Picking Date and Time with UIDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Picking Date and Time with UIDatePicker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6293C7413C7541F0027923A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6293C7613C7541F0027923A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6293C7813C7541F0027923A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6293C7C13C7541F0027923A /* Picking Date and Time with UIDatePicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Picking Date and Time with UIDatePicker-Info.plist"; sourceTree = "<group>"; };
+		A6293C7E13C7541F0027923A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6293C8013C754200027923A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6293C8213C754200027923A /* Picking Date and Time with UIDatePicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Picking Date and Time with UIDatePicker-Prefix.pch"; sourceTree = "<group>"; };
+		A6293C8313C754200027923A /* Picking_Date_and_Time_with_UIDatePickerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Picking_Date_and_Time_with_UIDatePickerAppDelegate.h; sourceTree = "<group>"; };
+		A6293C8413C754200027923A /* Picking_Date_and_Time_with_UIDatePickerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Picking_Date_and_Time_with_UIDatePickerAppDelegate.m; sourceTree = "<group>"; };
+		A6293C8613C754200027923A /* Picking_Date_and_Time_with_UIDatePickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Picking_Date_and_Time_with_UIDatePickerViewController.h; sourceTree = "<group>"; };
+		A6293C8813C754200027923A /* Picking_Date_and_Time_with_UIDatePickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Picking_Date_and_Time_with_UIDatePickerViewController.m; sourceTree = "<group>"; };
+		A6293C8B13C754200027923A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Picking_Date_and_Time_with_UIDatePickerViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6293C8E13C754200027923A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Picking_Date_and_Time_with_UIDatePickerViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6293C6D13C7541F0027923A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6293C7513C7541F0027923A /* UIKit.framework in Frameworks */,
+				A6293C7713C7541F0027923A /* Foundation.framework in Frameworks */,
+				A6293C7913C7541F0027923A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6293C6513C7541F0027923A = {
+			isa = PBXGroup;
+			children = (
+				A6293C7A13C7541F0027923A /* Picking Date and Time with UIDatePicker */,
+				A6293C7313C7541F0027923A /* Frameworks */,
+				A6293C7113C7541F0027923A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6293C7113C7541F0027923A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6293C7013C7541F0027923A /* Picking Date and Time with UIDatePicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6293C7313C7541F0027923A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6293C7413C7541F0027923A /* UIKit.framework */,
+				A6293C7613C7541F0027923A /* Foundation.framework */,
+				A6293C7813C7541F0027923A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6293C7A13C7541F0027923A /* Picking Date and Time with UIDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				A6293C8313C754200027923A /* Picking_Date_and_Time_with_UIDatePickerAppDelegate.h */,
+				A6293C8413C754200027923A /* Picking_Date_and_Time_with_UIDatePickerAppDelegate.m */,
+				A6293C8613C754200027923A /* Picking_Date_and_Time_with_UIDatePickerViewController.h */,
+				A6293C8813C754200027923A /* Picking_Date_and_Time_with_UIDatePickerViewController.m */,
+				A6293C8A13C754200027923A /* Picking_Date_and_Time_with_UIDatePickerViewController_iPhone.xib */,
+				A6293C8D13C754200027923A /* Picking_Date_and_Time_with_UIDatePickerViewController_iPad.xib */,
+				A6293C7B13C7541F0027923A /* Supporting Files */,
+			);
+			path = "Picking Date and Time with UIDatePicker";
+			sourceTree = "<group>";
+		};
+		A6293C7B13C7541F0027923A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6293C7C13C7541F0027923A /* Picking Date and Time with UIDatePicker-Info.plist */,
+				A6293C7D13C7541F0027923A /* InfoPlist.strings */,
+				A6293C8013C754200027923A /* main.m */,
+				A6293C8213C754200027923A /* Picking Date and Time with UIDatePicker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6293C6F13C7541F0027923A /* Picking Date and Time with UIDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6293C9213C754200027923A /* Build configuration list for PBXNativeTarget "Picking Date and Time with UIDatePicker" */;
+			buildPhases = (
+				A6293C6C13C7541F0027923A /* Sources */,
+				A6293C6D13C7541F0027923A /* Frameworks */,
+				A6293C6E13C7541F0027923A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Picking Date and Time with UIDatePicker";
+			productName = "Picking Date and Time with UIDatePicker";
+			productReference = A6293C7013C7541F0027923A /* Picking Date and Time with UIDatePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6293C6713C7541F0027923A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6293C6A13C7541F0027923A /* Build configuration list for PBXProject "Picking Date and Time with UIDatePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6293C6513C7541F0027923A;
+			productRefGroup = A6293C7113C7541F0027923A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6293C6F13C7541F0027923A /* Picking Date and Time with UIDatePicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6293C6E13C7541F0027923A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6293C7F13C7541F0027923A /* InfoPlist.strings in Resources */,
+				A6293C8713C754200027923A /* Picking_Date_and_Time_with_UIDatePickerViewController.h in Resources */,
+				A6293C8C13C754200027923A /* Picking_Date_and_Time_with_UIDatePickerViewController_iPhone.xib in Resources */,
+				A6293C8F13C754200027923A /* Picking_Date_and_Time_with_UIDatePickerViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6293C6C13C7541F0027923A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6293C8113C754200027923A /* main.m in Sources */,
+				A6293C8513C754200027923A /* Picking_Date_and_Time_with_UIDatePickerAppDelegate.m in Sources */,
+				A6293C8913C754200027923A /* Picking_Date_and_Time_with_UIDatePickerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6293C7D13C7541F0027923A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6293C7E13C7541F0027923A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6293C8A13C754200027923A /* Picking_Date_and_Time_with_UIDatePickerViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6293C8B13C754200027923A /* en */,
+			);
+			name = Picking_Date_and_Time_with_UIDatePickerViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6293C8D13C754200027923A /* Picking_Date_and_Time_with_UIDatePickerViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6293C8E13C754200027923A /* en */,
+			);
+			name = Picking_Date_and_Time_with_UIDatePickerViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6293C9013C754200027923A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6293C9113C754200027923A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6293C9313C754200027923A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Picking Date and Time with UIDatePicker/Picking Date and Time with UIDatePicker-Prefix.pch";
+				INFOPLIST_FILE = "Picking Date and Time with UIDatePicker/Picking Date and Time with UIDatePicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6293C9413C754200027923A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Picking Date and Time with UIDatePicker/Picking Date and Time with UIDatePicker-Prefix.pch";
+				INFOPLIST_FILE = "Picking Date and Time with UIDatePicker/Picking Date and Time with UIDatePicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6293C6A13C7541F0027923A /* Build configuration list for PBXProject "Picking Date and Time with UIDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6293C9013C754200027923A /* Debug */,
+				A6293C9113C754200027923A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6293C9213C754200027923A /* Build configuration list for PBXNativeTarget "Picking Date and Time with UIDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6293C9313C754200027923A /* Debug */,
+				A6293C9413C754200027923A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6293C6713C7541F0027923A /* Project object */;
+}

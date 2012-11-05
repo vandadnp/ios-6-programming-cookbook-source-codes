@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6F0182913D986F900E83909 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F0182813D986F900E83909 /* UIKit.framework */; };
+		A6F0182B13D986F900E83909 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F0182A13D986F900E83909 /* Foundation.framework */; };
+		A6F0182D13D986F900E83909 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F0182C13D986F900E83909 /* CoreGraphics.framework */; };
+		A6F0183313D986F900E83909 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6F0183113D986F900E83909 /* InfoPlist.strings */; };
+		A6F0183513D986F900E83909 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F0183413D986F900E83909 /* main.m */; };
+		A6F0183913D986F900E83909 /* Editing_Videos_on_an_iOS_DeviceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F0183813D986F900E83909 /* Editing_Videos_on_an_iOS_DeviceAppDelegate.m */; };
+		A6F0183C13D986F900E83909 /* Editing_Videos_on_an_iOS_DeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F0183B13D986F900E83909 /* Editing_Videos_on_an_iOS_DeviceViewController.m */; };
+		A6F0183F13D986F900E83909 /* Editing_Videos_on_an_iOS_DeviceViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6F0183D13D986F900E83909 /* Editing_Videos_on_an_iOS_DeviceViewController_iPhone.xib */; };
+		A6F0184213D986FA00E83909 /* Editing_Videos_on_an_iOS_DeviceViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6F0184013D986F900E83909 /* Editing_Videos_on_an_iOS_DeviceViewController_iPad.xib */; };
+		A6F0185313D9871300E83909 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F0185213D9871300E83909 /* AssetsLibrary.framework */; };
+		A6F0185613D9871600E83909 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F0185513D9871600E83909 /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6F0182413D986F900E83909 /* Editing Videos on an iOS Device.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Editing Videos on an iOS Device.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F0182813D986F900E83909 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6F0182A13D986F900E83909 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6F0182C13D986F900E83909 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6F0183013D986F900E83909 /* Editing Videos on an iOS Device-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Editing Videos on an iOS Device-Info.plist"; sourceTree = "<group>"; };
+		A6F0183213D986F900E83909 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6F0183413D986F900E83909 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6F0183613D986F900E83909 /* Editing Videos on an iOS Device-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Editing Videos on an iOS Device-Prefix.pch"; sourceTree = "<group>"; };
+		A6F0183713D986F900E83909 /* Editing_Videos_on_an_iOS_DeviceAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Editing_Videos_on_an_iOS_DeviceAppDelegate.h; sourceTree = "<group>"; };
+		A6F0183813D986F900E83909 /* Editing_Videos_on_an_iOS_DeviceAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Editing_Videos_on_an_iOS_DeviceAppDelegate.m; sourceTree = "<group>"; };
+		A6F0183A13D986F900E83909 /* Editing_Videos_on_an_iOS_DeviceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Editing_Videos_on_an_iOS_DeviceViewController.h; sourceTree = "<group>"; };
+		A6F0183B13D986F900E83909 /* Editing_Videos_on_an_iOS_DeviceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Editing_Videos_on_an_iOS_DeviceViewController.m; sourceTree = "<group>"; };
+		A6F0183E13D986F900E83909 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Editing_Videos_on_an_iOS_DeviceViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6F0184113D986FA00E83909 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Editing_Videos_on_an_iOS_DeviceViewController_iPad.xib; sourceTree = "<group>"; };
+		A6F0185213D9871300E83909 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		A6F0185513D9871600E83909 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6F0182113D986F900E83909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F0185613D9871600E83909 /* MobileCoreServices.framework in Frameworks */,
+				A6F0185313D9871300E83909 /* AssetsLibrary.framework in Frameworks */,
+				A6F0182913D986F900E83909 /* UIKit.framework in Frameworks */,
+				A6F0182B13D986F900E83909 /* Foundation.framework in Frameworks */,
+				A6F0182D13D986F900E83909 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6F0181913D986F900E83909 = {
+			isa = PBXGroup;
+			children = (
+				A6F0182E13D986F900E83909 /* Editing Videos on an iOS Device */,
+				A6F0182713D986F900E83909 /* Frameworks */,
+				A6F0182513D986F900E83909 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6F0182513D986F900E83909 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0182413D986F900E83909 /* Editing Videos on an iOS Device.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6F0182713D986F900E83909 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0185513D9871600E83909 /* MobileCoreServices.framework */,
+				A6F0185213D9871300E83909 /* AssetsLibrary.framework */,
+				A6F0182813D986F900E83909 /* UIKit.framework */,
+				A6F0182A13D986F900E83909 /* Foundation.framework */,
+				A6F0182C13D986F900E83909 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6F0182E13D986F900E83909 /* Editing Videos on an iOS Device */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0183713D986F900E83909 /* Editing_Videos_on_an_iOS_DeviceAppDelegate.h */,
+				A6F0183813D986F900E83909 /* Editing_Videos_on_an_iOS_DeviceAppDelegate.m */,
+				A6F0183A13D986F900E83909 /* Editing_Videos_on_an_iOS_DeviceViewController.h */,
+				A6F0183B13D986F900E83909 /* Editing_Videos_on_an_iOS_DeviceViewController.m */,
+				A6F0183D13D986F900E83909 /* Editing_Videos_on_an_iOS_DeviceViewController_iPhone.xib */,
+				A6F0184013D986F900E83909 /* Editing_Videos_on_an_iOS_DeviceViewController_iPad.xib */,
+				A6F0182F13D986F900E83909 /* Supporting Files */,
+			);
+			path = "Editing Videos on an iOS Device";
+			sourceTree = "<group>";
+		};
+		A6F0182F13D986F900E83909 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0183013D986F900E83909 /* Editing Videos on an iOS Device-Info.plist */,
+				A6F0183113D986F900E83909 /* InfoPlist.strings */,
+				A6F0183413D986F900E83909 /* main.m */,
+				A6F0183613D986F900E83909 /* Editing Videos on an iOS Device-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6F0182313D986F900E83909 /* Editing Videos on an iOS Device */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6F0184513D986FA00E83909 /* Build configuration list for PBXNativeTarget "Editing Videos on an iOS Device" */;
+			buildPhases = (
+				A6F0182013D986F900E83909 /* Sources */,
+				A6F0182113D986F900E83909 /* Frameworks */,
+				A6F0182213D986F900E83909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Editing Videos on an iOS Device";
+			productName = "Editing Videos on an iOS Device";
+			productReference = A6F0182413D986F900E83909 /* Editing Videos on an iOS Device.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6F0181B13D986F900E83909 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6F0181E13D986F900E83909 /* Build configuration list for PBXProject "Editing Videos on an iOS Device" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6F0181913D986F900E83909;
+			productRefGroup = A6F0182513D986F900E83909 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6F0182313D986F900E83909 /* Editing Videos on an iOS Device */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6F0182213D986F900E83909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F0183313D986F900E83909 /* InfoPlist.strings in Resources */,
+				A6F0183F13D986F900E83909 /* Editing_Videos_on_an_iOS_DeviceViewController_iPhone.xib in Resources */,
+				A6F0184213D986FA00E83909 /* Editing_Videos_on_an_iOS_DeviceViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6F0182013D986F900E83909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F0183513D986F900E83909 /* main.m in Sources */,
+				A6F0183913D986F900E83909 /* Editing_Videos_on_an_iOS_DeviceAppDelegate.m in Sources */,
+				A6F0183C13D986F900E83909 /* Editing_Videos_on_an_iOS_DeviceViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6F0183113D986F900E83909 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F0183213D986F900E83909 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6F0183D13D986F900E83909 /* Editing_Videos_on_an_iOS_DeviceViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F0183E13D986F900E83909 /* en */,
+			);
+			name = Editing_Videos_on_an_iOS_DeviceViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6F0184013D986F900E83909 /* Editing_Videos_on_an_iOS_DeviceViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F0184113D986FA00E83909 /* en */,
+			);
+			name = Editing_Videos_on_an_iOS_DeviceViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6F0184313D986FA00E83909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6F0184413D986FA00E83909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6F0184613D986FA00E83909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Editing Videos on an iOS Device/Editing Videos on an iOS Device-Prefix.pch";
+				INFOPLIST_FILE = "Editing Videos on an iOS Device/Editing Videos on an iOS Device-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6F0184713D986FA00E83909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Editing Videos on an iOS Device/Editing Videos on an iOS Device-Prefix.pch";
+				INFOPLIST_FILE = "Editing Videos on an iOS Device/Editing Videos on an iOS Device-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6F0181E13D986F900E83909 /* Build configuration list for PBXProject "Editing Videos on an iOS Device" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F0184313D986FA00E83909 /* Debug */,
+				A6F0184413D986FA00E83909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F0184513D986FA00E83909 /* Build configuration list for PBXNativeTarget "Editing Videos on an iOS Device" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F0184613D986FA00E83909 /* Debug */,
+				A6F0184713D986FA00E83909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6F0181B13D986F900E83909 /* Project object */;
+}

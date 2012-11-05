@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A63D800513D9AD0200035097 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63D800413D9AD0200035097 /* UIKit.framework */; };
+		A63D800713D9AD0200035097 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63D800613D9AD0200035097 /* Foundation.framework */; };
+		A63D800913D9AD0200035097 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63D800813D9AD0200035097 /* CoreGraphics.framework */; };
+		A63D800F13D9AD0200035097 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A63D800D13D9AD0200035097 /* InfoPlist.strings */; };
+		A63D801113D9AD0200035097 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A63D801013D9AD0200035097 /* main.m */; };
+		A63D801513D9AD0200035097 /* Detecting_Shakes_on_an_iOS_DeviceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A63D801413D9AD0200035097 /* Detecting_Shakes_on_an_iOS_DeviceAppDelegate.m */; };
+		A63D801813D9AD0200035097 /* Detecting_Shakes_on_an_iOS_DeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A63D801713D9AD0200035097 /* Detecting_Shakes_on_an_iOS_DeviceViewController.m */; };
+		A63D801B13D9AD0200035097 /* Detecting_Shakes_on_an_iOS_DeviceViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A63D801913D9AD0200035097 /* Detecting_Shakes_on_an_iOS_DeviceViewController_iPhone.xib */; };
+		A63D801E13D9AD0200035097 /* Detecting_Shakes_on_an_iOS_DeviceViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A63D801C13D9AD0200035097 /* Detecting_Shakes_on_an_iOS_DeviceViewController_iPad.xib */; };
+		A63D803A13D9B4E600035097 /* MyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A63D803913D9B4E600035097 /* MyWindow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A63D800013D9AD0200035097 /* Detecting Shakes on an iOS Device.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Detecting Shakes on an iOS Device.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A63D800413D9AD0200035097 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A63D800613D9AD0200035097 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A63D800813D9AD0200035097 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A63D800C13D9AD0200035097 /* Detecting Shakes on an iOS Device-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Detecting Shakes on an iOS Device-Info.plist"; sourceTree = "<group>"; };
+		A63D800E13D9AD0200035097 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A63D801013D9AD0200035097 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A63D801213D9AD0200035097 /* Detecting Shakes on an iOS Device-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Detecting Shakes on an iOS Device-Prefix.pch"; sourceTree = "<group>"; };
+		A63D801313D9AD0200035097 /* Detecting_Shakes_on_an_iOS_DeviceAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Detecting_Shakes_on_an_iOS_DeviceAppDelegate.h; sourceTree = "<group>"; };
+		A63D801413D9AD0200035097 /* Detecting_Shakes_on_an_iOS_DeviceAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Detecting_Shakes_on_an_iOS_DeviceAppDelegate.m; sourceTree = "<group>"; };
+		A63D801613D9AD0200035097 /* Detecting_Shakes_on_an_iOS_DeviceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Detecting_Shakes_on_an_iOS_DeviceViewController.h; sourceTree = "<group>"; };
+		A63D801713D9AD0200035097 /* Detecting_Shakes_on_an_iOS_DeviceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Detecting_Shakes_on_an_iOS_DeviceViewController.m; sourceTree = "<group>"; };
+		A63D801A13D9AD0200035097 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Detecting_Shakes_on_an_iOS_DeviceViewController_iPhone.xib; sourceTree = "<group>"; };
+		A63D801D13D9AD0200035097 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Detecting_Shakes_on_an_iOS_DeviceViewController_iPad.xib; sourceTree = "<group>"; };
+		A63D803813D9B4E600035097 /* MyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWindow.h; sourceTree = "<group>"; };
+		A63D803913D9B4E600035097 /* MyWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWindow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A63D7FFD13D9AD0200035097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63D800513D9AD0200035097 /* UIKit.framework in Frameworks */,
+				A63D800713D9AD0200035097 /* Foundation.framework in Frameworks */,
+				A63D800913D9AD0200035097 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A63D7FF513D9AD0200035097 = {
+			isa = PBXGroup;
+			children = (
+				A63D800A13D9AD0200035097 /* Detecting Shakes on an iOS Device */,
+				A63D800313D9AD0200035097 /* Frameworks */,
+				A63D800113D9AD0200035097 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A63D800113D9AD0200035097 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A63D800013D9AD0200035097 /* Detecting Shakes on an iOS Device.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A63D800313D9AD0200035097 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A63D800413D9AD0200035097 /* UIKit.framework */,
+				A63D800613D9AD0200035097 /* Foundation.framework */,
+				A63D800813D9AD0200035097 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A63D800A13D9AD0200035097 /* Detecting Shakes on an iOS Device */ = {
+			isa = PBXGroup;
+			children = (
+				A63D801313D9AD0200035097 /* Detecting_Shakes_on_an_iOS_DeviceAppDelegate.h */,
+				A63D801413D9AD0200035097 /* Detecting_Shakes_on_an_iOS_DeviceAppDelegate.m */,
+				A63D801613D9AD0200035097 /* Detecting_Shakes_on_an_iOS_DeviceViewController.h */,
+				A63D801713D9AD0200035097 /* Detecting_Shakes_on_an_iOS_DeviceViewController.m */,
+				A63D801913D9AD0200035097 /* Detecting_Shakes_on_an_iOS_DeviceViewController_iPhone.xib */,
+				A63D801C13D9AD0200035097 /* Detecting_Shakes_on_an_iOS_DeviceViewController_iPad.xib */,
+				A63D800B13D9AD0200035097 /* Supporting Files */,
+				A63D803813D9B4E600035097 /* MyWindow.h */,
+				A63D803913D9B4E600035097 /* MyWindow.m */,
+			);
+			path = "Detecting Shakes on an iOS Device";
+			sourceTree = "<group>";
+		};
+		A63D800B13D9AD0200035097 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A63D800C13D9AD0200035097 /* Detecting Shakes on an iOS Device-Info.plist */,
+				A63D800D13D9AD0200035097 /* InfoPlist.strings */,
+				A63D801013D9AD0200035097 /* main.m */,
+				A63D801213D9AD0200035097 /* Detecting Shakes on an iOS Device-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A63D7FFF13D9AD0200035097 /* Detecting Shakes on an iOS Device */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A63D802113D9AD0200035097 /* Build configuration list for PBXNativeTarget "Detecting Shakes on an iOS Device" */;
+			buildPhases = (
+				A63D7FFC13D9AD0200035097 /* Sources */,
+				A63D7FFD13D9AD0200035097 /* Frameworks */,
+				A63D7FFE13D9AD0200035097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Detecting Shakes on an iOS Device";
+			productName = "Detecting Shakes on an iOS Device";
+			productReference = A63D800013D9AD0200035097 /* Detecting Shakes on an iOS Device.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A63D7FF713D9AD0200035097 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A63D7FFA13D9AD0200035097 /* Build configuration list for PBXProject "Detecting Shakes on an iOS Device" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A63D7FF513D9AD0200035097;
+			productRefGroup = A63D800113D9AD0200035097 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A63D7FFF13D9AD0200035097 /* Detecting Shakes on an iOS Device */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A63D7FFE13D9AD0200035097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63D800F13D9AD0200035097 /* InfoPlist.strings in Resources */,
+				A63D801B13D9AD0200035097 /* Detecting_Shakes_on_an_iOS_DeviceViewController_iPhone.xib in Resources */,
+				A63D801E13D9AD0200035097 /* Detecting_Shakes_on_an_iOS_DeviceViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A63D7FFC13D9AD0200035097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63D801113D9AD0200035097 /* main.m in Sources */,
+				A63D801513D9AD0200035097 /* Detecting_Shakes_on_an_iOS_DeviceAppDelegate.m in Sources */,
+				A63D801813D9AD0200035097 /* Detecting_Shakes_on_an_iOS_DeviceViewController.m in Sources */,
+				A63D803A13D9B4E600035097 /* MyWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A63D800D13D9AD0200035097 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A63D800E13D9AD0200035097 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A63D801913D9AD0200035097 /* Detecting_Shakes_on_an_iOS_DeviceViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A63D801A13D9AD0200035097 /* en */,
+			);
+			name = Detecting_Shakes_on_an_iOS_DeviceViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A63D801C13D9AD0200035097 /* Detecting_Shakes_on_an_iOS_DeviceViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A63D801D13D9AD0200035097 /* en */,
+			);
+			name = Detecting_Shakes_on_an_iOS_DeviceViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A63D801F13D9AD0200035097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A63D802013D9AD0200035097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A63D802213D9AD0200035097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Detecting Shakes on an iOS Device/Detecting Shakes on an iOS Device-Prefix.pch";
+				INFOPLIST_FILE = "Detecting Shakes on an iOS Device/Detecting Shakes on an iOS Device-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A63D802313D9AD0200035097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Detecting Shakes on an iOS Device/Detecting Shakes on an iOS Device-Prefix.pch";
+				INFOPLIST_FILE = "Detecting Shakes on an iOS Device/Detecting Shakes on an iOS Device-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A63D7FFA13D9AD0200035097 /* Build configuration list for PBXProject "Detecting Shakes on an iOS Device" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A63D801F13D9AD0200035097 /* Debug */,
+				A63D802013D9AD0200035097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A63D802113D9AD0200035097 /* Build configuration list for PBXNativeTarget "Detecting Shakes on an iOS Device" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A63D802213D9AD0200035097 /* Debug */,
+				A63D802313D9AD0200035097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A63D7FF713D9AD0200035097 /* Project object */;
+}

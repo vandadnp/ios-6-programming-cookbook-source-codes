@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6DBCA2313D808010064C82A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DBCA2213D808010064C82A /* UIKit.framework */; };
+		A6DBCA2513D808010064C82A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DBCA2413D808010064C82A /* Foundation.framework */; };
+		A6DBCA2713D808010064C82A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DBCA2613D808010064C82A /* CoreGraphics.framework */; };
+		A6DBCA2D13D808010064C82A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6DBCA2B13D808010064C82A /* InfoPlist.strings */; };
+		A6DBCA2F13D808010064C82A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DBCA2E13D808010064C82A /* main.m */; };
+		A6DBCA3313D808010064C82A /* Responding_to_Changes_in_App_SettingsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DBCA3213D808010064C82A /* Responding_to_Changes_in_App_SettingsAppDelegate.m */; };
+		A6DBCA4413D808980064C82A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A6DBCA4313D808980064C82A /* Settings.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6DBCA1E13D808010064C82A /* Responding to Changes in App Settings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Responding to Changes in App Settings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6DBCA2213D808010064C82A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6DBCA2413D808010064C82A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6DBCA2613D808010064C82A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6DBCA2A13D808010064C82A /* Responding to Changes in App Settings-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Responding to Changes in App Settings-Info.plist"; sourceTree = "<group>"; };
+		A6DBCA2C13D808010064C82A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6DBCA2E13D808010064C82A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6DBCA3013D808010064C82A /* Responding to Changes in App Settings-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Responding to Changes in App Settings-Prefix.pch"; sourceTree = "<group>"; };
+		A6DBCA3113D808010064C82A /* Responding_to_Changes_in_App_SettingsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Responding_to_Changes_in_App_SettingsAppDelegate.h; sourceTree = "<group>"; };
+		A6DBCA3213D808010064C82A /* Responding_to_Changes_in_App_SettingsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Responding_to_Changes_in_App_SettingsAppDelegate.m; sourceTree = "<group>"; };
+		A6DBCA4313D808980064C82A /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6DBCA1B13D808010064C82A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DBCA2313D808010064C82A /* UIKit.framework in Frameworks */,
+				A6DBCA2513D808010064C82A /* Foundation.framework in Frameworks */,
+				A6DBCA2713D808010064C82A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6DBCA1313D808010064C82A = {
+			isa = PBXGroup;
+			children = (
+				A6DBCA2813D808010064C82A /* Responding to Changes in App Settings */,
+				A6DBCA2113D808010064C82A /* Frameworks */,
+				A6DBCA1F13D808010064C82A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6DBCA1F13D808010064C82A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6DBCA1E13D808010064C82A /* Responding to Changes in App Settings.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6DBCA2113D808010064C82A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6DBCA2213D808010064C82A /* UIKit.framework */,
+				A6DBCA2413D808010064C82A /* Foundation.framework */,
+				A6DBCA2613D808010064C82A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6DBCA2813D808010064C82A /* Responding to Changes in App Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A6DBCA3113D808010064C82A /* Responding_to_Changes_in_App_SettingsAppDelegate.h */,
+				A6DBCA3213D808010064C82A /* Responding_to_Changes_in_App_SettingsAppDelegate.m */,
+				A6DBCA2913D808010064C82A /* Supporting Files */,
+				A6DBCA4313D808980064C82A /* Settings.bundle */,
+			);
+			path = "Responding to Changes in App Settings";
+			sourceTree = "<group>";
+		};
+		A6DBCA2913D808010064C82A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6DBCA2A13D808010064C82A /* Responding to Changes in App Settings-Info.plist */,
+				A6DBCA2B13D808010064C82A /* InfoPlist.strings */,
+				A6DBCA2E13D808010064C82A /* main.m */,
+				A6DBCA3013D808010064C82A /* Responding to Changes in App Settings-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6DBCA1D13D808010064C82A /* Responding to Changes in App Settings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6DBCA3613D808010064C82A /* Build configuration list for PBXNativeTarget "Responding to Changes in App Settings" */;
+			buildPhases = (
+				A6DBCA1A13D808010064C82A /* Sources */,
+				A6DBCA1B13D808010064C82A /* Frameworks */,
+				A6DBCA1C13D808010064C82A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Responding to Changes in App Settings";
+			productName = "Responding to Changes in App Settings";
+			productReference = A6DBCA1E13D808010064C82A /* Responding to Changes in App Settings.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6DBCA1513D808010064C82A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6DBCA1813D808010064C82A /* Build configuration list for PBXProject "Responding to Changes in App Settings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6DBCA1313D808010064C82A;
+			productRefGroup = A6DBCA1F13D808010064C82A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6DBCA1D13D808010064C82A /* Responding to Changes in App Settings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6DBCA1C13D808010064C82A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DBCA2D13D808010064C82A /* InfoPlist.strings in Resources */,
+				A6DBCA4413D808980064C82A /* Settings.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6DBCA1A13D808010064C82A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DBCA2F13D808010064C82A /* main.m in Sources */,
+				A6DBCA3313D808010064C82A /* Responding_to_Changes_in_App_SettingsAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6DBCA2B13D808010064C82A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6DBCA2C13D808010064C82A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6DBCA3413D808010064C82A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6DBCA3513D808010064C82A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6DBCA3713D808010064C82A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Responding to Changes in App Settings/Responding to Changes in App Settings-Prefix.pch";
+				INFOPLIST_FILE = "Responding to Changes in App Settings/Responding to Changes in App Settings-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6DBCA3813D808010064C82A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Responding to Changes in App Settings/Responding to Changes in App Settings-Prefix.pch";
+				INFOPLIST_FILE = "Responding to Changes in App Settings/Responding to Changes in App Settings-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6DBCA1813D808010064C82A /* Build configuration list for PBXProject "Responding to Changes in App Settings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6DBCA3413D808010064C82A /* Debug */,
+				A6DBCA3513D808010064C82A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6DBCA3613D808010064C82A /* Build configuration list for PBXNativeTarget "Responding to Changes in App Settings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6DBCA3713D808010064C82A /* Debug */,
+				A6DBCA3813D808010064C82A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6DBCA1513D808010064C82A /* Project object */;
+}

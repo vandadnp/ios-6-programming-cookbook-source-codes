@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.developer.ubiquity-container-identifiers</key>
+	<array>
+		<string>$(TeamIdentifierPrefix)com.pixolity.Creating-and-Managing-Folders-for-Apps-in-iCloud</string>
+	</array>
+	<key>com.apple.developer.ubiquity-kvstore-identifier</key>
+	<string>$(TeamIdentifierPrefix)com.pixolity.Creating-and-Managing-Folders-for-Apps-in-iCloud</string>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>$(AppIdentifierPrefix)com.pixolity.Creating-and-Managing-Folders-for-Apps-in-iCloud</string>
+	</array>
+</dict>
+</plist>

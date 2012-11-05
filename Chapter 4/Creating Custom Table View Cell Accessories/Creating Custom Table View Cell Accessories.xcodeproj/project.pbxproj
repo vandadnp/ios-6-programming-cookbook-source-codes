@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6C4087013E31D4800267CFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C4086F13E31D4800267CFA /* UIKit.framework */; };
+		A6C4087213E31D4800267CFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C4087113E31D4800267CFA /* Foundation.framework */; };
+		A6C4087413E31D4800267CFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C4087313E31D4800267CFA /* CoreGraphics.framework */; };
+		A6C4087A13E31D4800267CFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6C4087813E31D4800267CFA /* InfoPlist.strings */; };
+		A6C4087C13E31D4800267CFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C4087B13E31D4800267CFA /* main.m */; };
+		A6C4088013E31D4800267CFA /* Creating_Custom_Table_View_Cell_AccessoriesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C4087F13E31D4800267CFA /* Creating_Custom_Table_View_Cell_AccessoriesAppDelegate.m */; };
+		A6C4088313E31D4800267CFA /* Creating_Custom_Table_View_Cell_AccessoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C4088213E31D4800267CFA /* Creating_Custom_Table_View_Cell_AccessoriesViewController.m */; };
+		A6C4088613E31D4800267CFA /* Creating_Custom_Table_View_Cell_AccessoriesViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C4088413E31D4800267CFA /* Creating_Custom_Table_View_Cell_AccessoriesViewController_iPhone.xib */; };
+		A6C4088913E31D4800267CFA /* Creating_Custom_Table_View_Cell_AccessoriesViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C4088713E31D4800267CFA /* Creating_Custom_Table_View_Cell_AccessoriesViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6C4086B13E31D4800267CFA /* Creating Custom Table View Cell Accessories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Creating Custom Table View Cell Accessories.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C4086F13E31D4800267CFA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6C4087113E31D4800267CFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6C4087313E31D4800267CFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6C4087713E31D4800267CFA /* Creating Custom Table View Cell Accessories-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Creating Custom Table View Cell Accessories-Info.plist"; sourceTree = "<group>"; };
+		A6C4087913E31D4800267CFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6C4087B13E31D4800267CFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6C4087D13E31D4800267CFA /* Creating Custom Table View Cell Accessories-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Creating Custom Table View Cell Accessories-Prefix.pch"; sourceTree = "<group>"; };
+		A6C4087E13E31D4800267CFA /* Creating_Custom_Table_View_Cell_AccessoriesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Creating_Custom_Table_View_Cell_AccessoriesAppDelegate.h; sourceTree = "<group>"; };
+		A6C4087F13E31D4800267CFA /* Creating_Custom_Table_View_Cell_AccessoriesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Creating_Custom_Table_View_Cell_AccessoriesAppDelegate.m; sourceTree = "<group>"; };
+		A6C4088113E31D4800267CFA /* Creating_Custom_Table_View_Cell_AccessoriesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Creating_Custom_Table_View_Cell_AccessoriesViewController.h; sourceTree = "<group>"; };
+		A6C4088213E31D4800267CFA /* Creating_Custom_Table_View_Cell_AccessoriesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Creating_Custom_Table_View_Cell_AccessoriesViewController.m; sourceTree = "<group>"; };
+		A6C4088513E31D4800267CFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Creating_Custom_Table_View_Cell_AccessoriesViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6C4088813E31D4800267CFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Creating_Custom_Table_View_Cell_AccessoriesViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6C4086813E31D4800267CFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C4087013E31D4800267CFA /* UIKit.framework in Frameworks */,
+				A6C4087213E31D4800267CFA /* Foundation.framework in Frameworks */,
+				A6C4087413E31D4800267CFA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6C4086013E31D4800267CFA = {
+			isa = PBXGroup;
+			children = (
+				A6C4087513E31D4800267CFA /* Creating Custom Table View Cell Accessories */,
+				A6C4086E13E31D4800267CFA /* Frameworks */,
+				A6C4086C13E31D4800267CFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6C4086C13E31D4800267CFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6C4086B13E31D4800267CFA /* Creating Custom Table View Cell Accessories.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6C4086E13E31D4800267CFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6C4086F13E31D4800267CFA /* UIKit.framework */,
+				A6C4087113E31D4800267CFA /* Foundation.framework */,
+				A6C4087313E31D4800267CFA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6C4087513E31D4800267CFA /* Creating Custom Table View Cell Accessories */ = {
+			isa = PBXGroup;
+			children = (
+				A6C4087E13E31D4800267CFA /* Creating_Custom_Table_View_Cell_AccessoriesAppDelegate.h */,
+				A6C4087F13E31D4800267CFA /* Creating_Custom_Table_View_Cell_AccessoriesAppDelegate.m */,
+				A6C4088113E31D4800267CFA /* Creating_Custom_Table_View_Cell_AccessoriesViewController.h */,
+				A6C4088213E31D4800267CFA /* Creating_Custom_Table_View_Cell_AccessoriesViewController.m */,
+				A6C4088413E31D4800267CFA /* Creating_Custom_Table_View_Cell_AccessoriesViewController_iPhone.xib */,
+				A6C4088713E31D4800267CFA /* Creating_Custom_Table_View_Cell_AccessoriesViewController_iPad.xib */,
+				A6C4087613E31D4800267CFA /* Supporting Files */,
+			);
+			path = "Creating Custom Table View Cell Accessories";
+			sourceTree = "<group>";
+		};
+		A6C4087613E31D4800267CFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6C4087713E31D4800267CFA /* Creating Custom Table View Cell Accessories-Info.plist */,
+				A6C4087813E31D4800267CFA /* InfoPlist.strings */,
+				A6C4087B13E31D4800267CFA /* main.m */,
+				A6C4087D13E31D4800267CFA /* Creating Custom Table View Cell Accessories-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6C4086A13E31D4800267CFA /* Creating Custom Table View Cell Accessories */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C4088C13E31D4800267CFA /* Build configuration list for PBXNativeTarget "Creating Custom Table View Cell Accessories" */;
+			buildPhases = (
+				A6C4086713E31D4800267CFA /* Sources */,
+				A6C4086813E31D4800267CFA /* Frameworks */,
+				A6C4086913E31D4800267CFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Creating Custom Table View Cell Accessories";
+			productName = "Creating Custom Table View Cell Accessories";
+			productReference = A6C4086B13E31D4800267CFA /* Creating Custom Table View Cell Accessories.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6C4086213E31D4800267CFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6C4086513E31D4800267CFA /* Build configuration list for PBXProject "Creating Custom Table View Cell Accessories" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6C4086013E31D4800267CFA;
+			productRefGroup = A6C4086C13E31D4800267CFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6C4086A13E31D4800267CFA /* Creating Custom Table View Cell Accessories */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6C4086913E31D4800267CFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C4087A13E31D4800267CFA /* InfoPlist.strings in Resources */,
+				A6C4088613E31D4800267CFA /* Creating_Custom_Table_View_Cell_AccessoriesViewController_iPhone.xib in Resources */,
+				A6C4088913E31D4800267CFA /* Creating_Custom_Table_View_Cell_AccessoriesViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6C4086713E31D4800267CFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C4087C13E31D4800267CFA /* main.m in Sources */,
+				A6C4088013E31D4800267CFA /* Creating_Custom_Table_View_Cell_AccessoriesAppDelegate.m in Sources */,
+				A6C4088313E31D4800267CFA /* Creating_Custom_Table_View_Cell_AccessoriesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6C4087813E31D4800267CFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C4087913E31D4800267CFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6C4088413E31D4800267CFA /* Creating_Custom_Table_View_Cell_AccessoriesViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C4088513E31D4800267CFA /* en */,
+			);
+			name = Creating_Custom_Table_View_Cell_AccessoriesViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6C4088713E31D4800267CFA /* Creating_Custom_Table_View_Cell_AccessoriesViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C4088813E31D4800267CFA /* en */,
+			);
+			name = Creating_Custom_Table_View_Cell_AccessoriesViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6C4088A13E31D4800267CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6C4088B13E31D4800267CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6C4088D13E31D4800267CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Creating Custom Table View Cell Accessories/Creating Custom Table View Cell Accessories-Prefix.pch";
+				INFOPLIST_FILE = "Creating Custom Table View Cell Accessories/Creating Custom Table View Cell Accessories-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6C4088E13E31D4800267CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Creating Custom Table View Cell Accessories/Creating Custom Table View Cell Accessories-Prefix.pch";
+				INFOPLIST_FILE = "Creating Custom Table View Cell Accessories/Creating Custom Table View Cell Accessories-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6C4086513E31D4800267CFA /* Build configuration list for PBXProject "Creating Custom Table View Cell Accessories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C4088A13E31D4800267CFA /* Debug */,
+				A6C4088B13E31D4800267CFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C4088C13E31D4800267CFA /* Build configuration list for PBXNativeTarget "Creating Custom Table View Cell Accessories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C4088D13E31D4800267CFA /* Debug */,
+				A6C4088E13E31D4800267CFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6C4086213E31D4800267CFA /* Project object */;
+}

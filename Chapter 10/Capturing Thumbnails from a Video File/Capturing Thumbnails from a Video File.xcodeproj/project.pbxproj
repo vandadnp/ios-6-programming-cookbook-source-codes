@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6044FAB13D1887900A619C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6044FAA13D1887900A619C1 /* UIKit.framework */; };
+		A6044FAD13D1887900A619C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6044FAC13D1887900A619C1 /* Foundation.framework */; };
+		A6044FAF13D1887900A619C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6044FAE13D1887900A619C1 /* CoreGraphics.framework */; };
+		A6044FB513D1887900A619C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6044FB313D1887900A619C1 /* InfoPlist.strings */; };
+		A6044FB713D1887900A619C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6044FB613D1887900A619C1 /* main.m */; };
+		A6044FBB13D1887A00A619C1 /* Capturing_Thumbnails_from_a_Video_FileAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6044FBA13D1887A00A619C1 /* Capturing_Thumbnails_from_a_Video_FileAppDelegate.m */; };
+		A6044FBE13D1887A00A619C1 /* Capturing_Thumbnails_from_a_Video_FileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6044FBD13D1887A00A619C1 /* Capturing_Thumbnails_from_a_Video_FileViewController.m */; };
+		A6044FC113D1887A00A619C1 /* Capturing_Thumbnails_from_a_Video_FileViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6044FBF13D1887A00A619C1 /* Capturing_Thumbnails_from_a_Video_FileViewController_iPhone.xib */; };
+		A6044FC413D1887A00A619C1 /* Capturing_Thumbnails_from_a_Video_FileViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6044FC213D1887A00A619C1 /* Capturing_Thumbnails_from_a_Video_FileViewController_iPad.xib */; };
+		A6044FD513D1889900A619C1 /* Sample.m4v in Resources */ = {isa = PBXBuildFile; fileRef = A6044FD413D1889900A619C1 /* Sample.m4v */; };
+		A6044FD813D188A100A619C1 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6044FD713D188A100A619C1 /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6044FA613D1887900A619C1 /* Capturing Thumbnails from a Video File.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Capturing Thumbnails from a Video File.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6044FAA13D1887900A619C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6044FAC13D1887900A619C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6044FAE13D1887900A619C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6044FB213D1887900A619C1 /* Capturing Thumbnails from a Video File-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Capturing Thumbnails from a Video File-Info.plist"; sourceTree = "<group>"; };
+		A6044FB413D1887900A619C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6044FB613D1887900A619C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6044FB813D1887900A619C1 /* Capturing Thumbnails from a Video File-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Capturing Thumbnails from a Video File-Prefix.pch"; sourceTree = "<group>"; };
+		A6044FB913D1887A00A619C1 /* Capturing_Thumbnails_from_a_Video_FileAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Capturing_Thumbnails_from_a_Video_FileAppDelegate.h; sourceTree = "<group>"; };
+		A6044FBA13D1887A00A619C1 /* Capturing_Thumbnails_from_a_Video_FileAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Capturing_Thumbnails_from_a_Video_FileAppDelegate.m; sourceTree = "<group>"; };
+		A6044FBC13D1887A00A619C1 /* Capturing_Thumbnails_from_a_Video_FileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Capturing_Thumbnails_from_a_Video_FileViewController.h; sourceTree = "<group>"; };
+		A6044FBD13D1887A00A619C1 /* Capturing_Thumbnails_from_a_Video_FileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Capturing_Thumbnails_from_a_Video_FileViewController.m; sourceTree = "<group>"; };
+		A6044FC013D1887A00A619C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Capturing_Thumbnails_from_a_Video_FileViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6044FC313D1887A00A619C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Capturing_Thumbnails_from_a_Video_FileViewController_iPad.xib; sourceTree = "<group>"; };
+		A6044FD413D1889900A619C1 /* Sample.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sample.m4v; sourceTree = "<group>"; };
+		A6044FD713D188A100A619C1 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6044FA313D1887900A619C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6044FD813D188A100A619C1 /* MediaPlayer.framework in Frameworks */,
+				A6044FAB13D1887900A619C1 /* UIKit.framework in Frameworks */,
+				A6044FAD13D1887900A619C1 /* Foundation.framework in Frameworks */,
+				A6044FAF13D1887900A619C1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6044F9B13D1887900A619C1 = {
+			isa = PBXGroup;
+			children = (
+				A6044FB013D1887900A619C1 /* Capturing Thumbnails from a Video File */,
+				A6044FA913D1887900A619C1 /* Frameworks */,
+				A6044FA713D1887900A619C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6044FA713D1887900A619C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6044FA613D1887900A619C1 /* Capturing Thumbnails from a Video File.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6044FA913D1887900A619C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6044FAA13D1887900A619C1 /* UIKit.framework */,
+				A6044FAC13D1887900A619C1 /* Foundation.framework */,
+				A6044FAE13D1887900A619C1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6044FB013D1887900A619C1 /* Capturing Thumbnails from a Video File */ = {
+			isa = PBXGroup;
+			children = (
+				A6044FB913D1887A00A619C1 /* Capturing_Thumbnails_from_a_Video_FileAppDelegate.h */,
+				A6044FBA13D1887A00A619C1 /* Capturing_Thumbnails_from_a_Video_FileAppDelegate.m */,
+				A6044FBC13D1887A00A619C1 /* Capturing_Thumbnails_from_a_Video_FileViewController.h */,
+				A6044FBD13D1887A00A619C1 /* Capturing_Thumbnails_from_a_Video_FileViewController.m */,
+				A6044FBF13D1887A00A619C1 /* Capturing_Thumbnails_from_a_Video_FileViewController_iPhone.xib */,
+				A6044FC213D1887A00A619C1 /* Capturing_Thumbnails_from_a_Video_FileViewController_iPad.xib */,
+				A6044FB113D1887900A619C1 /* Supporting Files */,
+			);
+			path = "Capturing Thumbnails from a Video File";
+			sourceTree = "<group>";
+		};
+		A6044FB113D1887900A619C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6044FD713D188A100A619C1 /* MediaPlayer.framework */,
+				A6044FD413D1889900A619C1 /* Sample.m4v */,
+				A6044FB213D1887900A619C1 /* Capturing Thumbnails from a Video File-Info.plist */,
+				A6044FB313D1887900A619C1 /* InfoPlist.strings */,
+				A6044FB613D1887900A619C1 /* main.m */,
+				A6044FB813D1887900A619C1 /* Capturing Thumbnails from a Video File-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6044FA513D1887900A619C1 /* Capturing Thumbnails from a Video File */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6044FC713D1887A00A619C1 /* Build configuration list for PBXNativeTarget "Capturing Thumbnails from a Video File" */;
+			buildPhases = (
+				A6044FA213D1887900A619C1 /* Sources */,
+				A6044FA313D1887900A619C1 /* Frameworks */,
+				A6044FA413D1887900A619C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Capturing Thumbnails from a Video File";
+			productName = "Capturing Thumbnails from a Video File";
+			productReference = A6044FA613D1887900A619C1 /* Capturing Thumbnails from a Video File.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6044F9D13D1887900A619C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6044FA013D1887900A619C1 /* Build configuration list for PBXProject "Capturing Thumbnails from a Video File" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6044F9B13D1887900A619C1;
+			productRefGroup = A6044FA713D1887900A619C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6044FA513D1887900A619C1 /* Capturing Thumbnails from a Video File */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6044FA413D1887900A619C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6044FB513D1887900A619C1 /* InfoPlist.strings in Resources */,
+				A6044FC113D1887A00A619C1 /* Capturing_Thumbnails_from_a_Video_FileViewController_iPhone.xib in Resources */,
+				A6044FC413D1887A00A619C1 /* Capturing_Thumbnails_from_a_Video_FileViewController_iPad.xib in Resources */,
+				A6044FD513D1889900A619C1 /* Sample.m4v in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6044FA213D1887900A619C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6044FB713D1887900A619C1 /* main.m in Sources */,
+				A6044FBB13D1887A00A619C1 /* Capturing_Thumbnails_from_a_Video_FileAppDelegate.m in Sources */,
+				A6044FBE13D1887A00A619C1 /* Capturing_Thumbnails_from_a_Video_FileViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6044FB313D1887900A619C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6044FB413D1887900A619C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6044FBF13D1887A00A619C1 /* Capturing_Thumbnails_from_a_Video_FileViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6044FC013D1887A00A619C1 /* en */,
+			);
+			name = Capturing_Thumbnails_from_a_Video_FileViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6044FC213D1887A00A619C1 /* Capturing_Thumbnails_from_a_Video_FileViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6044FC313D1887A00A619C1 /* en */,
+			);
+			name = Capturing_Thumbnails_from_a_Video_FileViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6044FC513D1887A00A619C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6044FC613D1887A00A619C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6044FC813D1887A00A619C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Capturing Thumbnails from a Video File/Capturing Thumbnails from a Video File-Prefix.pch";
+				INFOPLIST_FILE = "Capturing Thumbnails from a Video File/Capturing Thumbnails from a Video File-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6044FC913D1887A00A619C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Capturing Thumbnails from a Video File/Capturing Thumbnails from a Video File-Prefix.pch";
+				INFOPLIST_FILE = "Capturing Thumbnails from a Video File/Capturing Thumbnails from a Video File-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6044FA013D1887900A619C1 /* Build configuration list for PBXProject "Capturing Thumbnails from a Video File" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6044FC513D1887A00A619C1 /* Debug */,
+				A6044FC613D1887A00A619C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6044FC713D1887A00A619C1 /* Build configuration list for PBXNativeTarget "Capturing Thumbnails from a Video File" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6044FC813D1887A00A619C1 /* Debug */,
+				A6044FC913D1887A00A619C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6044F9D13D1887900A619C1 /* Project object */;
+}

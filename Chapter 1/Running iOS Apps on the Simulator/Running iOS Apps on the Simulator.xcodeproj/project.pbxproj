@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6DBBDA013C6D29B008C199F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DBBD9F13C6D29B008C199F /* UIKit.framework */; };
+		A6DBBDA213C6D29B008C199F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DBBDA113C6D29B008C199F /* Foundation.framework */; };
+		A6DBBDA413C6D29B008C199F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DBBDA313C6D29B008C199F /* CoreGraphics.framework */; };
+		A6DBBDAA13C6D29B008C199F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6DBBDA813C6D29B008C199F /* InfoPlist.strings */; };
+		A6DBBDAC13C6D29B008C199F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DBBDAB13C6D29B008C199F /* main.m */; };
+		A6DBBDB013C6D29B008C199F /* Running_iOS_Apps_on_the_SimulatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DBBDAF13C6D29B008C199F /* Running_iOS_Apps_on_the_SimulatorAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6DBBD9B13C6D29B008C199F /* Running iOS Apps on the Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Running iOS Apps on the Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6DBBD9F13C6D29B008C199F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6DBBDA113C6D29B008C199F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6DBBDA313C6D29B008C199F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6DBBDA713C6D29B008C199F /* Running iOS Apps on the Simulator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Running iOS Apps on the Simulator-Info.plist"; sourceTree = "<group>"; };
+		A6DBBDA913C6D29B008C199F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6DBBDAB13C6D29B008C199F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6DBBDAD13C6D29B008C199F /* Running iOS Apps on the Simulator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Running iOS Apps on the Simulator-Prefix.pch"; sourceTree = "<group>"; };
+		A6DBBDAE13C6D29B008C199F /* Running_iOS_Apps_on_the_SimulatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Running_iOS_Apps_on_the_SimulatorAppDelegate.h; sourceTree = "<group>"; };
+		A6DBBDAF13C6D29B008C199F /* Running_iOS_Apps_on_the_SimulatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Running_iOS_Apps_on_the_SimulatorAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6DBBD9813C6D29B008C199F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DBBDA013C6D29B008C199F /* UIKit.framework in Frameworks */,
+				A6DBBDA213C6D29B008C199F /* Foundation.framework in Frameworks */,
+				A6DBBDA413C6D29B008C199F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6DBBD9013C6D29B008C199F = {
+			isa = PBXGroup;
+			children = (
+				A6DBBDA513C6D29B008C199F /* Running iOS Apps on the Simulator */,
+				A6DBBD9E13C6D29B008C199F /* Frameworks */,
+				A6DBBD9C13C6D29B008C199F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6DBBD9C13C6D29B008C199F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6DBBD9B13C6D29B008C199F /* Running iOS Apps on the Simulator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6DBBD9E13C6D29B008C199F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6DBBD9F13C6D29B008C199F /* UIKit.framework */,
+				A6DBBDA113C6D29B008C199F /* Foundation.framework */,
+				A6DBBDA313C6D29B008C199F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6DBBDA513C6D29B008C199F /* Running iOS Apps on the Simulator */ = {
+			isa = PBXGroup;
+			children = (
+				A6DBBDAE13C6D29B008C199F /* Running_iOS_Apps_on_the_SimulatorAppDelegate.h */,
+				A6DBBDAF13C6D29B008C199F /* Running_iOS_Apps_on_the_SimulatorAppDelegate.m */,
+				A6DBBDA613C6D29B008C199F /* Supporting Files */,
+			);
+			path = "Running iOS Apps on the Simulator";
+			sourceTree = "<group>";
+		};
+		A6DBBDA613C6D29B008C199F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6DBBDA713C6D29B008C199F /* Running iOS Apps on the Simulator-Info.plist */,
+				A6DBBDA813C6D29B008C199F /* InfoPlist.strings */,
+				A6DBBDAB13C6D29B008C199F /* main.m */,
+				A6DBBDAD13C6D29B008C199F /* Running iOS Apps on the Simulator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6DBBD9A13C6D29B008C199F /* Running iOS Apps on the Simulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6DBBDB313C6D29B008C199F /* Build configuration list for PBXNativeTarget "Running iOS Apps on the Simulator" */;
+			buildPhases = (
+				A6DBBD9713C6D29B008C199F /* Sources */,
+				A6DBBD9813C6D29B008C199F /* Frameworks */,
+				A6DBBD9913C6D29B008C199F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Running iOS Apps on the Simulator";
+			productName = "Running iOS Apps on the Simulator";
+			productReference = A6DBBD9B13C6D29B008C199F /* Running iOS Apps on the Simulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6DBBD9213C6D29B008C199F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6DBBD9513C6D29B008C199F /* Build configuration list for PBXProject "Running iOS Apps on the Simulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6DBBD9013C6D29B008C199F;
+			productRefGroup = A6DBBD9C13C6D29B008C199F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6DBBD9A13C6D29B008C199F /* Running iOS Apps on the Simulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6DBBD9913C6D29B008C199F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DBBDAA13C6D29B008C199F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6DBBD9713C6D29B008C199F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DBBDAC13C6D29B008C199F /* main.m in Sources */,
+				A6DBBDB013C6D29B008C199F /* Running_iOS_Apps_on_the_SimulatorAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6DBBDA813C6D29B008C199F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6DBBDA913C6D29B008C199F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6DBBDB113C6D29B008C199F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6DBBDB213C6D29B008C199F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6DBBDB413C6D29B008C199F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Running iOS Apps on the Simulator/Running iOS Apps on the Simulator-Prefix.pch";
+				INFOPLIST_FILE = "Running iOS Apps on the Simulator/Running iOS Apps on the Simulator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6DBBDB513C6D29B008C199F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Running iOS Apps on the Simulator/Running iOS Apps on the Simulator-Prefix.pch";
+				INFOPLIST_FILE = "Running iOS Apps on the Simulator/Running iOS Apps on the Simulator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6DBBD9513C6D29B008C199F /* Build configuration list for PBXProject "Running iOS Apps on the Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6DBBDB113C6D29B008C199F /* Debug */,
+				A6DBBDB213C6D29B008C199F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6DBBDB313C6D29B008C199F /* Build configuration list for PBXNativeTarget "Running iOS Apps on the Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6DBBDB413C6D29B008C199F /* Debug */,
+				A6DBBDB513C6D29B008C199F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6DBBD9213C6D29B008C199F /* Project object */;
+}

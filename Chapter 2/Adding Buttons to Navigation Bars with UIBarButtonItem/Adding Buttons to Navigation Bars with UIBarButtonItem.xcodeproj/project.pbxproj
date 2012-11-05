@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A686FE8613C88BEE00ED7CF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A686FE8513C88BEE00ED7CF7 /* UIKit.framework */; };
+		A686FE8813C88BEE00ED7CF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A686FE8713C88BEE00ED7CF7 /* Foundation.framework */; };
+		A686FE8A13C88BEE00ED7CF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A686FE8913C88BEE00ED7CF7 /* CoreGraphics.framework */; };
+		A686FE9013C88BEE00ED7CF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A686FE8E13C88BEE00ED7CF7 /* InfoPlist.strings */; };
+		A686FE9213C88BEE00ED7CF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A686FE9113C88BEE00ED7CF7 /* main.m */; };
+		A686FE9613C88BEE00ED7CF7 /* Adding_Buttons_to_Navigation_Bars_with_UIBarButtonItemAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A686FE9513C88BEE00ED7CF7 /* Adding_Buttons_to_Navigation_Bars_with_UIBarButtonItemAppDelegate.m */; };
+		A686FEA813C88C0800ED7CF7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A686FEA713C88C0800ED7CF7 /* RootViewController.m */; };
+		A6B3D82013C89E1B00F2A199 /* DownArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B3D81C13C89E1B00F2A199 /* DownArrow.png */; };
+		A6B3D82113C89E1B00F2A199 /* DownArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B3D81D13C89E1B00F2A199 /* DownArrow@2x.png */; };
+		A6B3D82213C89E1B00F2A199 /* UpArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B3D81E13C89E1B00F2A199 /* UpArrow.png */; };
+		A6B3D82313C89E1B00F2A199 /* UpArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B3D81F13C89E1B00F2A199 /* UpArrow@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A686FE8113C88BEE00ED7CF7 /* Adding Buttons to Navigation Bars with UIBarButtonItem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adding Buttons to Navigation Bars with UIBarButtonItem.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A686FE8513C88BEE00ED7CF7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A686FE8713C88BEE00ED7CF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A686FE8913C88BEE00ED7CF7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A686FE8D13C88BEE00ED7CF7 /* Adding Buttons to Navigation Bars with UIBarButtonItem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Adding Buttons to Navigation Bars with UIBarButtonItem-Info.plist"; sourceTree = "<group>"; };
+		A686FE8F13C88BEE00ED7CF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A686FE9113C88BEE00ED7CF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A686FE9313C88BEE00ED7CF7 /* Adding Buttons to Navigation Bars with UIBarButtonItem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Adding Buttons to Navigation Bars with UIBarButtonItem-Prefix.pch"; sourceTree = "<group>"; };
+		A686FE9413C88BEE00ED7CF7 /* Adding_Buttons_to_Navigation_Bars_with_UIBarButtonItemAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adding_Buttons_to_Navigation_Bars_with_UIBarButtonItemAppDelegate.h; sourceTree = "<group>"; };
+		A686FE9513C88BEE00ED7CF7 /* Adding_Buttons_to_Navigation_Bars_with_UIBarButtonItemAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Adding_Buttons_to_Navigation_Bars_with_UIBarButtonItemAppDelegate.m; sourceTree = "<group>"; };
+		A686FEA613C88C0800ED7CF7 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A686FEA713C88C0800ED7CF7 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A6B3D81C13C89E1B00F2A199 /* DownArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DownArrow.png; sourceTree = "<group>"; };
+		A6B3D81D13C89E1B00F2A199 /* DownArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DownArrow@2x.png"; sourceTree = "<group>"; };
+		A6B3D81E13C89E1B00F2A199 /* UpArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UpArrow.png; sourceTree = "<group>"; };
+		A6B3D81F13C89E1B00F2A199 /* UpArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UpArrow@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A686FE7E13C88BEE00ED7CF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A686FE8613C88BEE00ED7CF7 /* UIKit.framework in Frameworks */,
+				A686FE8813C88BEE00ED7CF7 /* Foundation.framework in Frameworks */,
+				A686FE8A13C88BEE00ED7CF7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A686FE7613C88BEE00ED7CF7 = {
+			isa = PBXGroup;
+			children = (
+				A686FE8B13C88BEE00ED7CF7 /* Adding Buttons to Navigation Bars with UIBarButtonItem */,
+				A686FE8413C88BEE00ED7CF7 /* Frameworks */,
+				A686FE8213C88BEE00ED7CF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A686FE8213C88BEE00ED7CF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A686FE8113C88BEE00ED7CF7 /* Adding Buttons to Navigation Bars with UIBarButtonItem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A686FE8413C88BEE00ED7CF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A686FE8513C88BEE00ED7CF7 /* UIKit.framework */,
+				A686FE8713C88BEE00ED7CF7 /* Foundation.framework */,
+				A686FE8913C88BEE00ED7CF7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A686FE8B13C88BEE00ED7CF7 /* Adding Buttons to Navigation Bars with UIBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				A686FE9413C88BEE00ED7CF7 /* Adding_Buttons_to_Navigation_Bars_with_UIBarButtonItemAppDelegate.h */,
+				A686FE9513C88BEE00ED7CF7 /* Adding_Buttons_to_Navigation_Bars_with_UIBarButtonItemAppDelegate.m */,
+				A686FE8C13C88BEE00ED7CF7 /* Supporting Files */,
+				A686FEA613C88C0800ED7CF7 /* RootViewController.h */,
+				A686FEA713C88C0800ED7CF7 /* RootViewController.m */,
+			);
+			path = "Adding Buttons to Navigation Bars with UIBarButtonItem";
+			sourceTree = "<group>";
+		};
+		A686FE8C13C88BEE00ED7CF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6B3D81C13C89E1B00F2A199 /* DownArrow.png */,
+				A6B3D81D13C89E1B00F2A199 /* DownArrow@2x.png */,
+				A6B3D81E13C89E1B00F2A199 /* UpArrow.png */,
+				A6B3D81F13C89E1B00F2A199 /* UpArrow@2x.png */,
+				A686FE8D13C88BEE00ED7CF7 /* Adding Buttons to Navigation Bars with UIBarButtonItem-Info.plist */,
+				A686FE8E13C88BEE00ED7CF7 /* InfoPlist.strings */,
+				A686FE9113C88BEE00ED7CF7 /* main.m */,
+				A686FE9313C88BEE00ED7CF7 /* Adding Buttons to Navigation Bars with UIBarButtonItem-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A686FE8013C88BEE00ED7CF7 /* Adding Buttons to Navigation Bars with UIBarButtonItem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A686FE9913C88BEE00ED7CF7 /* Build configuration list for PBXNativeTarget "Adding Buttons to Navigation Bars with UIBarButtonItem" */;
+			buildPhases = (
+				A686FE7D13C88BEE00ED7CF7 /* Sources */,
+				A686FE7E13C88BEE00ED7CF7 /* Frameworks */,
+				A686FE7F13C88BEE00ED7CF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Adding Buttons to Navigation Bars with UIBarButtonItem";
+			productName = "Adding Buttons to Navigation Bars with UIBarButtonItem";
+			productReference = A686FE8113C88BEE00ED7CF7 /* Adding Buttons to Navigation Bars with UIBarButtonItem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A686FE7813C88BEE00ED7CF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A686FE7B13C88BEE00ED7CF7 /* Build configuration list for PBXProject "Adding Buttons to Navigation Bars with UIBarButtonItem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A686FE7613C88BEE00ED7CF7;
+			productRefGroup = A686FE8213C88BEE00ED7CF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A686FE8013C88BEE00ED7CF7 /* Adding Buttons to Navigation Bars with UIBarButtonItem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A686FE7F13C88BEE00ED7CF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A686FE9013C88BEE00ED7CF7 /* InfoPlist.strings in Resources */,
+				A6B3D82013C89E1B00F2A199 /* DownArrow.png in Resources */,
+				A6B3D82113C89E1B00F2A199 /* DownArrow@2x.png in Resources */,
+				A6B3D82213C89E1B00F2A199 /* UpArrow.png in Resources */,
+				A6B3D82313C89E1B00F2A199 /* UpArrow@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A686FE7D13C88BEE00ED7CF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A686FE9213C88BEE00ED7CF7 /* main.m in Sources */,
+				A686FE9613C88BEE00ED7CF7 /* Adding_Buttons_to_Navigation_Bars_with_UIBarButtonItemAppDelegate.m in Sources */,
+				A686FEA813C88C0800ED7CF7 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A686FE8E13C88BEE00ED7CF7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A686FE8F13C88BEE00ED7CF7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A686FE9713C88BEE00ED7CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A686FE9813C88BEE00ED7CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A686FE9A13C88BEE00ED7CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adding Buttons to Navigation Bars with UIBarButtonItem/Adding Buttons to Navigation Bars with UIBarButtonItem-Prefix.pch";
+				INFOPLIST_FILE = "Adding Buttons to Navigation Bars with UIBarButtonItem/Adding Buttons to Navigation Bars with UIBarButtonItem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A686FE9B13C88BEE00ED7CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adding Buttons to Navigation Bars with UIBarButtonItem/Adding Buttons to Navigation Bars with UIBarButtonItem-Prefix.pch";
+				INFOPLIST_FILE = "Adding Buttons to Navigation Bars with UIBarButtonItem/Adding Buttons to Navigation Bars with UIBarButtonItem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A686FE7B13C88BEE00ED7CF7 /* Build configuration list for PBXProject "Adding Buttons to Navigation Bars with UIBarButtonItem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A686FE9713C88BEE00ED7CF7 /* Debug */,
+				A686FE9813C88BEE00ED7CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A686FE9913C88BEE00ED7CF7 /* Build configuration list for PBXNativeTarget "Adding Buttons to Navigation Bars with UIBarButtonItem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A686FE9A13C88BEE00ED7CF7 /* Debug */,
+				A686FE9B13C88BEE00ED7CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A686FE7813C88BEE00ED7CF7 /* Project object */;
+}

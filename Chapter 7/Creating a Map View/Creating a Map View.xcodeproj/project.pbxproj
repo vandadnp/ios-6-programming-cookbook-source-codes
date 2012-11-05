@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A618E42413CF2A66001B0A20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A618E42313CF2A66001B0A20 /* UIKit.framework */; };
+		A618E42613CF2A66001B0A20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A618E42513CF2A66001B0A20 /* Foundation.framework */; };
+		A618E42813CF2A66001B0A20 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A618E42713CF2A66001B0A20 /* CoreGraphics.framework */; };
+		A618E42E13CF2A66001B0A20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A618E42C13CF2A66001B0A20 /* InfoPlist.strings */; };
+		A618E43013CF2A66001B0A20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A618E42F13CF2A66001B0A20 /* main.m */; };
+		A618E43413CF2A66001B0A20 /* Creating_a_Map_ViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A618E43313CF2A66001B0A20 /* Creating_a_Map_ViewAppDelegate.m */; };
+		A618E43713CF2A66001B0A20 /* Creating_a_Map_ViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A618E43613CF2A66001B0A20 /* Creating_a_Map_ViewViewController.m */; };
+		A618E43A13CF2A66001B0A20 /* Creating_a_Map_ViewViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A618E43813CF2A66001B0A20 /* Creating_a_Map_ViewViewController_iPhone.xib */; };
+		A618E43D13CF2A66001B0A20 /* Creating_a_Map_ViewViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A618E43B13CF2A66001B0A20 /* Creating_a_Map_ViewViewController_iPad.xib */; };
+		A618E44E13CF2A7F001B0A20 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A618E44D13CF2A7F001B0A20 /* MapKit.framework */; };
+		A618E45113CF2A82001B0A20 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A618E45013CF2A82001B0A20 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A618E41F13CF2A66001B0A20 /* Creating a Map View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Creating a Map View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A618E42313CF2A66001B0A20 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A618E42513CF2A66001B0A20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A618E42713CF2A66001B0A20 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A618E42B13CF2A66001B0A20 /* Creating a Map View-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Creating a Map View-Info.plist"; sourceTree = "<group>"; };
+		A618E42D13CF2A66001B0A20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A618E42F13CF2A66001B0A20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A618E43113CF2A66001B0A20 /* Creating a Map View-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Creating a Map View-Prefix.pch"; sourceTree = "<group>"; };
+		A618E43213CF2A66001B0A20 /* Creating_a_Map_ViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Creating_a_Map_ViewAppDelegate.h; sourceTree = "<group>"; };
+		A618E43313CF2A66001B0A20 /* Creating_a_Map_ViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Creating_a_Map_ViewAppDelegate.m; sourceTree = "<group>"; };
+		A618E43513CF2A66001B0A20 /* Creating_a_Map_ViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Creating_a_Map_ViewViewController.h; sourceTree = "<group>"; };
+		A618E43613CF2A66001B0A20 /* Creating_a_Map_ViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Creating_a_Map_ViewViewController.m; sourceTree = "<group>"; };
+		A618E43913CF2A66001B0A20 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Creating_a_Map_ViewViewController_iPhone.xib; sourceTree = "<group>"; };
+		A618E43C13CF2A66001B0A20 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Creating_a_Map_ViewViewController_iPad.xib; sourceTree = "<group>"; };
+		A618E44D13CF2A7F001B0A20 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A618E45013CF2A82001B0A20 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A618E41C13CF2A66001B0A20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A618E45113CF2A82001B0A20 /* CoreLocation.framework in Frameworks */,
+				A618E44E13CF2A7F001B0A20 /* MapKit.framework in Frameworks */,
+				A618E42413CF2A66001B0A20 /* UIKit.framework in Frameworks */,
+				A618E42613CF2A66001B0A20 /* Foundation.framework in Frameworks */,
+				A618E42813CF2A66001B0A20 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A618E41413CF2A65001B0A20 = {
+			isa = PBXGroup;
+			children = (
+				A618E42913CF2A66001B0A20 /* Creating a Map View */,
+				A618E42213CF2A66001B0A20 /* Frameworks */,
+				A618E42013CF2A66001B0A20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A618E42013CF2A66001B0A20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A618E41F13CF2A66001B0A20 /* Creating a Map View.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A618E42213CF2A66001B0A20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A618E45013CF2A82001B0A20 /* CoreLocation.framework */,
+				A618E44D13CF2A7F001B0A20 /* MapKit.framework */,
+				A618E42313CF2A66001B0A20 /* UIKit.framework */,
+				A618E42513CF2A66001B0A20 /* Foundation.framework */,
+				A618E42713CF2A66001B0A20 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A618E42913CF2A66001B0A20 /* Creating a Map View */ = {
+			isa = PBXGroup;
+			children = (
+				A618E43213CF2A66001B0A20 /* Creating_a_Map_ViewAppDelegate.h */,
+				A618E43313CF2A66001B0A20 /* Creating_a_Map_ViewAppDelegate.m */,
+				A618E43513CF2A66001B0A20 /* Creating_a_Map_ViewViewController.h */,
+				A618E43613CF2A66001B0A20 /* Creating_a_Map_ViewViewController.m */,
+				A618E43813CF2A66001B0A20 /* Creating_a_Map_ViewViewController_iPhone.xib */,
+				A618E43B13CF2A66001B0A20 /* Creating_a_Map_ViewViewController_iPad.xib */,
+				A618E42A13CF2A66001B0A20 /* Supporting Files */,
+			);
+			path = "Creating a Map View";
+			sourceTree = "<group>";
+		};
+		A618E42A13CF2A66001B0A20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A618E42B13CF2A66001B0A20 /* Creating a Map View-Info.plist */,
+				A618E42C13CF2A66001B0A20 /* InfoPlist.strings */,
+				A618E42F13CF2A66001B0A20 /* main.m */,
+				A618E43113CF2A66001B0A20 /* Creating a Map View-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A618E41E13CF2A66001B0A20 /* Creating a Map View */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A618E44013CF2A66001B0A20 /* Build configuration list for PBXNativeTarget "Creating a Map View" */;
+			buildPhases = (
+				A618E41B13CF2A66001B0A20 /* Sources */,
+				A618E41C13CF2A66001B0A20 /* Frameworks */,
+				A618E41D13CF2A66001B0A20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Creating a Map View";
+			productName = "Creating a Map View";
+			productReference = A618E41F13CF2A66001B0A20 /* Creating a Map View.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A618E41613CF2A65001B0A20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A618E41913CF2A65001B0A20 /* Build configuration list for PBXProject "Creating a Map View" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A618E41413CF2A65001B0A20;
+			productRefGroup = A618E42013CF2A66001B0A20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A618E41E13CF2A66001B0A20 /* Creating a Map View */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A618E41D13CF2A66001B0A20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A618E42E13CF2A66001B0A20 /* InfoPlist.strings in Resources */,
+				A618E43A13CF2A66001B0A20 /* Creating_a_Map_ViewViewController_iPhone.xib in Resources */,
+				A618E43D13CF2A66001B0A20 /* Creating_a_Map_ViewViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A618E41B13CF2A66001B0A20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A618E43013CF2A66001B0A20 /* main.m in Sources */,
+				A618E43413CF2A66001B0A20 /* Creating_a_Map_ViewAppDelegate.m in Sources */,
+				A618E43713CF2A66001B0A20 /* Creating_a_Map_ViewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A618E42C13CF2A66001B0A20 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A618E42D13CF2A66001B0A20 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A618E43813CF2A66001B0A20 /* Creating_a_Map_ViewViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A618E43913CF2A66001B0A20 /* en */,
+			);
+			name = Creating_a_Map_ViewViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A618E43B13CF2A66001B0A20 /* Creating_a_Map_ViewViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A618E43C13CF2A66001B0A20 /* en */,
+			);
+			name = Creating_a_Map_ViewViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A618E43E13CF2A66001B0A20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A618E43F13CF2A66001B0A20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A618E44113CF2A66001B0A20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Creating a Map View/Creating a Map View-Prefix.pch";
+				INFOPLIST_FILE = "Creating a Map View/Creating a Map View-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A618E44213CF2A66001B0A20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Creating a Map View/Creating a Map View-Prefix.pch";
+				INFOPLIST_FILE = "Creating a Map View/Creating a Map View-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A618E41913CF2A65001B0A20 /* Build configuration list for PBXProject "Creating a Map View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A618E43E13CF2A66001B0A20 /* Debug */,
+				A618E43F13CF2A66001B0A20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A618E44013CF2A66001B0A20 /* Build configuration list for PBXNativeTarget "Creating a Map View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A618E44113CF2A66001B0A20 /* Debug */,
+				A618E44213CF2A66001B0A20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A618E41613CF2A65001B0A20 /* Project object */;
+}

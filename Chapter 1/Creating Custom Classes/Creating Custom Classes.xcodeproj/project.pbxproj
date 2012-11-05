@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A66E920913C5D1750020508C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66E920813C5D1750020508C /* UIKit.framework */; };
+		A66E920B13C5D1750020508C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66E920A13C5D1750020508C /* Foundation.framework */; };
+		A66E920D13C5D1750020508C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66E920C13C5D1750020508C /* CoreGraphics.framework */; };
+		A66E921313C5D1750020508C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A66E921113C5D1750020508C /* InfoPlist.strings */; };
+		A66E921513C5D1750020508C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A66E921413C5D1750020508C /* main.m */; };
+		A66E921913C5D1750020508C /* Creating_Custom_ClassesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A66E921813C5D1750020508C /* Creating_Custom_ClassesAppDelegate.m */; };
+		A66E940213C5D6210020508C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A66E940113C5D6210020508C /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A66E920413C5D1750020508C /* Creating Custom Classes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Creating Custom Classes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A66E920813C5D1750020508C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A66E920A13C5D1750020508C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A66E920C13C5D1750020508C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A66E921013C5D1750020508C /* Creating Custom Classes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Creating Custom Classes-Info.plist"; sourceTree = "<group>"; };
+		A66E921213C5D1750020508C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A66E921413C5D1750020508C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A66E921613C5D1750020508C /* Creating Custom Classes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Creating Custom Classes-Prefix.pch"; sourceTree = "<group>"; };
+		A66E921713C5D1750020508C /* Creating_Custom_ClassesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Creating_Custom_ClassesAppDelegate.h; sourceTree = "<group>"; };
+		A66E921813C5D1750020508C /* Creating_Custom_ClassesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Creating_Custom_ClassesAppDelegate.m; sourceTree = "<group>"; };
+		A66E940013C5D6210020508C /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A66E940113C5D6210020508C /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A66E920113C5D1750020508C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66E920913C5D1750020508C /* UIKit.framework in Frameworks */,
+				A66E920B13C5D1750020508C /* Foundation.framework in Frameworks */,
+				A66E920D13C5D1750020508C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A66E91F913C5D1750020508C = {
+			isa = PBXGroup;
+			children = (
+				A66E920E13C5D1750020508C /* Creating Custom Classes */,
+				A66E920713C5D1750020508C /* Frameworks */,
+				A66E920513C5D1750020508C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A66E920513C5D1750020508C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A66E920413C5D1750020508C /* Creating Custom Classes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A66E920713C5D1750020508C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A66E920813C5D1750020508C /* UIKit.framework */,
+				A66E920A13C5D1750020508C /* Foundation.framework */,
+				A66E920C13C5D1750020508C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A66E920E13C5D1750020508C /* Creating Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A66E921713C5D1750020508C /* Creating_Custom_ClassesAppDelegate.h */,
+				A66E921813C5D1750020508C /* Creating_Custom_ClassesAppDelegate.m */,
+				A66E920F13C5D1750020508C /* Supporting Files */,
+				A66E940013C5D6210020508C /* Person.h */,
+				A66E940113C5D6210020508C /* Person.m */,
+			);
+			path = "Creating Custom Classes";
+			sourceTree = "<group>";
+		};
+		A66E920F13C5D1750020508C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A66E921013C5D1750020508C /* Creating Custom Classes-Info.plist */,
+				A66E921113C5D1750020508C /* InfoPlist.strings */,
+				A66E921413C5D1750020508C /* main.m */,
+				A66E921613C5D1750020508C /* Creating Custom Classes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A66E920313C5D1750020508C /* Creating Custom Classes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A66E921C13C5D1750020508C /* Build configuration list for PBXNativeTarget "Creating Custom Classes" */;
+			buildPhases = (
+				A66E920013C5D1750020508C /* Sources */,
+				A66E920113C5D1750020508C /* Frameworks */,
+				A66E920213C5D1750020508C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Creating Custom Classes";
+			productName = "Creating Custom Classes";
+			productReference = A66E920413C5D1750020508C /* Creating Custom Classes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A66E91FB13C5D1750020508C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A66E91FE13C5D1750020508C /* Build configuration list for PBXProject "Creating Custom Classes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A66E91F913C5D1750020508C;
+			productRefGroup = A66E920513C5D1750020508C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A66E920313C5D1750020508C /* Creating Custom Classes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A66E920213C5D1750020508C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66E921313C5D1750020508C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A66E920013C5D1750020508C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66E921513C5D1750020508C /* main.m in Sources */,
+				A66E921913C5D1750020508C /* Creating_Custom_ClassesAppDelegate.m in Sources */,
+				A66E940213C5D6210020508C /* Person.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A66E921113C5D1750020508C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A66E921213C5D1750020508C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A66E921A13C5D1750020508C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A66E921B13C5D1750020508C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A66E921D13C5D1750020508C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Creating Custom Classes/Creating Custom Classes-Prefix.pch";
+				INFOPLIST_FILE = "Creating Custom Classes/Creating Custom Classes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A66E921E13C5D1750020508C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Creating Custom Classes/Creating Custom Classes-Prefix.pch";
+				INFOPLIST_FILE = "Creating Custom Classes/Creating Custom Classes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A66E91FE13C5D1750020508C /* Build configuration list for PBXProject "Creating Custom Classes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A66E921A13C5D1750020508C /* Debug */,
+				A66E921B13C5D1750020508C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A66E921C13C5D1750020508C /* Build configuration list for PBXNativeTarget "Creating Custom Classes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A66E921D13C5D1750020508C /* Debug */,
+				A66E921E13C5D1750020508C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A66E91FB13C5D1750020508C /* Project object */;
+}

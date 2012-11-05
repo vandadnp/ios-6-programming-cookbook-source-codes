@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6D74DA913E4044700A38F08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D74DA813E4044700A38F08 /* UIKit.framework */; };
+		A6D74DAB13E4044700A38F08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D74DAA13E4044700A38F08 /* Foundation.framework */; };
+		A6D74DAD13E4044700A38F08 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D74DAC13E4044700A38F08 /* CoreGraphics.framework */; };
+		A6D74DB313E4044700A38F08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6D74DB113E4044700A38F08 /* InfoPlist.strings */; };
+		A6D74DB513E4044700A38F08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D74DB413E4044700A38F08 /* main.m */; };
+		A6D74DB913E4044700A38F08 /* Constructing_Headers_and_Footers_in_Table_ViewsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D74DB813E4044700A38F08 /* Constructing_Headers_and_Footers_in_Table_ViewsAppDelegate.m */; };
+		A6D74DBC13E4044700A38F08 /* Constructing_Headers_and_Footers_in_Table_ViewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D74DBB13E4044700A38F08 /* Constructing_Headers_and_Footers_in_Table_ViewsViewController.m */; };
+		A6D74DBF13E4044700A38F08 /* Constructing_Headers_and_Footers_in_Table_ViewsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6D74DBD13E4044700A38F08 /* Constructing_Headers_and_Footers_in_Table_ViewsViewController_iPhone.xib */; };
+		A6D74DC213E4044700A38F08 /* Constructing_Headers_and_Footers_in_Table_ViewsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6D74DC013E4044700A38F08 /* Constructing_Headers_and_Footers_in_Table_ViewsViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6D74DA413E4044700A38F08 /* Constructing Headers and Footers in Table Views.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Constructing Headers and Footers in Table Views.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6D74DA813E4044700A38F08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6D74DAA13E4044700A38F08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6D74DAC13E4044700A38F08 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6D74DB013E4044700A38F08 /* Constructing Headers and Footers in Table Views-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Constructing Headers and Footers in Table Views-Info.plist"; sourceTree = "<group>"; };
+		A6D74DB213E4044700A38F08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6D74DB413E4044700A38F08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6D74DB613E4044700A38F08 /* Constructing Headers and Footers in Table Views-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Constructing Headers and Footers in Table Views-Prefix.pch"; sourceTree = "<group>"; };
+		A6D74DB713E4044700A38F08 /* Constructing_Headers_and_Footers_in_Table_ViewsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constructing_Headers_and_Footers_in_Table_ViewsAppDelegate.h; sourceTree = "<group>"; };
+		A6D74DB813E4044700A38F08 /* Constructing_Headers_and_Footers_in_Table_ViewsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constructing_Headers_and_Footers_in_Table_ViewsAppDelegate.m; sourceTree = "<group>"; };
+		A6D74DBA13E4044700A38F08 /* Constructing_Headers_and_Footers_in_Table_ViewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constructing_Headers_and_Footers_in_Table_ViewsViewController.h; sourceTree = "<group>"; };
+		A6D74DBB13E4044700A38F08 /* Constructing_Headers_and_Footers_in_Table_ViewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constructing_Headers_and_Footers_in_Table_ViewsViewController.m; sourceTree = "<group>"; };
+		A6D74DBE13E4044700A38F08 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Constructing_Headers_and_Footers_in_Table_ViewsViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6D74DC113E4044700A38F08 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Constructing_Headers_and_Footers_in_Table_ViewsViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6D74DA113E4044700A38F08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D74DA913E4044700A38F08 /* UIKit.framework in Frameworks */,
+				A6D74DAB13E4044700A38F08 /* Foundation.framework in Frameworks */,
+				A6D74DAD13E4044700A38F08 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6D74D9913E4044700A38F08 = {
+			isa = PBXGroup;
+			children = (
+				A6D74DAE13E4044700A38F08 /* Constructing Headers and Footers in Table Views */,
+				A6D74DA713E4044700A38F08 /* Frameworks */,
+				A6D74DA513E4044700A38F08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6D74DA513E4044700A38F08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6D74DA413E4044700A38F08 /* Constructing Headers and Footers in Table Views.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6D74DA713E4044700A38F08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6D74DA813E4044700A38F08 /* UIKit.framework */,
+				A6D74DAA13E4044700A38F08 /* Foundation.framework */,
+				A6D74DAC13E4044700A38F08 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6D74DAE13E4044700A38F08 /* Constructing Headers and Footers in Table Views */ = {
+			isa = PBXGroup;
+			children = (
+				A6D74DB713E4044700A38F08 /* Constructing_Headers_and_Footers_in_Table_ViewsAppDelegate.h */,
+				A6D74DB813E4044700A38F08 /* Constructing_Headers_and_Footers_in_Table_ViewsAppDelegate.m */,
+				A6D74DBA13E4044700A38F08 /* Constructing_Headers_and_Footers_in_Table_ViewsViewController.h */,
+				A6D74DBB13E4044700A38F08 /* Constructing_Headers_and_Footers_in_Table_ViewsViewController.m */,
+				A6D74DBD13E4044700A38F08 /* Constructing_Headers_and_Footers_in_Table_ViewsViewController_iPhone.xib */,
+				A6D74DC013E4044700A38F08 /* Constructing_Headers_and_Footers_in_Table_ViewsViewController_iPad.xib */,
+				A6D74DAF13E4044700A38F08 /* Supporting Files */,
+			);
+			path = "Constructing Headers and Footers in Table Views";
+			sourceTree = "<group>";
+		};
+		A6D74DAF13E4044700A38F08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6D74DB013E4044700A38F08 /* Constructing Headers and Footers in Table Views-Info.plist */,
+				A6D74DB113E4044700A38F08 /* InfoPlist.strings */,
+				A6D74DB413E4044700A38F08 /* main.m */,
+				A6D74DB613E4044700A38F08 /* Constructing Headers and Footers in Table Views-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6D74DA313E4044700A38F08 /* Constructing Headers and Footers in Table Views */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6D74DC513E4044700A38F08 /* Build configuration list for PBXNativeTarget "Constructing Headers and Footers in Table Views" */;
+			buildPhases = (
+				A6D74DA013E4044700A38F08 /* Sources */,
+				A6D74DA113E4044700A38F08 /* Frameworks */,
+				A6D74DA213E4044700A38F08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Constructing Headers and Footers in Table Views";
+			productName = "Constructing Headers and Footers in Table Views";
+			productReference = A6D74DA413E4044700A38F08 /* Constructing Headers and Footers in Table Views.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6D74D9B13E4044700A38F08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6D74D9E13E4044700A38F08 /* Build configuration list for PBXProject "Constructing Headers and Footers in Table Views" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6D74D9913E4044700A38F08;
+			productRefGroup = A6D74DA513E4044700A38F08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6D74DA313E4044700A38F08 /* Constructing Headers and Footers in Table Views */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6D74DA213E4044700A38F08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D74DB313E4044700A38F08 /* InfoPlist.strings in Resources */,
+				A6D74DBF13E4044700A38F08 /* Constructing_Headers_and_Footers_in_Table_ViewsViewController_iPhone.xib in Resources */,
+				A6D74DC213E4044700A38F08 /* Constructing_Headers_and_Footers_in_Table_ViewsViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6D74DA013E4044700A38F08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D74DB513E4044700A38F08 /* main.m in Sources */,
+				A6D74DB913E4044700A38F08 /* Constructing_Headers_and_Footers_in_Table_ViewsAppDelegate.m in Sources */,
+				A6D74DBC13E4044700A38F08 /* Constructing_Headers_and_Footers_in_Table_ViewsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6D74DB113E4044700A38F08 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6D74DB213E4044700A38F08 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6D74DBD13E4044700A38F08 /* Constructing_Headers_and_Footers_in_Table_ViewsViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6D74DBE13E4044700A38F08 /* en */,
+			);
+			name = Constructing_Headers_and_Footers_in_Table_ViewsViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6D74DC013E4044700A38F08 /* Constructing_Headers_and_Footers_in_Table_ViewsViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6D74DC113E4044700A38F08 /* en */,
+			);
+			name = Constructing_Headers_and_Footers_in_Table_ViewsViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6D74DC313E4044700A38F08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6D74DC413E4044700A38F08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6D74DC613E4044700A38F08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Constructing Headers and Footers in Table Views/Constructing Headers and Footers in Table Views-Prefix.pch";
+				INFOPLIST_FILE = "Constructing Headers and Footers in Table Views/Constructing Headers and Footers in Table Views-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6D74DC713E4044700A38F08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Constructing Headers and Footers in Table Views/Constructing Headers and Footers in Table Views-Prefix.pch";
+				INFOPLIST_FILE = "Constructing Headers and Footers in Table Views/Constructing Headers and Footers in Table Views-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6D74D9E13E4044700A38F08 /* Build configuration list for PBXProject "Constructing Headers and Footers in Table Views" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D74DC313E4044700A38F08 /* Debug */,
+				A6D74DC413E4044700A38F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6D74DC513E4044700A38F08 /* Build configuration list for PBXNativeTarget "Constructing Headers and Footers in Table Views" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D74DC613E4044700A38F08 /* Debug */,
+				A6D74DC713E4044700A38F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6D74D9B13E4044700A38F08 /* Project object */;
+}

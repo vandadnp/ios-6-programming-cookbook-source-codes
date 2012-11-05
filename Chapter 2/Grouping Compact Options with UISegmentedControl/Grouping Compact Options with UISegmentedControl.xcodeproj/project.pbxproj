@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6B0AF4113C8474C00AB0F40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B0AF4013C8474C00AB0F40 /* UIKit.framework */; };
+		A6B0AF4313C8474C00AB0F40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B0AF4213C8474C00AB0F40 /* Foundation.framework */; };
+		A6B0AF4513C8474C00AB0F40 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B0AF4413C8474C00AB0F40 /* CoreGraphics.framework */; };
+		A6B0AF4B13C8474C00AB0F40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6B0AF4913C8474C00AB0F40 /* InfoPlist.strings */; };
+		A6B0AF4D13C8474C00AB0F40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B0AF4C13C8474C00AB0F40 /* main.m */; };
+		A6B0AF5113C8474C00AB0F40 /* Grouping_Compact_Options_with_UISegmentedControlAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B0AF5013C8474C00AB0F40 /* Grouping_Compact_Options_with_UISegmentedControlAppDelegate.m */; };
+		A6B0AF5313C8474C00AB0F40 /* Grouping_Compact_Options_with_UISegmentedControlViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = A6B0AF5213C8474C00AB0F40 /* Grouping_Compact_Options_with_UISegmentedControlViewController.h */; };
+		A6B0AF5513C8474C00AB0F40 /* Grouping_Compact_Options_with_UISegmentedControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B0AF5413C8474C00AB0F40 /* Grouping_Compact_Options_with_UISegmentedControlViewController.m */; };
+		A6B0AF5813C8474C00AB0F40 /* Grouping_Compact_Options_with_UISegmentedControlViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6B0AF5613C8474C00AB0F40 /* Grouping_Compact_Options_with_UISegmentedControlViewController_iPhone.xib */; };
+		A6B0AF5B13C8474C00AB0F40 /* Grouping_Compact_Options_with_UISegmentedControlViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6B0AF5913C8474C00AB0F40 /* Grouping_Compact_Options_with_UISegmentedControlViewController_iPad.xib */; };
+		A6B0AF6E13C84D4E00AB0F40 /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B0AF6D13C84D4E00AB0F40 /* iPad.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6B0AF3C13C8474C00AB0F40 /* Grouping Compact Options with UISegmentedControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grouping Compact Options with UISegmentedControl.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B0AF4013C8474C00AB0F40 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6B0AF4213C8474C00AB0F40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6B0AF4413C8474C00AB0F40 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6B0AF4813C8474C00AB0F40 /* Grouping Compact Options with UISegmentedControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Grouping Compact Options with UISegmentedControl-Info.plist"; sourceTree = "<group>"; };
+		A6B0AF4A13C8474C00AB0F40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6B0AF4C13C8474C00AB0F40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6B0AF4E13C8474C00AB0F40 /* Grouping Compact Options with UISegmentedControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Grouping Compact Options with UISegmentedControl-Prefix.pch"; sourceTree = "<group>"; };
+		A6B0AF4F13C8474C00AB0F40 /* Grouping_Compact_Options_with_UISegmentedControlAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Grouping_Compact_Options_with_UISegmentedControlAppDelegate.h; sourceTree = "<group>"; };
+		A6B0AF5013C8474C00AB0F40 /* Grouping_Compact_Options_with_UISegmentedControlAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Grouping_Compact_Options_with_UISegmentedControlAppDelegate.m; sourceTree = "<group>"; };
+		A6B0AF5213C8474C00AB0F40 /* Grouping_Compact_Options_with_UISegmentedControlViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Grouping_Compact_Options_with_UISegmentedControlViewController.h; sourceTree = "<group>"; };
+		A6B0AF5413C8474C00AB0F40 /* Grouping_Compact_Options_with_UISegmentedControlViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Grouping_Compact_Options_with_UISegmentedControlViewController.m; sourceTree = "<group>"; };
+		A6B0AF5713C8474C00AB0F40 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Grouping_Compact_Options_with_UISegmentedControlViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6B0AF5A13C8474C00AB0F40 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Grouping_Compact_Options_with_UISegmentedControlViewController_iPad.xib; sourceTree = "<group>"; };
+		A6B0AF6D13C84D4E00AB0F40 /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPad.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6B0AF3913C8474C00AB0F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B0AF4113C8474C00AB0F40 /* UIKit.framework in Frameworks */,
+				A6B0AF4313C8474C00AB0F40 /* Foundation.framework in Frameworks */,
+				A6B0AF4513C8474C00AB0F40 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6B0AF3113C8474C00AB0F40 = {
+			isa = PBXGroup;
+			children = (
+				A6B0AF4613C8474C00AB0F40 /* Grouping Compact Options with UISegmentedControl */,
+				A6B0AF3F13C8474C00AB0F40 /* Frameworks */,
+				A6B0AF3D13C8474C00AB0F40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6B0AF3D13C8474C00AB0F40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6B0AF3C13C8474C00AB0F40 /* Grouping Compact Options with UISegmentedControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6B0AF3F13C8474C00AB0F40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6B0AF4013C8474C00AB0F40 /* UIKit.framework */,
+				A6B0AF4213C8474C00AB0F40 /* Foundation.framework */,
+				A6B0AF4413C8474C00AB0F40 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6B0AF4613C8474C00AB0F40 /* Grouping Compact Options with UISegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				A6B0AF4F13C8474C00AB0F40 /* Grouping_Compact_Options_with_UISegmentedControlAppDelegate.h */,
+				A6B0AF5013C8474C00AB0F40 /* Grouping_Compact_Options_with_UISegmentedControlAppDelegate.m */,
+				A6B0AF5213C8474C00AB0F40 /* Grouping_Compact_Options_with_UISegmentedControlViewController.h */,
+				A6B0AF5413C8474C00AB0F40 /* Grouping_Compact_Options_with_UISegmentedControlViewController.m */,
+				A6B0AF5613C8474C00AB0F40 /* Grouping_Compact_Options_with_UISegmentedControlViewController_iPhone.xib */,
+				A6B0AF5913C8474C00AB0F40 /* Grouping_Compact_Options_with_UISegmentedControlViewController_iPad.xib */,
+				A6B0AF4713C8474C00AB0F40 /* Supporting Files */,
+			);
+			path = "Grouping Compact Options with UISegmentedControl";
+			sourceTree = "<group>";
+		};
+		A6B0AF4713C8474C00AB0F40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6B0AF6D13C84D4E00AB0F40 /* iPad.png */,
+				A6B0AF4813C8474C00AB0F40 /* Grouping Compact Options with UISegmentedControl-Info.plist */,
+				A6B0AF4913C8474C00AB0F40 /* InfoPlist.strings */,
+				A6B0AF4C13C8474C00AB0F40 /* main.m */,
+				A6B0AF4E13C8474C00AB0F40 /* Grouping Compact Options with UISegmentedControl-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6B0AF3B13C8474C00AB0F40 /* Grouping Compact Options with UISegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6B0AF5E13C8474C00AB0F40 /* Build configuration list for PBXNativeTarget "Grouping Compact Options with UISegmentedControl" */;
+			buildPhases = (
+				A6B0AF3813C8474C00AB0F40 /* Sources */,
+				A6B0AF3913C8474C00AB0F40 /* Frameworks */,
+				A6B0AF3A13C8474C00AB0F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Grouping Compact Options with UISegmentedControl";
+			productName = "Grouping Compact Options with UISegmentedControl";
+			productReference = A6B0AF3C13C8474C00AB0F40 /* Grouping Compact Options with UISegmentedControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6B0AF3313C8474C00AB0F40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6B0AF3613C8474C00AB0F40 /* Build configuration list for PBXProject "Grouping Compact Options with UISegmentedControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6B0AF3113C8474C00AB0F40;
+			productRefGroup = A6B0AF3D13C8474C00AB0F40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6B0AF3B13C8474C00AB0F40 /* Grouping Compact Options with UISegmentedControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6B0AF3A13C8474C00AB0F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B0AF4B13C8474C00AB0F40 /* InfoPlist.strings in Resources */,
+				A6B0AF5313C8474C00AB0F40 /* Grouping_Compact_Options_with_UISegmentedControlViewController.h in Resources */,
+				A6B0AF5813C8474C00AB0F40 /* Grouping_Compact_Options_with_UISegmentedControlViewController_iPhone.xib in Resources */,
+				A6B0AF5B13C8474C00AB0F40 /* Grouping_Compact_Options_with_UISegmentedControlViewController_iPad.xib in Resources */,
+				A6B0AF6E13C84D4E00AB0F40 /* iPad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6B0AF3813C8474C00AB0F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B0AF4D13C8474C00AB0F40 /* main.m in Sources */,
+				A6B0AF5113C8474C00AB0F40 /* Grouping_Compact_Options_with_UISegmentedControlAppDelegate.m in Sources */,
+				A6B0AF5513C8474C00AB0F40 /* Grouping_Compact_Options_with_UISegmentedControlViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6B0AF4913C8474C00AB0F40 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6B0AF4A13C8474C00AB0F40 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6B0AF5613C8474C00AB0F40 /* Grouping_Compact_Options_with_UISegmentedControlViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6B0AF5713C8474C00AB0F40 /* en */,
+			);
+			name = Grouping_Compact_Options_with_UISegmentedControlViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6B0AF5913C8474C00AB0F40 /* Grouping_Compact_Options_with_UISegmentedControlViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6B0AF5A13C8474C00AB0F40 /* en */,
+			);
+			name = Grouping_Compact_Options_with_UISegmentedControlViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6B0AF5C13C8474C00AB0F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6B0AF5D13C8474C00AB0F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6B0AF5F13C8474C00AB0F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Grouping Compact Options with UISegmentedControl/Grouping Compact Options with UISegmentedControl-Prefix.pch";
+				INFOPLIST_FILE = "Grouping Compact Options with UISegmentedControl/Grouping Compact Options with UISegmentedControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6B0AF6013C8474C00AB0F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Grouping Compact Options with UISegmentedControl/Grouping Compact Options with UISegmentedControl-Prefix.pch";
+				INFOPLIST_FILE = "Grouping Compact Options with UISegmentedControl/Grouping Compact Options with UISegmentedControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6B0AF3613C8474C00AB0F40 /* Build configuration list for PBXProject "Grouping Compact Options with UISegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B0AF5C13C8474C00AB0F40 /* Debug */,
+				A6B0AF5D13C8474C00AB0F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6B0AF5E13C8474C00AB0F40 /* Build configuration list for PBXNativeTarget "Grouping Compact Options with UISegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B0AF5F13C8474C00AB0F40 /* Debug */,
+				A6B0AF6013C8474C00AB0F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6B0AF3313C8474C00AB0F40 /* Project object */;
+}

@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A610173013DC050700B705B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A610172F13DC050700B705B5 /* UIKit.framework */; };
+		A610173213DC050700B705B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A610173113DC050700B705B5 /* Foundation.framework */; };
+		A610173413DC050700B705B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A610173313DC050700B705B5 /* CoreGraphics.framework */; };
+		A610173A13DC050700B705B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A610173813DC050700B705B5 /* InfoPlist.strings */; };
+		A610173C13DC050700B705B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A610173B13DC050700B705B5 /* main.m */; };
+		A610174013DC050700B705B5 /* Retrieving_the_Attendees_of_an_EventAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A610173F13DC050700B705B5 /* Retrieving_the_Attendees_of_an_EventAppDelegate.m */; };
+		A610175213DC052900B705B5 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A610175013DC052900B705B5 /* EventKit.framework */; };
+		A610175313DC052900B705B5 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A610175113DC052900B705B5 /* EventKitUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A610172B13DC050700B705B5 /* Retrieving the Attendees of an Event.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Retrieving the Attendees of an Event.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A610172F13DC050700B705B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A610173113DC050700B705B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A610173313DC050700B705B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A610173713DC050700B705B5 /* Retrieving the Attendees of an Event-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Retrieving the Attendees of an Event-Info.plist"; sourceTree = "<group>"; };
+		A610173913DC050700B705B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A610173B13DC050700B705B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A610173D13DC050700B705B5 /* Retrieving the Attendees of an Event-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Retrieving the Attendees of an Event-Prefix.pch"; sourceTree = "<group>"; };
+		A610173E13DC050700B705B5 /* Retrieving_the_Attendees_of_an_EventAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Retrieving_the_Attendees_of_an_EventAppDelegate.h; sourceTree = "<group>"; };
+		A610173F13DC050700B705B5 /* Retrieving_the_Attendees_of_an_EventAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Retrieving_the_Attendees_of_an_EventAppDelegate.m; sourceTree = "<group>"; };
+		A610175013DC052900B705B5 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		A610175113DC052900B705B5 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A610172813DC050700B705B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A610175213DC052900B705B5 /* EventKit.framework in Frameworks */,
+				A610175313DC052900B705B5 /* EventKitUI.framework in Frameworks */,
+				A610173013DC050700B705B5 /* UIKit.framework in Frameworks */,
+				A610173213DC050700B705B5 /* Foundation.framework in Frameworks */,
+				A610173413DC050700B705B5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A610172013DC050700B705B5 = {
+			isa = PBXGroup;
+			children = (
+				A610173513DC050700B705B5 /* Retrieving the Attendees of an Event */,
+				A610172E13DC050700B705B5 /* Frameworks */,
+				A610172C13DC050700B705B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A610172C13DC050700B705B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A610172B13DC050700B705B5 /* Retrieving the Attendees of an Event.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A610172E13DC050700B705B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A610175013DC052900B705B5 /* EventKit.framework */,
+				A610175113DC052900B705B5 /* EventKitUI.framework */,
+				A610172F13DC050700B705B5 /* UIKit.framework */,
+				A610173113DC050700B705B5 /* Foundation.framework */,
+				A610173313DC050700B705B5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A610173513DC050700B705B5 /* Retrieving the Attendees of an Event */ = {
+			isa = PBXGroup;
+			children = (
+				A610173E13DC050700B705B5 /* Retrieving_the_Attendees_of_an_EventAppDelegate.h */,
+				A610173F13DC050700B705B5 /* Retrieving_the_Attendees_of_an_EventAppDelegate.m */,
+				A610173613DC050700B705B5 /* Supporting Files */,
+			);
+			path = "Retrieving the Attendees of an Event";
+			sourceTree = "<group>";
+		};
+		A610173613DC050700B705B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A610173713DC050700B705B5 /* Retrieving the Attendees of an Event-Info.plist */,
+				A610173813DC050700B705B5 /* InfoPlist.strings */,
+				A610173B13DC050700B705B5 /* main.m */,
+				A610173D13DC050700B705B5 /* Retrieving the Attendees of an Event-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A610172A13DC050700B705B5 /* Retrieving the Attendees of an Event */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A610174313DC050800B705B5 /* Build configuration list for PBXNativeTarget "Retrieving the Attendees of an Event" */;
+			buildPhases = (
+				A610172713DC050700B705B5 /* Sources */,
+				A610172813DC050700B705B5 /* Frameworks */,
+				A610172913DC050700B705B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Retrieving the Attendees of an Event";
+			productName = "Retrieving the Attendees of an Event";
+			productReference = A610172B13DC050700B705B5 /* Retrieving the Attendees of an Event.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A610172213DC050700B705B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A610172513DC050700B705B5 /* Build configuration list for PBXProject "Retrieving the Attendees of an Event" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A610172013DC050700B705B5;
+			productRefGroup = A610172C13DC050700B705B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A610172A13DC050700B705B5 /* Retrieving the Attendees of an Event */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A610172913DC050700B705B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A610173A13DC050700B705B5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A610172713DC050700B705B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A610173C13DC050700B705B5 /* main.m in Sources */,
+				A610174013DC050700B705B5 /* Retrieving_the_Attendees_of_an_EventAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A610173813DC050700B705B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A610173913DC050700B705B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A610174113DC050800B705B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A610174213DC050800B705B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A610174413DC050800B705B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Retrieving the Attendees of an Event/Retrieving the Attendees of an Event-Prefix.pch";
+				INFOPLIST_FILE = "Retrieving the Attendees of an Event/Retrieving the Attendees of an Event-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A610174513DC050800B705B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Retrieving the Attendees of an Event/Retrieving the Attendees of an Event-Prefix.pch";
+				INFOPLIST_FILE = "Retrieving the Attendees of an Event/Retrieving the Attendees of an Event-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A610172513DC050700B705B5 /* Build configuration list for PBXProject "Retrieving the Attendees of an Event" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A610174113DC050800B705B5 /* Debug */,
+				A610174213DC050800B705B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A610174313DC050800B705B5 /* Build configuration list for PBXNativeTarget "Retrieving the Attendees of an Event" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A610174413DC050800B705B5 /* Debug */,
+				A610174513DC050800B705B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A610172213DC050700B705B5 /* Project object */;
+}

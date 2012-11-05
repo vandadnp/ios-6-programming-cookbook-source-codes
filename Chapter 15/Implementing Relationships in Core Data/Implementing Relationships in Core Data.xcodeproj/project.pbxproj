@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A68133AB13DB1945003624B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A68133AA13DB1945003624B1 /* UIKit.framework */; };
+		A68133AD13DB1945003624B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A68133AC13DB1945003624B1 /* Foundation.framework */; };
+		A68133AF13DB1945003624B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A68133AE13DB1945003624B1 /* CoreGraphics.framework */; };
+		A68133B113DB1945003624B1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A68133B013DB1945003624B1 /* CoreData.framework */; };
+		A68133B713DB1945003624B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A68133B513DB1945003624B1 /* InfoPlist.strings */; };
+		A68133B913DB1945003624B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A68133B813DB1945003624B1 /* main.m */; };
+		A68133BD13DB1945003624B1 /* Implementing_Relationships_in_Core_DataAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A68133BC13DB1945003624B1 /* Implementing_Relationships_in_Core_DataAppDelegate.m */; };
+		A68133C013DB1945003624B1 /* Implementing_Relationships_in_Core_Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A68133BE13DB1945003624B1 /* Implementing_Relationships_in_Core_Data.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A68133A613DB1945003624B1 /* Implementing Relationships in Core Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Implementing Relationships in Core Data.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A68133AA13DB1945003624B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A68133AC13DB1945003624B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A68133AE13DB1945003624B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A68133B013DB1945003624B1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A68133B413DB1945003624B1 /* Implementing Relationships in Core Data-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Implementing Relationships in Core Data-Info.plist"; sourceTree = "<group>"; };
+		A68133B613DB1945003624B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A68133B813DB1945003624B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A68133BA13DB1945003624B1 /* Implementing Relationships in Core Data-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Implementing Relationships in Core Data-Prefix.pch"; sourceTree = "<group>"; };
+		A68133BB13DB1945003624B1 /* Implementing_Relationships_in_Core_DataAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Implementing_Relationships_in_Core_DataAppDelegate.h; sourceTree = "<group>"; };
+		A68133BC13DB1945003624B1 /* Implementing_Relationships_in_Core_DataAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Implementing_Relationships_in_Core_DataAppDelegate.m; sourceTree = "<group>"; };
+		A68133BF13DB1945003624B1 /* Implementing_Relationships_in_Core_Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Implementing_Relationships_in_Core_Data.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A68133A313DB1945003624B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68133AB13DB1945003624B1 /* UIKit.framework in Frameworks */,
+				A68133AD13DB1945003624B1 /* Foundation.framework in Frameworks */,
+				A68133AF13DB1945003624B1 /* CoreGraphics.framework in Frameworks */,
+				A68133B113DB1945003624B1 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A681339B13DB1945003624B1 = {
+			isa = PBXGroup;
+			children = (
+				A68133B213DB1945003624B1 /* Implementing Relationships in Core Data */,
+				A68133A913DB1945003624B1 /* Frameworks */,
+				A68133A713DB1945003624B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A68133A713DB1945003624B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A68133A613DB1945003624B1 /* Implementing Relationships in Core Data.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A68133A913DB1945003624B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A68133AA13DB1945003624B1 /* UIKit.framework */,
+				A68133AC13DB1945003624B1 /* Foundation.framework */,
+				A68133AE13DB1945003624B1 /* CoreGraphics.framework */,
+				A68133B013DB1945003624B1 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A68133B213DB1945003624B1 /* Implementing Relationships in Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				A68133BB13DB1945003624B1 /* Implementing_Relationships_in_Core_DataAppDelegate.h */,
+				A68133BC13DB1945003624B1 /* Implementing_Relationships_in_Core_DataAppDelegate.m */,
+				A68133BE13DB1945003624B1 /* Implementing_Relationships_in_Core_Data.xcdatamodeld */,
+				A68133B313DB1945003624B1 /* Supporting Files */,
+			);
+			path = "Implementing Relationships in Core Data";
+			sourceTree = "<group>";
+		};
+		A68133B313DB1945003624B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A68133B413DB1945003624B1 /* Implementing Relationships in Core Data-Info.plist */,
+				A68133B513DB1945003624B1 /* InfoPlist.strings */,
+				A68133B813DB1945003624B1 /* main.m */,
+				A68133BA13DB1945003624B1 /* Implementing Relationships in Core Data-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A68133A513DB1945003624B1 /* Implementing Relationships in Core Data */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A68133C313DB1945003624B1 /* Build configuration list for PBXNativeTarget "Implementing Relationships in Core Data" */;
+			buildPhases = (
+				A68133A213DB1945003624B1 /* Sources */,
+				A68133A313DB1945003624B1 /* Frameworks */,
+				A68133A413DB1945003624B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Implementing Relationships in Core Data";
+			productName = "Implementing Relationships in Core Data";
+			productReference = A68133A613DB1945003624B1 /* Implementing Relationships in Core Data.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A681339D13DB1945003624B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A68133A013DB1945003624B1 /* Build configuration list for PBXProject "Implementing Relationships in Core Data" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A681339B13DB1945003624B1;
+			productRefGroup = A68133A713DB1945003624B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A68133A513DB1945003624B1 /* Implementing Relationships in Core Data */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A68133A413DB1945003624B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68133B713DB1945003624B1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A68133A213DB1945003624B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A68133B913DB1945003624B1 /* main.m in Sources */,
+				A68133BD13DB1945003624B1 /* Implementing_Relationships_in_Core_DataAppDelegate.m in Sources */,
+				A68133C013DB1945003624B1 /* Implementing_Relationships_in_Core_Data.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A68133B513DB1945003624B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A68133B613DB1945003624B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A68133C113DB1945003624B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A68133C213DB1945003624B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A68133C413DB1945003624B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Implementing Relationships in Core Data/Implementing Relationships in Core Data-Prefix.pch";
+				INFOPLIST_FILE = "Implementing Relationships in Core Data/Implementing Relationships in Core Data-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A68133C513DB1945003624B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Implementing Relationships in Core Data/Implementing Relationships in Core Data-Prefix.pch";
+				INFOPLIST_FILE = "Implementing Relationships in Core Data/Implementing Relationships in Core Data-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A68133A013DB1945003624B1 /* Build configuration list for PBXProject "Implementing Relationships in Core Data" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A68133C113DB1945003624B1 /* Debug */,
+				A68133C213DB1945003624B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A68133C313DB1945003624B1 /* Build configuration list for PBXNativeTarget "Implementing Relationships in Core Data" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A68133C413DB1945003624B1 /* Debug */,
+				A68133C513DB1945003624B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A68133BE13DB1945003624B1 /* Implementing_Relationships_in_Core_Data.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A68133BF13DB1945003624B1 /* Implementing_Relationships_in_Core_Data.xcdatamodel */,
+			);
+			currentVersion = A68133BF13DB1945003624B1 /* Implementing_Relationships_in_Core_Data.xcdatamodel */;
+			path = Implementing_Relationships_in_Core_Data.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A681339D13DB1945003624B1 /* Project object */;
+}

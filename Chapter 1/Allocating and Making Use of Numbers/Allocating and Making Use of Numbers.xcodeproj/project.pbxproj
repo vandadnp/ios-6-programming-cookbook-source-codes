@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6C3DD8113C4C6FB00470FAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C3DD8013C4C6FB00470FAD /* UIKit.framework */; };
+		A6C3DD8313C4C6FB00470FAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C3DD8213C4C6FB00470FAD /* Foundation.framework */; };
+		A6C3DD8513C4C6FB00470FAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C3DD8413C4C6FB00470FAD /* CoreGraphics.framework */; };
+		A6C3DD8B13C4C6FB00470FAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6C3DD8913C4C6FB00470FAD /* InfoPlist.strings */; };
+		A6C3DD8E13C4C6FB00470FAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C3DD8D13C4C6FB00470FAD /* main.m */; };
+		A6C3DD9113C4C6FB00470FAD /* Allocating_and_Making_Use_of_NumbersAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C3DD9013C4C6FB00470FAD /* Allocating_and_Making_Use_of_NumbersAppDelegate.m */; };
+		A6C3DD9513C4C6FB00470FAD /* Allocating_and_Making_Use_of_NumbersAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C3DD9413C4C6FB00470FAD /* Allocating_and_Making_Use_of_NumbersAppDelegate_iPhone.m */; };
+		A6C3DD9813C4C6FB00470FAD /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C3DD9613C4C6FB00470FAD /* MainWindow_iPhone.xib */; };
+		A6C3DD9C13C4C6FB00470FAD /* Allocating_and_Making_Use_of_NumbersAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C3DD9B13C4C6FB00470FAD /* Allocating_and_Making_Use_of_NumbersAppDelegate_iPad.m */; };
+		A6C3DD9F13C4C6FB00470FAD /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C3DD9D13C4C6FB00470FAD /* MainWindow_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6C3DD7C13C4C6FB00470FAD /* Allocating and Making Use of Numbers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Allocating and Making Use of Numbers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C3DD8013C4C6FB00470FAD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6C3DD8213C4C6FB00470FAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6C3DD8413C4C6FB00470FAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6C3DD8813C4C6FB00470FAD /* Allocating and Making Use of Numbers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Allocating and Making Use of Numbers-Info.plist"; sourceTree = "<group>"; };
+		A6C3DD8A13C4C6FB00470FAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6C3DD8C13C4C6FB00470FAD /* Allocating and Making Use of Numbers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Allocating and Making Use of Numbers-Prefix.pch"; sourceTree = "<group>"; };
+		A6C3DD8D13C4C6FB00470FAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6C3DD8F13C4C6FB00470FAD /* Allocating_and_Making_Use_of_NumbersAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Allocating_and_Making_Use_of_NumbersAppDelegate.h; sourceTree = "<group>"; };
+		A6C3DD9013C4C6FB00470FAD /* Allocating_and_Making_Use_of_NumbersAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Allocating_and_Making_Use_of_NumbersAppDelegate.m; sourceTree = "<group>"; };
+		A6C3DD9313C4C6FB00470FAD /* Allocating_and_Making_Use_of_NumbersAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Allocating_and_Making_Use_of_NumbersAppDelegate_iPhone.h; path = iPhone/Allocating_and_Making_Use_of_NumbersAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		A6C3DD9413C4C6FB00470FAD /* Allocating_and_Making_Use_of_NumbersAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Allocating_and_Making_Use_of_NumbersAppDelegate_iPhone.m; path = iPhone/Allocating_and_Making_Use_of_NumbersAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		A6C3DD9713C4C6FB00470FAD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		A6C3DD9A13C4C6FB00470FAD /* Allocating_and_Making_Use_of_NumbersAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Allocating_and_Making_Use_of_NumbersAppDelegate_iPad.h; path = iPad/Allocating_and_Making_Use_of_NumbersAppDelegate_iPad.h; sourceTree = "<group>"; };
+		A6C3DD9B13C4C6FB00470FAD /* Allocating_and_Making_Use_of_NumbersAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Allocating_and_Making_Use_of_NumbersAppDelegate_iPad.m; path = iPad/Allocating_and_Making_Use_of_NumbersAppDelegate_iPad.m; sourceTree = "<group>"; };
+		A6C3DD9E13C4C6FB00470FAD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6C3DD7913C4C6FB00470FAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C3DD8113C4C6FB00470FAD /* UIKit.framework in Frameworks */,
+				A6C3DD8313C4C6FB00470FAD /* Foundation.framework in Frameworks */,
+				A6C3DD8513C4C6FB00470FAD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6C3DD7113C4C6FB00470FAD = {
+			isa = PBXGroup;
+			children = (
+				A6C3DD8613C4C6FB00470FAD /* Allocating and Making Use of Numbers */,
+				A6C3DD7F13C4C6FB00470FAD /* Frameworks */,
+				A6C3DD7D13C4C6FB00470FAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6C3DD7D13C4C6FB00470FAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6C3DD7C13C4C6FB00470FAD /* Allocating and Making Use of Numbers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6C3DD7F13C4C6FB00470FAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6C3DD8013C4C6FB00470FAD /* UIKit.framework */,
+				A6C3DD8213C4C6FB00470FAD /* Foundation.framework */,
+				A6C3DD8413C4C6FB00470FAD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6C3DD8613C4C6FB00470FAD /* Allocating and Making Use of Numbers */ = {
+			isa = PBXGroup;
+			children = (
+				A6C3DD8F13C4C6FB00470FAD /* Allocating_and_Making_Use_of_NumbersAppDelegate.h */,
+				A6C3DD9013C4C6FB00470FAD /* Allocating_and_Making_Use_of_NumbersAppDelegate.m */,
+				A6C3DD9213C4C6FB00470FAD /* iPhone */,
+				A6C3DD9913C4C6FB00470FAD /* iPad */,
+				A6C3DD8713C4C6FB00470FAD /* Supporting Files */,
+			);
+			path = "Allocating and Making Use of Numbers";
+			sourceTree = "<group>";
+		};
+		A6C3DD8713C4C6FB00470FAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6C3DD8813C4C6FB00470FAD /* Allocating and Making Use of Numbers-Info.plist */,
+				A6C3DD8913C4C6FB00470FAD /* InfoPlist.strings */,
+				A6C3DD8C13C4C6FB00470FAD /* Allocating and Making Use of Numbers-Prefix.pch */,
+				A6C3DD8D13C4C6FB00470FAD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6C3DD9213C4C6FB00470FAD /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				A6C3DD9313C4C6FB00470FAD /* Allocating_and_Making_Use_of_NumbersAppDelegate_iPhone.h */,
+				A6C3DD9413C4C6FB00470FAD /* Allocating_and_Making_Use_of_NumbersAppDelegate_iPhone.m */,
+				A6C3DD9613C4C6FB00470FAD /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		A6C3DD9913C4C6FB00470FAD /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				A6C3DD9A13C4C6FB00470FAD /* Allocating_and_Making_Use_of_NumbersAppDelegate_iPad.h */,
+				A6C3DD9B13C4C6FB00470FAD /* Allocating_and_Making_Use_of_NumbersAppDelegate_iPad.m */,
+				A6C3DD9D13C4C6FB00470FAD /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6C3DD7B13C4C6FB00470FAD /* Allocating and Making Use of Numbers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C3DDA213C4C6FB00470FAD /* Build configuration list for PBXNativeTarget "Allocating and Making Use of Numbers" */;
+			buildPhases = (
+				A6C3DD7813C4C6FB00470FAD /* Sources */,
+				A6C3DD7913C4C6FB00470FAD /* Frameworks */,
+				A6C3DD7A13C4C6FB00470FAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Allocating and Making Use of Numbers";
+			productName = "Allocating and Making Use of Numbers";
+			productReference = A6C3DD7C13C4C6FB00470FAD /* Allocating and Making Use of Numbers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6C3DD7313C4C6FB00470FAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6C3DD7613C4C6FB00470FAD /* Build configuration list for PBXProject "Allocating and Making Use of Numbers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6C3DD7113C4C6FB00470FAD;
+			productRefGroup = A6C3DD7D13C4C6FB00470FAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6C3DD7B13C4C6FB00470FAD /* Allocating and Making Use of Numbers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6C3DD7A13C4C6FB00470FAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C3DD8B13C4C6FB00470FAD /* InfoPlist.strings in Resources */,
+				A6C3DD9813C4C6FB00470FAD /* MainWindow_iPhone.xib in Resources */,
+				A6C3DD9F13C4C6FB00470FAD /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6C3DD7813C4C6FB00470FAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C3DD8E13C4C6FB00470FAD /* main.m in Sources */,
+				A6C3DD9113C4C6FB00470FAD /* Allocating_and_Making_Use_of_NumbersAppDelegate.m in Sources */,
+				A6C3DD9513C4C6FB00470FAD /* Allocating_and_Making_Use_of_NumbersAppDelegate_iPhone.m in Sources */,
+				A6C3DD9C13C4C6FB00470FAD /* Allocating_and_Making_Use_of_NumbersAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6C3DD8913C4C6FB00470FAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C3DD8A13C4C6FB00470FAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6C3DD9613C4C6FB00470FAD /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C3DD9713C4C6FB00470FAD /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6C3DD9D13C4C6FB00470FAD /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C3DD9E13C4C6FB00470FAD /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6C3DDA013C4C6FB00470FAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6C3DDA113C4C6FB00470FAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6C3DDA313C4C6FB00470FAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Allocating and Making Use of Numbers/Allocating and Making Use of Numbers-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Allocating and Making Use of Numbers/Allocating and Making Use of Numbers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6C3DDA413C4C6FB00470FAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Allocating and Making Use of Numbers/Allocating and Making Use of Numbers-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Allocating and Making Use of Numbers/Allocating and Making Use of Numbers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6C3DD7613C4C6FB00470FAD /* Build configuration list for PBXProject "Allocating and Making Use of Numbers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C3DDA013C4C6FB00470FAD /* Debug */,
+				A6C3DDA113C4C6FB00470FAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C3DDA213C4C6FB00470FAD /* Build configuration list for PBXNativeTarget "Allocating and Making Use of Numbers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C3DDA313C4C6FB00470FAD /* Debug */,
+				A6C3DDA413C4C6FB00470FAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6C3DD7313C4C6FB00470FAD /* Project object */;
+}

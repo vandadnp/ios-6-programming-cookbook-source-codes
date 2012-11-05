@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6C2BC7D13CE9D8300415BB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C2BC7C13CE9D8300415BB1 /* UIKit.framework */; };
+		A6C2BC7F13CE9D8300415BB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C2BC7E13CE9D8300415BB1 /* Foundation.framework */; };
+		A6C2BC8113CE9D8300415BB1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C2BC8013CE9D8300415BB1 /* CoreGraphics.framework */; };
+		A6C2BC8713CE9D8300415BB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6C2BC8513CE9D8300415BB1 /* InfoPlist.strings */; };
+		A6C2BC8913CE9D8300415BB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2BC8813CE9D8300415BB1 /* main.m */; };
+		A6C2BC8D13CE9D8300415BB1 /* Grouping_Tasks_Together_with_GCDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2BC8C13CE9D8300415BB1 /* Grouping_Tasks_Together_with_GCDAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6C2BC7813CE9D8300415BB1 /* Grouping Tasks Together with GCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grouping Tasks Together with GCD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C2BC7C13CE9D8300415BB1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6C2BC7E13CE9D8300415BB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6C2BC8013CE9D8300415BB1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6C2BC8413CE9D8300415BB1 /* Grouping Tasks Together with GCD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Grouping Tasks Together with GCD-Info.plist"; sourceTree = "<group>"; };
+		A6C2BC8613CE9D8300415BB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6C2BC8813CE9D8300415BB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6C2BC8A13CE9D8300415BB1 /* Grouping Tasks Together with GCD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Grouping Tasks Together with GCD-Prefix.pch"; sourceTree = "<group>"; };
+		A6C2BC8B13CE9D8300415BB1 /* Grouping_Tasks_Together_with_GCDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Grouping_Tasks_Together_with_GCDAppDelegate.h; sourceTree = "<group>"; };
+		A6C2BC8C13CE9D8300415BB1 /* Grouping_Tasks_Together_with_GCDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Grouping_Tasks_Together_with_GCDAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6C2BC7513CE9D8300415BB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C2BC7D13CE9D8300415BB1 /* UIKit.framework in Frameworks */,
+				A6C2BC7F13CE9D8300415BB1 /* Foundation.framework in Frameworks */,
+				A6C2BC8113CE9D8300415BB1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6C2BC6D13CE9D8300415BB1 = {
+			isa = PBXGroup;
+			children = (
+				A6C2BC8213CE9D8300415BB1 /* Grouping Tasks Together with GCD */,
+				A6C2BC7B13CE9D8300415BB1 /* Frameworks */,
+				A6C2BC7913CE9D8300415BB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6C2BC7913CE9D8300415BB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6C2BC7813CE9D8300415BB1 /* Grouping Tasks Together with GCD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6C2BC7B13CE9D8300415BB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6C2BC7C13CE9D8300415BB1 /* UIKit.framework */,
+				A6C2BC7E13CE9D8300415BB1 /* Foundation.framework */,
+				A6C2BC8013CE9D8300415BB1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6C2BC8213CE9D8300415BB1 /* Grouping Tasks Together with GCD */ = {
+			isa = PBXGroup;
+			children = (
+				A6C2BC8B13CE9D8300415BB1 /* Grouping_Tasks_Together_with_GCDAppDelegate.h */,
+				A6C2BC8C13CE9D8300415BB1 /* Grouping_Tasks_Together_with_GCDAppDelegate.m */,
+				A6C2BC8313CE9D8300415BB1 /* Supporting Files */,
+			);
+			path = "Grouping Tasks Together with GCD";
+			sourceTree = "<group>";
+		};
+		A6C2BC8313CE9D8300415BB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6C2BC8413CE9D8300415BB1 /* Grouping Tasks Together with GCD-Info.plist */,
+				A6C2BC8513CE9D8300415BB1 /* InfoPlist.strings */,
+				A6C2BC8813CE9D8300415BB1 /* main.m */,
+				A6C2BC8A13CE9D8300415BB1 /* Grouping Tasks Together with GCD-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6C2BC7713CE9D8300415BB1 /* Grouping Tasks Together with GCD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C2BC9013CE9D8300415BB1 /* Build configuration list for PBXNativeTarget "Grouping Tasks Together with GCD" */;
+			buildPhases = (
+				A6C2BC7413CE9D8300415BB1 /* Sources */,
+				A6C2BC7513CE9D8300415BB1 /* Frameworks */,
+				A6C2BC7613CE9D8300415BB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Grouping Tasks Together with GCD";
+			productName = "Grouping Tasks Together with GCD";
+			productReference = A6C2BC7813CE9D8300415BB1 /* Grouping Tasks Together with GCD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6C2BC6F13CE9D8300415BB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6C2BC7213CE9D8300415BB1 /* Build configuration list for PBXProject "Grouping Tasks Together with GCD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6C2BC6D13CE9D8300415BB1;
+			productRefGroup = A6C2BC7913CE9D8300415BB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6C2BC7713CE9D8300415BB1 /* Grouping Tasks Together with GCD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6C2BC7613CE9D8300415BB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C2BC8713CE9D8300415BB1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6C2BC7413CE9D8300415BB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C2BC8913CE9D8300415BB1 /* main.m in Sources */,
+				A6C2BC8D13CE9D8300415BB1 /* Grouping_Tasks_Together_with_GCDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6C2BC8513CE9D8300415BB1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C2BC8613CE9D8300415BB1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6C2BC8E13CE9D8300415BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6C2BC8F13CE9D8300415BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6C2BC9113CE9D8300415BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Grouping Tasks Together with GCD/Grouping Tasks Together with GCD-Prefix.pch";
+				INFOPLIST_FILE = "Grouping Tasks Together with GCD/Grouping Tasks Together with GCD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6C2BC9213CE9D8300415BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Grouping Tasks Together with GCD/Grouping Tasks Together with GCD-Prefix.pch";
+				INFOPLIST_FILE = "Grouping Tasks Together with GCD/Grouping Tasks Together with GCD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6C2BC7213CE9D8300415BB1 /* Build configuration list for PBXProject "Grouping Tasks Together with GCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C2BC8E13CE9D8300415BB1 /* Debug */,
+				A6C2BC8F13CE9D8300415BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C2BC9013CE9D8300415BB1 /* Build configuration list for PBXNativeTarget "Grouping Tasks Together with GCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C2BC9113CE9D8300415BB1 /* Debug */,
+				A6C2BC9213CE9D8300415BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6C2BC6F13CE9D8300415BB1 /* Project object */;
+}

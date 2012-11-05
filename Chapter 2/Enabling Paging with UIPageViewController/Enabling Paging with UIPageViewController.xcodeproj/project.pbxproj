@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6E887EB13CAC4F400AE474B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E887EA13CAC4F400AE474B /* UIKit.framework */; };
+		A6E887ED13CAC4F400AE474B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E887EC13CAC4F400AE474B /* Foundation.framework */; };
+		A6E887EF13CAC4F400AE474B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E887EE13CAC4F400AE474B /* CoreGraphics.framework */; };
+		A6E887F513CAC4F400AE474B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6E887F313CAC4F400AE474B /* InfoPlist.strings */; };
+		A6E887F713CAC4F400AE474B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E887F613CAC4F400AE474B /* main.m */; };
+		A6E887FB13CAC4F400AE474B /* Enabling_Paging_with_UIPageViewControllerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E887FA13CAC4F400AE474B /* Enabling_Paging_with_UIPageViewControllerAppDelegate.m */; };
+		A6E887FE13CAC4F400AE474B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E887FD13CAC4F400AE474B /* RootViewController.m */; };
+		A6E8880113CAC4F400AE474B /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E8880013CAC4F400AE474B /* DataViewController.m */; };
+		A6E8880413CAC4F400AE474B /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E8880313CAC4F400AE474B /* ModelController.m */; };
+		A6E8880713CAC4F400AE474B /* RootViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6E8880513CAC4F400AE474B /* RootViewController_iPhone.xib */; };
+		A6E8880A13CAC4F400AE474B /* RootViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6E8880813CAC4F400AE474B /* RootViewController_iPad.xib */; };
+		A6E8880D13CAC4F400AE474B /* DataViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6E8880B13CAC4F400AE474B /* DataViewController_iPhone.xib */; };
+		A6E8881013CAC4F400AE474B /* DataViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6E8880E13CAC4F400AE474B /* DataViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6E887E613CAC4F400AE474B /* Enabling Paging with UIPageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Enabling Paging with UIPageViewController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E887EA13CAC4F400AE474B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6E887EC13CAC4F400AE474B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6E887EE13CAC4F400AE474B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6E887F213CAC4F400AE474B /* Enabling Paging with UIPageViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Enabling Paging with UIPageViewController-Info.plist"; sourceTree = "<group>"; };
+		A6E887F413CAC4F400AE474B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6E887F613CAC4F400AE474B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6E887F813CAC4F400AE474B /* Enabling Paging with UIPageViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Enabling Paging with UIPageViewController-Prefix.pch"; sourceTree = "<group>"; };
+		A6E887F913CAC4F400AE474B /* Enabling_Paging_with_UIPageViewControllerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Enabling_Paging_with_UIPageViewControllerAppDelegate.h; sourceTree = "<group>"; };
+		A6E887FA13CAC4F400AE474B /* Enabling_Paging_with_UIPageViewControllerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Enabling_Paging_with_UIPageViewControllerAppDelegate.m; sourceTree = "<group>"; };
+		A6E887FC13CAC4F400AE474B /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A6E887FD13CAC4F400AE474B /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A6E887FF13CAC4F400AE474B /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		A6E8880013CAC4F400AE474B /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		A6E8880213CAC4F400AE474B /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		A6E8880313CAC4F400AE474B /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		A6E8880613CAC4F400AE474B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6E8880913CAC4F400AE474B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController_iPad.xib; sourceTree = "<group>"; };
+		A6E8880C13CAC4F400AE474B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DataViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6E8880F13CAC4F400AE474B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DataViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6E887E313CAC4F400AE474B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E887EB13CAC4F400AE474B /* UIKit.framework in Frameworks */,
+				A6E887ED13CAC4F400AE474B /* Foundation.framework in Frameworks */,
+				A6E887EF13CAC4F400AE474B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6E887DB13CAC4F400AE474B = {
+			isa = PBXGroup;
+			children = (
+				A6E887F013CAC4F400AE474B /* Enabling Paging with UIPageViewController */,
+				A6E887E913CAC4F400AE474B /* Frameworks */,
+				A6E887E713CAC4F400AE474B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6E887E713CAC4F400AE474B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6E887E613CAC4F400AE474B /* Enabling Paging with UIPageViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6E887E913CAC4F400AE474B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6E887EA13CAC4F400AE474B /* UIKit.framework */,
+				A6E887EC13CAC4F400AE474B /* Foundation.framework */,
+				A6E887EE13CAC4F400AE474B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6E887F013CAC4F400AE474B /* Enabling Paging with UIPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A6E887F913CAC4F400AE474B /* Enabling_Paging_with_UIPageViewControllerAppDelegate.h */,
+				A6E887FA13CAC4F400AE474B /* Enabling_Paging_with_UIPageViewControllerAppDelegate.m */,
+				A6E887FC13CAC4F400AE474B /* RootViewController.h */,
+				A6E887FD13CAC4F400AE474B /* RootViewController.m */,
+				A6E887FF13CAC4F400AE474B /* DataViewController.h */,
+				A6E8880013CAC4F400AE474B /* DataViewController.m */,
+				A6E8880213CAC4F400AE474B /* ModelController.h */,
+				A6E8880313CAC4F400AE474B /* ModelController.m */,
+				A6E8880513CAC4F400AE474B /* RootViewController_iPhone.xib */,
+				A6E8880813CAC4F400AE474B /* RootViewController_iPad.xib */,
+				A6E8880B13CAC4F400AE474B /* DataViewController_iPhone.xib */,
+				A6E8880E13CAC4F400AE474B /* DataViewController_iPad.xib */,
+				A6E887F113CAC4F400AE474B /* Supporting Files */,
+			);
+			path = "Enabling Paging with UIPageViewController";
+			sourceTree = "<group>";
+		};
+		A6E887F113CAC4F400AE474B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6E887F213CAC4F400AE474B /* Enabling Paging with UIPageViewController-Info.plist */,
+				A6E887F313CAC4F400AE474B /* InfoPlist.strings */,
+				A6E887F613CAC4F400AE474B /* main.m */,
+				A6E887F813CAC4F400AE474B /* Enabling Paging with UIPageViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6E887E513CAC4F400AE474B /* Enabling Paging with UIPageViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6E8881313CAC4F400AE474B /* Build configuration list for PBXNativeTarget "Enabling Paging with UIPageViewController" */;
+			buildPhases = (
+				A6E887E213CAC4F400AE474B /* Sources */,
+				A6E887E313CAC4F400AE474B /* Frameworks */,
+				A6E887E413CAC4F400AE474B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Enabling Paging with UIPageViewController";
+			productName = "Enabling Paging with UIPageViewController";
+			productReference = A6E887E613CAC4F400AE474B /* Enabling Paging with UIPageViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6E887DD13CAC4F400AE474B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6E887E013CAC4F400AE474B /* Build configuration list for PBXProject "Enabling Paging with UIPageViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6E887DB13CAC4F400AE474B;
+			productRefGroup = A6E887E713CAC4F400AE474B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6E887E513CAC4F400AE474B /* Enabling Paging with UIPageViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6E887E413CAC4F400AE474B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E887F513CAC4F400AE474B /* InfoPlist.strings in Resources */,
+				A6E8880713CAC4F400AE474B /* RootViewController_iPhone.xib in Resources */,
+				A6E8880A13CAC4F400AE474B /* RootViewController_iPad.xib in Resources */,
+				A6E8880D13CAC4F400AE474B /* DataViewController_iPhone.xib in Resources */,
+				A6E8881013CAC4F400AE474B /* DataViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6E887E213CAC4F400AE474B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E887F713CAC4F400AE474B /* main.m in Sources */,
+				A6E887FB13CAC4F400AE474B /* Enabling_Paging_with_UIPageViewControllerAppDelegate.m in Sources */,
+				A6E887FE13CAC4F400AE474B /* RootViewController.m in Sources */,
+				A6E8880113CAC4F400AE474B /* DataViewController.m in Sources */,
+				A6E8880413CAC4F400AE474B /* ModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6E887F313CAC4F400AE474B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6E887F413CAC4F400AE474B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6E8880513CAC4F400AE474B /* RootViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6E8880613CAC4F400AE474B /* en */,
+			);
+			name = RootViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6E8880813CAC4F400AE474B /* RootViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6E8880913CAC4F400AE474B /* en */,
+			);
+			name = RootViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		A6E8880B13CAC4F400AE474B /* DataViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6E8880C13CAC4F400AE474B /* en */,
+			);
+			name = DataViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6E8880E13CAC4F400AE474B /* DataViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6E8880F13CAC4F400AE474B /* en */,
+			);
+			name = DataViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6E8881113CAC4F400AE474B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6E8881213CAC4F400AE474B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6E8881413CAC4F400AE474B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Enabling Paging with UIPageViewController/Enabling Paging with UIPageViewController-Prefix.pch";
+				INFOPLIST_FILE = "Enabling Paging with UIPageViewController/Enabling Paging with UIPageViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6E8881513CAC4F400AE474B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Enabling Paging with UIPageViewController/Enabling Paging with UIPageViewController-Prefix.pch";
+				INFOPLIST_FILE = "Enabling Paging with UIPageViewController/Enabling Paging with UIPageViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6E887E013CAC4F400AE474B /* Build configuration list for PBXProject "Enabling Paging with UIPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E8881113CAC4F400AE474B /* Debug */,
+				A6E8881213CAC4F400AE474B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6E8881313CAC4F400AE474B /* Build configuration list for PBXNativeTarget "Enabling Paging with UIPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E8881413CAC4F400AE474B /* Debug */,
+				A6E8881513CAC4F400AE474B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6E887DD13CAC4F400AE474B /* Project object */;
+}

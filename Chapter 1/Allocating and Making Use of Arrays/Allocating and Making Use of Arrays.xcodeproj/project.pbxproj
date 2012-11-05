@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A67756FA13C4DCA20084494F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A67756F913C4DCA20084494F /* UIKit.framework */; };
+		A67756FC13C4DCA20084494F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A67756FB13C4DCA20084494F /* Foundation.framework */; };
+		A67756FE13C4DCA20084494F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A67756FD13C4DCA20084494F /* CoreGraphics.framework */; };
+		A677570413C4DCA20084494F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A677570213C4DCA20084494F /* InfoPlist.strings */; };
+		A677570613C4DCA20084494F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A677570513C4DCA20084494F /* main.m */; };
+		A677570A13C4DCA20084494F /* Allocating_and_Making_Use_of_ArraysAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A677570913C4DCA20084494F /* Allocating_and_Making_Use_of_ArraysAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A67756F513C4DCA20084494F /* Allocating and Making Use of Arrays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Allocating and Making Use of Arrays.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67756F913C4DCA20084494F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A67756FB13C4DCA20084494F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A67756FD13C4DCA20084494F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A677570113C4DCA20084494F /* Allocating and Making Use of Arrays-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Allocating and Making Use of Arrays-Info.plist"; sourceTree = "<group>"; };
+		A677570313C4DCA20084494F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A677570513C4DCA20084494F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A677570713C4DCA20084494F /* Allocating and Making Use of Arrays-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Allocating and Making Use of Arrays-Prefix.pch"; sourceTree = "<group>"; };
+		A677570813C4DCA20084494F /* Allocating_and_Making_Use_of_ArraysAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Allocating_and_Making_Use_of_ArraysAppDelegate.h; sourceTree = "<group>"; };
+		A677570913C4DCA20084494F /* Allocating_and_Making_Use_of_ArraysAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Allocating_and_Making_Use_of_ArraysAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A67756F213C4DCA20084494F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67756FA13C4DCA20084494F /* UIKit.framework in Frameworks */,
+				A67756FC13C4DCA20084494F /* Foundation.framework in Frameworks */,
+				A67756FE13C4DCA20084494F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A67756EA13C4DCA10084494F = {
+			isa = PBXGroup;
+			children = (
+				A67756FF13C4DCA20084494F /* Allocating and Making Use of Arrays */,
+				A67756F813C4DCA20084494F /* Frameworks */,
+				A67756F613C4DCA20084494F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A67756F613C4DCA20084494F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A67756F513C4DCA20084494F /* Allocating and Making Use of Arrays.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A67756F813C4DCA20084494F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A67756F913C4DCA20084494F /* UIKit.framework */,
+				A67756FB13C4DCA20084494F /* Foundation.framework */,
+				A67756FD13C4DCA20084494F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A67756FF13C4DCA20084494F /* Allocating and Making Use of Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				A677570813C4DCA20084494F /* Allocating_and_Making_Use_of_ArraysAppDelegate.h */,
+				A677570913C4DCA20084494F /* Allocating_and_Making_Use_of_ArraysAppDelegate.m */,
+				A677570013C4DCA20084494F /* Supporting Files */,
+			);
+			path = "Allocating and Making Use of Arrays";
+			sourceTree = "<group>";
+		};
+		A677570013C4DCA20084494F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A677570113C4DCA20084494F /* Allocating and Making Use of Arrays-Info.plist */,
+				A677570213C4DCA20084494F /* InfoPlist.strings */,
+				A677570513C4DCA20084494F /* main.m */,
+				A677570713C4DCA20084494F /* Allocating and Making Use of Arrays-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A67756F413C4DCA20084494F /* Allocating and Making Use of Arrays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A677570D13C4DCA20084494F /* Build configuration list for PBXNativeTarget "Allocating and Making Use of Arrays" */;
+			buildPhases = (
+				A67756F113C4DCA20084494F /* Sources */,
+				A67756F213C4DCA20084494F /* Frameworks */,
+				A67756F313C4DCA20084494F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Allocating and Making Use of Arrays";
+			productName = "Allocating and Making Use of Arrays";
+			productReference = A67756F513C4DCA20084494F /* Allocating and Making Use of Arrays.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A67756EC13C4DCA10084494F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A67756EF13C4DCA10084494F /* Build configuration list for PBXProject "Allocating and Making Use of Arrays" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A67756EA13C4DCA10084494F;
+			productRefGroup = A67756F613C4DCA20084494F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A67756F413C4DCA20084494F /* Allocating and Making Use of Arrays */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A67756F313C4DCA20084494F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A677570413C4DCA20084494F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A67756F113C4DCA20084494F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A677570613C4DCA20084494F /* main.m in Sources */,
+				A677570A13C4DCA20084494F /* Allocating_and_Making_Use_of_ArraysAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A677570213C4DCA20084494F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A677570313C4DCA20084494F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A677570B13C4DCA20084494F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A677570C13C4DCA20084494F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A677570E13C4DCA20084494F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Allocating and Making Use of Arrays/Allocating and Making Use of Arrays-Prefix.pch";
+				INFOPLIST_FILE = "Allocating and Making Use of Arrays/Allocating and Making Use of Arrays-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A677570F13C4DCA20084494F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Allocating and Making Use of Arrays/Allocating and Making Use of Arrays-Prefix.pch";
+				INFOPLIST_FILE = "Allocating and Making Use of Arrays/Allocating and Making Use of Arrays-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A67756EF13C4DCA10084494F /* Build configuration list for PBXProject "Allocating and Making Use of Arrays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A677570B13C4DCA20084494F /* Debug */,
+				A677570C13C4DCA20084494F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A677570D13C4DCA20084494F /* Build configuration list for PBXNativeTarget "Allocating and Making Use of Arrays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A677570E13C4DCA20084494F /* Debug */,
+				A677570F13C4DCA20084494F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A67756EC13C4DCA10084494F /* Project object */;
+}

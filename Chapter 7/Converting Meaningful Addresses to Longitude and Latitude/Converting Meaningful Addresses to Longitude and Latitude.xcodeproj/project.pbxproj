@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6A2A9D513D04F560033CCA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A2A9D413D04F560033CCA5 /* UIKit.framework */; };
+		A6A2A9D713D04F560033CCA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A2A9D613D04F560033CCA5 /* Foundation.framework */; };
+		A6A2A9D913D04F560033CCA5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A2A9D813D04F560033CCA5 /* CoreGraphics.framework */; };
+		A6A2A9DF13D04F560033CCA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6A2A9DD13D04F560033CCA5 /* InfoPlist.strings */; };
+		A6A2A9E113D04F560033CCA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A2A9E013D04F560033CCA5 /* main.m */; };
+		A6A2A9E513D04F560033CCA5 /* Converting_Meaningful_Addresses_to_Longitude_and_LatitudeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A2A9E413D04F560033CCA5 /* Converting_Meaningful_Addresses_to_Longitude_and_LatitudeAppDelegate.m */; };
+		A6A2A9E813D04F560033CCA5 /* Converting_Meaningful_Addresses_to_Longitude_and_LatitudeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A2A9E713D04F560033CCA5 /* Converting_Meaningful_Addresses_to_Longitude_and_LatitudeViewController.m */; };
+		A6A2A9EB13D04F560033CCA5 /* Converting_Meaningful_Addresses_to_Longitude_and_LatitudeViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6A2A9E913D04F560033CCA5 /* Converting_Meaningful_Addresses_to_Longitude_and_LatitudeViewController_iPhone.xib */; };
+		A6A2A9EE13D04F560033CCA5 /* Converting_Meaningful_Addresses_to_Longitude_and_LatitudeViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6A2A9EC13D04F560033CCA5 /* Converting_Meaningful_Addresses_to_Longitude_and_LatitudeViewController_iPad.xib */; };
+		A6A2AA0013D04FB50033CCA5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A2A9FE13D04FB50033CCA5 /* CoreLocation.framework */; };
+		A6A2AA0113D04FB50033CCA5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6A2A9FF13D04FB50033CCA5 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6A2A9D013D04F560033CCA5 /* Converting Meaningful Addresses to Longitude and Latitude.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Converting Meaningful Addresses to Longitude and Latitude.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A2A9D413D04F560033CCA5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6A2A9D613D04F560033CCA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6A2A9D813D04F560033CCA5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6A2A9DC13D04F560033CCA5 /* Converting Meaningful Addresses to Longitude and Latitude-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Converting Meaningful Addresses to Longitude and Latitude-Info.plist"; sourceTree = "<group>"; };
+		A6A2A9DE13D04F560033CCA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6A2A9E013D04F560033CCA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6A2A9E213D04F560033CCA5 /* Converting Meaningful Addresses to Longitude and Latitude-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Converting Meaningful Addresses to Longitude and Latitude-Prefix.pch"; sourceTree = "<group>"; };
+		A6A2A9E313D04F560033CCA5 /* Converting_Meaningful_Addresses_to_Longitude_and_LatitudeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Converting_Meaningful_Addresses_to_Longitude_and_LatitudeAppDelegate.h; sourceTree = "<group>"; };
+		A6A2A9E413D04F560033CCA5 /* Converting_Meaningful_Addresses_to_Longitude_and_LatitudeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Converting_Meaningful_Addresses_to_Longitude_and_LatitudeAppDelegate.m; sourceTree = "<group>"; };
+		A6A2A9E613D04F560033CCA5 /* Converting_Meaningful_Addresses_to_Longitude_and_LatitudeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Converting_Meaningful_Addresses_to_Longitude_and_LatitudeViewController.h; sourceTree = "<group>"; };
+		A6A2A9E713D04F560033CCA5 /* Converting_Meaningful_Addresses_to_Longitude_and_LatitudeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Converting_Meaningful_Addresses_to_Longitude_and_LatitudeViewController.m; sourceTree = "<group>"; };
+		A6A2A9EA13D04F560033CCA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Converting_Meaningful_Addresses_to_Longitude_and_LatitudeViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6A2A9ED13D04F560033CCA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Converting_Meaningful_Addresses_to_Longitude_and_LatitudeViewController_iPad.xib; sourceTree = "<group>"; };
+		A6A2A9FE13D04FB50033CCA5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A6A2A9FF13D04FB50033CCA5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6A2A9CD13D04F560033CCA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A2AA0013D04FB50033CCA5 /* CoreLocation.framework in Frameworks */,
+				A6A2AA0113D04FB50033CCA5 /* MapKit.framework in Frameworks */,
+				A6A2A9D513D04F560033CCA5 /* UIKit.framework in Frameworks */,
+				A6A2A9D713D04F560033CCA5 /* Foundation.framework in Frameworks */,
+				A6A2A9D913D04F560033CCA5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6A2A9C513D04F560033CCA5 = {
+			isa = PBXGroup;
+			children = (
+				A6A2A9DA13D04F560033CCA5 /* Converting Meaningful Addresses to Longitude and Latitude */,
+				A6A2A9D313D04F560033CCA5 /* Frameworks */,
+				A6A2A9D113D04F560033CCA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6A2A9D113D04F560033CCA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6A2A9D013D04F560033CCA5 /* Converting Meaningful Addresses to Longitude and Latitude.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6A2A9D313D04F560033CCA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6A2A9FE13D04FB50033CCA5 /* CoreLocation.framework */,
+				A6A2A9FF13D04FB50033CCA5 /* MapKit.framework */,
+				A6A2A9D413D04F560033CCA5 /* UIKit.framework */,
+				A6A2A9D613D04F560033CCA5 /* Foundation.framework */,
+				A6A2A9D813D04F560033CCA5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6A2A9DA13D04F560033CCA5 /* Converting Meaningful Addresses to Longitude and Latitude */ = {
+			isa = PBXGroup;
+			children = (
+				A6A2A9E313D04F560033CCA5 /* Converting_Meaningful_Addresses_to_Longitude_and_LatitudeAppDelegate.h */,
+				A6A2A9E413D04F560033CCA5 /* Converting_Meaningful_Addresses_to_Longitude_and_LatitudeAppDelegate.m */,
+				A6A2A9E613D04F560033CCA5 /* Converting_Meaningful_Addresses_to_Longitude_and_LatitudeViewController.h */,
+				A6A2A9E713D04F560033CCA5 /* Converting_Meaningful_Addresses_to_Longitude_and_LatitudeViewController.m */,
+				A6A2A9E913D04F560033CCA5 /* Converting_Meaningful_Addresses_to_Longitude_and_LatitudeViewController_iPhone.xib */,
+				A6A2A9EC13D04F560033CCA5 /* Converting_Meaningful_Addresses_to_Longitude_and_LatitudeViewController_iPad.xib */,
+				A6A2A9DB13D04F560033CCA5 /* Supporting Files */,
+			);
+			path = "Converting Meaningful Addresses to Longitude and Latitude";
+			sourceTree = "<group>";
+		};
+		A6A2A9DB13D04F560033CCA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6A2A9DC13D04F560033CCA5 /* Converting Meaningful Addresses to Longitude and Latitude-Info.plist */,
+				A6A2A9DD13D04F560033CCA5 /* InfoPlist.strings */,
+				A6A2A9E013D04F560033CCA5 /* main.m */,
+				A6A2A9E213D04F560033CCA5 /* Converting Meaningful Addresses to Longitude and Latitude-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6A2A9CF13D04F560033CCA5 /* Converting Meaningful Addresses to Longitude and Latitude */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A2A9F113D04F560033CCA5 /* Build configuration list for PBXNativeTarget "Converting Meaningful Addresses to Longitude and Latitude" */;
+			buildPhases = (
+				A6A2A9CC13D04F560033CCA5 /* Sources */,
+				A6A2A9CD13D04F560033CCA5 /* Frameworks */,
+				A6A2A9CE13D04F560033CCA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Converting Meaningful Addresses to Longitude and Latitude";
+			productName = "Converting Meaningful Addresses to Longitude and Latitude";
+			productReference = A6A2A9D013D04F560033CCA5 /* Converting Meaningful Addresses to Longitude and Latitude.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6A2A9C713D04F560033CCA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6A2A9CA13D04F560033CCA5 /* Build configuration list for PBXProject "Converting Meaningful Addresses to Longitude and Latitude" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6A2A9C513D04F560033CCA5;
+			productRefGroup = A6A2A9D113D04F560033CCA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6A2A9CF13D04F560033CCA5 /* Converting Meaningful Addresses to Longitude and Latitude */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6A2A9CE13D04F560033CCA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A2A9DF13D04F560033CCA5 /* InfoPlist.strings in Resources */,
+				A6A2A9EB13D04F560033CCA5 /* Converting_Meaningful_Addresses_to_Longitude_and_LatitudeViewController_iPhone.xib in Resources */,
+				A6A2A9EE13D04F560033CCA5 /* Converting_Meaningful_Addresses_to_Longitude_and_LatitudeViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6A2A9CC13D04F560033CCA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A2A9E113D04F560033CCA5 /* main.m in Sources */,
+				A6A2A9E513D04F560033CCA5 /* Converting_Meaningful_Addresses_to_Longitude_and_LatitudeAppDelegate.m in Sources */,
+				A6A2A9E813D04F560033CCA5 /* Converting_Meaningful_Addresses_to_Longitude_and_LatitudeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6A2A9DD13D04F560033CCA5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6A2A9DE13D04F560033CCA5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6A2A9E913D04F560033CCA5 /* Converting_Meaningful_Addresses_to_Longitude_and_LatitudeViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6A2A9EA13D04F560033CCA5 /* en */,
+			);
+			name = Converting_Meaningful_Addresses_to_Longitude_and_LatitudeViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6A2A9EC13D04F560033CCA5 /* Converting_Meaningful_Addresses_to_Longitude_and_LatitudeViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6A2A9ED13D04F560033CCA5 /* en */,
+			);
+			name = Converting_Meaningful_Addresses_to_Longitude_and_LatitudeViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6A2A9EF13D04F560033CCA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6A2A9F013D04F560033CCA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6A2A9F213D04F560033CCA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Converting Meaningful Addresses to Longitude and Latitude/Converting Meaningful Addresses to Longitude and Latitude-Prefix.pch";
+				INFOPLIST_FILE = "Converting Meaningful Addresses to Longitude and Latitude/Converting Meaningful Addresses to Longitude and Latitude-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6A2A9F313D04F560033CCA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Converting Meaningful Addresses to Longitude and Latitude/Converting Meaningful Addresses to Longitude and Latitude-Prefix.pch";
+				INFOPLIST_FILE = "Converting Meaningful Addresses to Longitude and Latitude/Converting Meaningful Addresses to Longitude and Latitude-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6A2A9CA13D04F560033CCA5 /* Build configuration list for PBXProject "Converting Meaningful Addresses to Longitude and Latitude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A2A9EF13D04F560033CCA5 /* Debug */,
+				A6A2A9F013D04F560033CCA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6A2A9F113D04F560033CCA5 /* Build configuration list for PBXNativeTarget "Converting Meaningful Addresses to Longitude and Latitude" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A2A9F213D04F560033CCA5 /* Debug */,
+				A6A2A9F313D04F560033CCA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6A2A9C713D04F560033CCA5 /* Project object */;
+}

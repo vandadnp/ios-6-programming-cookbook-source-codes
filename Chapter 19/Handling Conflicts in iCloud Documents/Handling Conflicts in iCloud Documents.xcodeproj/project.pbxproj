@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D5A7090144B10050053A545 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5A708F144B10050053A545 /* UIKit.framework */; };
+		9D5A7092144B10050053A545 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5A7091144B10050053A545 /* Foundation.framework */; };
+		9D5A7094144B10050053A545 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5A7093144B10050053A545 /* CoreGraphics.framework */; };
+		9D5A709A144B10050053A545 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D5A7098144B10050053A545 /* InfoPlist.strings */; };
+		9D5A709C144B10050053A545 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5A709B144B10050053A545 /* main.m */; };
+		9D5A70A0144B10050053A545 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5A709F144B10050053A545 /* AppDelegate.m */; };
+		9D5A70A3144B10050053A545 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5A70A2144B10050053A545 /* ViewController.m */; };
+		9D5A70A6144B10050053A545 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D5A70A4144B10050053A545 /* ViewController_iPhone.xib */; };
+		9D5A70A9144B10050053A545 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D5A70A7144B10050053A545 /* ViewController_iPad.xib */; };
+		9D5A70BB144B10370053A545 /* CloudDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5A70BA144B10370053A545 /* CloudDocument.m */; };
+		9D5A70C0144B44910053A545 /* ConflictViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5A70BF144B44910053A545 /* ConflictViewController.m */; };
+		9D5A70C2144B463C0053A545 /* ConflictViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D5A70C1144B463C0053A545 /* ConflictViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9D5A708B144B10050053A545 /* Handling Conflicts in iCloud Documents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Handling Conflicts in iCloud Documents.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D5A708F144B10050053A545 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D5A7091144B10050053A545 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D5A7093144B10050053A545 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D5A7097144B10050053A545 /* Handling Conflicts in iCloud Documents-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Handling Conflicts in iCloud Documents-Info.plist"; sourceTree = "<group>"; };
+		9D5A7099144B10050053A545 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D5A709B144B10050053A545 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D5A709D144B10050053A545 /* Handling Conflicts in iCloud Documents-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Handling Conflicts in iCloud Documents-Prefix.pch"; sourceTree = "<group>"; };
+		9D5A709E144B10050053A545 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D5A709F144B10050053A545 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D5A70A1144B10050053A545 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D5A70A2144B10050053A545 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9D5A70A5144B10050053A545 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		9D5A70A8144B10050053A545 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		9D5A70B9144B10370053A545 /* CloudDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudDocument.h; sourceTree = "<group>"; };
+		9D5A70BA144B10370053A545 /* CloudDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudDocument.m; sourceTree = "<group>"; };
+		9D5A70BD144B13B40053A545 /* Handling Conflicts in iCloud Documents.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Handling Conflicts in iCloud Documents.entitlements"; sourceTree = "<group>"; };
+		9D5A70BE144B44910053A545 /* ConflictViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConflictViewController.h; sourceTree = "<group>"; };
+		9D5A70BF144B44910053A545 /* ConflictViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConflictViewController.m; sourceTree = "<group>"; };
+		9D5A70C1144B463C0053A545 /* ConflictViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConflictViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D5A7088144B10050053A545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5A7090144B10050053A545 /* UIKit.framework in Frameworks */,
+				9D5A7092144B10050053A545 /* Foundation.framework in Frameworks */,
+				9D5A7094144B10050053A545 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D5A7080144B10050053A545 = {
+			isa = PBXGroup;
+			children = (
+				9D5A7095144B10050053A545 /* Handling Conflicts in iCloud Documents */,
+				9D5A708E144B10050053A545 /* Frameworks */,
+				9D5A708C144B10050053A545 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D5A708C144B10050053A545 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D5A708B144B10050053A545 /* Handling Conflicts in iCloud Documents.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D5A708E144B10050053A545 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D5A708F144B10050053A545 /* UIKit.framework */,
+				9D5A7091144B10050053A545 /* Foundation.framework */,
+				9D5A7093144B10050053A545 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D5A7095144B10050053A545 /* Handling Conflicts in iCloud Documents */ = {
+			isa = PBXGroup;
+			children = (
+				9D5A70BD144B13B40053A545 /* Handling Conflicts in iCloud Documents.entitlements */,
+				9D5A70B9144B10370053A545 /* CloudDocument.h */,
+				9D5A70BA144B10370053A545 /* CloudDocument.m */,
+				9D5A70BE144B44910053A545 /* ConflictViewController.h */,
+				9D5A70BF144B44910053A545 /* ConflictViewController.m */,
+				9D5A70C1144B463C0053A545 /* ConflictViewController.xib */,
+				9D5A709E144B10050053A545 /* AppDelegate.h */,
+				9D5A709F144B10050053A545 /* AppDelegate.m */,
+				9D5A70A1144B10050053A545 /* ViewController.h */,
+				9D5A70A2144B10050053A545 /* ViewController.m */,
+				9D5A70A4144B10050053A545 /* ViewController_iPhone.xib */,
+				9D5A70A7144B10050053A545 /* ViewController_iPad.xib */,
+				9D5A7096144B10050053A545 /* Supporting Files */,
+			);
+			path = "Handling Conflicts in iCloud Documents";
+			sourceTree = "<group>";
+		};
+		9D5A7096144B10050053A545 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D5A7097144B10050053A545 /* Handling Conflicts in iCloud Documents-Info.plist */,
+				9D5A7098144B10050053A545 /* InfoPlist.strings */,
+				9D5A709B144B10050053A545 /* main.m */,
+				9D5A709D144B10050053A545 /* Handling Conflicts in iCloud Documents-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D5A708A144B10050053A545 /* Handling Conflicts in iCloud Documents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D5A70AC144B10050053A545 /* Build configuration list for PBXNativeTarget "Handling Conflicts in iCloud Documents" */;
+			buildPhases = (
+				9D5A7087144B10050053A545 /* Sources */,
+				9D5A7088144B10050053A545 /* Frameworks */,
+				9D5A7089144B10050053A545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Handling Conflicts in iCloud Documents";
+			productName = "Handling Conflicts in iCloud Documents";
+			productReference = 9D5A708B144B10050053A545 /* Handling Conflicts in iCloud Documents.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D5A7082144B10050053A545 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 9D5A7085144B10050053A545 /* Build configuration list for PBXProject "Handling Conflicts in iCloud Documents" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9D5A7080144B10050053A545;
+			productRefGroup = 9D5A708C144B10050053A545 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D5A708A144B10050053A545 /* Handling Conflicts in iCloud Documents */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D5A7089144B10050053A545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5A709A144B10050053A545 /* InfoPlist.strings in Resources */,
+				9D5A70A6144B10050053A545 /* ViewController_iPhone.xib in Resources */,
+				9D5A70A9144B10050053A545 /* ViewController_iPad.xib in Resources */,
+				9D5A70C2144B463C0053A545 /* ConflictViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D5A7087144B10050053A545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5A709C144B10050053A545 /* main.m in Sources */,
+				9D5A70A0144B10050053A545 /* AppDelegate.m in Sources */,
+				9D5A70A3144B10050053A545 /* ViewController.m in Sources */,
+				9D5A70BB144B10370053A545 /* CloudDocument.m in Sources */,
+				9D5A70C0144B44910053A545 /* ConflictViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9D5A7098144B10050053A545 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D5A7099144B10050053A545 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9D5A70A4144B10050053A545 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D5A70A5144B10050053A545 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		9D5A70A7144B10050053A545 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D5A70A8144B10050053A545 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D5A70AA144B10050053A545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D5A70AB144B10050053A545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D5A70AD144B10050053A545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Handling Conflicts in iCloud Documents/Handling Conflicts in iCloud Documents.entitlements";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Handling Conflicts in iCloud Documents/Handling Conflicts in iCloud Documents-Prefix.pch";
+				INFOPLIST_FILE = "Handling Conflicts in iCloud Documents/Handling Conflicts in iCloud Documents-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D5A70AE144B10050053A545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Handling Conflicts in iCloud Documents/Handling Conflicts in iCloud Documents.entitlements";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Handling Conflicts in iCloud Documents/Handling Conflicts in iCloud Documents-Prefix.pch";
+				INFOPLIST_FILE = "Handling Conflicts in iCloud Documents/Handling Conflicts in iCloud Documents-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D5A7085144B10050053A545 /* Build configuration list for PBXProject "Handling Conflicts in iCloud Documents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D5A70AA144B10050053A545 /* Debug */,
+				9D5A70AB144B10050053A545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D5A70AC144B10050053A545 /* Build configuration list for PBXNativeTarget "Handling Conflicts in iCloud Documents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D5A70AD144B10050053A545 /* Debug */,
+				9D5A70AE144B10050053A545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D5A7082144B10050053A545 /* Project object */;
+}

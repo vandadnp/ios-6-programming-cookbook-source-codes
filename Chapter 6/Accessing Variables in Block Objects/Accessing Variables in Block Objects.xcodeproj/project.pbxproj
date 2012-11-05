@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A64DD38F13CD985E00572C78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64DD38E13CD985E00572C78 /* UIKit.framework */; };
+		A64DD39113CD985E00572C78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64DD39013CD985E00572C78 /* Foundation.framework */; };
+		A64DD39313CD985E00572C78 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64DD39213CD985E00572C78 /* CoreGraphics.framework */; };
+		A64DD39913CD985E00572C78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A64DD39713CD985E00572C78 /* InfoPlist.strings */; };
+		A64DD39B13CD985E00572C78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A64DD39A13CD985E00572C78 /* main.m */; };
+		A64DD39F13CD985E00572C78 /* Accessing_Variables_in_Block_ObjectsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A64DD39E13CD985E00572C78 /* Accessing_Variables_in_Block_ObjectsAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A64DD38A13CD985E00572C78 /* Accessing Variables in Block Objects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Accessing Variables in Block Objects.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A64DD38E13CD985E00572C78 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A64DD39013CD985E00572C78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A64DD39213CD985E00572C78 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A64DD39613CD985E00572C78 /* Accessing Variables in Block Objects-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Accessing Variables in Block Objects-Info.plist"; sourceTree = "<group>"; };
+		A64DD39813CD985E00572C78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A64DD39A13CD985E00572C78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A64DD39C13CD985E00572C78 /* Accessing Variables in Block Objects-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Accessing Variables in Block Objects-Prefix.pch"; sourceTree = "<group>"; };
+		A64DD39D13CD985E00572C78 /* Accessing_Variables_in_Block_ObjectsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Accessing_Variables_in_Block_ObjectsAppDelegate.h; sourceTree = "<group>"; };
+		A64DD39E13CD985E00572C78 /* Accessing_Variables_in_Block_ObjectsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Accessing_Variables_in_Block_ObjectsAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A64DD38713CD985E00572C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64DD38F13CD985E00572C78 /* UIKit.framework in Frameworks */,
+				A64DD39113CD985E00572C78 /* Foundation.framework in Frameworks */,
+				A64DD39313CD985E00572C78 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A64DD37F13CD985E00572C78 = {
+			isa = PBXGroup;
+			children = (
+				A64DD39413CD985E00572C78 /* Accessing Variables in Block Objects */,
+				A64DD38D13CD985E00572C78 /* Frameworks */,
+				A64DD38B13CD985E00572C78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A64DD38B13CD985E00572C78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A64DD38A13CD985E00572C78 /* Accessing Variables in Block Objects.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A64DD38D13CD985E00572C78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A64DD38E13CD985E00572C78 /* UIKit.framework */,
+				A64DD39013CD985E00572C78 /* Foundation.framework */,
+				A64DD39213CD985E00572C78 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A64DD39413CD985E00572C78 /* Accessing Variables in Block Objects */ = {
+			isa = PBXGroup;
+			children = (
+				A64DD39D13CD985E00572C78 /* Accessing_Variables_in_Block_ObjectsAppDelegate.h */,
+				A64DD39E13CD985E00572C78 /* Accessing_Variables_in_Block_ObjectsAppDelegate.m */,
+				A64DD39513CD985E00572C78 /* Supporting Files */,
+			);
+			path = "Accessing Variables in Block Objects";
+			sourceTree = "<group>";
+		};
+		A64DD39513CD985E00572C78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A64DD39613CD985E00572C78 /* Accessing Variables in Block Objects-Info.plist */,
+				A64DD39713CD985E00572C78 /* InfoPlist.strings */,
+				A64DD39A13CD985E00572C78 /* main.m */,
+				A64DD39C13CD985E00572C78 /* Accessing Variables in Block Objects-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A64DD38913CD985E00572C78 /* Accessing Variables in Block Objects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A64DD3A213CD985E00572C78 /* Build configuration list for PBXNativeTarget "Accessing Variables in Block Objects" */;
+			buildPhases = (
+				A64DD38613CD985E00572C78 /* Sources */,
+				A64DD38713CD985E00572C78 /* Frameworks */,
+				A64DD38813CD985E00572C78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Accessing Variables in Block Objects";
+			productName = "Accessing Variables in Block Objects";
+			productReference = A64DD38A13CD985E00572C78 /* Accessing Variables in Block Objects.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A64DD38113CD985E00572C78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A64DD38413CD985E00572C78 /* Build configuration list for PBXProject "Accessing Variables in Block Objects" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A64DD37F13CD985E00572C78;
+			productRefGroup = A64DD38B13CD985E00572C78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A64DD38913CD985E00572C78 /* Accessing Variables in Block Objects */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A64DD38813CD985E00572C78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64DD39913CD985E00572C78 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A64DD38613CD985E00572C78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64DD39B13CD985E00572C78 /* main.m in Sources */,
+				A64DD39F13CD985E00572C78 /* Accessing_Variables_in_Block_ObjectsAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A64DD39713CD985E00572C78 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A64DD39813CD985E00572C78 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A64DD3A013CD985E00572C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A64DD3A113CD985E00572C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A64DD3A313CD985E00572C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Accessing Variables in Block Objects/Accessing Variables in Block Objects-Prefix.pch";
+				INFOPLIST_FILE = "Accessing Variables in Block Objects/Accessing Variables in Block Objects-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A64DD3A413CD985E00572C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Accessing Variables in Block Objects/Accessing Variables in Block Objects-Prefix.pch";
+				INFOPLIST_FILE = "Accessing Variables in Block Objects/Accessing Variables in Block Objects-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A64DD38413CD985E00572C78 /* Build configuration list for PBXProject "Accessing Variables in Block Objects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A64DD3A013CD985E00572C78 /* Debug */,
+				A64DD3A113CD985E00572C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A64DD3A213CD985E00572C78 /* Build configuration list for PBXNativeTarget "Accessing Variables in Block Objects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A64DD3A313CD985E00572C78 /* Debug */,
+				A64DD3A413CD985E00572C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A64DD38113CD985E00572C78 /* Project object */;
+}

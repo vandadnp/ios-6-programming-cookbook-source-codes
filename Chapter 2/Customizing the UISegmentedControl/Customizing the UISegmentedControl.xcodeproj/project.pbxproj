@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D80080115E3A733007290A1 /* Selected-Unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8007F715E3A733007290A1 /* Selected-Unselected.png */; };
+		9D80080215E3A733007290A1 /* Selected-Unselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8007F815E3A733007290A1 /* Selected-Unselected@2x.png */; };
+		9D80080315E3A733007290A1 /* Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8007F915E3A733007290A1 /* Selected.png */; };
+		9D80080415E3A733007290A1 /* Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8007FA15E3A733007290A1 /* Selected@2x.png */; };
+		9D80080515E3A733007290A1 /* Unselected-Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8007FB15E3A733007290A1 /* Unselected-Selected.png */; };
+		9D80080615E3A733007290A1 /* Unselected-Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8007FC15E3A733007290A1 /* Unselected-Selected@2x.png */; };
+		9D80080715E3A733007290A1 /* Unselected-Unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8007FD15E3A733007290A1 /* Unselected-Unselected.png */; };
+		9D80080815E3A733007290A1 /* Unselected-Unselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8007FE15E3A733007290A1 /* Unselected-Unselected@2x.png */; };
+		9D80080915E3A733007290A1 /* Unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8007FF15E3A733007290A1 /* Unselected.png */; };
+		9D80080A15E3A733007290A1 /* Unselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D80080015E3A733007290A1 /* Unselected@2x.png */; };
+		9DA54F9015E39552000DFB79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA54F8F15E39552000DFB79 /* UIKit.framework */; };
+		9DA54F9215E39552000DFB79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA54F9115E39552000DFB79 /* Foundation.framework */; };
+		9DA54F9415E39552000DFB79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA54F9315E39552000DFB79 /* CoreGraphics.framework */; };
+		9DA54F9A15E39552000DFB79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DA54F9815E39552000DFB79 /* InfoPlist.strings */; };
+		9DA54F9C15E39552000DFB79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA54F9B15E39552000DFB79 /* main.m */; };
+		9DA54FA015E39552000DFB79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA54F9F15E39552000DFB79 /* AppDelegate.m */; };
+		9DA54FA315E39552000DFB79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA54FA215E39552000DFB79 /* ViewController.m */; };
+		9DA54FA615E39552000DFB79 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DA54FA415E39552000DFB79 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9D8007F715E3A733007290A1 /* Selected-Unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Selected-Unselected.png"; sourceTree = "<group>"; };
+		9D8007F815E3A733007290A1 /* Selected-Unselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Selected-Unselected@2x.png"; sourceTree = "<group>"; };
+		9D8007F915E3A733007290A1 /* Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Selected.png; sourceTree = "<group>"; };
+		9D8007FA15E3A733007290A1 /* Selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Selected@2x.png"; sourceTree = "<group>"; };
+		9D8007FB15E3A733007290A1 /* Unselected-Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Unselected-Selected.png"; sourceTree = "<group>"; };
+		9D8007FC15E3A733007290A1 /* Unselected-Selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Unselected-Selected@2x.png"; sourceTree = "<group>"; };
+		9D8007FD15E3A733007290A1 /* Unselected-Unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Unselected-Unselected.png"; sourceTree = "<group>"; };
+		9D8007FE15E3A733007290A1 /* Unselected-Unselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Unselected-Unselected@2x.png"; sourceTree = "<group>"; };
+		9D8007FF15E3A733007290A1 /* Unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unselected.png; sourceTree = "<group>"; };
+		9D80080015E3A733007290A1 /* Unselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Unselected@2x.png"; sourceTree = "<group>"; };
+		9DA54F8B15E39552000DFB79 /* Customizing the UISegmentedControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Customizing the UISegmentedControl.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA54F8F15E39552000DFB79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9DA54F9115E39552000DFB79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9DA54F9315E39552000DFB79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9DA54F9715E39552000DFB79 /* Customizing the UISegmentedControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Customizing the UISegmentedControl-Info.plist"; sourceTree = "<group>"; };
+		9DA54F9915E39552000DFB79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9DA54F9B15E39552000DFB79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DA54F9D15E39552000DFB79 /* Customizing the UISegmentedControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Customizing the UISegmentedControl-Prefix.pch"; sourceTree = "<group>"; };
+		9DA54F9E15E39552000DFB79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9DA54F9F15E39552000DFB79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9DA54FA115E39552000DFB79 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9DA54FA215E39552000DFB79 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9DA54FA515E39552000DFB79 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DA54F8815E39552000DFB79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA54F9015E39552000DFB79 /* UIKit.framework in Frameworks */,
+				9DA54F9215E39552000DFB79 /* Foundation.framework in Frameworks */,
+				9DA54F9415E39552000DFB79 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DA54F8015E39552000DFB79 = {
+			isa = PBXGroup;
+			children = (
+				9DA54F9515E39552000DFB79 /* Customizing the UISegmentedControl */,
+				9DA54F8E15E39552000DFB79 /* Frameworks */,
+				9DA54F8C15E39552000DFB79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DA54F8C15E39552000DFB79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DA54F8B15E39552000DFB79 /* Customizing the UISegmentedControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DA54F8E15E39552000DFB79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DA54F8F15E39552000DFB79 /* UIKit.framework */,
+				9DA54F9115E39552000DFB79 /* Foundation.framework */,
+				9DA54F9315E39552000DFB79 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DA54F9515E39552000DFB79 /* Customizing the UISegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				9DA54FAE15E3A07F000DFB79 /* Images */,
+				9DA54F9E15E39552000DFB79 /* AppDelegate.h */,
+				9DA54F9F15E39552000DFB79 /* AppDelegate.m */,
+				9DA54FA115E39552000DFB79 /* ViewController.h */,
+				9DA54FA215E39552000DFB79 /* ViewController.m */,
+				9DA54FA415E39552000DFB79 /* ViewController.xib */,
+				9DA54F9615E39552000DFB79 /* Supporting Files */,
+			);
+			path = "Customizing the UISegmentedControl";
+			sourceTree = "<group>";
+		};
+		9DA54F9615E39552000DFB79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DA54F9715E39552000DFB79 /* Customizing the UISegmentedControl-Info.plist */,
+				9DA54F9815E39552000DFB79 /* InfoPlist.strings */,
+				9DA54F9B15E39552000DFB79 /* main.m */,
+				9DA54F9D15E39552000DFB79 /* Customizing the UISegmentedControl-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DA54FAE15E3A07F000DFB79 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9D8007F715E3A733007290A1 /* Selected-Unselected.png */,
+				9D8007F815E3A733007290A1 /* Selected-Unselected@2x.png */,
+				9D8007F915E3A733007290A1 /* Selected.png */,
+				9D8007FA15E3A733007290A1 /* Selected@2x.png */,
+				9D8007FB15E3A733007290A1 /* Unselected-Selected.png */,
+				9D8007FC15E3A733007290A1 /* Unselected-Selected@2x.png */,
+				9D8007FD15E3A733007290A1 /* Unselected-Unselected.png */,
+				9D8007FE15E3A733007290A1 /* Unselected-Unselected@2x.png */,
+				9D8007FF15E3A733007290A1 /* Unselected.png */,
+				9D80080015E3A733007290A1 /* Unselected@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DA54F8A15E39552000DFB79 /* Customizing the UISegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DA54FA915E39552000DFB79 /* Build configuration list for PBXNativeTarget "Customizing the UISegmentedControl" */;
+			buildPhases = (
+				9DA54F8715E39552000DFB79 /* Sources */,
+				9DA54F8815E39552000DFB79 /* Frameworks */,
+				9DA54F8915E39552000DFB79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Customizing the UISegmentedControl";
+			productName = "Customizing the UISegmentedControl";
+			productReference = 9DA54F8B15E39552000DFB79 /* Customizing the UISegmentedControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DA54F8215E39552000DFB79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = 9DA54F8515E39552000DFB79 /* Build configuration list for PBXProject "Customizing the UISegmentedControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9DA54F8015E39552000DFB79;
+			productRefGroup = 9DA54F8C15E39552000DFB79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DA54F8A15E39552000DFB79 /* Customizing the UISegmentedControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DA54F8915E39552000DFB79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA54F9A15E39552000DFB79 /* InfoPlist.strings in Resources */,
+				9DA54FA615E39552000DFB79 /* ViewController.xib in Resources */,
+				9D80080115E3A733007290A1 /* Selected-Unselected.png in Resources */,
+				9D80080215E3A733007290A1 /* Selected-Unselected@2x.png in Resources */,
+				9D80080315E3A733007290A1 /* Selected.png in Resources */,
+				9D80080415E3A733007290A1 /* Selected@2x.png in Resources */,
+				9D80080515E3A733007290A1 /* Unselected-Selected.png in Resources */,
+				9D80080615E3A733007290A1 /* Unselected-Selected@2x.png in Resources */,
+				9D80080715E3A733007290A1 /* Unselected-Unselected.png in Resources */,
+				9D80080815E3A733007290A1 /* Unselected-Unselected@2x.png in Resources */,
+				9D80080915E3A733007290A1 /* Unselected.png in Resources */,
+				9D80080A15E3A733007290A1 /* Unselected@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DA54F8715E39552000DFB79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA54F9C15E39552000DFB79 /* main.m in Sources */,
+				9DA54FA015E39552000DFB79 /* AppDelegate.m in Sources */,
+				9DA54FA315E39552000DFB79 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DA54F9815E39552000DFB79 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DA54F9915E39552000DFB79 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9DA54FA415E39552000DFB79 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DA54FA515E39552000DFB79 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DA54FA715E39552000DFB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9DA54FA815E39552000DFB79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DA54FAA15E39552000DFB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Customizing the UISegmentedControl/Customizing the UISegmentedControl-Prefix.pch";
+				INFOPLIST_FILE = "Customizing the UISegmentedControl/Customizing the UISegmentedControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9DA54FAB15E39552000DFB79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Customizing the UISegmentedControl/Customizing the UISegmentedControl-Prefix.pch";
+				INFOPLIST_FILE = "Customizing the UISegmentedControl/Customizing the UISegmentedControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DA54F8515E39552000DFB79 /* Build configuration list for PBXProject "Customizing the UISegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA54FA715E39552000DFB79 /* Debug */,
+				9DA54FA815E39552000DFB79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DA54FA915E39552000DFB79 /* Build configuration list for PBXNativeTarget "Customizing the UISegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA54FAA15E39552000DFB79 /* Debug */,
+				9DA54FAB15E39552000DFB79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DA54F8215E39552000DFB79 /* Project object */;
+}

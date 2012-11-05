@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="848" systemVersion="10K540" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Person" representedClassName="Person">
+        <attribute name="age" optional="YES" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="firstName" attributeType="String"/>
+        <attribute name="lastName" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Person" positionX="160" positionY="192" width="128" height="90"/>
+    </elements>
+</model>

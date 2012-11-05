@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6C408A913E320A600267CFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C408A813E320A600267CFA /* UIKit.framework */; };
+		A6C408AB13E320A600267CFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C408AA13E320A600267CFA /* Foundation.framework */; };
+		A6C408AD13E320A600267CFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C408AC13E320A600267CFA /* CoreGraphics.framework */; };
+		A6C408B313E320A600267CFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6C408B113E320A600267CFA /* InfoPlist.strings */; };
+		A6C408B513E320A600267CFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C408B413E320A600267CFA /* main.m */; };
+		A6C408B913E320A600267CFA /* Displaying_Hierarchical_Data_in_Table_ViewsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C408B813E320A600267CFA /* Displaying_Hierarchical_Data_in_Table_ViewsAppDelegate.m */; };
+		A6C408BC13E320A600267CFA /* Displaying_Hierarchical_Data_in_Table_ViewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C408BB13E320A600267CFA /* Displaying_Hierarchical_Data_in_Table_ViewsViewController.m */; };
+		A6C408BF13E320A600267CFA /* Displaying_Hierarchical_Data_in_Table_ViewsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C408BD13E320A600267CFA /* Displaying_Hierarchical_Data_in_Table_ViewsViewController_iPhone.xib */; };
+		A6C408C213E320A600267CFA /* Displaying_Hierarchical_Data_in_Table_ViewsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C408C013E320A600267CFA /* Displaying_Hierarchical_Data_in_Table_ViewsViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6C408A413E320A600267CFA /* Displaying Hierarchical Data in Table Views.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Displaying Hierarchical Data in Table Views.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C408A813E320A600267CFA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6C408AA13E320A600267CFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6C408AC13E320A600267CFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6C408B013E320A600267CFA /* Displaying Hierarchical Data in Table Views-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Displaying Hierarchical Data in Table Views-Info.plist"; sourceTree = "<group>"; };
+		A6C408B213E320A600267CFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6C408B413E320A600267CFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6C408B613E320A600267CFA /* Displaying Hierarchical Data in Table Views-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Displaying Hierarchical Data in Table Views-Prefix.pch"; sourceTree = "<group>"; };
+		A6C408B713E320A600267CFA /* Displaying_Hierarchical_Data_in_Table_ViewsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Displaying_Hierarchical_Data_in_Table_ViewsAppDelegate.h; sourceTree = "<group>"; };
+		A6C408B813E320A600267CFA /* Displaying_Hierarchical_Data_in_Table_ViewsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Displaying_Hierarchical_Data_in_Table_ViewsAppDelegate.m; sourceTree = "<group>"; };
+		A6C408BA13E320A600267CFA /* Displaying_Hierarchical_Data_in_Table_ViewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Displaying_Hierarchical_Data_in_Table_ViewsViewController.h; sourceTree = "<group>"; };
+		A6C408BB13E320A600267CFA /* Displaying_Hierarchical_Data_in_Table_ViewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Displaying_Hierarchical_Data_in_Table_ViewsViewController.m; sourceTree = "<group>"; };
+		A6C408BE13E320A600267CFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Displaying_Hierarchical_Data_in_Table_ViewsViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6C408C113E320A600267CFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Displaying_Hierarchical_Data_in_Table_ViewsViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6C408A113E320A600267CFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C408A913E320A600267CFA /* UIKit.framework in Frameworks */,
+				A6C408AB13E320A600267CFA /* Foundation.framework in Frameworks */,
+				A6C408AD13E320A600267CFA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6C4089913E320A600267CFA = {
+			isa = PBXGroup;
+			children = (
+				A6C408AE13E320A600267CFA /* Displaying Hierarchical Data in Table Views */,
+				A6C408A713E320A600267CFA /* Frameworks */,
+				A6C408A513E320A600267CFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6C408A513E320A600267CFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6C408A413E320A600267CFA /* Displaying Hierarchical Data in Table Views.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6C408A713E320A600267CFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6C408A813E320A600267CFA /* UIKit.framework */,
+				A6C408AA13E320A600267CFA /* Foundation.framework */,
+				A6C408AC13E320A600267CFA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6C408AE13E320A600267CFA /* Displaying Hierarchical Data in Table Views */ = {
+			isa = PBXGroup;
+			children = (
+				A6C408B713E320A600267CFA /* Displaying_Hierarchical_Data_in_Table_ViewsAppDelegate.h */,
+				A6C408B813E320A600267CFA /* Displaying_Hierarchical_Data_in_Table_ViewsAppDelegate.m */,
+				A6C408BA13E320A600267CFA /* Displaying_Hierarchical_Data_in_Table_ViewsViewController.h */,
+				A6C408BB13E320A600267CFA /* Displaying_Hierarchical_Data_in_Table_ViewsViewController.m */,
+				A6C408BD13E320A600267CFA /* Displaying_Hierarchical_Data_in_Table_ViewsViewController_iPhone.xib */,
+				A6C408C013E320A600267CFA /* Displaying_Hierarchical_Data_in_Table_ViewsViewController_iPad.xib */,
+				A6C408AF13E320A600267CFA /* Supporting Files */,
+			);
+			path = "Displaying Hierarchical Data in Table Views";
+			sourceTree = "<group>";
+		};
+		A6C408AF13E320A600267CFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6C408B013E320A600267CFA /* Displaying Hierarchical Data in Table Views-Info.plist */,
+				A6C408B113E320A600267CFA /* InfoPlist.strings */,
+				A6C408B413E320A600267CFA /* main.m */,
+				A6C408B613E320A600267CFA /* Displaying Hierarchical Data in Table Views-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6C408A313E320A600267CFA /* Displaying Hierarchical Data in Table Views */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C408C513E320A600267CFA /* Build configuration list for PBXNativeTarget "Displaying Hierarchical Data in Table Views" */;
+			buildPhases = (
+				A6C408A013E320A600267CFA /* Sources */,
+				A6C408A113E320A600267CFA /* Frameworks */,
+				A6C408A213E320A600267CFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Displaying Hierarchical Data in Table Views";
+			productName = "Displaying Hierarchical Data in Table Views";
+			productReference = A6C408A413E320A600267CFA /* Displaying Hierarchical Data in Table Views.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6C4089B13E320A600267CFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6C4089E13E320A600267CFA /* Build configuration list for PBXProject "Displaying Hierarchical Data in Table Views" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6C4089913E320A600267CFA;
+			productRefGroup = A6C408A513E320A600267CFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6C408A313E320A600267CFA /* Displaying Hierarchical Data in Table Views */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6C408A213E320A600267CFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C408B313E320A600267CFA /* InfoPlist.strings in Resources */,
+				A6C408BF13E320A600267CFA /* Displaying_Hierarchical_Data_in_Table_ViewsViewController_iPhone.xib in Resources */,
+				A6C408C213E320A600267CFA /* Displaying_Hierarchical_Data_in_Table_ViewsViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6C408A013E320A600267CFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C408B513E320A600267CFA /* main.m in Sources */,
+				A6C408B913E320A600267CFA /* Displaying_Hierarchical_Data_in_Table_ViewsAppDelegate.m in Sources */,
+				A6C408BC13E320A600267CFA /* Displaying_Hierarchical_Data_in_Table_ViewsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6C408B113E320A600267CFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C408B213E320A600267CFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6C408BD13E320A600267CFA /* Displaying_Hierarchical_Data_in_Table_ViewsViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C408BE13E320A600267CFA /* en */,
+			);
+			name = Displaying_Hierarchical_Data_in_Table_ViewsViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6C408C013E320A600267CFA /* Displaying_Hierarchical_Data_in_Table_ViewsViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C408C113E320A600267CFA /* en */,
+			);
+			name = Displaying_Hierarchical_Data_in_Table_ViewsViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6C408C313E320A600267CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6C408C413E320A600267CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6C408C613E320A600267CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Displaying Hierarchical Data in Table Views/Displaying Hierarchical Data in Table Views-Prefix.pch";
+				INFOPLIST_FILE = "Displaying Hierarchical Data in Table Views/Displaying Hierarchical Data in Table Views-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6C408C713E320A600267CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Displaying Hierarchical Data in Table Views/Displaying Hierarchical Data in Table Views-Prefix.pch";
+				INFOPLIST_FILE = "Displaying Hierarchical Data in Table Views/Displaying Hierarchical Data in Table Views-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6C4089E13E320A600267CFA /* Build configuration list for PBXProject "Displaying Hierarchical Data in Table Views" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C408C313E320A600267CFA /* Debug */,
+				A6C408C413E320A600267CFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C408C513E320A600267CFA /* Build configuration list for PBXNativeTarget "Displaying Hierarchical Data in Table Views" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C408C613E320A600267CFA /* Debug */,
+				A6C408C713E320A600267CFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6C4089B13E320A600267CFA /* Project object */;
+}

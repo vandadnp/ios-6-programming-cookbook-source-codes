@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6F017AD13D9709900E83909 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F017AC13D9709900E83909 /* UIKit.framework */; };
+		A6F017AF13D9709900E83909 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F017AE13D9709900E83909 /* Foundation.framework */; };
+		A6F017B113D9709900E83909 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F017B013D9709900E83909 /* CoreGraphics.framework */; };
+		A6F017B713D9709900E83909 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6F017B513D9709900E83909 /* InfoPlist.strings */; };
+		A6F017B913D9709900E83909 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F017B813D9709900E83909 /* main.m */; };
+		A6F017BD13D9709900E83909 /* Retrieving_Photos_and_Videos_from_the_Photo_LibraryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F017BC13D9709900E83909 /* Retrieving_Photos_and_Videos_from_the_Photo_LibraryAppDelegate.m */; };
+		A6F017C013D9709900E83909 /* Retrieving_Photos_and_Videos_from_the_Photo_LibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F017BF13D9709900E83909 /* Retrieving_Photos_and_Videos_from_the_Photo_LibraryViewController.m */; };
+		A6F017C313D9709900E83909 /* Retrieving_Photos_and_Videos_from_the_Photo_LibraryViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6F017C113D9709900E83909 /* Retrieving_Photos_and_Videos_from_the_Photo_LibraryViewController_iPhone.xib */; };
+		A6F017C613D9709900E83909 /* Retrieving_Photos_and_Videos_from_the_Photo_LibraryViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6F017C413D9709900E83909 /* Retrieving_Photos_and_Videos_from_the_Photo_LibraryViewController_iPad.xib */; };
+		A6F017D713D970B200E83909 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F017D613D970B200E83909 /* MobileCoreServices.framework */; };
+		A6F017DA13D970B500E83909 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F017D913D970B500E83909 /* AssetsLibrary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6F017A813D9709900E83909 /* Retrieving Photos and Videos from the Photo Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Retrieving Photos and Videos from the Photo Library.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F017AC13D9709900E83909 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6F017AE13D9709900E83909 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6F017B013D9709900E83909 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6F017B413D9709900E83909 /* Retrieving Photos and Videos from the Photo Library-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Retrieving Photos and Videos from the Photo Library-Info.plist"; sourceTree = "<group>"; };
+		A6F017B613D9709900E83909 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6F017B813D9709900E83909 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6F017BA13D9709900E83909 /* Retrieving Photos and Videos from the Photo Library-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Retrieving Photos and Videos from the Photo Library-Prefix.pch"; sourceTree = "<group>"; };
+		A6F017BB13D9709900E83909 /* Retrieving_Photos_and_Videos_from_the_Photo_LibraryAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Retrieving_Photos_and_Videos_from_the_Photo_LibraryAppDelegate.h; sourceTree = "<group>"; };
+		A6F017BC13D9709900E83909 /* Retrieving_Photos_and_Videos_from_the_Photo_LibraryAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Retrieving_Photos_and_Videos_from_the_Photo_LibraryAppDelegate.m; sourceTree = "<group>"; };
+		A6F017BE13D9709900E83909 /* Retrieving_Photos_and_Videos_from_the_Photo_LibraryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Retrieving_Photos_and_Videos_from_the_Photo_LibraryViewController.h; sourceTree = "<group>"; };
+		A6F017BF13D9709900E83909 /* Retrieving_Photos_and_Videos_from_the_Photo_LibraryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Retrieving_Photos_and_Videos_from_the_Photo_LibraryViewController.m; sourceTree = "<group>"; };
+		A6F017C213D9709900E83909 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Retrieving_Photos_and_Videos_from_the_Photo_LibraryViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6F017C513D9709900E83909 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Retrieving_Photos_and_Videos_from_the_Photo_LibraryViewController_iPad.xib; sourceTree = "<group>"; };
+		A6F017D613D970B200E83909 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A6F017D913D970B500E83909 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6F017A513D9709900E83909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F017DA13D970B500E83909 /* AssetsLibrary.framework in Frameworks */,
+				A6F017D713D970B200E83909 /* MobileCoreServices.framework in Frameworks */,
+				A6F017AD13D9709900E83909 /* UIKit.framework in Frameworks */,
+				A6F017AF13D9709900E83909 /* Foundation.framework in Frameworks */,
+				A6F017B113D9709900E83909 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6F0179D13D9709900E83909 = {
+			isa = PBXGroup;
+			children = (
+				A6F017B213D9709900E83909 /* Retrieving Photos and Videos from the Photo Library */,
+				A6F017AB13D9709900E83909 /* Frameworks */,
+				A6F017A913D9709900E83909 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6F017A913D9709900E83909 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6F017A813D9709900E83909 /* Retrieving Photos and Videos from the Photo Library.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6F017AB13D9709900E83909 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6F017D913D970B500E83909 /* AssetsLibrary.framework */,
+				A6F017D613D970B200E83909 /* MobileCoreServices.framework */,
+				A6F017AC13D9709900E83909 /* UIKit.framework */,
+				A6F017AE13D9709900E83909 /* Foundation.framework */,
+				A6F017B013D9709900E83909 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6F017B213D9709900E83909 /* Retrieving Photos and Videos from the Photo Library */ = {
+			isa = PBXGroup;
+			children = (
+				A6F017BB13D9709900E83909 /* Retrieving_Photos_and_Videos_from_the_Photo_LibraryAppDelegate.h */,
+				A6F017BC13D9709900E83909 /* Retrieving_Photos_and_Videos_from_the_Photo_LibraryAppDelegate.m */,
+				A6F017BE13D9709900E83909 /* Retrieving_Photos_and_Videos_from_the_Photo_LibraryViewController.h */,
+				A6F017BF13D9709900E83909 /* Retrieving_Photos_and_Videos_from_the_Photo_LibraryViewController.m */,
+				A6F017C113D9709900E83909 /* Retrieving_Photos_and_Videos_from_the_Photo_LibraryViewController_iPhone.xib */,
+				A6F017C413D9709900E83909 /* Retrieving_Photos_and_Videos_from_the_Photo_LibraryViewController_iPad.xib */,
+				A6F017B313D9709900E83909 /* Supporting Files */,
+			);
+			path = "Retrieving Photos and Videos from the Photo Library";
+			sourceTree = "<group>";
+		};
+		A6F017B313D9709900E83909 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6F017B413D9709900E83909 /* Retrieving Photos and Videos from the Photo Library-Info.plist */,
+				A6F017B513D9709900E83909 /* InfoPlist.strings */,
+				A6F017B813D9709900E83909 /* main.m */,
+				A6F017BA13D9709900E83909 /* Retrieving Photos and Videos from the Photo Library-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6F017A713D9709900E83909 /* Retrieving Photos and Videos from the Photo Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6F017C913D9709900E83909 /* Build configuration list for PBXNativeTarget "Retrieving Photos and Videos from the Photo Library" */;
+			buildPhases = (
+				A6F017A413D9709900E83909 /* Sources */,
+				A6F017A513D9709900E83909 /* Frameworks */,
+				A6F017A613D9709900E83909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Retrieving Photos and Videos from the Photo Library";
+			productName = "Retrieving Photos and Videos from the Photo Library";
+			productReference = A6F017A813D9709900E83909 /* Retrieving Photos and Videos from the Photo Library.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6F0179F13D9709900E83909 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6F017A213D9709900E83909 /* Build configuration list for PBXProject "Retrieving Photos and Videos from the Photo Library" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6F0179D13D9709900E83909;
+			productRefGroup = A6F017A913D9709900E83909 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6F017A713D9709900E83909 /* Retrieving Photos and Videos from the Photo Library */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6F017A613D9709900E83909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F017B713D9709900E83909 /* InfoPlist.strings in Resources */,
+				A6F017C313D9709900E83909 /* Retrieving_Photos_and_Videos_from_the_Photo_LibraryViewController_iPhone.xib in Resources */,
+				A6F017C613D9709900E83909 /* Retrieving_Photos_and_Videos_from_the_Photo_LibraryViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6F017A413D9709900E83909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F017B913D9709900E83909 /* main.m in Sources */,
+				A6F017BD13D9709900E83909 /* Retrieving_Photos_and_Videos_from_the_Photo_LibraryAppDelegate.m in Sources */,
+				A6F017C013D9709900E83909 /* Retrieving_Photos_and_Videos_from_the_Photo_LibraryViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6F017B513D9709900E83909 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F017B613D9709900E83909 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6F017C113D9709900E83909 /* Retrieving_Photos_and_Videos_from_the_Photo_LibraryViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F017C213D9709900E83909 /* en */,
+			);
+			name = Retrieving_Photos_and_Videos_from_the_Photo_LibraryViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6F017C413D9709900E83909 /* Retrieving_Photos_and_Videos_from_the_Photo_LibraryViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F017C513D9709900E83909 /* en */,
+			);
+			name = Retrieving_Photos_and_Videos_from_the_Photo_LibraryViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6F017C713D9709900E83909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6F017C813D9709900E83909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6F017CA13D9709900E83909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Retrieving Photos and Videos from the Photo Library/Retrieving Photos and Videos from the Photo Library-Prefix.pch";
+				INFOPLIST_FILE = "Retrieving Photos and Videos from the Photo Library/Retrieving Photos and Videos from the Photo Library-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6F017CB13D9709900E83909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Retrieving Photos and Videos from the Photo Library/Retrieving Photos and Videos from the Photo Library-Prefix.pch";
+				INFOPLIST_FILE = "Retrieving Photos and Videos from the Photo Library/Retrieving Photos and Videos from the Photo Library-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6F017A213D9709900E83909 /* Build configuration list for PBXProject "Retrieving Photos and Videos from the Photo Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F017C713D9709900E83909 /* Debug */,
+				A6F017C813D9709900E83909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F017C913D9709900E83909 /* Build configuration list for PBXNativeTarget "Retrieving Photos and Videos from the Photo Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F017CA13D9709900E83909 /* Debug */,
+				A6F017CB13D9709900E83909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6F0179F13D9709900E83909 /* Project object */;
+}

@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A610176513DC076D00B705B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A610176413DC076D00B705B5 /* UIKit.framework */; };
+		A610176713DC076D00B705B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A610176613DC076D00B705B5 /* Foundation.framework */; };
+		A610176913DC076D00B705B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A610176813DC076D00B705B5 /* CoreGraphics.framework */; };
+		A610176F13DC076D00B705B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A610176D13DC076D00B705B5 /* InfoPlist.strings */; };
+		A610177113DC076D00B705B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A610177013DC076D00B705B5 /* main.m */; };
+		A610177513DC076D00B705B5 /* Adding_Alarms_to_CalendarsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A610177413DC076D00B705B5 /* Adding_Alarms_to_CalendarsAppDelegate.m */; };
+		A610178713DC077F00B705B5 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A610178513DC077F00B705B5 /* EventKit.framework */; };
+		A610178813DC077F00B705B5 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A610178613DC077F00B705B5 /* EventKitUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A610176013DC076D00B705B5 /* Adding Alarms to Calendars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adding Alarms to Calendars.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A610176413DC076D00B705B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A610176613DC076D00B705B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A610176813DC076D00B705B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A610176C13DC076D00B705B5 /* Adding Alarms to Calendars-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Adding Alarms to Calendars-Info.plist"; sourceTree = "<group>"; };
+		A610176E13DC076D00B705B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A610177013DC076D00B705B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A610177213DC076D00B705B5 /* Adding Alarms to Calendars-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Adding Alarms to Calendars-Prefix.pch"; sourceTree = "<group>"; };
+		A610177313DC076D00B705B5 /* Adding_Alarms_to_CalendarsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adding_Alarms_to_CalendarsAppDelegate.h; sourceTree = "<group>"; };
+		A610177413DC076D00B705B5 /* Adding_Alarms_to_CalendarsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Adding_Alarms_to_CalendarsAppDelegate.m; sourceTree = "<group>"; };
+		A610178513DC077F00B705B5 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		A610178613DC077F00B705B5 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A610175D13DC076D00B705B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A610178713DC077F00B705B5 /* EventKit.framework in Frameworks */,
+				A610178813DC077F00B705B5 /* EventKitUI.framework in Frameworks */,
+				A610176513DC076D00B705B5 /* UIKit.framework in Frameworks */,
+				A610176713DC076D00B705B5 /* Foundation.framework in Frameworks */,
+				A610176913DC076D00B705B5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A610175513DC076D00B705B5 = {
+			isa = PBXGroup;
+			children = (
+				A610176A13DC076D00B705B5 /* Adding Alarms to Calendars */,
+				A610176313DC076D00B705B5 /* Frameworks */,
+				A610176113DC076D00B705B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A610176113DC076D00B705B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A610176013DC076D00B705B5 /* Adding Alarms to Calendars.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A610176313DC076D00B705B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A610178513DC077F00B705B5 /* EventKit.framework */,
+				A610178613DC077F00B705B5 /* EventKitUI.framework */,
+				A610176413DC076D00B705B5 /* UIKit.framework */,
+				A610176613DC076D00B705B5 /* Foundation.framework */,
+				A610176813DC076D00B705B5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A610176A13DC076D00B705B5 /* Adding Alarms to Calendars */ = {
+			isa = PBXGroup;
+			children = (
+				A610177313DC076D00B705B5 /* Adding_Alarms_to_CalendarsAppDelegate.h */,
+				A610177413DC076D00B705B5 /* Adding_Alarms_to_CalendarsAppDelegate.m */,
+				A610176B13DC076D00B705B5 /* Supporting Files */,
+			);
+			path = "Adding Alarms to Calendars";
+			sourceTree = "<group>";
+		};
+		A610176B13DC076D00B705B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A610176C13DC076D00B705B5 /* Adding Alarms to Calendars-Info.plist */,
+				A610176D13DC076D00B705B5 /* InfoPlist.strings */,
+				A610177013DC076D00B705B5 /* main.m */,
+				A610177213DC076D00B705B5 /* Adding Alarms to Calendars-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A610175F13DC076D00B705B5 /* Adding Alarms to Calendars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A610177813DC076D00B705B5 /* Build configuration list for PBXNativeTarget "Adding Alarms to Calendars" */;
+			buildPhases = (
+				A610175C13DC076D00B705B5 /* Sources */,
+				A610175D13DC076D00B705B5 /* Frameworks */,
+				A610175E13DC076D00B705B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Adding Alarms to Calendars";
+			productName = "Adding Alarms to Calendars";
+			productReference = A610176013DC076D00B705B5 /* Adding Alarms to Calendars.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A610175713DC076D00B705B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A610175A13DC076D00B705B5 /* Build configuration list for PBXProject "Adding Alarms to Calendars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A610175513DC076D00B705B5;
+			productRefGroup = A610176113DC076D00B705B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A610175F13DC076D00B705B5 /* Adding Alarms to Calendars */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A610175E13DC076D00B705B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A610176F13DC076D00B705B5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A610175C13DC076D00B705B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A610177113DC076D00B705B5 /* main.m in Sources */,
+				A610177513DC076D00B705B5 /* Adding_Alarms_to_CalendarsAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A610176D13DC076D00B705B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A610176E13DC076D00B705B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A610177613DC076D00B705B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A610177713DC076D00B705B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A610177913DC076D00B705B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adding Alarms to Calendars/Adding Alarms to Calendars-Prefix.pch";
+				INFOPLIST_FILE = "Adding Alarms to Calendars/Adding Alarms to Calendars-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A610177A13DC076D00B705B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adding Alarms to Calendars/Adding Alarms to Calendars-Prefix.pch";
+				INFOPLIST_FILE = "Adding Alarms to Calendars/Adding Alarms to Calendars-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A610175A13DC076D00B705B5 /* Build configuration list for PBXProject "Adding Alarms to Calendars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A610177613DC076D00B705B5 /* Debug */,
+				A610177713DC076D00B705B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A610177813DC076D00B705B5 /* Build configuration list for PBXNativeTarget "Adding Alarms to Calendars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A610177913DC076D00B705B5 /* Debug */,
+				A610177A13DC076D00B705B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A610175713DC076D00B705B5 /* Project object */;
+}

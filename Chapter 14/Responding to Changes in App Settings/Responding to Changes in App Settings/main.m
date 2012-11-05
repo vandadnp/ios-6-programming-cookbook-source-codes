@@ -1,0 +1,18 @@
+//
+//  main.m
+//  Responding to Changes in App Settings
+//
+//  Created by Vandad Nahavandipoor on 21/07/2011.
+//  Copyright 2011 Pixolity Ltd. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+#import "Responding_to_Changes_in_App_SettingsAppDelegate.h"
+
+int main(int argc, char *argv[])
+{
+  @autoreleasepool {
+      return UIApplicationMain(argc, argv, nil, NSStringFromClass([Responding_to_Changes_in_App_SettingsAppDelegate class]));
+  }
+}

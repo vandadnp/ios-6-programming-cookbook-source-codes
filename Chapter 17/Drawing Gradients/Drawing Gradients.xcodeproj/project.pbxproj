@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A69A188213D302170002A32B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69A188113D302170002A32B /* UIKit.framework */; };
+		A69A188413D302170002A32B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69A188313D302170002A32B /* Foundation.framework */; };
+		A69A188613D302170002A32B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69A188513D302170002A32B /* CoreGraphics.framework */; };
+		A69A188C13D302170002A32B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A69A188A13D302170002A32B /* InfoPlist.strings */; };
+		A69A188E13D302170002A32B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A69A188D13D302170002A32B /* main.m */; };
+		A69A189213D302170002A32B /* Drawing_GradientsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A69A189113D302170002A32B /* Drawing_GradientsAppDelegate.m */; };
+		A69A189513D302170002A32B /* Drawing_GradientsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A69A189413D302170002A32B /* Drawing_GradientsViewController.m */; };
+		A69A189813D302170002A32B /* Drawing_GradientsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A69A189613D302170002A32B /* Drawing_GradientsViewController.xib */; };
+		A69A18AA13D3022C0002A32B /* GraphicsViewControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A69A18A913D3022C0002A32B /* GraphicsViewControllerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A69A187D13D302170002A32B /* Drawing Gradients.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drawing Gradients.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A69A188113D302170002A32B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A69A188313D302170002A32B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A69A188513D302170002A32B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A69A188913D302170002A32B /* Drawing Gradients-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drawing Gradients-Info.plist"; sourceTree = "<group>"; };
+		A69A188B13D302170002A32B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A69A188D13D302170002A32B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A69A188F13D302170002A32B /* Drawing Gradients-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Drawing Gradients-Prefix.pch"; sourceTree = "<group>"; };
+		A69A189013D302170002A32B /* Drawing_GradientsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Drawing_GradientsAppDelegate.h; sourceTree = "<group>"; };
+		A69A189113D302170002A32B /* Drawing_GradientsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drawing_GradientsAppDelegate.m; sourceTree = "<group>"; };
+		A69A189313D302170002A32B /* Drawing_GradientsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Drawing_GradientsViewController.h; sourceTree = "<group>"; };
+		A69A189413D302170002A32B /* Drawing_GradientsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drawing_GradientsViewController.m; sourceTree = "<group>"; };
+		A69A189713D302170002A32B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Drawing_GradientsViewController.xib; sourceTree = "<group>"; };
+		A69A18A813D3022C0002A32B /* GraphicsViewControllerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsViewControllerView.h; sourceTree = "<group>"; };
+		A69A18A913D3022C0002A32B /* GraphicsViewControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsViewControllerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A69A187A13D302170002A32B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69A188213D302170002A32B /* UIKit.framework in Frameworks */,
+				A69A188413D302170002A32B /* Foundation.framework in Frameworks */,
+				A69A188613D302170002A32B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A69A187213D302170002A32B = {
+			isa = PBXGroup;
+			children = (
+				A69A188713D302170002A32B /* Drawing Gradients */,
+				A69A188013D302170002A32B /* Frameworks */,
+				A69A187E13D302170002A32B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A69A187E13D302170002A32B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A69A187D13D302170002A32B /* Drawing Gradients.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A69A188013D302170002A32B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A69A188113D302170002A32B /* UIKit.framework */,
+				A69A188313D302170002A32B /* Foundation.framework */,
+				A69A188513D302170002A32B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A69A188713D302170002A32B /* Drawing Gradients */ = {
+			isa = PBXGroup;
+			children = (
+				A69A189013D302170002A32B /* Drawing_GradientsAppDelegate.h */,
+				A69A189113D302170002A32B /* Drawing_GradientsAppDelegate.m */,
+				A69A189313D302170002A32B /* Drawing_GradientsViewController.h */,
+				A69A189413D302170002A32B /* Drawing_GradientsViewController.m */,
+				A69A189613D302170002A32B /* Drawing_GradientsViewController.xib */,
+				A69A188813D302170002A32B /* Supporting Files */,
+				A69A18A813D3022C0002A32B /* GraphicsViewControllerView.h */,
+				A69A18A913D3022C0002A32B /* GraphicsViewControllerView.m */,
+			);
+			path = "Drawing Gradients";
+			sourceTree = "<group>";
+		};
+		A69A188813D302170002A32B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A69A188913D302170002A32B /* Drawing Gradients-Info.plist */,
+				A69A188A13D302170002A32B /* InfoPlist.strings */,
+				A69A188D13D302170002A32B /* main.m */,
+				A69A188F13D302170002A32B /* Drawing Gradients-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A69A187C13D302170002A32B /* Drawing Gradients */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A69A189B13D302170002A32B /* Build configuration list for PBXNativeTarget "Drawing Gradients" */;
+			buildPhases = (
+				A69A187913D302170002A32B /* Sources */,
+				A69A187A13D302170002A32B /* Frameworks */,
+				A69A187B13D302170002A32B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Drawing Gradients";
+			productName = "Drawing Gradients";
+			productReference = A69A187D13D302170002A32B /* Drawing Gradients.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A69A187413D302170002A32B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A69A187713D302170002A32B /* Build configuration list for PBXProject "Drawing Gradients" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A69A187213D302170002A32B;
+			productRefGroup = A69A187E13D302170002A32B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A69A187C13D302170002A32B /* Drawing Gradients */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A69A187B13D302170002A32B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69A188C13D302170002A32B /* InfoPlist.strings in Resources */,
+				A69A189813D302170002A32B /* Drawing_GradientsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A69A187913D302170002A32B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69A188E13D302170002A32B /* main.m in Sources */,
+				A69A189213D302170002A32B /* Drawing_GradientsAppDelegate.m in Sources */,
+				A69A189513D302170002A32B /* Drawing_GradientsViewController.m in Sources */,
+				A69A18AA13D3022C0002A32B /* GraphicsViewControllerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A69A188A13D302170002A32B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A69A188B13D302170002A32B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A69A189613D302170002A32B /* Drawing_GradientsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A69A189713D302170002A32B /* en */,
+			);
+			name = Drawing_GradientsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A69A189913D302170002A32B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A69A189A13D302170002A32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A69A189C13D302170002A32B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drawing Gradients/Drawing Gradients-Prefix.pch";
+				INFOPLIST_FILE = "Drawing Gradients/Drawing Gradients-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A69A189D13D302170002A32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drawing Gradients/Drawing Gradients-Prefix.pch";
+				INFOPLIST_FILE = "Drawing Gradients/Drawing Gradients-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A69A187713D302170002A32B /* Build configuration list for PBXProject "Drawing Gradients" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69A189913D302170002A32B /* Debug */,
+				A69A189A13D302170002A32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A69A189B13D302170002A32B /* Build configuration list for PBXNativeTarget "Drawing Gradients" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69A189C13D302170002A32B /* Debug */,
+				A69A189D13D302170002A32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A69A187413D302170002A32B /* Project object */;
+}

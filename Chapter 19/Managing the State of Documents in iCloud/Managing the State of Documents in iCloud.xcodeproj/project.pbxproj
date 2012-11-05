@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D22F2DC1449DAEF00A10C21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D22F2DB1449DAEF00A10C21 /* UIKit.framework */; };
+		9D22F2DE1449DAEF00A10C21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D22F2DD1449DAEF00A10C21 /* Foundation.framework */; };
+		9D22F2E01449DAEF00A10C21 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D22F2DF1449DAEF00A10C21 /* CoreGraphics.framework */; };
+		9D22F2E61449DAEF00A10C21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D22F2E41449DAEF00A10C21 /* InfoPlist.strings */; };
+		9D22F2E81449DAEF00A10C21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D22F2E71449DAEF00A10C21 /* main.m */; };
+		9D22F2EC1449DAEF00A10C21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D22F2EB1449DAEF00A10C21 /* AppDelegate.m */; };
+		9D22F2EF1449DAEF00A10C21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D22F2EE1449DAEF00A10C21 /* ViewController.m */; };
+		9D22F2F21449DAEF00A10C21 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D22F2F01449DAEF00A10C21 /* ViewController_iPhone.xib */; };
+		9D22F2F51449DAEF00A10C21 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D22F2F31449DAEF00A10C21 /* ViewController_iPad.xib */; };
+		9D22F3081449DEC900A10C21 /* CloudDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D22F3071449DEC900A10C21 /* CloudDocument.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9D22F2D71449DAEF00A10C21 /* Managing the State of Documents in iCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Managing the State of Documents in iCloud.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D22F2DB1449DAEF00A10C21 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D22F2DD1449DAEF00A10C21 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D22F2DF1449DAEF00A10C21 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D22F2E31449DAEF00A10C21 /* Managing the State of Documents in iCloud-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Managing the State of Documents in iCloud-Info.plist"; sourceTree = "<group>"; };
+		9D22F2E51449DAEF00A10C21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D22F2E71449DAEF00A10C21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D22F2E91449DAEF00A10C21 /* Managing the State of Documents in iCloud-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Managing the State of Documents in iCloud-Prefix.pch"; sourceTree = "<group>"; };
+		9D22F2EA1449DAEF00A10C21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D22F2EB1449DAEF00A10C21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D22F2ED1449DAEF00A10C21 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D22F2EE1449DAEF00A10C21 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9D22F2F11449DAEF00A10C21 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		9D22F2F41449DAEF00A10C21 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		9D22F3061449DEC900A10C21 /* CloudDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudDocument.h; sourceTree = "<group>"; };
+		9D22F3071449DEC900A10C21 /* CloudDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudDocument.m; sourceTree = "<group>"; };
+		9D22F3091449E10000A10C21 /* Managing the State of Documents in iCloud.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Managing the State of Documents in iCloud.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D22F2D41449DAEF00A10C21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D22F2DC1449DAEF00A10C21 /* UIKit.framework in Frameworks */,
+				9D22F2DE1449DAEF00A10C21 /* Foundation.framework in Frameworks */,
+				9D22F2E01449DAEF00A10C21 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D22F2CC1449DAEF00A10C21 = {
+			isa = PBXGroup;
+			children = (
+				9D22F2E11449DAEF00A10C21 /* Managing the State of Documents in iCloud */,
+				9D22F2DA1449DAEF00A10C21 /* Frameworks */,
+				9D22F2D81449DAEF00A10C21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D22F2D81449DAEF00A10C21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D22F2D71449DAEF00A10C21 /* Managing the State of Documents in iCloud.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D22F2DA1449DAEF00A10C21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D22F2DB1449DAEF00A10C21 /* UIKit.framework */,
+				9D22F2DD1449DAEF00A10C21 /* Foundation.framework */,
+				9D22F2DF1449DAEF00A10C21 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D22F2E11449DAEF00A10C21 /* Managing the State of Documents in iCloud */ = {
+			isa = PBXGroup;
+			children = (
+				9D22F3091449E10000A10C21 /* Managing the State of Documents in iCloud.entitlements */,
+				9D22F3061449DEC900A10C21 /* CloudDocument.h */,
+				9D22F3071449DEC900A10C21 /* CloudDocument.m */,
+				9D22F2EA1449DAEF00A10C21 /* AppDelegate.h */,
+				9D22F2EB1449DAEF00A10C21 /* AppDelegate.m */,
+				9D22F2ED1449DAEF00A10C21 /* ViewController.h */,
+				9D22F2EE1449DAEF00A10C21 /* ViewController.m */,
+				9D22F2F01449DAEF00A10C21 /* ViewController_iPhone.xib */,
+				9D22F2F31449DAEF00A10C21 /* ViewController_iPad.xib */,
+				9D22F2E21449DAEF00A10C21 /* Supporting Files */,
+			);
+			path = "Managing the State of Documents in iCloud";
+			sourceTree = "<group>";
+		};
+		9D22F2E21449DAEF00A10C21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D22F2E31449DAEF00A10C21 /* Managing the State of Documents in iCloud-Info.plist */,
+				9D22F2E41449DAEF00A10C21 /* InfoPlist.strings */,
+				9D22F2E71449DAEF00A10C21 /* main.m */,
+				9D22F2E91449DAEF00A10C21 /* Managing the State of Documents in iCloud-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D22F2D61449DAEF00A10C21 /* Managing the State of Documents in iCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D22F2F81449DAEF00A10C21 /* Build configuration list for PBXNativeTarget "Managing the State of Documents in iCloud" */;
+			buildPhases = (
+				9D22F2D31449DAEF00A10C21 /* Sources */,
+				9D22F2D41449DAEF00A10C21 /* Frameworks */,
+				9D22F2D51449DAEF00A10C21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Managing the State of Documents in iCloud";
+			productName = "Managing the State of Documents in iCloud";
+			productReference = 9D22F2D71449DAEF00A10C21 /* Managing the State of Documents in iCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D22F2CE1449DAEF00A10C21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 9D22F2D11449DAEF00A10C21 /* Build configuration list for PBXProject "Managing the State of Documents in iCloud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9D22F2CC1449DAEF00A10C21;
+			productRefGroup = 9D22F2D81449DAEF00A10C21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D22F2D61449DAEF00A10C21 /* Managing the State of Documents in iCloud */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D22F2D51449DAEF00A10C21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D22F2E61449DAEF00A10C21 /* InfoPlist.strings in Resources */,
+				9D22F2F21449DAEF00A10C21 /* ViewController_iPhone.xib in Resources */,
+				9D22F2F51449DAEF00A10C21 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D22F2D31449DAEF00A10C21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D22F2E81449DAEF00A10C21 /* main.m in Sources */,
+				9D22F2EC1449DAEF00A10C21 /* AppDelegate.m in Sources */,
+				9D22F2EF1449DAEF00A10C21 /* ViewController.m in Sources */,
+				9D22F3081449DEC900A10C21 /* CloudDocument.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9D22F2E41449DAEF00A10C21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D22F2E51449DAEF00A10C21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9D22F2F01449DAEF00A10C21 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D22F2F11449DAEF00A10C21 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		9D22F2F31449DAEF00A10C21 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D22F2F41449DAEF00A10C21 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D22F2F61449DAEF00A10C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D22F2F71449DAEF00A10C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D22F2F91449DAEF00A10C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Managing the State of Documents in iCloud/Managing the State of Documents in iCloud.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vandad Nahavandipoor (J54K6K24Z3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vandad Nahavandipoor (J54K6K24Z3)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Managing the State of Documents in iCloud/Managing the State of Documents in iCloud-Prefix.pch";
+				INFOPLIST_FILE = "Managing the State of Documents in iCloud/Managing the State of Documents in iCloud-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3B316270-8C44-42AD-880B-94AA9C5E18B5";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3B316270-8C44-42AD-880B-94AA9C5E18B5";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D22F2FA1449DAEF00A10C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Managing the State of Documents in iCloud/Managing the State of Documents in iCloud.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Pixolity Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Pixolity Ltd.";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Managing the State of Documents in iCloud/Managing the State of Documents in iCloud-Prefix.pch";
+				INFOPLIST_FILE = "Managing the State of Documents in iCloud/Managing the State of Documents in iCloud-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "894CE850-5D4F-4F67-9D38-128DBCF33899";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "894CE850-5D4F-4F67-9D38-128DBCF33899";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D22F2D11449DAEF00A10C21 /* Build configuration list for PBXProject "Managing the State of Documents in iCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D22F2F61449DAEF00A10C21 /* Debug */,
+				9D22F2F71449DAEF00A10C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D22F2F81449DAEF00A10C21 /* Build configuration list for PBXNativeTarget "Managing the State of Documents in iCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D22F2F91449DAEF00A10C21 /* Debug */,
+				9D22F2FA1449DAEF00A10C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D22F2CE1449DAEF00A10C21 /* Project object */;
+}

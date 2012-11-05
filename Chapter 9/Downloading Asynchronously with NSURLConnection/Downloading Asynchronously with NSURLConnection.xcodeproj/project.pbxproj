@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A633712513D57B03002DDF16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A633712413D57B03002DDF16 /* UIKit.framework */; };
+		A633712713D57B03002DDF16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A633712613D57B03002DDF16 /* Foundation.framework */; };
+		A633712913D57B03002DDF16 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A633712813D57B03002DDF16 /* CoreGraphics.framework */; };
+		A633712F13D57B03002DDF16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A633712D13D57B03002DDF16 /* InfoPlist.strings */; };
+		A633713113D57B03002DDF16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A633713013D57B03002DDF16 /* main.m */; };
+		A633713513D57B04002DDF16 /* Downloading_Asynchronously_with_NSURLConnectionAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A633713413D57B04002DDF16 /* Downloading_Asynchronously_with_NSURLConnectionAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A633712013D57B03002DDF16 /* Downloading Asynchronously with NSURLConnection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Downloading Asynchronously with NSURLConnection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A633712413D57B03002DDF16 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A633712613D57B03002DDF16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A633712813D57B03002DDF16 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A633712C13D57B03002DDF16 /* Downloading Asynchronously with NSURLConnection-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Downloading Asynchronously with NSURLConnection-Info.plist"; sourceTree = "<group>"; };
+		A633712E13D57B03002DDF16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A633713013D57B03002DDF16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A633713213D57B04002DDF16 /* Downloading Asynchronously with NSURLConnection-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Downloading Asynchronously with NSURLConnection-Prefix.pch"; sourceTree = "<group>"; };
+		A633713313D57B04002DDF16 /* Downloading_Asynchronously_with_NSURLConnectionAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Downloading_Asynchronously_with_NSURLConnectionAppDelegate.h; sourceTree = "<group>"; };
+		A633713413D57B04002DDF16 /* Downloading_Asynchronously_with_NSURLConnectionAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Downloading_Asynchronously_with_NSURLConnectionAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A633711D13D57B03002DDF16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A633712513D57B03002DDF16 /* UIKit.framework in Frameworks */,
+				A633712713D57B03002DDF16 /* Foundation.framework in Frameworks */,
+				A633712913D57B03002DDF16 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A633711513D57B03002DDF16 = {
+			isa = PBXGroup;
+			children = (
+				A633712A13D57B03002DDF16 /* Downloading Asynchronously with NSURLConnection */,
+				A633712313D57B03002DDF16 /* Frameworks */,
+				A633712113D57B03002DDF16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A633712113D57B03002DDF16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A633712013D57B03002DDF16 /* Downloading Asynchronously with NSURLConnection.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A633712313D57B03002DDF16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A633712413D57B03002DDF16 /* UIKit.framework */,
+				A633712613D57B03002DDF16 /* Foundation.framework */,
+				A633712813D57B03002DDF16 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A633712A13D57B03002DDF16 /* Downloading Asynchronously with NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				A633713313D57B04002DDF16 /* Downloading_Asynchronously_with_NSURLConnectionAppDelegate.h */,
+				A633713413D57B04002DDF16 /* Downloading_Asynchronously_with_NSURLConnectionAppDelegate.m */,
+				A633712B13D57B03002DDF16 /* Supporting Files */,
+			);
+			path = "Downloading Asynchronously with NSURLConnection";
+			sourceTree = "<group>";
+		};
+		A633712B13D57B03002DDF16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A633712C13D57B03002DDF16 /* Downloading Asynchronously with NSURLConnection-Info.plist */,
+				A633712D13D57B03002DDF16 /* InfoPlist.strings */,
+				A633713013D57B03002DDF16 /* main.m */,
+				A633713213D57B04002DDF16 /* Downloading Asynchronously with NSURLConnection-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A633711F13D57B03002DDF16 /* Downloading Asynchronously with NSURLConnection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A633713813D57B04002DDF16 /* Build configuration list for PBXNativeTarget "Downloading Asynchronously with NSURLConnection" */;
+			buildPhases = (
+				A633711C13D57B03002DDF16 /* Sources */,
+				A633711D13D57B03002DDF16 /* Frameworks */,
+				A633711E13D57B03002DDF16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Downloading Asynchronously with NSURLConnection";
+			productName = "Downloading Asynchronously with NSURLConnection";
+			productReference = A633712013D57B03002DDF16 /* Downloading Asynchronously with NSURLConnection.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A633711713D57B03002DDF16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A633711A13D57B03002DDF16 /* Build configuration list for PBXProject "Downloading Asynchronously with NSURLConnection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A633711513D57B03002DDF16;
+			productRefGroup = A633712113D57B03002DDF16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A633711F13D57B03002DDF16 /* Downloading Asynchronously with NSURLConnection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A633711E13D57B03002DDF16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A633712F13D57B03002DDF16 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A633711C13D57B03002DDF16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A633713113D57B03002DDF16 /* main.m in Sources */,
+				A633713513D57B04002DDF16 /* Downloading_Asynchronously_with_NSURLConnectionAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A633712D13D57B03002DDF16 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A633712E13D57B03002DDF16 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A633713613D57B04002DDF16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A633713713D57B04002DDF16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A633713913D57B04002DDF16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Downloading Asynchronously with NSURLConnection/Downloading Asynchronously with NSURLConnection-Prefix.pch";
+				INFOPLIST_FILE = "Downloading Asynchronously with NSURLConnection/Downloading Asynchronously with NSURLConnection-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A633713A13D57B04002DDF16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Downloading Asynchronously with NSURLConnection/Downloading Asynchronously with NSURLConnection-Prefix.pch";
+				INFOPLIST_FILE = "Downloading Asynchronously with NSURLConnection/Downloading Asynchronously with NSURLConnection-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A633711A13D57B03002DDF16 /* Build configuration list for PBXProject "Downloading Asynchronously with NSURLConnection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A633713613D57B04002DDF16 /* Debug */,
+				A633713713D57B04002DDF16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A633713813D57B04002DDF16 /* Build configuration list for PBXNativeTarget "Downloading Asynchronously with NSURLConnection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A633713913D57B04002DDF16 /* Debug */,
+				A633713A13D57B04002DDF16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A633711713D57B03002DDF16 /* Project object */;
+}

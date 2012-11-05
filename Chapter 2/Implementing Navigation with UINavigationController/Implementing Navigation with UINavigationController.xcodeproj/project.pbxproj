@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A686FE4B13C86E9D00ED7CF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A686FE4A13C86E9D00ED7CF7 /* UIKit.framework */; };
+		A686FE4D13C86E9D00ED7CF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A686FE4C13C86E9D00ED7CF7 /* Foundation.framework */; };
+		A686FE4F13C86E9D00ED7CF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A686FE4E13C86E9D00ED7CF7 /* CoreGraphics.framework */; };
+		A686FE5513C86E9D00ED7CF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A686FE5313C86E9D00ED7CF7 /* InfoPlist.strings */; };
+		A686FE5713C86E9D00ED7CF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A686FE5613C86E9D00ED7CF7 /* main.m */; };
+		A686FE5B13C86E9D00ED7CF7 /* Implementing_Navigation_with_UINavigationControllerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A686FE5A13C86E9D00ED7CF7 /* Implementing_Navigation_with_UINavigationControllerAppDelegate.m */; };
+		A686FE6D13C86EBA00ED7CF7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A686FE6C13C86EBA00ED7CF7 /* RootViewController.m */; };
+		A686FE7313C8738C00ED7CF7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A686FE7213C8738C00ED7CF7 /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A686FE4613C86E9D00ED7CF7 /* Implementing Navigation with UINavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Implementing Navigation with UINavigationController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A686FE4A13C86E9D00ED7CF7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A686FE4C13C86E9D00ED7CF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A686FE4E13C86E9D00ED7CF7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A686FE5213C86E9D00ED7CF7 /* Implementing Navigation with UINavigationController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Implementing Navigation with UINavigationController-Info.plist"; sourceTree = "<group>"; };
+		A686FE5413C86E9D00ED7CF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A686FE5613C86E9D00ED7CF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A686FE5813C86E9D00ED7CF7 /* Implementing Navigation with UINavigationController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Implementing Navigation with UINavigationController-Prefix.pch"; sourceTree = "<group>"; };
+		A686FE5913C86E9D00ED7CF7 /* Implementing_Navigation_with_UINavigationControllerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Implementing_Navigation_with_UINavigationControllerAppDelegate.h; sourceTree = "<group>"; };
+		A686FE5A13C86E9D00ED7CF7 /* Implementing_Navigation_with_UINavigationControllerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Implementing_Navigation_with_UINavigationControllerAppDelegate.m; sourceTree = "<group>"; };
+		A686FE6B13C86EBA00ED7CF7 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A686FE6C13C86EBA00ED7CF7 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A686FE7113C8738C00ED7CF7 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A686FE7213C8738C00ED7CF7 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A686FE4313C86E9D00ED7CF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A686FE4B13C86E9D00ED7CF7 /* UIKit.framework in Frameworks */,
+				A686FE4D13C86E9D00ED7CF7 /* Foundation.framework in Frameworks */,
+				A686FE4F13C86E9D00ED7CF7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A686FE3B13C86E9C00ED7CF7 = {
+			isa = PBXGroup;
+			children = (
+				A686FE5013C86E9D00ED7CF7 /* Implementing Navigation with UINavigationController */,
+				A686FE4913C86E9D00ED7CF7 /* Frameworks */,
+				A686FE4713C86E9D00ED7CF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A686FE4713C86E9D00ED7CF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A686FE4613C86E9D00ED7CF7 /* Implementing Navigation with UINavigationController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A686FE4913C86E9D00ED7CF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A686FE4A13C86E9D00ED7CF7 /* UIKit.framework */,
+				A686FE4C13C86E9D00ED7CF7 /* Foundation.framework */,
+				A686FE4E13C86E9D00ED7CF7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A686FE5013C86E9D00ED7CF7 /* Implementing Navigation with UINavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				A686FE5913C86E9D00ED7CF7 /* Implementing_Navigation_with_UINavigationControllerAppDelegate.h */,
+				A686FE5A13C86E9D00ED7CF7 /* Implementing_Navigation_with_UINavigationControllerAppDelegate.m */,
+				A686FE5113C86E9D00ED7CF7 /* Supporting Files */,
+				A686FE6B13C86EBA00ED7CF7 /* RootViewController.h */,
+				A686FE6C13C86EBA00ED7CF7 /* RootViewController.m */,
+				A686FE7113C8738C00ED7CF7 /* SecondViewController.h */,
+				A686FE7213C8738C00ED7CF7 /* SecondViewController.m */,
+			);
+			path = "Implementing Navigation with UINavigationController";
+			sourceTree = "<group>";
+		};
+		A686FE5113C86E9D00ED7CF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A686FE5213C86E9D00ED7CF7 /* Implementing Navigation with UINavigationController-Info.plist */,
+				A686FE5313C86E9D00ED7CF7 /* InfoPlist.strings */,
+				A686FE5613C86E9D00ED7CF7 /* main.m */,
+				A686FE5813C86E9D00ED7CF7 /* Implementing Navigation with UINavigationController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A686FE4513C86E9D00ED7CF7 /* Implementing Navigation with UINavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A686FE5E13C86E9D00ED7CF7 /* Build configuration list for PBXNativeTarget "Implementing Navigation with UINavigationController" */;
+			buildPhases = (
+				A686FE4213C86E9D00ED7CF7 /* Sources */,
+				A686FE4313C86E9D00ED7CF7 /* Frameworks */,
+				A686FE4413C86E9D00ED7CF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Implementing Navigation with UINavigationController";
+			productName = "Implementing Navigation with UINavigationController";
+			productReference = A686FE4613C86E9D00ED7CF7 /* Implementing Navigation with UINavigationController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A686FE3D13C86E9C00ED7CF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A686FE4013C86E9C00ED7CF7 /* Build configuration list for PBXProject "Implementing Navigation with UINavigationController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A686FE3B13C86E9C00ED7CF7;
+			productRefGroup = A686FE4713C86E9D00ED7CF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A686FE4513C86E9D00ED7CF7 /* Implementing Navigation with UINavigationController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A686FE4413C86E9D00ED7CF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A686FE5513C86E9D00ED7CF7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A686FE4213C86E9D00ED7CF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A686FE5713C86E9D00ED7CF7 /* main.m in Sources */,
+				A686FE5B13C86E9D00ED7CF7 /* Implementing_Navigation_with_UINavigationControllerAppDelegate.m in Sources */,
+				A686FE6D13C86EBA00ED7CF7 /* RootViewController.m in Sources */,
+				A686FE7313C8738C00ED7CF7 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A686FE5313C86E9D00ED7CF7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A686FE5413C86E9D00ED7CF7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A686FE5C13C86E9D00ED7CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A686FE5D13C86E9D00ED7CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A686FE5F13C86E9D00ED7CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Implementing Navigation with UINavigationController/Implementing Navigation with UINavigationController-Prefix.pch";
+				INFOPLIST_FILE = "Implementing Navigation with UINavigationController/Implementing Navigation with UINavigationController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A686FE6013C86E9D00ED7CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Implementing Navigation with UINavigationController/Implementing Navigation with UINavigationController-Prefix.pch";
+				INFOPLIST_FILE = "Implementing Navigation with UINavigationController/Implementing Navigation with UINavigationController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A686FE4013C86E9C00ED7CF7 /* Build configuration list for PBXProject "Implementing Navigation with UINavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A686FE5C13C86E9D00ED7CF7 /* Debug */,
+				A686FE5D13C86E9D00ED7CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A686FE5E13C86E9D00ED7CF7 /* Build configuration list for PBXNativeTarget "Implementing Navigation with UINavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A686FE5F13C86E9D00ED7CF7 /* Debug */,
+				A686FE6013C86E9D00ED7CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A686FE3D13C86E9C00ED7CF7 /* Project object */;
+}

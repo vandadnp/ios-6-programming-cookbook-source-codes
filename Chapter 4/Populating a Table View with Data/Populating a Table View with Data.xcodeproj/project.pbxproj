@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A63983FF13CB1076000B6D75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63983FE13CB1076000B6D75 /* UIKit.framework */; };
+		A639840113CB1076000B6D75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A639840013CB1076000B6D75 /* Foundation.framework */; };
+		A639840313CB1076000B6D75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A639840213CB1076000B6D75 /* CoreGraphics.framework */; };
+		A639840913CB1076000B6D75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A639840713CB1076000B6D75 /* InfoPlist.strings */; };
+		A639840B13CB1077000B6D75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A639840A13CB1077000B6D75 /* main.m */; };
+		A639840F13CB1077000B6D75 /* Populating_a_Table_View_with_DataAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A639840E13CB1077000B6D75 /* Populating_a_Table_View_with_DataAppDelegate.m */; };
+		A639841113CB1077000B6D75 /* Populating_a_Table_View_with_DataViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = A639841013CB1077000B6D75 /* Populating_a_Table_View_with_DataViewController.h */; };
+		A639841313CB1077000B6D75 /* Populating_a_Table_View_with_DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A639841213CB1077000B6D75 /* Populating_a_Table_View_with_DataViewController.m */; };
+		A639841613CB1077000B6D75 /* Populating_a_Table_View_with_DataViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A639841413CB1077000B6D75 /* Populating_a_Table_View_with_DataViewController_iPhone.xib */; };
+		A639841913CB1077000B6D75 /* Populating_a_Table_View_with_DataViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A639841713CB1077000B6D75 /* Populating_a_Table_View_with_DataViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A63983FA13CB1076000B6D75 /* Populating a Table View with Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Populating a Table View with Data.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A63983FE13CB1076000B6D75 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A639840013CB1076000B6D75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A639840213CB1076000B6D75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A639840613CB1076000B6D75 /* Populating a Table View with Data-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Populating a Table View with Data-Info.plist"; sourceTree = "<group>"; };
+		A639840813CB1076000B6D75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A639840A13CB1077000B6D75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A639840C13CB1077000B6D75 /* Populating a Table View with Data-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Populating a Table View with Data-Prefix.pch"; sourceTree = "<group>"; };
+		A639840D13CB1077000B6D75 /* Populating_a_Table_View_with_DataAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Populating_a_Table_View_with_DataAppDelegate.h; sourceTree = "<group>"; };
+		A639840E13CB1077000B6D75 /* Populating_a_Table_View_with_DataAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Populating_a_Table_View_with_DataAppDelegate.m; sourceTree = "<group>"; };
+		A639841013CB1077000B6D75 /* Populating_a_Table_View_with_DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Populating_a_Table_View_with_DataViewController.h; sourceTree = "<group>"; };
+		A639841213CB1077000B6D75 /* Populating_a_Table_View_with_DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Populating_a_Table_View_with_DataViewController.m; sourceTree = "<group>"; };
+		A639841513CB1077000B6D75 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Populating_a_Table_View_with_DataViewController_iPhone.xib; sourceTree = "<group>"; };
+		A639841813CB1077000B6D75 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Populating_a_Table_View_with_DataViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A63983F713CB1076000B6D75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63983FF13CB1076000B6D75 /* UIKit.framework in Frameworks */,
+				A639840113CB1076000B6D75 /* Foundation.framework in Frameworks */,
+				A639840313CB1076000B6D75 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A63983EF13CB1076000B6D75 = {
+			isa = PBXGroup;
+			children = (
+				A639840413CB1076000B6D75 /* Populating a Table View with Data */,
+				A63983FD13CB1076000B6D75 /* Frameworks */,
+				A63983FB13CB1076000B6D75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A63983FB13CB1076000B6D75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A63983FA13CB1076000B6D75 /* Populating a Table View with Data.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A63983FD13CB1076000B6D75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A63983FE13CB1076000B6D75 /* UIKit.framework */,
+				A639840013CB1076000B6D75 /* Foundation.framework */,
+				A639840213CB1076000B6D75 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A639840413CB1076000B6D75 /* Populating a Table View with Data */ = {
+			isa = PBXGroup;
+			children = (
+				A639840D13CB1077000B6D75 /* Populating_a_Table_View_with_DataAppDelegate.h */,
+				A639840E13CB1077000B6D75 /* Populating_a_Table_View_with_DataAppDelegate.m */,
+				A639841013CB1077000B6D75 /* Populating_a_Table_View_with_DataViewController.h */,
+				A639841213CB1077000B6D75 /* Populating_a_Table_View_with_DataViewController.m */,
+				A639841413CB1077000B6D75 /* Populating_a_Table_View_with_DataViewController_iPhone.xib */,
+				A639841713CB1077000B6D75 /* Populating_a_Table_View_with_DataViewController_iPad.xib */,
+				A639840513CB1076000B6D75 /* Supporting Files */,
+			);
+			path = "Populating a Table View with Data";
+			sourceTree = "<group>";
+		};
+		A639840513CB1076000B6D75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A639840613CB1076000B6D75 /* Populating a Table View with Data-Info.plist */,
+				A639840713CB1076000B6D75 /* InfoPlist.strings */,
+				A639840A13CB1077000B6D75 /* main.m */,
+				A639840C13CB1077000B6D75 /* Populating a Table View with Data-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A63983F913CB1076000B6D75 /* Populating a Table View with Data */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A639841C13CB1077000B6D75 /* Build configuration list for PBXNativeTarget "Populating a Table View with Data" */;
+			buildPhases = (
+				A63983F613CB1076000B6D75 /* Sources */,
+				A63983F713CB1076000B6D75 /* Frameworks */,
+				A63983F813CB1076000B6D75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Populating a Table View with Data";
+			productName = "Populating a Table View with Data";
+			productReference = A63983FA13CB1076000B6D75 /* Populating a Table View with Data.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A63983F113CB1076000B6D75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A63983F413CB1076000B6D75 /* Build configuration list for PBXProject "Populating a Table View with Data" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A63983EF13CB1076000B6D75;
+			productRefGroup = A63983FB13CB1076000B6D75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A63983F913CB1076000B6D75 /* Populating a Table View with Data */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A63983F813CB1076000B6D75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A639840913CB1076000B6D75 /* InfoPlist.strings in Resources */,
+				A639841113CB1077000B6D75 /* Populating_a_Table_View_with_DataViewController.h in Resources */,
+				A639841613CB1077000B6D75 /* Populating_a_Table_View_with_DataViewController_iPhone.xib in Resources */,
+				A639841913CB1077000B6D75 /* Populating_a_Table_View_with_DataViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A63983F613CB1076000B6D75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A639840B13CB1077000B6D75 /* main.m in Sources */,
+				A639840F13CB1077000B6D75 /* Populating_a_Table_View_with_DataAppDelegate.m in Sources */,
+				A639841313CB1077000B6D75 /* Populating_a_Table_View_with_DataViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A639840713CB1076000B6D75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A639840813CB1076000B6D75 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A639841413CB1077000B6D75 /* Populating_a_Table_View_with_DataViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A639841513CB1077000B6D75 /* en */,
+			);
+			name = Populating_a_Table_View_with_DataViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A639841713CB1077000B6D75 /* Populating_a_Table_View_with_DataViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A639841813CB1077000B6D75 /* en */,
+			);
+			name = Populating_a_Table_View_with_DataViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A639841A13CB1077000B6D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A639841B13CB1077000B6D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A639841D13CB1077000B6D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Populating a Table View with Data/Populating a Table View with Data-Prefix.pch";
+				INFOPLIST_FILE = "Populating a Table View with Data/Populating a Table View with Data-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A639841E13CB1077000B6D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Populating a Table View with Data/Populating a Table View with Data-Prefix.pch";
+				INFOPLIST_FILE = "Populating a Table View with Data/Populating a Table View with Data-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A63983F413CB1076000B6D75 /* Build configuration list for PBXProject "Populating a Table View with Data" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A639841A13CB1077000B6D75 /* Debug */,
+				A639841B13CB1077000B6D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A639841C13CB1077000B6D75 /* Build configuration list for PBXNativeTarget "Populating a Table View with Data" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A639841D13CB1077000B6D75 /* Debug */,
+				A639841E13CB1077000B6D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A63983F113CB1076000B6D75 /* Project object */;
+}

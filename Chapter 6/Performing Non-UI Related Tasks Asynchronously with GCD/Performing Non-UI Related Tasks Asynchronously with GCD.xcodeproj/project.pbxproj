@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A64DD45413CDF85600572C78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64DD45313CDF85600572C78 /* UIKit.framework */; };
+		A64DD45613CDF85600572C78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64DD45513CDF85600572C78 /* Foundation.framework */; };
+		A64DD45813CDF85600572C78 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64DD45713CDF85600572C78 /* CoreGraphics.framework */; };
+		A64DD45E13CDF85600572C78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A64DD45C13CDF85600572C78 /* InfoPlist.strings */; };
+		A64DD46013CDF85600572C78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A64DD45F13CDF85600572C78 /* main.m */; };
+		A64DD46413CDF85600572C78 /* Performing_Non_UI_Related_Tasks_Asynchronously_with_GCDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A64DD46313CDF85600572C78 /* Performing_Non_UI_Related_Tasks_Asynchronously_with_GCDAppDelegate.m */; };
+		A64DD47A13CDF99D00572C78 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A64DD47913CDF99D00572C78 /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A64DD44F13CDF85600572C78 /* Performing Non-UI Related Tasks Asynchronously with GCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Performing Non-UI Related Tasks Asynchronously with GCD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A64DD45313CDF85600572C78 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A64DD45513CDF85600572C78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A64DD45713CDF85600572C78 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A64DD45B13CDF85600572C78 /* Performing Non-UI Related Tasks Asynchronously with GCD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Performing Non-UI Related Tasks Asynchronously with GCD-Info.plist"; sourceTree = "<group>"; };
+		A64DD45D13CDF85600572C78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A64DD45F13CDF85600572C78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A64DD46113CDF85600572C78 /* Performing Non-UI Related Tasks Asynchronously with GCD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Performing Non-UI Related Tasks Asynchronously with GCD-Prefix.pch"; sourceTree = "<group>"; };
+		A64DD46213CDF85600572C78 /* Performing_Non_UI_Related_Tasks_Asynchronously_with_GCDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Performing_Non_UI_Related_Tasks_Asynchronously_with_GCDAppDelegate.h; sourceTree = "<group>"; };
+		A64DD46313CDF85600572C78 /* Performing_Non_UI_Related_Tasks_Asynchronously_with_GCDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Performing_Non_UI_Related_Tasks_Asynchronously_with_GCDAppDelegate.m; sourceTree = "<group>"; };
+		A64DD47813CDF99D00572C78 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A64DD47913CDF99D00572C78 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A64DD44C13CDF85600572C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64DD45413CDF85600572C78 /* UIKit.framework in Frameworks */,
+				A64DD45613CDF85600572C78 /* Foundation.framework in Frameworks */,
+				A64DD45813CDF85600572C78 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A64DD44413CDF85600572C78 = {
+			isa = PBXGroup;
+			children = (
+				A64DD45913CDF85600572C78 /* Performing Non-UI Related Tasks Asynchronously with GCD */,
+				A64DD45213CDF85600572C78 /* Frameworks */,
+				A64DD45013CDF85600572C78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A64DD45013CDF85600572C78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A64DD44F13CDF85600572C78 /* Performing Non-UI Related Tasks Asynchronously with GCD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A64DD45213CDF85600572C78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A64DD45313CDF85600572C78 /* UIKit.framework */,
+				A64DD45513CDF85600572C78 /* Foundation.framework */,
+				A64DD45713CDF85600572C78 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A64DD45913CDF85600572C78 /* Performing Non-UI Related Tasks Asynchronously with GCD */ = {
+			isa = PBXGroup;
+			children = (
+				A64DD46213CDF85600572C78 /* Performing_Non_UI_Related_Tasks_Asynchronously_with_GCDAppDelegate.h */,
+				A64DD46313CDF85600572C78 /* Performing_Non_UI_Related_Tasks_Asynchronously_with_GCDAppDelegate.m */,
+				A64DD45A13CDF85600572C78 /* Supporting Files */,
+				A64DD47813CDF99D00572C78 /* RootViewController.h */,
+				A64DD47913CDF99D00572C78 /* RootViewController.m */,
+			);
+			path = "Performing Non-UI Related Tasks Asynchronously with GCD";
+			sourceTree = "<group>";
+		};
+		A64DD45A13CDF85600572C78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A64DD45B13CDF85600572C78 /* Performing Non-UI Related Tasks Asynchronously with GCD-Info.plist */,
+				A64DD45C13CDF85600572C78 /* InfoPlist.strings */,
+				A64DD45F13CDF85600572C78 /* main.m */,
+				A64DD46113CDF85600572C78 /* Performing Non-UI Related Tasks Asynchronously with GCD-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A64DD44E13CDF85600572C78 /* Performing Non-UI Related Tasks Asynchronously with GCD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A64DD46713CDF85600572C78 /* Build configuration list for PBXNativeTarget "Performing Non-UI Related Tasks Asynchronously with GCD" */;
+			buildPhases = (
+				A64DD44B13CDF85600572C78 /* Sources */,
+				A64DD44C13CDF85600572C78 /* Frameworks */,
+				A64DD44D13CDF85600572C78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Performing Non-UI Related Tasks Asynchronously with GCD";
+			productName = "Performing Non-UI Related Tasks Asynchronously with GCD";
+			productReference = A64DD44F13CDF85600572C78 /* Performing Non-UI Related Tasks Asynchronously with GCD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A64DD44613CDF85600572C78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A64DD44913CDF85600572C78 /* Build configuration list for PBXProject "Performing Non-UI Related Tasks Asynchronously with GCD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A64DD44413CDF85600572C78;
+			productRefGroup = A64DD45013CDF85600572C78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A64DD44E13CDF85600572C78 /* Performing Non-UI Related Tasks Asynchronously with GCD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A64DD44D13CDF85600572C78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64DD45E13CDF85600572C78 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A64DD44B13CDF85600572C78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64DD46013CDF85600572C78 /* main.m in Sources */,
+				A64DD46413CDF85600572C78 /* Performing_Non_UI_Related_Tasks_Asynchronously_with_GCDAppDelegate.m in Sources */,
+				A64DD47A13CDF99D00572C78 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A64DD45C13CDF85600572C78 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A64DD45D13CDF85600572C78 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A64DD46513CDF85600572C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A64DD46613CDF85600572C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A64DD46813CDF85600572C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Performing Non-UI Related Tasks Asynchronously with GCD/Performing Non-UI Related Tasks Asynchronously with GCD-Prefix.pch";
+				INFOPLIST_FILE = "Performing Non-UI Related Tasks Asynchronously with GCD/Performing Non-UI Related Tasks Asynchronously with GCD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A64DD46913CDF85600572C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Performing Non-UI Related Tasks Asynchronously with GCD/Performing Non-UI Related Tasks Asynchronously with GCD-Prefix.pch";
+				INFOPLIST_FILE = "Performing Non-UI Related Tasks Asynchronously with GCD/Performing Non-UI Related Tasks Asynchronously with GCD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A64DD44913CDF85600572C78 /* Build configuration list for PBXProject "Performing Non-UI Related Tasks Asynchronously with GCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A64DD46513CDF85600572C78 /* Debug */,
+				A64DD46613CDF85600572C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A64DD46713CDF85600572C78 /* Build configuration list for PBXNativeTarget "Performing Non-UI Related Tasks Asynchronously with GCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A64DD46813CDF85600572C78 /* Debug */,
+				A64DD46913CDF85600572C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A64DD44613CDF85600572C78 /* Project object */;
+}

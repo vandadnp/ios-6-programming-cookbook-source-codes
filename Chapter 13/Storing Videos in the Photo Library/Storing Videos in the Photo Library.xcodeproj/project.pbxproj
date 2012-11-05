@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6F0177413D96DC700E83909 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F0177313D96DC700E83909 /* UIKit.framework */; };
+		A6F0177613D96DC700E83909 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F0177513D96DC700E83909 /* Foundation.framework */; };
+		A6F0177813D96DC700E83909 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F0177713D96DC700E83909 /* CoreGraphics.framework */; };
+		A6F0177E13D96DC700E83909 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6F0177C13D96DC700E83909 /* InfoPlist.strings */; };
+		A6F0178013D96DC700E83909 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F0177F13D96DC700E83909 /* main.m */; };
+		A6F0178413D96DC700E83909 /* Storing_Videos_in_the_Photo_LibraryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F0178313D96DC700E83909 /* Storing_Videos_in_the_Photo_LibraryAppDelegate.m */; };
+		A6F0179513D96DD900E83909 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F0179413D96DD900E83909 /* AssetsLibrary.framework */; };
+		A6F0179A13D96DE300E83909 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F0179913D96DE300E83909 /* MobileCoreServices.framework */; };
+		A6F0179C13D96DF800E83909 /* MyVideo.MOV in Resources */ = {isa = PBXBuildFile; fileRef = A6F0179B13D96DF800E83909 /* MyVideo.MOV */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6F0176F13D96DC700E83909 /* Storing Videos in the Photo Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Storing Videos in the Photo Library.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F0177313D96DC700E83909 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6F0177513D96DC700E83909 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6F0177713D96DC700E83909 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6F0177B13D96DC700E83909 /* Storing Videos in the Photo Library-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Storing Videos in the Photo Library-Info.plist"; sourceTree = "<group>"; };
+		A6F0177D13D96DC700E83909 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6F0177F13D96DC700E83909 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6F0178113D96DC700E83909 /* Storing Videos in the Photo Library-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Storing Videos in the Photo Library-Prefix.pch"; sourceTree = "<group>"; };
+		A6F0178213D96DC700E83909 /* Storing_Videos_in_the_Photo_LibraryAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Storing_Videos_in_the_Photo_LibraryAppDelegate.h; sourceTree = "<group>"; };
+		A6F0178313D96DC700E83909 /* Storing_Videos_in_the_Photo_LibraryAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Storing_Videos_in_the_Photo_LibraryAppDelegate.m; sourceTree = "<group>"; };
+		A6F0179413D96DD900E83909 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		A6F0179913D96DE300E83909 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A6F0179B13D96DF800E83909 /* MyVideo.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = MyVideo.MOV; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6F0176C13D96DC700E83909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F0179A13D96DE300E83909 /* MobileCoreServices.framework in Frameworks */,
+				A6F0179513D96DD900E83909 /* AssetsLibrary.framework in Frameworks */,
+				A6F0177413D96DC700E83909 /* UIKit.framework in Frameworks */,
+				A6F0177613D96DC700E83909 /* Foundation.framework in Frameworks */,
+				A6F0177813D96DC700E83909 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6F0176413D96DC700E83909 = {
+			isa = PBXGroup;
+			children = (
+				A6F0177913D96DC700E83909 /* Storing Videos in the Photo Library */,
+				A6F0177213D96DC700E83909 /* Frameworks */,
+				A6F0177013D96DC700E83909 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6F0177013D96DC700E83909 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0176F13D96DC700E83909 /* Storing Videos in the Photo Library.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6F0177213D96DC700E83909 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0179913D96DE300E83909 /* MobileCoreServices.framework */,
+				A6F0179413D96DD900E83909 /* AssetsLibrary.framework */,
+				A6F0177313D96DC700E83909 /* UIKit.framework */,
+				A6F0177513D96DC700E83909 /* Foundation.framework */,
+				A6F0177713D96DC700E83909 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6F0177913D96DC700E83909 /* Storing Videos in the Photo Library */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0178213D96DC700E83909 /* Storing_Videos_in_the_Photo_LibraryAppDelegate.h */,
+				A6F0178313D96DC700E83909 /* Storing_Videos_in_the_Photo_LibraryAppDelegate.m */,
+				A6F0177A13D96DC700E83909 /* Supporting Files */,
+			);
+			path = "Storing Videos in the Photo Library";
+			sourceTree = "<group>";
+		};
+		A6F0177A13D96DC700E83909 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0179B13D96DF800E83909 /* MyVideo.MOV */,
+				A6F0177B13D96DC700E83909 /* Storing Videos in the Photo Library-Info.plist */,
+				A6F0177C13D96DC700E83909 /* InfoPlist.strings */,
+				A6F0177F13D96DC700E83909 /* main.m */,
+				A6F0178113D96DC700E83909 /* Storing Videos in the Photo Library-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6F0176E13D96DC700E83909 /* Storing Videos in the Photo Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6F0178713D96DC700E83909 /* Build configuration list for PBXNativeTarget "Storing Videos in the Photo Library" */;
+			buildPhases = (
+				A6F0176B13D96DC700E83909 /* Sources */,
+				A6F0176C13D96DC700E83909 /* Frameworks */,
+				A6F0176D13D96DC700E83909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Storing Videos in the Photo Library";
+			productName = "Storing Videos in the Photo Library";
+			productReference = A6F0176F13D96DC700E83909 /* Storing Videos in the Photo Library.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6F0176613D96DC700E83909 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6F0176913D96DC700E83909 /* Build configuration list for PBXProject "Storing Videos in the Photo Library" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6F0176413D96DC700E83909;
+			productRefGroup = A6F0177013D96DC700E83909 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6F0176E13D96DC700E83909 /* Storing Videos in the Photo Library */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6F0176D13D96DC700E83909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F0177E13D96DC700E83909 /* InfoPlist.strings in Resources */,
+				A6F0179C13D96DF800E83909 /* MyVideo.MOV in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6F0176B13D96DC700E83909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F0178013D96DC700E83909 /* main.m in Sources */,
+				A6F0178413D96DC700E83909 /* Storing_Videos_in_the_Photo_LibraryAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6F0177C13D96DC700E83909 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F0177D13D96DC700E83909 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6F0178513D96DC700E83909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6F0178613D96DC700E83909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6F0178813D96DC700E83909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Storing Videos in the Photo Library/Storing Videos in the Photo Library-Prefix.pch";
+				INFOPLIST_FILE = "Storing Videos in the Photo Library/Storing Videos in the Photo Library-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6F0178913D96DC700E83909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Storing Videos in the Photo Library/Storing Videos in the Photo Library-Prefix.pch";
+				INFOPLIST_FILE = "Storing Videos in the Photo Library/Storing Videos in the Photo Library-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6F0176913D96DC700E83909 /* Build configuration list for PBXProject "Storing Videos in the Photo Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F0178513D96DC700E83909 /* Debug */,
+				A6F0178613D96DC700E83909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F0178713D96DC700E83909 /* Build configuration list for PBXNativeTarget "Storing Videos in the Photo Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F0178813D96DC700E83909 /* Debug */,
+				A6F0178913D96DC700E83909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6F0176613D96DC700E83909 /* Project object */;
+}

@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6F6EE9B13D5D32E00F84F91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F6EE9A13D5D32E00F84F91 /* UIKit.framework */; };
+		A6F6EE9D13D5D32E00F84F91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F6EE9C13D5D32E00F84F91 /* Foundation.framework */; };
+		A6F6EE9F13D5D32E00F84F91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F6EE9E13D5D32E00F84F91 /* CoreGraphics.framework */; };
+		A6F6EEA513D5D32E00F84F91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6F6EEA313D5D32E00F84F91 /* InfoPlist.strings */; };
+		A6F6EEA713D5D32E00F84F91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F6EEA613D5D32E00F84F91 /* main.m */; };
+		A6F6EEAB13D5D32E00F84F91 /* Modifying_a_URL_Request_with_NSMutableURLRequestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F6EEAA13D5D32E00F84F91 /* Modifying_a_URL_Request_with_NSMutableURLRequestAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6F6EE9613D5D32E00F84F91 /* Modifying a URL Request with NSMutableURLRequest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Modifying a URL Request with NSMutableURLRequest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F6EE9A13D5D32E00F84F91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6F6EE9C13D5D32E00F84F91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6F6EE9E13D5D32E00F84F91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6F6EEA213D5D32E00F84F91 /* Modifying a URL Request with NSMutableURLRequest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Modifying a URL Request with NSMutableURLRequest-Info.plist"; sourceTree = "<group>"; };
+		A6F6EEA413D5D32E00F84F91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6F6EEA613D5D32E00F84F91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6F6EEA813D5D32E00F84F91 /* Modifying a URL Request with NSMutableURLRequest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Modifying a URL Request with NSMutableURLRequest-Prefix.pch"; sourceTree = "<group>"; };
+		A6F6EEA913D5D32E00F84F91 /* Modifying_a_URL_Request_with_NSMutableURLRequestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Modifying_a_URL_Request_with_NSMutableURLRequestAppDelegate.h; sourceTree = "<group>"; };
+		A6F6EEAA13D5D32E00F84F91 /* Modifying_a_URL_Request_with_NSMutableURLRequestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Modifying_a_URL_Request_with_NSMutableURLRequestAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6F6EE9313D5D32E00F84F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F6EE9B13D5D32E00F84F91 /* UIKit.framework in Frameworks */,
+				A6F6EE9D13D5D32E00F84F91 /* Foundation.framework in Frameworks */,
+				A6F6EE9F13D5D32E00F84F91 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6F6EE8B13D5D32E00F84F91 = {
+			isa = PBXGroup;
+			children = (
+				A6F6EEA013D5D32E00F84F91 /* Modifying a URL Request with NSMutableURLRequest */,
+				A6F6EE9913D5D32E00F84F91 /* Frameworks */,
+				A6F6EE9713D5D32E00F84F91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6F6EE9713D5D32E00F84F91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6F6EE9613D5D32E00F84F91 /* Modifying a URL Request with NSMutableURLRequest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6F6EE9913D5D32E00F84F91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6F6EE9A13D5D32E00F84F91 /* UIKit.framework */,
+				A6F6EE9C13D5D32E00F84F91 /* Foundation.framework */,
+				A6F6EE9E13D5D32E00F84F91 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6F6EEA013D5D32E00F84F91 /* Modifying a URL Request with NSMutableURLRequest */ = {
+			isa = PBXGroup;
+			children = (
+				A6F6EEA913D5D32E00F84F91 /* Modifying_a_URL_Request_with_NSMutableURLRequestAppDelegate.h */,
+				A6F6EEAA13D5D32E00F84F91 /* Modifying_a_URL_Request_with_NSMutableURLRequestAppDelegate.m */,
+				A6F6EEA113D5D32E00F84F91 /* Supporting Files */,
+			);
+			path = "Modifying a URL Request with NSMutableURLRequest";
+			sourceTree = "<group>";
+		};
+		A6F6EEA113D5D32E00F84F91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6F6EEA213D5D32E00F84F91 /* Modifying a URL Request with NSMutableURLRequest-Info.plist */,
+				A6F6EEA313D5D32E00F84F91 /* InfoPlist.strings */,
+				A6F6EEA613D5D32E00F84F91 /* main.m */,
+				A6F6EEA813D5D32E00F84F91 /* Modifying a URL Request with NSMutableURLRequest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6F6EE9513D5D32E00F84F91 /* Modifying a URL Request with NSMutableURLRequest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6F6EEAE13D5D32E00F84F91 /* Build configuration list for PBXNativeTarget "Modifying a URL Request with NSMutableURLRequest" */;
+			buildPhases = (
+				A6F6EE9213D5D32E00F84F91 /* Sources */,
+				A6F6EE9313D5D32E00F84F91 /* Frameworks */,
+				A6F6EE9413D5D32E00F84F91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Modifying a URL Request with NSMutableURLRequest";
+			productName = "Modifying a URL Request with NSMutableURLRequest";
+			productReference = A6F6EE9613D5D32E00F84F91 /* Modifying a URL Request with NSMutableURLRequest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6F6EE8D13D5D32E00F84F91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6F6EE9013D5D32E00F84F91 /* Build configuration list for PBXProject "Modifying a URL Request with NSMutableURLRequest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6F6EE8B13D5D32E00F84F91;
+			productRefGroup = A6F6EE9713D5D32E00F84F91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6F6EE9513D5D32E00F84F91 /* Modifying a URL Request with NSMutableURLRequest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6F6EE9413D5D32E00F84F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F6EEA513D5D32E00F84F91 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6F6EE9213D5D32E00F84F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F6EEA713D5D32E00F84F91 /* main.m in Sources */,
+				A6F6EEAB13D5D32E00F84F91 /* Modifying_a_URL_Request_with_NSMutableURLRequestAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6F6EEA313D5D32E00F84F91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F6EEA413D5D32E00F84F91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6F6EEAC13D5D32E00F84F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6F6EEAD13D5D32E00F84F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6F6EEAF13D5D32E00F84F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Modifying a URL Request with NSMutableURLRequest/Modifying a URL Request with NSMutableURLRequest-Prefix.pch";
+				INFOPLIST_FILE = "Modifying a URL Request with NSMutableURLRequest/Modifying a URL Request with NSMutableURLRequest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6F6EEB013D5D32E00F84F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Modifying a URL Request with NSMutableURLRequest/Modifying a URL Request with NSMutableURLRequest-Prefix.pch";
+				INFOPLIST_FILE = "Modifying a URL Request with NSMutableURLRequest/Modifying a URL Request with NSMutableURLRequest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6F6EE9013D5D32E00F84F91 /* Build configuration list for PBXProject "Modifying a URL Request with NSMutableURLRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F6EEAC13D5D32E00F84F91 /* Debug */,
+				A6F6EEAD13D5D32E00F84F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F6EEAE13D5D32E00F84F91 /* Build configuration list for PBXNativeTarget "Modifying a URL Request with NSMutableURLRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F6EEAF13D5D32E00F84F91 /* Debug */,
+				A6F6EEB013D5D32E00F84F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6F6EE8D13D5D32E00F84F91 /* Project object */;
+}

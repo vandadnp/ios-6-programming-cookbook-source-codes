@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6C440BC13EFBE6900EFAAD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C440BB13EFBE6900EFAAD0 /* UIKit.framework */; };
+		A6C440BE13EFBE6900EFAAD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C440BD13EFBE6900EFAAD0 /* Foundation.framework */; };
+		A6C440C013EFBE6900EFAAD0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C440BF13EFBE6900EFAAD0 /* CoreGraphics.framework */; };
+		A6C440C613EFBE6900EFAAD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6C440C413EFBE6900EFAAD0 /* InfoPlist.strings */; };
+		A6C440C813EFBE6900EFAAD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C440C713EFBE6900EFAAD0 /* main.m */; };
+		A6C440CC13EFBE6900EFAAD0 /* Declaring_Variables_in_Objective_CAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C440CB13EFBE6900EFAAD0 /* Declaring_Variables_in_Objective_CAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6C440B713EFBE6900EFAAD0 /* Declaring Variables in Objective-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Declaring Variables in Objective-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C440BB13EFBE6900EFAAD0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6C440BD13EFBE6900EFAAD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6C440BF13EFBE6900EFAAD0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6C440C313EFBE6900EFAAD0 /* Declaring Variables in Objective-C-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Declaring Variables in Objective-C-Info.plist"; sourceTree = "<group>"; };
+		A6C440C513EFBE6900EFAAD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6C440C713EFBE6900EFAAD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6C440C913EFBE6900EFAAD0 /* Declaring Variables in Objective-C-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Declaring Variables in Objective-C-Prefix.pch"; sourceTree = "<group>"; };
+		A6C440CA13EFBE6900EFAAD0 /* Declaring_Variables_in_Objective_CAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Declaring_Variables_in_Objective_CAppDelegate.h; sourceTree = "<group>"; };
+		A6C440CB13EFBE6900EFAAD0 /* Declaring_Variables_in_Objective_CAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Declaring_Variables_in_Objective_CAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6C440B413EFBE6900EFAAD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C440BC13EFBE6900EFAAD0 /* UIKit.framework in Frameworks */,
+				A6C440BE13EFBE6900EFAAD0 /* Foundation.framework in Frameworks */,
+				A6C440C013EFBE6900EFAAD0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6C440AC13EFBE6800EFAAD0 = {
+			isa = PBXGroup;
+			children = (
+				A6C440C113EFBE6900EFAAD0 /* Declaring Variables in Objective-C */,
+				A6C440BA13EFBE6900EFAAD0 /* Frameworks */,
+				A6C440B813EFBE6900EFAAD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6C440B813EFBE6900EFAAD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6C440B713EFBE6900EFAAD0 /* Declaring Variables in Objective-C.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6C440BA13EFBE6900EFAAD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6C440BB13EFBE6900EFAAD0 /* UIKit.framework */,
+				A6C440BD13EFBE6900EFAAD0 /* Foundation.framework */,
+				A6C440BF13EFBE6900EFAAD0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6C440C113EFBE6900EFAAD0 /* Declaring Variables in Objective-C */ = {
+			isa = PBXGroup;
+			children = (
+				A6C440CA13EFBE6900EFAAD0 /* Declaring_Variables_in_Objective_CAppDelegate.h */,
+				A6C440CB13EFBE6900EFAAD0 /* Declaring_Variables_in_Objective_CAppDelegate.m */,
+				A6C440C213EFBE6900EFAAD0 /* Supporting Files */,
+			);
+			path = "Declaring Variables in Objective-C";
+			sourceTree = "<group>";
+		};
+		A6C440C213EFBE6900EFAAD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6C440C313EFBE6900EFAAD0 /* Declaring Variables in Objective-C-Info.plist */,
+				A6C440C413EFBE6900EFAAD0 /* InfoPlist.strings */,
+				A6C440C713EFBE6900EFAAD0 /* main.m */,
+				A6C440C913EFBE6900EFAAD0 /* Declaring Variables in Objective-C-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6C440B613EFBE6900EFAAD0 /* Declaring Variables in Objective-C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C440CF13EFBE6900EFAAD0 /* Build configuration list for PBXNativeTarget "Declaring Variables in Objective-C" */;
+			buildPhases = (
+				A6C440B313EFBE6900EFAAD0 /* Sources */,
+				A6C440B413EFBE6900EFAAD0 /* Frameworks */,
+				A6C440B513EFBE6900EFAAD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Declaring Variables in Objective-C";
+			productName = "Declaring Variables in Objective-C";
+			productReference = A6C440B713EFBE6900EFAAD0 /* Declaring Variables in Objective-C.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6C440AE13EFBE6800EFAAD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6C440B113EFBE6800EFAAD0 /* Build configuration list for PBXProject "Declaring Variables in Objective-C" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6C440AC13EFBE6800EFAAD0;
+			productRefGroup = A6C440B813EFBE6900EFAAD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6C440B613EFBE6900EFAAD0 /* Declaring Variables in Objective-C */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6C440B513EFBE6900EFAAD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C440C613EFBE6900EFAAD0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6C440B313EFBE6900EFAAD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C440C813EFBE6900EFAAD0 /* main.m in Sources */,
+				A6C440CC13EFBE6900EFAAD0 /* Declaring_Variables_in_Objective_CAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6C440C413EFBE6900EFAAD0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C440C513EFBE6900EFAAD0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6C440CD13EFBE6900EFAAD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6C440CE13EFBE6900EFAAD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6C440D013EFBE6900EFAAD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Declaring Variables in Objective-C/Declaring Variables in Objective-C-Prefix.pch";
+				INFOPLIST_FILE = "Declaring Variables in Objective-C/Declaring Variables in Objective-C-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6C440D113EFBE6900EFAAD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Declaring Variables in Objective-C/Declaring Variables in Objective-C-Prefix.pch";
+				INFOPLIST_FILE = "Declaring Variables in Objective-C/Declaring Variables in Objective-C-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6C440B113EFBE6800EFAAD0 /* Build configuration list for PBXProject "Declaring Variables in Objective-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C440CD13EFBE6900EFAAD0 /* Debug */,
+				A6C440CE13EFBE6900EFAAD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C440CF13EFBE6900EFAAD0 /* Build configuration list for PBXNativeTarget "Declaring Variables in Objective-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C440D013EFBE6900EFAAD0 /* Debug */,
+				A6C440D113EFBE6900EFAAD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6C440AE13EFBE6800EFAAD0 /* Project object */;
+}

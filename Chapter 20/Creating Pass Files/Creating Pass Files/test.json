@@ -1,0 +1,17 @@
+{
+  "key 1" : "value 1",
+  "key 2 - dictionary" : {
+  	"key 2.1" : "value 2.1",
+  	"key 2.2" : "value 2.2"
+  },
+  "key 3 - array" : [
+  	{
+  		"array item 1, key1" : "value",
+  		"array item 1, key2" : "value"
+  	},
+  	{
+  		"array item 2, key1" : "value",
+  		"array item 2, key2" : "value"
+  	}
+  ]
+}

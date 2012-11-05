@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6F017EB13D9751000E83909 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F017EA13D9751000E83909 /* UIKit.framework */; };
+		A6F017ED13D9751000E83909 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F017EC13D9751000E83909 /* Foundation.framework */; };
+		A6F017EF13D9751000E83909 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F017EE13D9751000E83909 /* CoreGraphics.framework */; };
+		A6F017F513D9751000E83909 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6F017F313D9751000E83909 /* InfoPlist.strings */; };
+		A6F017F713D9751000E83909 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F017F613D9751000E83909 /* main.m */; };
+		A6F017FB13D9751000E83909 /* Retrieving_Assets_from_the_Assets_LibraryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F017FA13D9751000E83909 /* Retrieving_Assets_from_the_Assets_LibraryAppDelegate.m */; };
+		A6F017FE13D9751000E83909 /* Retrieving_Assets_from_the_Assets_LibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F017FD13D9751000E83909 /* Retrieving_Assets_from_the_Assets_LibraryViewController.m */; };
+		A6F0180113D9751000E83909 /* Retrieving_Assets_from_the_Assets_LibraryViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6F017FF13D9751000E83909 /* Retrieving_Assets_from_the_Assets_LibraryViewController_iPhone.xib */; };
+		A6F0180413D9751000E83909 /* Retrieving_Assets_from_the_Assets_LibraryViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6F0180213D9751000E83909 /* Retrieving_Assets_from_the_Assets_LibraryViewController_iPad.xib */; };
+		A6F0181513D9752900E83909 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F0181413D9752900E83909 /* AssetsLibrary.framework */; };
+		A6F0181813D9752D00E83909 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F0181713D9752D00E83909 /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6F017E613D9751000E83909 /* Retrieving Assets from the Assets Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Retrieving Assets from the Assets Library.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F017EA13D9751000E83909 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6F017EC13D9751000E83909 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6F017EE13D9751000E83909 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6F017F213D9751000E83909 /* Retrieving Assets from the Assets Library-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Retrieving Assets from the Assets Library-Info.plist"; sourceTree = "<group>"; };
+		A6F017F413D9751000E83909 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6F017F613D9751000E83909 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6F017F813D9751000E83909 /* Retrieving Assets from the Assets Library-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Retrieving Assets from the Assets Library-Prefix.pch"; sourceTree = "<group>"; };
+		A6F017F913D9751000E83909 /* Retrieving_Assets_from_the_Assets_LibraryAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Retrieving_Assets_from_the_Assets_LibraryAppDelegate.h; sourceTree = "<group>"; };
+		A6F017FA13D9751000E83909 /* Retrieving_Assets_from_the_Assets_LibraryAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Retrieving_Assets_from_the_Assets_LibraryAppDelegate.m; sourceTree = "<group>"; };
+		A6F017FC13D9751000E83909 /* Retrieving_Assets_from_the_Assets_LibraryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Retrieving_Assets_from_the_Assets_LibraryViewController.h; sourceTree = "<group>"; };
+		A6F017FD13D9751000E83909 /* Retrieving_Assets_from_the_Assets_LibraryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Retrieving_Assets_from_the_Assets_LibraryViewController.m; sourceTree = "<group>"; };
+		A6F0180013D9751000E83909 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Retrieving_Assets_from_the_Assets_LibraryViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6F0180313D9751000E83909 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Retrieving_Assets_from_the_Assets_LibraryViewController_iPad.xib; sourceTree = "<group>"; };
+		A6F0181413D9752900E83909 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		A6F0181713D9752D00E83909 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6F017E313D9751000E83909 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F0181813D9752D00E83909 /* MobileCoreServices.framework in Frameworks */,
+				A6F0181513D9752900E83909 /* AssetsLibrary.framework in Frameworks */,
+				A6F017EB13D9751000E83909 /* UIKit.framework in Frameworks */,
+				A6F017ED13D9751000E83909 /* Foundation.framework in Frameworks */,
+				A6F017EF13D9751000E83909 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6F017DB13D9751000E83909 = {
+			isa = PBXGroup;
+			children = (
+				A6F017F013D9751000E83909 /* Retrieving Assets from the Assets Library */,
+				A6F017E913D9751000E83909 /* Frameworks */,
+				A6F017E713D9751000E83909 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6F017E713D9751000E83909 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6F017E613D9751000E83909 /* Retrieving Assets from the Assets Library.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6F017E913D9751000E83909 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0181713D9752D00E83909 /* MobileCoreServices.framework */,
+				A6F0181413D9752900E83909 /* AssetsLibrary.framework */,
+				A6F017EA13D9751000E83909 /* UIKit.framework */,
+				A6F017EC13D9751000E83909 /* Foundation.framework */,
+				A6F017EE13D9751000E83909 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6F017F013D9751000E83909 /* Retrieving Assets from the Assets Library */ = {
+			isa = PBXGroup;
+			children = (
+				A6F017F913D9751000E83909 /* Retrieving_Assets_from_the_Assets_LibraryAppDelegate.h */,
+				A6F017FA13D9751000E83909 /* Retrieving_Assets_from_the_Assets_LibraryAppDelegate.m */,
+				A6F017FC13D9751000E83909 /* Retrieving_Assets_from_the_Assets_LibraryViewController.h */,
+				A6F017FD13D9751000E83909 /* Retrieving_Assets_from_the_Assets_LibraryViewController.m */,
+				A6F017FF13D9751000E83909 /* Retrieving_Assets_from_the_Assets_LibraryViewController_iPhone.xib */,
+				A6F0180213D9751000E83909 /* Retrieving_Assets_from_the_Assets_LibraryViewController_iPad.xib */,
+				A6F017F113D9751000E83909 /* Supporting Files */,
+			);
+			path = "Retrieving Assets from the Assets Library";
+			sourceTree = "<group>";
+		};
+		A6F017F113D9751000E83909 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6F017F213D9751000E83909 /* Retrieving Assets from the Assets Library-Info.plist */,
+				A6F017F313D9751000E83909 /* InfoPlist.strings */,
+				A6F017F613D9751000E83909 /* main.m */,
+				A6F017F813D9751000E83909 /* Retrieving Assets from the Assets Library-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6F017E513D9751000E83909 /* Retrieving Assets from the Assets Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6F0180713D9751000E83909 /* Build configuration list for PBXNativeTarget "Retrieving Assets from the Assets Library" */;
+			buildPhases = (
+				A6F017E213D9751000E83909 /* Sources */,
+				A6F017E313D9751000E83909 /* Frameworks */,
+				A6F017E413D9751000E83909 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Retrieving Assets from the Assets Library";
+			productName = "Retrieving Assets from the Assets Library";
+			productReference = A6F017E613D9751000E83909 /* Retrieving Assets from the Assets Library.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6F017DD13D9751000E83909 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6F017E013D9751000E83909 /* Build configuration list for PBXProject "Retrieving Assets from the Assets Library" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6F017DB13D9751000E83909;
+			productRefGroup = A6F017E713D9751000E83909 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6F017E513D9751000E83909 /* Retrieving Assets from the Assets Library */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6F017E413D9751000E83909 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F017F513D9751000E83909 /* InfoPlist.strings in Resources */,
+				A6F0180113D9751000E83909 /* Retrieving_Assets_from_the_Assets_LibraryViewController_iPhone.xib in Resources */,
+				A6F0180413D9751000E83909 /* Retrieving_Assets_from_the_Assets_LibraryViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6F017E213D9751000E83909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F017F713D9751000E83909 /* main.m in Sources */,
+				A6F017FB13D9751000E83909 /* Retrieving_Assets_from_the_Assets_LibraryAppDelegate.m in Sources */,
+				A6F017FE13D9751000E83909 /* Retrieving_Assets_from_the_Assets_LibraryViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6F017F313D9751000E83909 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F017F413D9751000E83909 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6F017FF13D9751000E83909 /* Retrieving_Assets_from_the_Assets_LibraryViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F0180013D9751000E83909 /* en */,
+			);
+			name = Retrieving_Assets_from_the_Assets_LibraryViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6F0180213D9751000E83909 /* Retrieving_Assets_from_the_Assets_LibraryViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F0180313D9751000E83909 /* en */,
+			);
+			name = Retrieving_Assets_from_the_Assets_LibraryViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6F0180513D9751000E83909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6F0180613D9751000E83909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6F0180813D9751000E83909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Retrieving Assets from the Assets Library/Retrieving Assets from the Assets Library-Prefix.pch";
+				INFOPLIST_FILE = "Retrieving Assets from the Assets Library/Retrieving Assets from the Assets Library-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6F0180913D9751000E83909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Retrieving Assets from the Assets Library/Retrieving Assets from the Assets Library-Prefix.pch";
+				INFOPLIST_FILE = "Retrieving Assets from the Assets Library/Retrieving Assets from the Assets Library-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6F017E013D9751000E83909 /* Build configuration list for PBXProject "Retrieving Assets from the Assets Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F0180513D9751000E83909 /* Debug */,
+				A6F0180613D9751000E83909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F0180713D9751000E83909 /* Build configuration list for PBXNativeTarget "Retrieving Assets from the Assets Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F0180813D9751000E83909 /* Debug */,
+				A6F0180913D9751000E83909 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6F017DD13D9751000E83909 /* Project object */;
+}

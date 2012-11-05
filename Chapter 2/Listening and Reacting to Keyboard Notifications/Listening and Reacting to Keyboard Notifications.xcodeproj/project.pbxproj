@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D9898C01406D5870090E665 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA11E8914041FAD006FAF11 /* CoreGraphics.framework */; };
+		9DAF9E271403903F00AA9AAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DAF9E261403903F00AA9AAD /* UIKit.framework */; };
+		9DAF9E291403903F00AA9AAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DAF9E281403903F00AA9AAD /* Foundation.framework */; };
+		9DAF9E2F1403903F00AA9AAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DAF9E2D1403903F00AA9AAD /* InfoPlist.strings */; };
+		9DAF9E311403903F00AA9AAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAF9E301403903F00AA9AAD /* main.m */; };
+		9DAF9E351403903F00AA9AAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAF9E341403903F00AA9AAD /* AppDelegate.m */; };
+		9DAF9E381403903F00AA9AAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAF9E371403903F00AA9AAD /* ViewController.m */; };
+		9DAF9E3B1403903F00AA9AAD /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DAF9E391403903F00AA9AAD /* ViewController_iPhone.xib */; };
+		9DAF9E3E1403903F00AA9AAD /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DAF9E3C1403903F00AA9AAD /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9DA11E8914041FAD006FAF11 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9DAF9E221403903F00AA9AAD /* Listening and Reacting to Keyboard Notifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Listening and Reacting to Keyboard Notifications.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DAF9E261403903F00AA9AAD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9DAF9E281403903F00AA9AAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9DAF9E2C1403903F00AA9AAD /* Listening and Reacting to Keyboard Notifications-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Listening and Reacting to Keyboard Notifications-Info.plist"; sourceTree = "<group>"; };
+		9DAF9E2E1403903F00AA9AAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9DAF9E301403903F00AA9AAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DAF9E321403903F00AA9AAD /* Listening and Reacting to Keyboard Notifications-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Listening and Reacting to Keyboard Notifications-Prefix.pch"; sourceTree = "<group>"; };
+		9DAF9E331403903F00AA9AAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9DAF9E341403903F00AA9AAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9DAF9E361403903F00AA9AAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9DAF9E371403903F00AA9AAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9DAF9E3A1403903F00AA9AAD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		9DAF9E3D1403903F00AA9AAD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DAF9E1F1403903F00AA9AAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D9898C01406D5870090E665 /* CoreGraphics.framework in Frameworks */,
+				9DAF9E271403903F00AA9AAD /* UIKit.framework in Frameworks */,
+				9DAF9E291403903F00AA9AAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DAF9E171403903F00AA9AAD = {
+			isa = PBXGroup;
+			children = (
+				9DAF9E2A1403903F00AA9AAD /* Listening and Reacting to Keyboard Notifications */,
+				9DAF9E251403903F00AA9AAD /* Frameworks */,
+				9DAF9E231403903F00AA9AAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DAF9E231403903F00AA9AAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DAF9E221403903F00AA9AAD /* Listening and Reacting to Keyboard Notifications.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DAF9E251403903F00AA9AAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DA11E8914041FAD006FAF11 /* CoreGraphics.framework */,
+				9DAF9E261403903F00AA9AAD /* UIKit.framework */,
+				9DAF9E281403903F00AA9AAD /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DAF9E2A1403903F00AA9AAD /* Listening and Reacting to Keyboard Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				9DAF9E331403903F00AA9AAD /* AppDelegate.h */,
+				9DAF9E341403903F00AA9AAD /* AppDelegate.m */,
+				9DAF9E361403903F00AA9AAD /* ViewController.h */,
+				9DAF9E371403903F00AA9AAD /* ViewController.m */,
+				9DAF9E391403903F00AA9AAD /* ViewController_iPhone.xib */,
+				9DAF9E3C1403903F00AA9AAD /* ViewController_iPad.xib */,
+				9DAF9E2B1403903F00AA9AAD /* Supporting Files */,
+			);
+			path = "Listening and Reacting to Keyboard Notifications";
+			sourceTree = "<group>";
+		};
+		9DAF9E2B1403903F00AA9AAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DAF9E2C1403903F00AA9AAD /* Listening and Reacting to Keyboard Notifications-Info.plist */,
+				9DAF9E2D1403903F00AA9AAD /* InfoPlist.strings */,
+				9DAF9E301403903F00AA9AAD /* main.m */,
+				9DAF9E321403903F00AA9AAD /* Listening and Reacting to Keyboard Notifications-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DAF9E211403903F00AA9AAD /* Listening and Reacting to Keyboard Notifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DAF9E411403903F00AA9AAD /* Build configuration list for PBXNativeTarget "Listening and Reacting to Keyboard Notifications" */;
+			buildPhases = (
+				9DAF9E1E1403903F00AA9AAD /* Sources */,
+				9DAF9E1F1403903F00AA9AAD /* Frameworks */,
+				9DAF9E201403903F00AA9AAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Listening and Reacting to Keyboard Notifications";
+			productName = "Listening and Reacting to Keyboard Notifications";
+			productReference = 9DAF9E221403903F00AA9AAD /* Listening and Reacting to Keyboard Notifications.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DAF9E191403903F00AA9AAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = 9DAF9E1C1403903F00AA9AAD /* Build configuration list for PBXProject "Listening and Reacting to Keyboard Notifications" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9DAF9E171403903F00AA9AAD;
+			productRefGroup = 9DAF9E231403903F00AA9AAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DAF9E211403903F00AA9AAD /* Listening and Reacting to Keyboard Notifications */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DAF9E201403903F00AA9AAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DAF9E2F1403903F00AA9AAD /* InfoPlist.strings in Resources */,
+				9DAF9E3B1403903F00AA9AAD /* ViewController_iPhone.xib in Resources */,
+				9DAF9E3E1403903F00AA9AAD /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DAF9E1E1403903F00AA9AAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DAF9E311403903F00AA9AAD /* main.m in Sources */,
+				9DAF9E351403903F00AA9AAD /* AppDelegate.m in Sources */,
+				9DAF9E381403903F00AA9AAD /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DAF9E2D1403903F00AA9AAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DAF9E2E1403903F00AA9AAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9DAF9E391403903F00AA9AAD /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DAF9E3A1403903F00AA9AAD /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		9DAF9E3C1403903F00AA9AAD /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DAF9E3D1403903F00AA9AAD /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DAF9E3F1403903F00AA9AAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DAF9E401403903F00AA9AAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DAF9E421403903F00AA9AAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Listening and Reacting to Keyboard Notifications/Listening and Reacting to Keyboard Notifications-Prefix.pch";
+				INFOPLIST_FILE = "Listening and Reacting to Keyboard Notifications/Listening and Reacting to Keyboard Notifications-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9DAF9E431403903F00AA9AAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Listening and Reacting to Keyboard Notifications/Listening and Reacting to Keyboard Notifications-Prefix.pch";
+				INFOPLIST_FILE = "Listening and Reacting to Keyboard Notifications/Listening and Reacting to Keyboard Notifications-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DAF9E1C1403903F00AA9AAD /* Build configuration list for PBXProject "Listening and Reacting to Keyboard Notifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DAF9E3F1403903F00AA9AAD /* Debug */,
+				9DAF9E401403903F00AA9AAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DAF9E411403903F00AA9AAD /* Build configuration list for PBXNativeTarget "Listening and Reacting to Keyboard Notifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DAF9E421403903F00AA9AAD /* Debug */,
+				9DAF9E431403903F00AA9AAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DAF9E191403903F00AA9AAD /* Project object */;
+}

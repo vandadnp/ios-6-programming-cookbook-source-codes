@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DB0D80415F2677300E20B76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB0D80115F2677300E20B76 /* AppDelegate.m */; };
+		9DB0D80515F2677300E20B76 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB0D80315F2677300E20B76 /* ViewController.m */; };
+		9DB0D80F15F2678900E20B76 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DB0D80D15F2678900E20B76 /* ViewController.xib */; };
+		9DB0D81315F267C400E20B76 /* Constructing and Displaying Styled Texts-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DB0D81015F267C400E20B76 /* Constructing and Displaying Styled Texts-Info.plist */; };
+		9DB0D81415F267C400E20B76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB0D81215F267C400E20B76 /* main.m */; };
+		9DB0D81715F267C800E20B76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DB0D81515F267C800E20B76 /* InfoPlist.strings */; };
+		9DD9459C15E6969B00DABC33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD9459B15E6969B00DABC33 /* UIKit.framework */; };
+		9DD9459E15E6969B00DABC33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD9459D15E6969B00DABC33 /* Foundation.framework */; };
+		9DD945A015E6969B00DABC33 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD9459F15E6969B00DABC33 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9DB0D80015F2677300E20B76 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Constructing and Displaying Styled Texts/AppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		9DB0D80115F2677300E20B76 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "Constructing and Displaying Styled Texts/AppDelegate.m"; sourceTree = SOURCE_ROOT; };
+		9DB0D80215F2677300E20B76 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "Constructing and Displaying Styled Texts/ViewController.h"; sourceTree = SOURCE_ROOT; };
+		9DB0D80315F2677300E20B76 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "Constructing and Displaying Styled Texts/ViewController.m"; sourceTree = SOURCE_ROOT; };
+		9DB0D80E15F2678900E20B76 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "Constructing and Displaying Styled Texts/en.lproj/ViewController.xib"; sourceTree = SOURCE_ROOT; };
+		9DB0D81015F267C400E20B76 /* Constructing and Displaying Styled Texts-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Constructing and Displaying Styled Texts-Info.plist"; path = "Constructing and Displaying Styled Texts/Constructing and Displaying Styled Texts-Info.plist"; sourceTree = SOURCE_ROOT; };
+		9DB0D81115F267C400E20B76 /* Constructing and Displaying Styled Texts-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Constructing and Displaying Styled Texts-Prefix.pch"; path = "Constructing and Displaying Styled Texts/Constructing and Displaying Styled Texts-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		9DB0D81215F267C400E20B76 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Constructing and Displaying Styled Texts/main.m"; sourceTree = SOURCE_ROOT; };
+		9DB0D81615F267C800E20B76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "Constructing and Displaying Styled Texts/en.lproj/InfoPlist.strings"; sourceTree = SOURCE_ROOT; };
+		9DD9459715E6969B00DABC33 /* Constructing and Displaying Styled Texts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Constructing and Displaying Styled Texts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DD9459B15E6969B00DABC33 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9DD9459D15E6969B00DABC33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9DD9459F15E6969B00DABC33 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DD9459415E6969B00DABC33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DD9459C15E6969B00DABC33 /* UIKit.framework in Frameworks */,
+				9DD9459E15E6969B00DABC33 /* Foundation.framework in Frameworks */,
+				9DD945A015E6969B00DABC33 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DD9458C15E6969B00DABC33 = {
+			isa = PBXGroup;
+			children = (
+				9DD945A115E6969B00DABC33 /* Constructing and Displaying Styled Texts */,
+				9DD9459A15E6969B00DABC33 /* Frameworks */,
+				9DD9459815E6969B00DABC33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DD9459815E6969B00DABC33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DD9459715E6969B00DABC33 /* Constructing and Displaying Styled Texts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DD9459A15E6969B00DABC33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DD9459B15E6969B00DABC33 /* UIKit.framework */,
+				9DD9459D15E6969B00DABC33 /* Foundation.framework */,
+				9DD9459F15E6969B00DABC33 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DD945A115E6969B00DABC33 /* Constructing and Displaying Styled Texts */ = {
+			isa = PBXGroup;
+			children = (
+				9DB0D80015F2677300E20B76 /* AppDelegate.h */,
+				9DB0D80115F2677300E20B76 /* AppDelegate.m */,
+				9DB0D80215F2677300E20B76 /* ViewController.h */,
+				9DB0D80315F2677300E20B76 /* ViewController.m */,
+				9DB0D80D15F2678900E20B76 /* ViewController.xib */,
+				9DD945A215E6969B00DABC33 /* Supporting Files */,
+			);
+			name = "Constructing and Displaying Styled Texts";
+			path = "Constructing and Displaying Attributed Texts";
+			sourceTree = "<group>";
+		};
+		9DD945A215E6969B00DABC33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DB0D81515F267C800E20B76 /* InfoPlist.strings */,
+				9DB0D81015F267C400E20B76 /* Constructing and Displaying Styled Texts-Info.plist */,
+				9DB0D81115F267C400E20B76 /* Constructing and Displaying Styled Texts-Prefix.pch */,
+				9DB0D81215F267C400E20B76 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DD9459615E6969B00DABC33 /* Constructing and Displaying Styled Texts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DD945B515E6969B00DABC33 /* Build configuration list for PBXNativeTarget "Constructing and Displaying Styled Texts" */;
+			buildPhases = (
+				9DD9459315E6969B00DABC33 /* Sources */,
+				9DD9459415E6969B00DABC33 /* Frameworks */,
+				9DD9459515E6969B00DABC33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Constructing and Displaying Styled Texts";
+			productName = "Constructing and Displaying Attributed Texts";
+			productReference = 9DD9459715E6969B00DABC33 /* Constructing and Displaying Styled Texts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DD9458E15E6969B00DABC33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = 9DD9459115E6969B00DABC33 /* Build configuration list for PBXProject "Constructing and Displaying Styled Texts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9DD9458C15E6969B00DABC33;
+			productRefGroup = 9DD9459815E6969B00DABC33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DD9459615E6969B00DABC33 /* Constructing and Displaying Styled Texts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DD9459515E6969B00DABC33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB0D80F15F2678900E20B76 /* ViewController.xib in Resources */,
+				9DB0D81315F267C400E20B76 /* Constructing and Displaying Styled Texts-Info.plist in Resources */,
+				9DB0D81715F267C800E20B76 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DD9459315E6969B00DABC33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB0D80415F2677300E20B76 /* AppDelegate.m in Sources */,
+				9DB0D80515F2677300E20B76 /* ViewController.m in Sources */,
+				9DB0D81415F267C400E20B76 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DB0D80D15F2678900E20B76 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DB0D80E15F2678900E20B76 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		9DB0D81515F267C800E20B76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DB0D81615F267C800E20B76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DD945B315E6969B00DABC33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9DD945B415E6969B00DABC33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DD945B615E6969B00DABC33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Constructing and Displaying Styled Texts/Constructing and Displaying Styled Texts-Prefix.pch";
+				INFOPLIST_FILE = "Constructing and Displaying Styled Texts/Constructing and Displaying Styled Texts-Info.plist";
+				PRODUCT_NAME = "Constructing and Displaying Styled Texts";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9DD945B715E6969B00DABC33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Constructing and Displaying Styled Texts/Constructing and Displaying Styled Texts-Prefix.pch";
+				INFOPLIST_FILE = "Constructing and Displaying Styled Texts/Constructing and Displaying Styled Texts-Info.plist";
+				PRODUCT_NAME = "Constructing and Displaying Styled Texts";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DD9459115E6969B00DABC33 /* Build configuration list for PBXProject "Constructing and Displaying Styled Texts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DD945B315E6969B00DABC33 /* Debug */,
+				9DD945B415E6969B00DABC33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DD945B515E6969B00DABC33 /* Build configuration list for PBXNativeTarget "Constructing and Displaying Styled Texts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DD945B615E6969B00DABC33 /* Debug */,
+				9DD945B715E6969B00DABC33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DD9458E15E6969B00DABC33 /* Project object */;
+}

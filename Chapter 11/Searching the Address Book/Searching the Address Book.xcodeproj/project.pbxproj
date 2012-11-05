@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6DFA09813D8540A001033F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DFA09713D8540A001033F4 /* UIKit.framework */; };
+		A6DFA09A13D8540A001033F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DFA09913D8540A001033F4 /* Foundation.framework */; };
+		A6DFA09C13D8540A001033F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DFA09B13D8540A001033F4 /* CoreGraphics.framework */; };
+		A6DFA0A213D8540A001033F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6DFA0A013D8540A001033F4 /* InfoPlist.strings */; };
+		A6DFA0A413D8540A001033F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DFA0A313D8540A001033F4 /* main.m */; };
+		A6DFA0A813D8540A001033F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DFA0A713D8540A001033F4 /* AppDelegate.m */; };
+		A6DFA0B913D86F74001033F4 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DFA0B813D86F74001033F4 /* AddressBook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6DFA09313D8540A001033F4 /* Searching the Address Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Searching the Address Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6DFA09713D8540A001033F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6DFA09913D8540A001033F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6DFA09B13D8540A001033F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6DFA09F13D8540A001033F4 /* Searching the Address Book-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Searching the Address Book-Info.plist"; sourceTree = "<group>"; };
+		A6DFA0A113D8540A001033F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6DFA0A313D8540A001033F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6DFA0A513D8540A001033F4 /* Searching the Address Book-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Searching the Address Book-Prefix.pch"; sourceTree = "<group>"; };
+		A6DFA0A613D8540A001033F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6DFA0A713D8540A001033F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6DFA0B813D86F74001033F4 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6DFA09013D8540A001033F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DFA0B913D86F74001033F4 /* AddressBook.framework in Frameworks */,
+				A6DFA09813D8540A001033F4 /* UIKit.framework in Frameworks */,
+				A6DFA09A13D8540A001033F4 /* Foundation.framework in Frameworks */,
+				A6DFA09C13D8540A001033F4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6DFA08813D85409001033F4 = {
+			isa = PBXGroup;
+			children = (
+				A6DFA09D13D8540A001033F4 /* Searching the Address Book */,
+				A6DFA09613D8540A001033F4 /* Frameworks */,
+				A6DFA09413D8540A001033F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6DFA09413D8540A001033F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6DFA09313D8540A001033F4 /* Searching the Address Book.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6DFA09613D8540A001033F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6DFA0B813D86F74001033F4 /* AddressBook.framework */,
+				A6DFA09713D8540A001033F4 /* UIKit.framework */,
+				A6DFA09913D8540A001033F4 /* Foundation.framework */,
+				A6DFA09B13D8540A001033F4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6DFA09D13D8540A001033F4 /* Searching the Address Book */ = {
+			isa = PBXGroup;
+			children = (
+				A6DFA0A613D8540A001033F4 /* AppDelegate.h */,
+				A6DFA0A713D8540A001033F4 /* AppDelegate.m */,
+				A6DFA09E13D8540A001033F4 /* Supporting Files */,
+			);
+			path = "Searching the Address Book";
+			sourceTree = "<group>";
+		};
+		A6DFA09E13D8540A001033F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6DFA09F13D8540A001033F4 /* Searching the Address Book-Info.plist */,
+				A6DFA0A013D8540A001033F4 /* InfoPlist.strings */,
+				A6DFA0A313D8540A001033F4 /* main.m */,
+				A6DFA0A513D8540A001033F4 /* Searching the Address Book-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6DFA09213D8540A001033F4 /* Searching the Address Book */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6DFA0AB13D8540A001033F4 /* Build configuration list for PBXNativeTarget "Searching the Address Book" */;
+			buildPhases = (
+				A6DFA08F13D8540A001033F4 /* Sources */,
+				A6DFA09013D8540A001033F4 /* Frameworks */,
+				A6DFA09113D8540A001033F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Searching the Address Book";
+			productName = "Searching the Address Book";
+			productReference = A6DFA09313D8540A001033F4 /* Searching the Address Book.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6DFA08A13D85409001033F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6DFA08D13D85409001033F4 /* Build configuration list for PBXProject "Searching the Address Book" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6DFA08813D85409001033F4;
+			productRefGroup = A6DFA09413D8540A001033F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6DFA09213D8540A001033F4 /* Searching the Address Book */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6DFA09113D8540A001033F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DFA0A213D8540A001033F4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6DFA08F13D8540A001033F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DFA0A413D8540A001033F4 /* main.m in Sources */,
+				A6DFA0A813D8540A001033F4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6DFA0A013D8540A001033F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6DFA0A113D8540A001033F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6DFA0A913D8540A001033F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6DFA0AA13D8540A001033F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6DFA0AC13D8540A001033F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Searching the Address Book/Searching the Address Book-Prefix.pch";
+				INFOPLIST_FILE = "Searching the Address Book/Searching the Address Book-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6DFA0AD13D8540A001033F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Searching the Address Book/Searching the Address Book-Prefix.pch";
+				INFOPLIST_FILE = "Searching the Address Book/Searching the Address Book-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6DFA08D13D85409001033F4 /* Build configuration list for PBXProject "Searching the Address Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6DFA0A913D8540A001033F4 /* Debug */,
+				A6DFA0AA13D8540A001033F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6DFA0AB13D8540A001033F4 /* Build configuration list for PBXNativeTarget "Searching the Address Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6DFA0AC13D8540A001033F4 /* Debug */,
+				A6DFA0AD13D8540A001033F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6DFA08A13D85409001033F4 /* Project object */;
+}

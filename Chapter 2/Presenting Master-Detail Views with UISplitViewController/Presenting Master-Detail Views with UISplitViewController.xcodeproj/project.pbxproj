@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A61B9CC013CA351500DBF98A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61B9CBF13CA351500DBF98A /* UIKit.framework */; };
+		A61B9CC213CA351500DBF98A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61B9CC113CA351500DBF98A /* Foundation.framework */; };
+		A61B9CC413CA351500DBF98A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61B9CC313CA351500DBF98A /* CoreGraphics.framework */; };
+		A61B9CCA13CA351500DBF98A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A61B9CC813CA351500DBF98A /* InfoPlist.strings */; };
+		A61B9CCC13CA351500DBF98A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A61B9CCB13CA351500DBF98A /* main.m */; };
+		A61B9CD013CA351500DBF98A /* Presenting_Master_Detail_Views_with_UISplitViewControllerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A61B9CCF13CA351500DBF98A /* Presenting_Master_Detail_Views_with_UISplitViewControllerAppDelegate.m */; };
+		A61B9CD313CA351500DBF98A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A61B9CD213CA351500DBF98A /* RootViewController.m */; };
+		A61B9CD513CA351500DBF98A /* DetailViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = A61B9CD413CA351500DBF98A /* DetailViewController.h */; };
+		A61B9CD713CA351500DBF98A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A61B9CD613CA351500DBF98A /* DetailViewController.m */; };
+		A61B9CDA13CA351500DBF98A /* RootViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A61B9CD813CA351500DBF98A /* RootViewController_iPhone.xib */; };
+		A61B9CDD13CA351500DBF98A /* RootViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A61B9CDB13CA351500DBF98A /* RootViewController_iPad.xib */; };
+		A61B9CE013CA351500DBF98A /* DetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A61B9CDE13CA351500DBF98A /* DetailViewController_iPhone.xib */; };
+		A61B9CE313CA351500DBF98A /* DetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A61B9CE113CA351500DBF98A /* DetailViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A61B9CBB13CA351500DBF98A /* Presenting Master-Detail Views with UISplitViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Presenting Master-Detail Views with UISplitViewController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61B9CBF13CA351500DBF98A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A61B9CC113CA351500DBF98A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A61B9CC313CA351500DBF98A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A61B9CC713CA351500DBF98A /* Presenting Master-Detail Views with UISplitViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Presenting Master-Detail Views with UISplitViewController-Info.plist"; sourceTree = "<group>"; };
+		A61B9CC913CA351500DBF98A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A61B9CCB13CA351500DBF98A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A61B9CCD13CA351500DBF98A /* Presenting Master-Detail Views with UISplitViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Presenting Master-Detail Views with UISplitViewController-Prefix.pch"; sourceTree = "<group>"; };
+		A61B9CCE13CA351500DBF98A /* Presenting_Master_Detail_Views_with_UISplitViewControllerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Presenting_Master_Detail_Views_with_UISplitViewControllerAppDelegate.h; sourceTree = "<group>"; };
+		A61B9CCF13CA351500DBF98A /* Presenting_Master_Detail_Views_with_UISplitViewControllerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Presenting_Master_Detail_Views_with_UISplitViewControllerAppDelegate.m; sourceTree = "<group>"; };
+		A61B9CD113CA351500DBF98A /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A61B9CD213CA351500DBF98A /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A61B9CD413CA351500DBF98A /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A61B9CD613CA351500DBF98A /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		A61B9CD913CA351500DBF98A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController_iPhone.xib; sourceTree = "<group>"; };
+		A61B9CDC13CA351500DBF98A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController_iPad.xib; sourceTree = "<group>"; };
+		A61B9CDF13CA351500DBF98A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		A61B9CE213CA351500DBF98A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A61B9CB813CA351400DBF98A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61B9CC013CA351500DBF98A /* UIKit.framework in Frameworks */,
+				A61B9CC213CA351500DBF98A /* Foundation.framework in Frameworks */,
+				A61B9CC413CA351500DBF98A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A61B9CB013CA351400DBF98A = {
+			isa = PBXGroup;
+			children = (
+				A61B9CC513CA351500DBF98A /* Presenting Master-Detail Views with UISplitViewController */,
+				A61B9CBE13CA351500DBF98A /* Frameworks */,
+				A61B9CBC13CA351500DBF98A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A61B9CBC13CA351500DBF98A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A61B9CBB13CA351500DBF98A /* Presenting Master-Detail Views with UISplitViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A61B9CBE13CA351500DBF98A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A61B9CBF13CA351500DBF98A /* UIKit.framework */,
+				A61B9CC113CA351500DBF98A /* Foundation.framework */,
+				A61B9CC313CA351500DBF98A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A61B9CC513CA351500DBF98A /* Presenting Master-Detail Views with UISplitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A61B9CCE13CA351500DBF98A /* Presenting_Master_Detail_Views_with_UISplitViewControllerAppDelegate.h */,
+				A61B9CCF13CA351500DBF98A /* Presenting_Master_Detail_Views_with_UISplitViewControllerAppDelegate.m */,
+				A61B9CD113CA351500DBF98A /* RootViewController.h */,
+				A61B9CD213CA351500DBF98A /* RootViewController.m */,
+				A61B9CD413CA351500DBF98A /* DetailViewController.h */,
+				A61B9CD613CA351500DBF98A /* DetailViewController.m */,
+				A61B9CD813CA351500DBF98A /* RootViewController_iPhone.xib */,
+				A61B9CDB13CA351500DBF98A /* RootViewController_iPad.xib */,
+				A61B9CDE13CA351500DBF98A /* DetailViewController_iPhone.xib */,
+				A61B9CE113CA351500DBF98A /* DetailViewController_iPad.xib */,
+				A61B9CC613CA351500DBF98A /* Supporting Files */,
+			);
+			path = "Presenting Master-Detail Views with UISplitViewController";
+			sourceTree = "<group>";
+		};
+		A61B9CC613CA351500DBF98A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A61B9CC713CA351500DBF98A /* Presenting Master-Detail Views with UISplitViewController-Info.plist */,
+				A61B9CC813CA351500DBF98A /* InfoPlist.strings */,
+				A61B9CCB13CA351500DBF98A /* main.m */,
+				A61B9CCD13CA351500DBF98A /* Presenting Master-Detail Views with UISplitViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A61B9CBA13CA351400DBF98A /* Presenting Master-Detail Views with UISplitViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A61B9CE613CA351500DBF98A /* Build configuration list for PBXNativeTarget "Presenting Master-Detail Views with UISplitViewController" */;
+			buildPhases = (
+				A61B9CB713CA351400DBF98A /* Sources */,
+				A61B9CB813CA351400DBF98A /* Frameworks */,
+				A61B9CB913CA351400DBF98A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Presenting Master-Detail Views with UISplitViewController";
+			productName = "Presenting Master-Detail Views with UISplitViewController";
+			productReference = A61B9CBB13CA351500DBF98A /* Presenting Master-Detail Views with UISplitViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A61B9CB213CA351400DBF98A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A61B9CB513CA351400DBF98A /* Build configuration list for PBXProject "Presenting Master-Detail Views with UISplitViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A61B9CB013CA351400DBF98A;
+			productRefGroup = A61B9CBC13CA351500DBF98A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A61B9CBA13CA351400DBF98A /* Presenting Master-Detail Views with UISplitViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A61B9CB913CA351400DBF98A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61B9CCA13CA351500DBF98A /* InfoPlist.strings in Resources */,
+				A61B9CD513CA351500DBF98A /* DetailViewController.h in Resources */,
+				A61B9CDA13CA351500DBF98A /* RootViewController_iPhone.xib in Resources */,
+				A61B9CDD13CA351500DBF98A /* RootViewController_iPad.xib in Resources */,
+				A61B9CE013CA351500DBF98A /* DetailViewController_iPhone.xib in Resources */,
+				A61B9CE313CA351500DBF98A /* DetailViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A61B9CB713CA351400DBF98A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61B9CCC13CA351500DBF98A /* main.m in Sources */,
+				A61B9CD013CA351500DBF98A /* Presenting_Master_Detail_Views_with_UISplitViewControllerAppDelegate.m in Sources */,
+				A61B9CD313CA351500DBF98A /* RootViewController.m in Sources */,
+				A61B9CD713CA351500DBF98A /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A61B9CC813CA351500DBF98A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A61B9CC913CA351500DBF98A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A61B9CD813CA351500DBF98A /* RootViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A61B9CD913CA351500DBF98A /* en */,
+			);
+			name = RootViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A61B9CDB13CA351500DBF98A /* RootViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A61B9CDC13CA351500DBF98A /* en */,
+			);
+			name = RootViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		A61B9CDE13CA351500DBF98A /* DetailViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A61B9CDF13CA351500DBF98A /* en */,
+			);
+			name = DetailViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A61B9CE113CA351500DBF98A /* DetailViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A61B9CE213CA351500DBF98A /* en */,
+			);
+			name = DetailViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A61B9CE413CA351500DBF98A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A61B9CE513CA351500DBF98A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A61B9CE713CA351500DBF98A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Presenting Master-Detail Views with UISplitViewController/Presenting Master-Detail Views with UISplitViewController-Prefix.pch";
+				INFOPLIST_FILE = "Presenting Master-Detail Views with UISplitViewController/Presenting Master-Detail Views with UISplitViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A61B9CE813CA351500DBF98A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Presenting Master-Detail Views with UISplitViewController/Presenting Master-Detail Views with UISplitViewController-Prefix.pch";
+				INFOPLIST_FILE = "Presenting Master-Detail Views with UISplitViewController/Presenting Master-Detail Views with UISplitViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A61B9CB513CA351400DBF98A /* Build configuration list for PBXProject "Presenting Master-Detail Views with UISplitViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61B9CE413CA351500DBF98A /* Debug */,
+				A61B9CE513CA351500DBF98A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A61B9CE613CA351500DBF98A /* Build configuration list for PBXNativeTarget "Presenting Master-Detail Views with UISplitViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61B9CE713CA351500DBF98A /* Debug */,
+				A61B9CE813CA351500DBF98A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A61B9CB213CA351400DBF98A /* Project object */;
+}

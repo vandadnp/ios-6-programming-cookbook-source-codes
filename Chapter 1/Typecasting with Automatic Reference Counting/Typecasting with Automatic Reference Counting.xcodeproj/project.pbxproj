@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A618D69713DD6AD400E6B81F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A618D69613DD6AD400E6B81F /* UIKit.framework */; };
+		A618D69913DD6AD400E6B81F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A618D69813DD6AD400E6B81F /* Foundation.framework */; };
+		A618D69B13DD6AD400E6B81F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A618D69A13DD6AD400E6B81F /* CoreGraphics.framework */; };
+		A618D6A113DD6AD500E6B81F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A618D69F13DD6AD500E6B81F /* InfoPlist.strings */; };
+		A618D6A313DD6AD500E6B81F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A618D6A213DD6AD500E6B81F /* main.m */; };
+		A618D6A713DD6AD500E6B81F /* Typecasting_with_Automatic_Reference_CountingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A618D6A613DD6AD500E6B81F /* Typecasting_with_Automatic_Reference_CountingAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A618D69213DD6AD400E6B81F /* Typecasting with Automatic Reference Counting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Typecasting with Automatic Reference Counting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A618D69613DD6AD400E6B81F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A618D69813DD6AD400E6B81F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A618D69A13DD6AD400E6B81F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A618D69E13DD6AD500E6B81F /* Typecasting with Automatic Reference Counting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Typecasting with Automatic Reference Counting-Info.plist"; sourceTree = "<group>"; };
+		A618D6A013DD6AD500E6B81F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A618D6A213DD6AD500E6B81F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A618D6A413DD6AD500E6B81F /* Typecasting with Automatic Reference Counting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Typecasting with Automatic Reference Counting-Prefix.pch"; sourceTree = "<group>"; };
+		A618D6A513DD6AD500E6B81F /* Typecasting_with_Automatic_Reference_CountingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Typecasting_with_Automatic_Reference_CountingAppDelegate.h; sourceTree = "<group>"; };
+		A618D6A613DD6AD500E6B81F /* Typecasting_with_Automatic_Reference_CountingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Typecasting_with_Automatic_Reference_CountingAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A618D68F13DD6AD400E6B81F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A618D69713DD6AD400E6B81F /* UIKit.framework in Frameworks */,
+				A618D69913DD6AD400E6B81F /* Foundation.framework in Frameworks */,
+				A618D69B13DD6AD400E6B81F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A618D68713DD6AD400E6B81F = {
+			isa = PBXGroup;
+			children = (
+				A618D69C13DD6AD500E6B81F /* Typecasting with Automatic Reference Counting */,
+				A618D69513DD6AD400E6B81F /* Frameworks */,
+				A618D69313DD6AD400E6B81F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A618D69313DD6AD400E6B81F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A618D69213DD6AD400E6B81F /* Typecasting with Automatic Reference Counting.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A618D69513DD6AD400E6B81F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A618D69613DD6AD400E6B81F /* UIKit.framework */,
+				A618D69813DD6AD400E6B81F /* Foundation.framework */,
+				A618D69A13DD6AD400E6B81F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A618D69C13DD6AD500E6B81F /* Typecasting with Automatic Reference Counting */ = {
+			isa = PBXGroup;
+			children = (
+				A618D6A513DD6AD500E6B81F /* Typecasting_with_Automatic_Reference_CountingAppDelegate.h */,
+				A618D6A613DD6AD500E6B81F /* Typecasting_with_Automatic_Reference_CountingAppDelegate.m */,
+				A618D69D13DD6AD500E6B81F /* Supporting Files */,
+			);
+			path = "Typecasting with Automatic Reference Counting";
+			sourceTree = "<group>";
+		};
+		A618D69D13DD6AD500E6B81F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A618D69E13DD6AD500E6B81F /* Typecasting with Automatic Reference Counting-Info.plist */,
+				A618D69F13DD6AD500E6B81F /* InfoPlist.strings */,
+				A618D6A213DD6AD500E6B81F /* main.m */,
+				A618D6A413DD6AD500E6B81F /* Typecasting with Automatic Reference Counting-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A618D69113DD6AD400E6B81F /* Typecasting with Automatic Reference Counting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A618D6AA13DD6AD500E6B81F /* Build configuration list for PBXNativeTarget "Typecasting with Automatic Reference Counting" */;
+			buildPhases = (
+				A618D68E13DD6AD400E6B81F /* Sources */,
+				A618D68F13DD6AD400E6B81F /* Frameworks */,
+				A618D69013DD6AD400E6B81F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Typecasting with Automatic Reference Counting";
+			productName = "Typecasting with Automatic Reference Counting";
+			productReference = A618D69213DD6AD400E6B81F /* Typecasting with Automatic Reference Counting.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A618D68913DD6AD400E6B81F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A618D68C13DD6AD400E6B81F /* Build configuration list for PBXProject "Typecasting with Automatic Reference Counting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A618D68713DD6AD400E6B81F;
+			productRefGroup = A618D69313DD6AD400E6B81F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A618D69113DD6AD400E6B81F /* Typecasting with Automatic Reference Counting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A618D69013DD6AD400E6B81F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A618D6A113DD6AD500E6B81F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A618D68E13DD6AD400E6B81F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A618D6A313DD6AD500E6B81F /* main.m in Sources */,
+				A618D6A713DD6AD500E6B81F /* Typecasting_with_Automatic_Reference_CountingAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A618D69F13DD6AD500E6B81F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A618D6A013DD6AD500E6B81F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A618D6A813DD6AD500E6B81F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A618D6A913DD6AD500E6B81F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A618D6AB13DD6AD500E6B81F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Typecasting with Automatic Reference Counting/Typecasting with Automatic Reference Counting-Prefix.pch";
+				INFOPLIST_FILE = "Typecasting with Automatic Reference Counting/Typecasting with Automatic Reference Counting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A618D6AC13DD6AD500E6B81F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Typecasting with Automatic Reference Counting/Typecasting with Automatic Reference Counting-Prefix.pch";
+				INFOPLIST_FILE = "Typecasting with Automatic Reference Counting/Typecasting with Automatic Reference Counting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A618D68C13DD6AD400E6B81F /* Build configuration list for PBXProject "Typecasting with Automatic Reference Counting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A618D6A813DD6AD500E6B81F /* Debug */,
+				A618D6A913DD6AD500E6B81F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A618D6AA13DD6AD500E6B81F /* Build configuration list for PBXNativeTarget "Typecasting with Automatic Reference Counting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A618D6AB13DD6AD500E6B81F /* Debug */,
+				A618D6AC13DD6AD500E6B81F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A618D68913DD6AD400E6B81F /* Project object */;
+}

@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A64DD3F313CDD87700572C78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64DD3F213CDD87700572C78 /* UIKit.framework */; };
+		A64DD3F513CDD87700572C78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64DD3F413CDD87700572C78 /* Foundation.framework */; };
+		A64DD3F713CDD87700572C78 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64DD3F613CDD87700572C78 /* CoreGraphics.framework */; };
+		A64DD3FD13CDD87700572C78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A64DD3FB13CDD87700572C78 /* InfoPlist.strings */; };
+		A64DD3FF13CDD87700572C78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A64DD3FE13CDD87700572C78 /* main.m */; };
+		A64DD40313CDD87700572C78 /* Performing_UI_Related_Tasks_with_GCDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A64DD40213CDD87700572C78 /* Performing_UI_Related_Tasks_with_GCDAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A64DD3EE13CDD87700572C78 /* Performing UI-Related Tasks with GCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Performing UI-Related Tasks with GCD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A64DD3F213CDD87700572C78 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A64DD3F413CDD87700572C78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A64DD3F613CDD87700572C78 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A64DD3FA13CDD87700572C78 /* Performing UI-Related Tasks with GCD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Performing UI-Related Tasks with GCD-Info.plist"; sourceTree = "<group>"; };
+		A64DD3FC13CDD87700572C78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A64DD3FE13CDD87700572C78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A64DD40013CDD87700572C78 /* Performing UI-Related Tasks with GCD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Performing UI-Related Tasks with GCD-Prefix.pch"; sourceTree = "<group>"; };
+		A64DD40113CDD87700572C78 /* Performing_UI_Related_Tasks_with_GCDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Performing_UI_Related_Tasks_with_GCDAppDelegate.h; sourceTree = "<group>"; };
+		A64DD40213CDD87700572C78 /* Performing_UI_Related_Tasks_with_GCDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Performing_UI_Related_Tasks_with_GCDAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A64DD3EB13CDD87700572C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64DD3F313CDD87700572C78 /* UIKit.framework in Frameworks */,
+				A64DD3F513CDD87700572C78 /* Foundation.framework in Frameworks */,
+				A64DD3F713CDD87700572C78 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A64DD3E313CDD87700572C78 = {
+			isa = PBXGroup;
+			children = (
+				A64DD3F813CDD87700572C78 /* Performing UI-Related Tasks with GCD */,
+				A64DD3F113CDD87700572C78 /* Frameworks */,
+				A64DD3EF13CDD87700572C78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A64DD3EF13CDD87700572C78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A64DD3EE13CDD87700572C78 /* Performing UI-Related Tasks with GCD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A64DD3F113CDD87700572C78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A64DD3F213CDD87700572C78 /* UIKit.framework */,
+				A64DD3F413CDD87700572C78 /* Foundation.framework */,
+				A64DD3F613CDD87700572C78 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A64DD3F813CDD87700572C78 /* Performing UI-Related Tasks with GCD */ = {
+			isa = PBXGroup;
+			children = (
+				A64DD40113CDD87700572C78 /* Performing_UI_Related_Tasks_with_GCDAppDelegate.h */,
+				A64DD40213CDD87700572C78 /* Performing_UI_Related_Tasks_with_GCDAppDelegate.m */,
+				A64DD3F913CDD87700572C78 /* Supporting Files */,
+			);
+			path = "Performing UI-Related Tasks with GCD";
+			sourceTree = "<group>";
+		};
+		A64DD3F913CDD87700572C78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A64DD3FA13CDD87700572C78 /* Performing UI-Related Tasks with GCD-Info.plist */,
+				A64DD3FB13CDD87700572C78 /* InfoPlist.strings */,
+				A64DD3FE13CDD87700572C78 /* main.m */,
+				A64DD40013CDD87700572C78 /* Performing UI-Related Tasks with GCD-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A64DD3ED13CDD87700572C78 /* Performing UI-Related Tasks with GCD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A64DD40613CDD87700572C78 /* Build configuration list for PBXNativeTarget "Performing UI-Related Tasks with GCD" */;
+			buildPhases = (
+				A64DD3EA13CDD87700572C78 /* Sources */,
+				A64DD3EB13CDD87700572C78 /* Frameworks */,
+				A64DD3EC13CDD87700572C78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Performing UI-Related Tasks with GCD";
+			productName = "Performing UI-Related Tasks with GCD";
+			productReference = A64DD3EE13CDD87700572C78 /* Performing UI-Related Tasks with GCD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A64DD3E513CDD87700572C78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A64DD3E813CDD87700572C78 /* Build configuration list for PBXProject "Performing UI-Related Tasks with GCD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A64DD3E313CDD87700572C78;
+			productRefGroup = A64DD3EF13CDD87700572C78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A64DD3ED13CDD87700572C78 /* Performing UI-Related Tasks with GCD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A64DD3EC13CDD87700572C78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64DD3FD13CDD87700572C78 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A64DD3EA13CDD87700572C78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64DD3FF13CDD87700572C78 /* main.m in Sources */,
+				A64DD40313CDD87700572C78 /* Performing_UI_Related_Tasks_with_GCDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A64DD3FB13CDD87700572C78 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A64DD3FC13CDD87700572C78 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A64DD40413CDD87700572C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A64DD40513CDD87700572C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A64DD40713CDD87700572C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Performing UI-Related Tasks with GCD/Performing UI-Related Tasks with GCD-Prefix.pch";
+				INFOPLIST_FILE = "Performing UI-Related Tasks with GCD/Performing UI-Related Tasks with GCD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A64DD40813CDD87700572C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Performing UI-Related Tasks with GCD/Performing UI-Related Tasks with GCD-Prefix.pch";
+				INFOPLIST_FILE = "Performing UI-Related Tasks with GCD/Performing UI-Related Tasks with GCD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A64DD3E813CDD87700572C78 /* Build configuration list for PBXProject "Performing UI-Related Tasks with GCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A64DD40413CDD87700572C78 /* Debug */,
+				A64DD40513CDD87700572C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A64DD40613CDD87700572C78 /* Build configuration list for PBXNativeTarget "Performing UI-Related Tasks with GCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A64DD40713CDD87700572C78 /* Debug */,
+				A64DD40813CDD87700572C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A64DD3E513CDD87700572C78 /* Project object */;
+}

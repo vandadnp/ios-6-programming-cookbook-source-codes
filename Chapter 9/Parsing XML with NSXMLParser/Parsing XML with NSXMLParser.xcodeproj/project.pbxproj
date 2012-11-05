@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6E9E89E13D6E02900DA309F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E9E89D13D6E02900DA309F /* UIKit.framework */; };
+		A6E9E8A013D6E02900DA309F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E9E89F13D6E02900DA309F /* Foundation.framework */; };
+		A6E9E8A213D6E02900DA309F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E9E8A113D6E02900DA309F /* CoreGraphics.framework */; };
+		A6E9E8A813D6E02900DA309F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6E9E8A613D6E02900DA309F /* InfoPlist.strings */; };
+		A6E9E8AA13D6E02900DA309F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E9E8A913D6E02900DA309F /* main.m */; };
+		A6E9E8AE13D6E02900DA309F /* Parsing_XML_with_NSXMLParserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E9E8AD13D6E02900DA309F /* Parsing_XML_with_NSXMLParserAppDelegate.m */; };
+		A6E9E8C313D6E05200DA309F /* MyXML.xml in Resources */ = {isa = PBXBuildFile; fileRef = A6E9E8C213D6E05200DA309F /* MyXML.xml */; };
+		A6E9E8C713D6E49900DA309F /* XMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E9E8C613D6E49900DA309F /* XMLElement.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6E9E89913D6E02900DA309F /* Parsing XML with NSXMLParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parsing XML with NSXMLParser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E9E89D13D6E02900DA309F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6E9E89F13D6E02900DA309F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6E9E8A113D6E02900DA309F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6E9E8A513D6E02900DA309F /* Parsing XML with NSXMLParser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Parsing XML with NSXMLParser-Info.plist"; sourceTree = "<group>"; };
+		A6E9E8A713D6E02900DA309F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6E9E8A913D6E02900DA309F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6E9E8AB13D6E02900DA309F /* Parsing XML with NSXMLParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Parsing XML with NSXMLParser-Prefix.pch"; sourceTree = "<group>"; };
+		A6E9E8AC13D6E02900DA309F /* Parsing_XML_with_NSXMLParserAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Parsing_XML_with_NSXMLParserAppDelegate.h; sourceTree = "<group>"; };
+		A6E9E8AD13D6E02900DA309F /* Parsing_XML_with_NSXMLParserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Parsing_XML_with_NSXMLParserAppDelegate.m; sourceTree = "<group>"; };
+		A6E9E8C213D6E05200DA309F /* MyXML.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = MyXML.xml; sourceTree = "<group>"; };
+		A6E9E8C513D6E49900DA309F /* XMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLElement.h; sourceTree = "<group>"; };
+		A6E9E8C613D6E49900DA309F /* XMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLElement.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6E9E89613D6E02900DA309F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E9E89E13D6E02900DA309F /* UIKit.framework in Frameworks */,
+				A6E9E8A013D6E02900DA309F /* Foundation.framework in Frameworks */,
+				A6E9E8A213D6E02900DA309F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6E9E88E13D6E02900DA309F = {
+			isa = PBXGroup;
+			children = (
+				A6E9E8A313D6E02900DA309F /* Parsing XML with NSXMLParser */,
+				A6E9E89C13D6E02900DA309F /* Frameworks */,
+				A6E9E89A13D6E02900DA309F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6E9E89A13D6E02900DA309F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6E9E89913D6E02900DA309F /* Parsing XML with NSXMLParser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6E9E89C13D6E02900DA309F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6E9E89D13D6E02900DA309F /* UIKit.framework */,
+				A6E9E89F13D6E02900DA309F /* Foundation.framework */,
+				A6E9E8A113D6E02900DA309F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6E9E8A313D6E02900DA309F /* Parsing XML with NSXMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				A6E9E8AC13D6E02900DA309F /* Parsing_XML_with_NSXMLParserAppDelegate.h */,
+				A6E9E8AD13D6E02900DA309F /* Parsing_XML_with_NSXMLParserAppDelegate.m */,
+				A6E9E8A413D6E02900DA309F /* Supporting Files */,
+				A6E9E8C213D6E05200DA309F /* MyXML.xml */,
+				A6E9E8C513D6E49900DA309F /* XMLElement.h */,
+				A6E9E8C613D6E49900DA309F /* XMLElement.m */,
+			);
+			path = "Parsing XML with NSXMLParser";
+			sourceTree = "<group>";
+		};
+		A6E9E8A413D6E02900DA309F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6E9E8A513D6E02900DA309F /* Parsing XML with NSXMLParser-Info.plist */,
+				A6E9E8A613D6E02900DA309F /* InfoPlist.strings */,
+				A6E9E8A913D6E02900DA309F /* main.m */,
+				A6E9E8AB13D6E02900DA309F /* Parsing XML with NSXMLParser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6E9E89813D6E02900DA309F /* Parsing XML with NSXMLParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6E9E8B113D6E02900DA309F /* Build configuration list for PBXNativeTarget "Parsing XML with NSXMLParser" */;
+			buildPhases = (
+				A6E9E89513D6E02900DA309F /* Sources */,
+				A6E9E89613D6E02900DA309F /* Frameworks */,
+				A6E9E89713D6E02900DA309F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Parsing XML with NSXMLParser";
+			productName = "Parsing XML with NSXMLParser";
+			productReference = A6E9E89913D6E02900DA309F /* Parsing XML with NSXMLParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6E9E89013D6E02900DA309F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6E9E89313D6E02900DA309F /* Build configuration list for PBXProject "Parsing XML with NSXMLParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6E9E88E13D6E02900DA309F;
+			productRefGroup = A6E9E89A13D6E02900DA309F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6E9E89813D6E02900DA309F /* Parsing XML with NSXMLParser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6E9E89713D6E02900DA309F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E9E8A813D6E02900DA309F /* InfoPlist.strings in Resources */,
+				A6E9E8C313D6E05200DA309F /* MyXML.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6E9E89513D6E02900DA309F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E9E8AA13D6E02900DA309F /* main.m in Sources */,
+				A6E9E8AE13D6E02900DA309F /* Parsing_XML_with_NSXMLParserAppDelegate.m in Sources */,
+				A6E9E8C713D6E49900DA309F /* XMLElement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6E9E8A613D6E02900DA309F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6E9E8A713D6E02900DA309F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6E9E8AF13D6E02900DA309F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6E9E8B013D6E02900DA309F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6E9E8B213D6E02900DA309F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Parsing XML with NSXMLParser/Parsing XML with NSXMLParser-Prefix.pch";
+				INFOPLIST_FILE = "Parsing XML with NSXMLParser/Parsing XML with NSXMLParser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6E9E8B313D6E02900DA309F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Parsing XML with NSXMLParser/Parsing XML with NSXMLParser-Prefix.pch";
+				INFOPLIST_FILE = "Parsing XML with NSXMLParser/Parsing XML with NSXMLParser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6E9E89313D6E02900DA309F /* Build configuration list for PBXProject "Parsing XML with NSXMLParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E9E8AF13D6E02900DA309F /* Debug */,
+				A6E9E8B013D6E02900DA309F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6E9E8B113D6E02900DA309F /* Build configuration list for PBXNativeTarget "Parsing XML with NSXMLParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E9E8B213D6E02900DA309F /* Debug */,
+				A6E9E8B313D6E02900DA309F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6E9E89013D6E02900DA309F /* Project object */;
+}

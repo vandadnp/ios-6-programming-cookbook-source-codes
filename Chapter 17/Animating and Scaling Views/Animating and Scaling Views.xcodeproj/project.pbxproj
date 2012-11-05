@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6F4F90313D31F9600E85E10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F4F90213D31F9600E85E10 /* UIKit.framework */; };
+		A6F4F90513D31F9600E85E10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F4F90413D31F9600E85E10 /* Foundation.framework */; };
+		A6F4F90713D31F9600E85E10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F4F90613D31F9600E85E10 /* CoreGraphics.framework */; };
+		A6F4F90D13D31F9600E85E10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6F4F90B13D31F9600E85E10 /* InfoPlist.strings */; };
+		A6F4F90F13D31F9600E85E10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F4F90E13D31F9600E85E10 /* main.m */; };
+		A6F4F91313D31F9600E85E10 /* Animating_and_Scaling_ViewsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F4F91213D31F9600E85E10 /* Animating_and_Scaling_ViewsAppDelegate.m */; };
+		A6F4F91613D31F9600E85E10 /* Animating_and_Scaling_ViewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F4F91513D31F9600E85E10 /* Animating_and_Scaling_ViewsViewController.m */; };
+		A6F4F91913D31F9700E85E10 /* Animating_and_Scaling_ViewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6F4F91713D31F9700E85E10 /* Animating_and_Scaling_ViewsViewController.xib */; };
+		A6F4F92B13D31FB600E85E10 /* GraphicsViewControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F4F92A13D31FB600E85E10 /* GraphicsViewControllerView.m */; };
+		A6F4F92E13D3203100E85E10 /* Xcode.png in Resources */ = {isa = PBXBuildFile; fileRef = A6F4F92D13D3203100E85E10 /* Xcode.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6F4F8FE13D31F9600E85E10 /* Animating and Scaling Views.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animating and Scaling Views.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F4F90213D31F9600E85E10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6F4F90413D31F9600E85E10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6F4F90613D31F9600E85E10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6F4F90A13D31F9600E85E10 /* Animating and Scaling Views-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Animating and Scaling Views-Info.plist"; sourceTree = "<group>"; };
+		A6F4F90C13D31F9600E85E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6F4F90E13D31F9600E85E10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6F4F91013D31F9600E85E10 /* Animating and Scaling Views-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animating and Scaling Views-Prefix.pch"; sourceTree = "<group>"; };
+		A6F4F91113D31F9600E85E10 /* Animating_and_Scaling_ViewsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animating_and_Scaling_ViewsAppDelegate.h; sourceTree = "<group>"; };
+		A6F4F91213D31F9600E85E10 /* Animating_and_Scaling_ViewsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animating_and_Scaling_ViewsAppDelegate.m; sourceTree = "<group>"; };
+		A6F4F91413D31F9600E85E10 /* Animating_and_Scaling_ViewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animating_and_Scaling_ViewsViewController.h; sourceTree = "<group>"; };
+		A6F4F91513D31F9600E85E10 /* Animating_and_Scaling_ViewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animating_and_Scaling_ViewsViewController.m; sourceTree = "<group>"; };
+		A6F4F91813D31F9700E85E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Animating_and_Scaling_ViewsViewController.xib; sourceTree = "<group>"; };
+		A6F4F92913D31FB600E85E10 /* GraphicsViewControllerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsViewControllerView.h; sourceTree = "<group>"; };
+		A6F4F92A13D31FB600E85E10 /* GraphicsViewControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsViewControllerView.m; sourceTree = "<group>"; };
+		A6F4F92D13D3203100E85E10 /* Xcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Xcode.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6F4F8FB13D31F9600E85E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F4F90313D31F9600E85E10 /* UIKit.framework in Frameworks */,
+				A6F4F90513D31F9600E85E10 /* Foundation.framework in Frameworks */,
+				A6F4F90713D31F9600E85E10 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6F4F8F313D31F9600E85E10 = {
+			isa = PBXGroup;
+			children = (
+				A6F4F90813D31F9600E85E10 /* Animating and Scaling Views */,
+				A6F4F90113D31F9600E85E10 /* Frameworks */,
+				A6F4F8FF13D31F9600E85E10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6F4F8FF13D31F9600E85E10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6F4F8FE13D31F9600E85E10 /* Animating and Scaling Views.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6F4F90113D31F9600E85E10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6F4F90213D31F9600E85E10 /* UIKit.framework */,
+				A6F4F90413D31F9600E85E10 /* Foundation.framework */,
+				A6F4F90613D31F9600E85E10 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6F4F90813D31F9600E85E10 /* Animating and Scaling Views */ = {
+			isa = PBXGroup;
+			children = (
+				A6F4F91113D31F9600E85E10 /* Animating_and_Scaling_ViewsAppDelegate.h */,
+				A6F4F91213D31F9600E85E10 /* Animating_and_Scaling_ViewsAppDelegate.m */,
+				A6F4F91413D31F9600E85E10 /* Animating_and_Scaling_ViewsViewController.h */,
+				A6F4F91513D31F9600E85E10 /* Animating_and_Scaling_ViewsViewController.m */,
+				A6F4F91713D31F9700E85E10 /* Animating_and_Scaling_ViewsViewController.xib */,
+				A6F4F90913D31F9600E85E10 /* Supporting Files */,
+				A6F4F92913D31FB600E85E10 /* GraphicsViewControllerView.h */,
+				A6F4F92A13D31FB600E85E10 /* GraphicsViewControllerView.m */,
+			);
+			path = "Animating and Scaling Views";
+			sourceTree = "<group>";
+		};
+		A6F4F90913D31F9600E85E10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6F4F92D13D3203100E85E10 /* Xcode.png */,
+				A6F4F90A13D31F9600E85E10 /* Animating and Scaling Views-Info.plist */,
+				A6F4F90B13D31F9600E85E10 /* InfoPlist.strings */,
+				A6F4F90E13D31F9600E85E10 /* main.m */,
+				A6F4F91013D31F9600E85E10 /* Animating and Scaling Views-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6F4F8FD13D31F9600E85E10 /* Animating and Scaling Views */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6F4F91C13D31F9700E85E10 /* Build configuration list for PBXNativeTarget "Animating and Scaling Views" */;
+			buildPhases = (
+				A6F4F8FA13D31F9600E85E10 /* Sources */,
+				A6F4F8FB13D31F9600E85E10 /* Frameworks */,
+				A6F4F8FC13D31F9600E85E10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Animating and Scaling Views";
+			productName = "Animating and Scaling Views";
+			productReference = A6F4F8FE13D31F9600E85E10 /* Animating and Scaling Views.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6F4F8F513D31F9600E85E10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6F4F8F813D31F9600E85E10 /* Build configuration list for PBXProject "Animating and Scaling Views" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6F4F8F313D31F9600E85E10;
+			productRefGroup = A6F4F8FF13D31F9600E85E10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6F4F8FD13D31F9600E85E10 /* Animating and Scaling Views */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6F4F8FC13D31F9600E85E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F4F90D13D31F9600E85E10 /* InfoPlist.strings in Resources */,
+				A6F4F91913D31F9700E85E10 /* Animating_and_Scaling_ViewsViewController.xib in Resources */,
+				A6F4F92E13D3203100E85E10 /* Xcode.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6F4F8FA13D31F9600E85E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F4F90F13D31F9600E85E10 /* main.m in Sources */,
+				A6F4F91313D31F9600E85E10 /* Animating_and_Scaling_ViewsAppDelegate.m in Sources */,
+				A6F4F91613D31F9600E85E10 /* Animating_and_Scaling_ViewsViewController.m in Sources */,
+				A6F4F92B13D31FB600E85E10 /* GraphicsViewControllerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6F4F90B13D31F9600E85E10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F4F90C13D31F9600E85E10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6F4F91713D31F9700E85E10 /* Animating_and_Scaling_ViewsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F4F91813D31F9700E85E10 /* en */,
+			);
+			name = Animating_and_Scaling_ViewsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6F4F91A13D31F9700E85E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6F4F91B13D31F9700E85E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6F4F91D13D31F9700E85E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animating and Scaling Views/Animating and Scaling Views-Prefix.pch";
+				INFOPLIST_FILE = "Animating and Scaling Views/Animating and Scaling Views-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6F4F91E13D31F9700E85E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animating and Scaling Views/Animating and Scaling Views-Prefix.pch";
+				INFOPLIST_FILE = "Animating and Scaling Views/Animating and Scaling Views-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6F4F8F813D31F9600E85E10 /* Build configuration list for PBXProject "Animating and Scaling Views" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F4F91A13D31F9700E85E10 /* Debug */,
+				A6F4F91B13D31F9700E85E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F4F91C13D31F9700E85E10 /* Build configuration list for PBXNativeTarget "Animating and Scaling Views" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F4F91D13D31F9700E85E10 /* Debug */,
+				A6F4F91E13D31F9700E85E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6F4F8F513D31F9600E85E10 /* Project object */;
+}

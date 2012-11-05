@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6E9E82C13D6C67000DA309F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E9E82B13D6C67000DA309F /* UIKit.framework */; };
+		A6E9E82E13D6C67000DA309F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E9E82D13D6C67000DA309F /* Foundation.framework */; };
+		A6E9E83013D6C67000DA309F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E9E82F13D6C67000DA309F /* CoreGraphics.framework */; };
+		A6E9E83613D6C67000DA309F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6E9E83413D6C67000DA309F /* InfoPlist.strings */; };
+		A6E9E83813D6C67000DA309F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E9E83713D6C67000DA309F /* main.m */; };
+		A6E9E83C13D6C67000DA309F /* Deserializing_JSON_into_Arrays_and_DictionariesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E9E83B13D6C67000DA309F /* Deserializing_JSON_into_Arrays_and_DictionariesAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6E9E82713D6C67000DA309F /* Deserializing JSON into Arrays and Dictionaries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deserializing JSON into Arrays and Dictionaries.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E9E82B13D6C67000DA309F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6E9E82D13D6C67000DA309F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6E9E82F13D6C67000DA309F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6E9E83313D6C67000DA309F /* Deserializing JSON into Arrays and Dictionaries-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Deserializing JSON into Arrays and Dictionaries-Info.plist"; sourceTree = "<group>"; };
+		A6E9E83513D6C67000DA309F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6E9E83713D6C67000DA309F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6E9E83913D6C67000DA309F /* Deserializing JSON into Arrays and Dictionaries-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Deserializing JSON into Arrays and Dictionaries-Prefix.pch"; sourceTree = "<group>"; };
+		A6E9E83A13D6C67000DA309F /* Deserializing_JSON_into_Arrays_and_DictionariesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deserializing_JSON_into_Arrays_and_DictionariesAppDelegate.h; sourceTree = "<group>"; };
+		A6E9E83B13D6C67000DA309F /* Deserializing_JSON_into_Arrays_and_DictionariesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Deserializing_JSON_into_Arrays_and_DictionariesAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6E9E82413D6C67000DA309F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E9E82C13D6C67000DA309F /* UIKit.framework in Frameworks */,
+				A6E9E82E13D6C67000DA309F /* Foundation.framework in Frameworks */,
+				A6E9E83013D6C67000DA309F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6E9E81C13D6C67000DA309F = {
+			isa = PBXGroup;
+			children = (
+				A6E9E83113D6C67000DA309F /* Deserializing JSON into Arrays and Dictionaries */,
+				A6E9E82A13D6C67000DA309F /* Frameworks */,
+				A6E9E82813D6C67000DA309F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6E9E82813D6C67000DA309F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6E9E82713D6C67000DA309F /* Deserializing JSON into Arrays and Dictionaries.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6E9E82A13D6C67000DA309F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6E9E82B13D6C67000DA309F /* UIKit.framework */,
+				A6E9E82D13D6C67000DA309F /* Foundation.framework */,
+				A6E9E82F13D6C67000DA309F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6E9E83113D6C67000DA309F /* Deserializing JSON into Arrays and Dictionaries */ = {
+			isa = PBXGroup;
+			children = (
+				A6E9E83A13D6C67000DA309F /* Deserializing_JSON_into_Arrays_and_DictionariesAppDelegate.h */,
+				A6E9E83B13D6C67000DA309F /* Deserializing_JSON_into_Arrays_and_DictionariesAppDelegate.m */,
+				A6E9E83213D6C67000DA309F /* Supporting Files */,
+			);
+			path = "Deserializing JSON into Arrays and Dictionaries";
+			sourceTree = "<group>";
+		};
+		A6E9E83213D6C67000DA309F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6E9E83313D6C67000DA309F /* Deserializing JSON into Arrays and Dictionaries-Info.plist */,
+				A6E9E83413D6C67000DA309F /* InfoPlist.strings */,
+				A6E9E83713D6C67000DA309F /* main.m */,
+				A6E9E83913D6C67000DA309F /* Deserializing JSON into Arrays and Dictionaries-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6E9E82613D6C67000DA309F /* Deserializing JSON into Arrays and Dictionaries */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6E9E83F13D6C67000DA309F /* Build configuration list for PBXNativeTarget "Deserializing JSON into Arrays and Dictionaries" */;
+			buildPhases = (
+				A6E9E82313D6C67000DA309F /* Sources */,
+				A6E9E82413D6C67000DA309F /* Frameworks */,
+				A6E9E82513D6C67000DA309F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Deserializing JSON into Arrays and Dictionaries";
+			productName = "Deserializing JSON into Arrays and Dictionaries";
+			productReference = A6E9E82713D6C67000DA309F /* Deserializing JSON into Arrays and Dictionaries.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6E9E81E13D6C67000DA309F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6E9E82113D6C67000DA309F /* Build configuration list for PBXProject "Deserializing JSON into Arrays and Dictionaries" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6E9E81C13D6C67000DA309F;
+			productRefGroup = A6E9E82813D6C67000DA309F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6E9E82613D6C67000DA309F /* Deserializing JSON into Arrays and Dictionaries */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6E9E82513D6C67000DA309F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E9E83613D6C67000DA309F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6E9E82313D6C67000DA309F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E9E83813D6C67000DA309F /* main.m in Sources */,
+				A6E9E83C13D6C67000DA309F /* Deserializing_JSON_into_Arrays_and_DictionariesAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6E9E83413D6C67000DA309F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6E9E83513D6C67000DA309F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6E9E83D13D6C67000DA309F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6E9E83E13D6C67000DA309F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6E9E84013D6C67000DA309F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Deserializing JSON into Arrays and Dictionaries/Deserializing JSON into Arrays and Dictionaries-Prefix.pch";
+				INFOPLIST_FILE = "Deserializing JSON into Arrays and Dictionaries/Deserializing JSON into Arrays and Dictionaries-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6E9E84113D6C67000DA309F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Deserializing JSON into Arrays and Dictionaries/Deserializing JSON into Arrays and Dictionaries-Prefix.pch";
+				INFOPLIST_FILE = "Deserializing JSON into Arrays and Dictionaries/Deserializing JSON into Arrays and Dictionaries-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6E9E82113D6C67000DA309F /* Build configuration list for PBXProject "Deserializing JSON into Arrays and Dictionaries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E9E83D13D6C67000DA309F /* Debug */,
+				A6E9E83E13D6C67000DA309F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6E9E83F13D6C67000DA309F /* Build configuration list for PBXNativeTarget "Deserializing JSON into Arrays and Dictionaries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E9E84013D6C67000DA309F /* Debug */,
+				A6E9E84113D6C67000DA309F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6E9E81E13D6C67000DA309F /* Project object */;
+}

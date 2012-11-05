@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A69A184813D2FDB00002A32B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69A184713D2FDB00002A32B /* UIKit.framework */; };
+		A69A184A13D2FDB00002A32B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69A184913D2FDB00002A32B /* Foundation.framework */; };
+		A69A184C13D2FDB00002A32B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A69A184B13D2FDB00002A32B /* CoreGraphics.framework */; };
+		A69A185213D2FDB00002A32B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A69A185013D2FDB00002A32B /* InfoPlist.strings */; };
+		A69A185413D2FDB00002A32B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A69A185313D2FDB00002A32B /* main.m */; };
+		A69A185813D2FDB00002A32B /* Adding_Shadows_to_ShapesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A69A185713D2FDB00002A32B /* Adding_Shadows_to_ShapesAppDelegate.m */; };
+		A69A185B13D2FDB00002A32B /* Adding_Shadows_to_ShapesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A69A185A13D2FDB00002A32B /* Adding_Shadows_to_ShapesViewController.m */; };
+		A69A185E13D2FDB00002A32B /* Adding_Shadows_to_ShapesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A69A185C13D2FDB00002A32B /* Adding_Shadows_to_ShapesViewController.xib */; };
+		A69A187013D2FDD00002A32B /* GraphicsViewControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A69A186F13D2FDD00002A32B /* GraphicsViewControllerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A69A184313D2FDB00002A32B /* Adding Shadows to Shapes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adding Shadows to Shapes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A69A184713D2FDB00002A32B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A69A184913D2FDB00002A32B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A69A184B13D2FDB00002A32B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A69A184F13D2FDB00002A32B /* Adding Shadows to Shapes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Adding Shadows to Shapes-Info.plist"; sourceTree = "<group>"; };
+		A69A185113D2FDB00002A32B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A69A185313D2FDB00002A32B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A69A185513D2FDB00002A32B /* Adding Shadows to Shapes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Adding Shadows to Shapes-Prefix.pch"; sourceTree = "<group>"; };
+		A69A185613D2FDB00002A32B /* Adding_Shadows_to_ShapesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adding_Shadows_to_ShapesAppDelegate.h; sourceTree = "<group>"; };
+		A69A185713D2FDB00002A32B /* Adding_Shadows_to_ShapesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Adding_Shadows_to_ShapesAppDelegate.m; sourceTree = "<group>"; };
+		A69A185913D2FDB00002A32B /* Adding_Shadows_to_ShapesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Adding_Shadows_to_ShapesViewController.h; sourceTree = "<group>"; };
+		A69A185A13D2FDB00002A32B /* Adding_Shadows_to_ShapesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Adding_Shadows_to_ShapesViewController.m; sourceTree = "<group>"; };
+		A69A185D13D2FDB00002A32B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Adding_Shadows_to_ShapesViewController.xib; sourceTree = "<group>"; };
+		A69A186E13D2FDD00002A32B /* GraphicsViewControllerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsViewControllerView.h; sourceTree = "<group>"; };
+		A69A186F13D2FDD00002A32B /* GraphicsViewControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsViewControllerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A69A184013D2FDB00002A32B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69A184813D2FDB00002A32B /* UIKit.framework in Frameworks */,
+				A69A184A13D2FDB00002A32B /* Foundation.framework in Frameworks */,
+				A69A184C13D2FDB00002A32B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A69A183813D2FDB00002A32B = {
+			isa = PBXGroup;
+			children = (
+				A69A184D13D2FDB00002A32B /* Adding Shadows to Shapes */,
+				A69A184613D2FDB00002A32B /* Frameworks */,
+				A69A184413D2FDB00002A32B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A69A184413D2FDB00002A32B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A69A184313D2FDB00002A32B /* Adding Shadows to Shapes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A69A184613D2FDB00002A32B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A69A184713D2FDB00002A32B /* UIKit.framework */,
+				A69A184913D2FDB00002A32B /* Foundation.framework */,
+				A69A184B13D2FDB00002A32B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A69A184D13D2FDB00002A32B /* Adding Shadows to Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				A69A185613D2FDB00002A32B /* Adding_Shadows_to_ShapesAppDelegate.h */,
+				A69A185713D2FDB00002A32B /* Adding_Shadows_to_ShapesAppDelegate.m */,
+				A69A185913D2FDB00002A32B /* Adding_Shadows_to_ShapesViewController.h */,
+				A69A185A13D2FDB00002A32B /* Adding_Shadows_to_ShapesViewController.m */,
+				A69A185C13D2FDB00002A32B /* Adding_Shadows_to_ShapesViewController.xib */,
+				A69A184E13D2FDB00002A32B /* Supporting Files */,
+				A69A186E13D2FDD00002A32B /* GraphicsViewControllerView.h */,
+				A69A186F13D2FDD00002A32B /* GraphicsViewControllerView.m */,
+			);
+			path = "Adding Shadows to Shapes";
+			sourceTree = "<group>";
+		};
+		A69A184E13D2FDB00002A32B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A69A184F13D2FDB00002A32B /* Adding Shadows to Shapes-Info.plist */,
+				A69A185013D2FDB00002A32B /* InfoPlist.strings */,
+				A69A185313D2FDB00002A32B /* main.m */,
+				A69A185513D2FDB00002A32B /* Adding Shadows to Shapes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A69A184213D2FDB00002A32B /* Adding Shadows to Shapes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A69A186113D2FDB00002A32B /* Build configuration list for PBXNativeTarget "Adding Shadows to Shapes" */;
+			buildPhases = (
+				A69A183F13D2FDB00002A32B /* Sources */,
+				A69A184013D2FDB00002A32B /* Frameworks */,
+				A69A184113D2FDB00002A32B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Adding Shadows to Shapes";
+			productName = "Adding Shadows to Shapes";
+			productReference = A69A184313D2FDB00002A32B /* Adding Shadows to Shapes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A69A183A13D2FDB00002A32B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A69A183D13D2FDB00002A32B /* Build configuration list for PBXProject "Adding Shadows to Shapes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A69A183813D2FDB00002A32B;
+			productRefGroup = A69A184413D2FDB00002A32B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A69A184213D2FDB00002A32B /* Adding Shadows to Shapes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A69A184113D2FDB00002A32B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69A185213D2FDB00002A32B /* InfoPlist.strings in Resources */,
+				A69A185E13D2FDB00002A32B /* Adding_Shadows_to_ShapesViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A69A183F13D2FDB00002A32B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69A185413D2FDB00002A32B /* main.m in Sources */,
+				A69A185813D2FDB00002A32B /* Adding_Shadows_to_ShapesAppDelegate.m in Sources */,
+				A69A185B13D2FDB00002A32B /* Adding_Shadows_to_ShapesViewController.m in Sources */,
+				A69A187013D2FDD00002A32B /* GraphicsViewControllerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A69A185013D2FDB00002A32B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A69A185113D2FDB00002A32B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A69A185C13D2FDB00002A32B /* Adding_Shadows_to_ShapesViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A69A185D13D2FDB00002A32B /* en */,
+			);
+			name = Adding_Shadows_to_ShapesViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A69A185F13D2FDB00002A32B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A69A186013D2FDB00002A32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A69A186213D2FDB00002A32B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adding Shadows to Shapes/Adding Shadows to Shapes-Prefix.pch";
+				INFOPLIST_FILE = "Adding Shadows to Shapes/Adding Shadows to Shapes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A69A186313D2FDB00002A32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Adding Shadows to Shapes/Adding Shadows to Shapes-Prefix.pch";
+				INFOPLIST_FILE = "Adding Shadows to Shapes/Adding Shadows to Shapes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A69A183D13D2FDB00002A32B /* Build configuration list for PBXProject "Adding Shadows to Shapes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69A185F13D2FDB00002A32B /* Debug */,
+				A69A186013D2FDB00002A32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A69A186113D2FDB00002A32B /* Build configuration list for PBXNativeTarget "Adding Shadows to Shapes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69A186213D2FDB00002A32B /* Debug */,
+				A69A186313D2FDB00002A32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A69A183A13D2FDB00002A32B /* Project object */;
+}

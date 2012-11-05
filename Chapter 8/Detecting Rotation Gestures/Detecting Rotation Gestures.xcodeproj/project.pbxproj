@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6EA704513D05FB4000D181B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EA704413D05FB4000D181B /* UIKit.framework */; };
+		A6EA704713D05FB4000D181B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EA704613D05FB4000D181B /* Foundation.framework */; };
+		A6EA704913D05FB4000D181B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EA704813D05FB4000D181B /* CoreGraphics.framework */; };
+		A6EA704F13D05FB4000D181B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6EA704D13D05FB4000D181B /* InfoPlist.strings */; };
+		A6EA705113D05FB4000D181B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA705013D05FB4000D181B /* main.m */; };
+		A6EA705513D05FB4000D181B /* Detecting_Rotation_GesturesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA705413D05FB4000D181B /* Detecting_Rotation_GesturesAppDelegate.m */; };
+		A6EA705813D05FB4000D181B /* Detecting_Rotation_GesturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA705713D05FB4000D181B /* Detecting_Rotation_GesturesViewController.m */; };
+		A6EA705B13D05FB4000D181B /* Detecting_Rotation_GesturesViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6EA705913D05FB4000D181B /* Detecting_Rotation_GesturesViewController_iPhone.xib */; };
+		A6EA705E13D05FB4000D181B /* Detecting_Rotation_GesturesViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6EA705C13D05FB4000D181B /* Detecting_Rotation_GesturesViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6EA704013D05FB4000D181B /* Detecting Rotation Gestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Detecting Rotation Gestures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6EA704413D05FB4000D181B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6EA704613D05FB4000D181B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6EA704813D05FB4000D181B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6EA704C13D05FB4000D181B /* Detecting Rotation Gestures-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Detecting Rotation Gestures-Info.plist"; sourceTree = "<group>"; };
+		A6EA704E13D05FB4000D181B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6EA705013D05FB4000D181B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6EA705213D05FB4000D181B /* Detecting Rotation Gestures-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Detecting Rotation Gestures-Prefix.pch"; sourceTree = "<group>"; };
+		A6EA705313D05FB4000D181B /* Detecting_Rotation_GesturesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Detecting_Rotation_GesturesAppDelegate.h; sourceTree = "<group>"; };
+		A6EA705413D05FB4000D181B /* Detecting_Rotation_GesturesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Detecting_Rotation_GesturesAppDelegate.m; sourceTree = "<group>"; };
+		A6EA705613D05FB4000D181B /* Detecting_Rotation_GesturesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Detecting_Rotation_GesturesViewController.h; sourceTree = "<group>"; };
+		A6EA705713D05FB4000D181B /* Detecting_Rotation_GesturesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Detecting_Rotation_GesturesViewController.m; sourceTree = "<group>"; };
+		A6EA705A13D05FB4000D181B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Detecting_Rotation_GesturesViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6EA705D13D05FB4000D181B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Detecting_Rotation_GesturesViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6EA703D13D05FB4000D181B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EA704513D05FB4000D181B /* UIKit.framework in Frameworks */,
+				A6EA704713D05FB4000D181B /* Foundation.framework in Frameworks */,
+				A6EA704913D05FB4000D181B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6EA703513D05FB4000D181B = {
+			isa = PBXGroup;
+			children = (
+				A6EA704A13D05FB4000D181B /* Detecting Rotation Gestures */,
+				A6EA704313D05FB4000D181B /* Frameworks */,
+				A6EA704113D05FB4000D181B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6EA704113D05FB4000D181B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6EA704013D05FB4000D181B /* Detecting Rotation Gestures.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6EA704313D05FB4000D181B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6EA704413D05FB4000D181B /* UIKit.framework */,
+				A6EA704613D05FB4000D181B /* Foundation.framework */,
+				A6EA704813D05FB4000D181B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6EA704A13D05FB4000D181B /* Detecting Rotation Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				A6EA705313D05FB4000D181B /* Detecting_Rotation_GesturesAppDelegate.h */,
+				A6EA705413D05FB4000D181B /* Detecting_Rotation_GesturesAppDelegate.m */,
+				A6EA705613D05FB4000D181B /* Detecting_Rotation_GesturesViewController.h */,
+				A6EA705713D05FB4000D181B /* Detecting_Rotation_GesturesViewController.m */,
+				A6EA705913D05FB4000D181B /* Detecting_Rotation_GesturesViewController_iPhone.xib */,
+				A6EA705C13D05FB4000D181B /* Detecting_Rotation_GesturesViewController_iPad.xib */,
+				A6EA704B13D05FB4000D181B /* Supporting Files */,
+			);
+			path = "Detecting Rotation Gestures";
+			sourceTree = "<group>";
+		};
+		A6EA704B13D05FB4000D181B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6EA704C13D05FB4000D181B /* Detecting Rotation Gestures-Info.plist */,
+				A6EA704D13D05FB4000D181B /* InfoPlist.strings */,
+				A6EA705013D05FB4000D181B /* main.m */,
+				A6EA705213D05FB4000D181B /* Detecting Rotation Gestures-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6EA703F13D05FB4000D181B /* Detecting Rotation Gestures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6EA706113D05FB4000D181B /* Build configuration list for PBXNativeTarget "Detecting Rotation Gestures" */;
+			buildPhases = (
+				A6EA703C13D05FB4000D181B /* Sources */,
+				A6EA703D13D05FB4000D181B /* Frameworks */,
+				A6EA703E13D05FB4000D181B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Detecting Rotation Gestures";
+			productName = "Detecting Rotation Gestures";
+			productReference = A6EA704013D05FB4000D181B /* Detecting Rotation Gestures.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6EA703713D05FB4000D181B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6EA703A13D05FB4000D181B /* Build configuration list for PBXProject "Detecting Rotation Gestures" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6EA703513D05FB4000D181B;
+			productRefGroup = A6EA704113D05FB4000D181B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6EA703F13D05FB4000D181B /* Detecting Rotation Gestures */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6EA703E13D05FB4000D181B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EA704F13D05FB4000D181B /* InfoPlist.strings in Resources */,
+				A6EA705B13D05FB4000D181B /* Detecting_Rotation_GesturesViewController_iPhone.xib in Resources */,
+				A6EA705E13D05FB4000D181B /* Detecting_Rotation_GesturesViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6EA703C13D05FB4000D181B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EA705113D05FB4000D181B /* main.m in Sources */,
+				A6EA705513D05FB4000D181B /* Detecting_Rotation_GesturesAppDelegate.m in Sources */,
+				A6EA705813D05FB4000D181B /* Detecting_Rotation_GesturesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6EA704D13D05FB4000D181B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6EA704E13D05FB4000D181B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6EA705913D05FB4000D181B /* Detecting_Rotation_GesturesViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6EA705A13D05FB4000D181B /* en */,
+			);
+			name = Detecting_Rotation_GesturesViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6EA705C13D05FB4000D181B /* Detecting_Rotation_GesturesViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6EA705D13D05FB4000D181B /* en */,
+			);
+			name = Detecting_Rotation_GesturesViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6EA705F13D05FB4000D181B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6EA706013D05FB4000D181B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6EA706213D05FB4000D181B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Detecting Rotation Gestures/Detecting Rotation Gestures-Prefix.pch";
+				INFOPLIST_FILE = "Detecting Rotation Gestures/Detecting Rotation Gestures-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6EA706313D05FB4000D181B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Detecting Rotation Gestures/Detecting Rotation Gestures-Prefix.pch";
+				INFOPLIST_FILE = "Detecting Rotation Gestures/Detecting Rotation Gestures-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6EA703A13D05FB4000D181B /* Build configuration list for PBXProject "Detecting Rotation Gestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EA705F13D05FB4000D181B /* Debug */,
+				A6EA706013D05FB4000D181B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6EA706113D05FB4000D181B /* Build configuration list for PBXNativeTarget "Detecting Rotation Gestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EA706213D05FB4000D181B /* Debug */,
+				A6EA706313D05FB4000D181B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6EA703713D05FB4000D181B /* Project object */;
+}

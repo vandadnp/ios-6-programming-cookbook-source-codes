@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A616B47E13D9A21200327BFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A616B47D13D9A21200327BFC /* UIKit.framework */; };
+		A616B48013D9A21200327BFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A616B47F13D9A21200327BFC /* Foundation.framework */; };
+		A616B48213D9A21200327BFC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A616B48113D9A21200327BFC /* CoreGraphics.framework */; };
+		A616B48813D9A21200327BFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A616B48613D9A21200327BFC /* InfoPlist.strings */; };
+		A616B48A13D9A21200327BFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A616B48913D9A21200327BFC /* main.m */; };
+		A616B48E13D9A21200327BFC /* Retrieving_Accelerometer_DataAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A616B48D13D9A21200327BFC /* Retrieving_Accelerometer_DataAppDelegate.m */; };
+		A616B49113D9A21200327BFC /* Retrieving_Accelerometer_DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A616B49013D9A21200327BFC /* Retrieving_Accelerometer_DataViewController.m */; };
+		A616B49413D9A21200327BFC /* Retrieving_Accelerometer_DataViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A616B49213D9A21200327BFC /* Retrieving_Accelerometer_DataViewController_iPhone.xib */; };
+		A616B49713D9A21200327BFC /* Retrieving_Accelerometer_DataViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A616B49513D9A21200327BFC /* Retrieving_Accelerometer_DataViewController_iPad.xib */; };
+		A616B4AC13D9A22400327BFC /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A616B4AB13D9A22400327BFC /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A616B47913D9A21200327BFC /* Retrieving Accelerometer Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Retrieving Accelerometer Data.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A616B47D13D9A21200327BFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A616B47F13D9A21200327BFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A616B48113D9A21200327BFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A616B48513D9A21200327BFC /* Retrieving Accelerometer Data-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Retrieving Accelerometer Data-Info.plist"; sourceTree = "<group>"; };
+		A616B48713D9A21200327BFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A616B48913D9A21200327BFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A616B48B13D9A21200327BFC /* Retrieving Accelerometer Data-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Retrieving Accelerometer Data-Prefix.pch"; sourceTree = "<group>"; };
+		A616B48C13D9A21200327BFC /* Retrieving_Accelerometer_DataAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Retrieving_Accelerometer_DataAppDelegate.h; sourceTree = "<group>"; };
+		A616B48D13D9A21200327BFC /* Retrieving_Accelerometer_DataAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Retrieving_Accelerometer_DataAppDelegate.m; sourceTree = "<group>"; };
+		A616B48F13D9A21200327BFC /* Retrieving_Accelerometer_DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Retrieving_Accelerometer_DataViewController.h; sourceTree = "<group>"; };
+		A616B49013D9A21200327BFC /* Retrieving_Accelerometer_DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Retrieving_Accelerometer_DataViewController.m; sourceTree = "<group>"; };
+		A616B49313D9A21200327BFC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Retrieving_Accelerometer_DataViewController_iPhone.xib; sourceTree = "<group>"; };
+		A616B49613D9A21200327BFC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Retrieving_Accelerometer_DataViewController_iPad.xib; sourceTree = "<group>"; };
+		A616B4AB13D9A22400327BFC /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A616B47613D9A21200327BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A616B4AC13D9A22400327BFC /* CoreMotion.framework in Frameworks */,
+				A616B47E13D9A21200327BFC /* UIKit.framework in Frameworks */,
+				A616B48013D9A21200327BFC /* Foundation.framework in Frameworks */,
+				A616B48213D9A21200327BFC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A616B46E13D9A21200327BFC = {
+			isa = PBXGroup;
+			children = (
+				A616B48313D9A21200327BFC /* Retrieving Accelerometer Data */,
+				A616B47C13D9A21200327BFC /* Frameworks */,
+				A616B47A13D9A21200327BFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A616B47A13D9A21200327BFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A616B47913D9A21200327BFC /* Retrieving Accelerometer Data.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A616B47C13D9A21200327BFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A616B4AB13D9A22400327BFC /* CoreMotion.framework */,
+				A616B47D13D9A21200327BFC /* UIKit.framework */,
+				A616B47F13D9A21200327BFC /* Foundation.framework */,
+				A616B48113D9A21200327BFC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A616B48313D9A21200327BFC /* Retrieving Accelerometer Data */ = {
+			isa = PBXGroup;
+			children = (
+				A616B48C13D9A21200327BFC /* Retrieving_Accelerometer_DataAppDelegate.h */,
+				A616B48D13D9A21200327BFC /* Retrieving_Accelerometer_DataAppDelegate.m */,
+				A616B48F13D9A21200327BFC /* Retrieving_Accelerometer_DataViewController.h */,
+				A616B49013D9A21200327BFC /* Retrieving_Accelerometer_DataViewController.m */,
+				A616B49213D9A21200327BFC /* Retrieving_Accelerometer_DataViewController_iPhone.xib */,
+				A616B49513D9A21200327BFC /* Retrieving_Accelerometer_DataViewController_iPad.xib */,
+				A616B48413D9A21200327BFC /* Supporting Files */,
+			);
+			path = "Retrieving Accelerometer Data";
+			sourceTree = "<group>";
+		};
+		A616B48413D9A21200327BFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A616B48513D9A21200327BFC /* Retrieving Accelerometer Data-Info.plist */,
+				A616B48613D9A21200327BFC /* InfoPlist.strings */,
+				A616B48913D9A21200327BFC /* main.m */,
+				A616B48B13D9A21200327BFC /* Retrieving Accelerometer Data-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A616B47813D9A21200327BFC /* Retrieving Accelerometer Data */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A616B49A13D9A21200327BFC /* Build configuration list for PBXNativeTarget "Retrieving Accelerometer Data" */;
+			buildPhases = (
+				A616B47513D9A21200327BFC /* Sources */,
+				A616B47613D9A21200327BFC /* Frameworks */,
+				A616B47713D9A21200327BFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Retrieving Accelerometer Data";
+			productName = "Retrieving Accelerometer Data";
+			productReference = A616B47913D9A21200327BFC /* Retrieving Accelerometer Data.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A616B47013D9A21200327BFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A616B47313D9A21200327BFC /* Build configuration list for PBXProject "Retrieving Accelerometer Data" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A616B46E13D9A21200327BFC;
+			productRefGroup = A616B47A13D9A21200327BFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A616B47813D9A21200327BFC /* Retrieving Accelerometer Data */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A616B47713D9A21200327BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A616B48813D9A21200327BFC /* InfoPlist.strings in Resources */,
+				A616B49413D9A21200327BFC /* Retrieving_Accelerometer_DataViewController_iPhone.xib in Resources */,
+				A616B49713D9A21200327BFC /* Retrieving_Accelerometer_DataViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A616B47513D9A21200327BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A616B48A13D9A21200327BFC /* main.m in Sources */,
+				A616B48E13D9A21200327BFC /* Retrieving_Accelerometer_DataAppDelegate.m in Sources */,
+				A616B49113D9A21200327BFC /* Retrieving_Accelerometer_DataViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A616B48613D9A21200327BFC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A616B48713D9A21200327BFC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A616B49213D9A21200327BFC /* Retrieving_Accelerometer_DataViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A616B49313D9A21200327BFC /* en */,
+			);
+			name = Retrieving_Accelerometer_DataViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A616B49513D9A21200327BFC /* Retrieving_Accelerometer_DataViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A616B49613D9A21200327BFC /* en */,
+			);
+			name = Retrieving_Accelerometer_DataViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A616B49813D9A21200327BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A616B49913D9A21200327BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A616B49B13D9A21200327BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Retrieving Accelerometer Data/Retrieving Accelerometer Data-Prefix.pch";
+				INFOPLIST_FILE = "Retrieving Accelerometer Data/Retrieving Accelerometer Data-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A616B49C13D9A21200327BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Retrieving Accelerometer Data/Retrieving Accelerometer Data-Prefix.pch";
+				INFOPLIST_FILE = "Retrieving Accelerometer Data/Retrieving Accelerometer Data-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A616B47313D9A21200327BFC /* Build configuration list for PBXProject "Retrieving Accelerometer Data" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A616B49813D9A21200327BFC /* Debug */,
+				A616B49913D9A21200327BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A616B49A13D9A21200327BFC /* Build configuration list for PBXNativeTarget "Retrieving Accelerometer Data" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A616B49B13D9A21200327BFC /* Debug */,
+				A616B49C13D9A21200327BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A616B47013D9A21200327BFC /* Project object */;
+}

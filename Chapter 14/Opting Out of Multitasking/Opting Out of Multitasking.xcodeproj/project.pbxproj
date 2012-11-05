@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6D4BAB113D80D4500A62257 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D4BAB013D80D4500A62257 /* UIKit.framework */; };
+		A6D4BAB313D80D4500A62257 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D4BAB213D80D4500A62257 /* Foundation.framework */; };
+		A6D4BAB513D80D4500A62257 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D4BAB413D80D4500A62257 /* CoreGraphics.framework */; };
+		A6D4BABB13D80D4500A62257 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6D4BAB913D80D4500A62257 /* InfoPlist.strings */; };
+		A6D4BABD13D80D4500A62257 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D4BABC13D80D4500A62257 /* main.m */; };
+		A6D4BAC113D80D4500A62257 /* Opting_Out_of_MultitaskingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D4BAC013D80D4500A62257 /* Opting_Out_of_MultitaskingAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6D4BAAC13D80D4500A62257 /* Opting Out of Multitasking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Opting Out of Multitasking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6D4BAB013D80D4500A62257 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6D4BAB213D80D4500A62257 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6D4BAB413D80D4500A62257 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6D4BAB813D80D4500A62257 /* Opting Out of Multitasking-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Opting Out of Multitasking-Info.plist"; sourceTree = "<group>"; };
+		A6D4BABA13D80D4500A62257 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6D4BABC13D80D4500A62257 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6D4BABE13D80D4500A62257 /* Opting Out of Multitasking-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Opting Out of Multitasking-Prefix.pch"; sourceTree = "<group>"; };
+		A6D4BABF13D80D4500A62257 /* Opting_Out_of_MultitaskingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Opting_Out_of_MultitaskingAppDelegate.h; sourceTree = "<group>"; };
+		A6D4BAC013D80D4500A62257 /* Opting_Out_of_MultitaskingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Opting_Out_of_MultitaskingAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6D4BAA913D80D4500A62257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D4BAB113D80D4500A62257 /* UIKit.framework in Frameworks */,
+				A6D4BAB313D80D4500A62257 /* Foundation.framework in Frameworks */,
+				A6D4BAB513D80D4500A62257 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6D4BAA113D80D4400A62257 = {
+			isa = PBXGroup;
+			children = (
+				A6D4BAB613D80D4500A62257 /* Opting Out of Multitasking */,
+				A6D4BAAF13D80D4500A62257 /* Frameworks */,
+				A6D4BAAD13D80D4500A62257 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6D4BAAD13D80D4500A62257 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6D4BAAC13D80D4500A62257 /* Opting Out of Multitasking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6D4BAAF13D80D4500A62257 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6D4BAB013D80D4500A62257 /* UIKit.framework */,
+				A6D4BAB213D80D4500A62257 /* Foundation.framework */,
+				A6D4BAB413D80D4500A62257 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6D4BAB613D80D4500A62257 /* Opting Out of Multitasking */ = {
+			isa = PBXGroup;
+			children = (
+				A6D4BABF13D80D4500A62257 /* Opting_Out_of_MultitaskingAppDelegate.h */,
+				A6D4BAC013D80D4500A62257 /* Opting_Out_of_MultitaskingAppDelegate.m */,
+				A6D4BAB713D80D4500A62257 /* Supporting Files */,
+			);
+			path = "Opting Out of Multitasking";
+			sourceTree = "<group>";
+		};
+		A6D4BAB713D80D4500A62257 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6D4BAB813D80D4500A62257 /* Opting Out of Multitasking-Info.plist */,
+				A6D4BAB913D80D4500A62257 /* InfoPlist.strings */,
+				A6D4BABC13D80D4500A62257 /* main.m */,
+				A6D4BABE13D80D4500A62257 /* Opting Out of Multitasking-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6D4BAAB13D80D4500A62257 /* Opting Out of Multitasking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6D4BAC413D80D4500A62257 /* Build configuration list for PBXNativeTarget "Opting Out of Multitasking" */;
+			buildPhases = (
+				A6D4BAA813D80D4500A62257 /* Sources */,
+				A6D4BAA913D80D4500A62257 /* Frameworks */,
+				A6D4BAAA13D80D4500A62257 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Opting Out of Multitasking";
+			productName = "Opting Out of Multitasking";
+			productReference = A6D4BAAC13D80D4500A62257 /* Opting Out of Multitasking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6D4BAA313D80D4400A62257 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6D4BAA613D80D4400A62257 /* Build configuration list for PBXProject "Opting Out of Multitasking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6D4BAA113D80D4400A62257;
+			productRefGroup = A6D4BAAD13D80D4500A62257 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6D4BAAB13D80D4500A62257 /* Opting Out of Multitasking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6D4BAAA13D80D4500A62257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D4BABB13D80D4500A62257 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6D4BAA813D80D4500A62257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D4BABD13D80D4500A62257 /* main.m in Sources */,
+				A6D4BAC113D80D4500A62257 /* Opting_Out_of_MultitaskingAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6D4BAB913D80D4500A62257 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6D4BABA13D80D4500A62257 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6D4BAC213D80D4500A62257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6D4BAC313D80D4500A62257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6D4BAC513D80D4500A62257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Opting Out of Multitasking/Opting Out of Multitasking-Prefix.pch";
+				INFOPLIST_FILE = "Opting Out of Multitasking/Opting Out of Multitasking-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6D4BAC613D80D4500A62257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Opting Out of Multitasking/Opting Out of Multitasking-Prefix.pch";
+				INFOPLIST_FILE = "Opting Out of Multitasking/Opting Out of Multitasking-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6D4BAA613D80D4400A62257 /* Build configuration list for PBXProject "Opting Out of Multitasking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D4BAC213D80D4500A62257 /* Debug */,
+				A6D4BAC313D80D4500A62257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6D4BAC413D80D4500A62257 /* Build configuration list for PBXNativeTarget "Opting Out of Multitasking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D4BAC513D80D4500A62257 /* Debug */,
+				A6D4BAC613D80D4500A62257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6D4BAA313D80D4400A62257 /* Project object */;
+}

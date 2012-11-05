@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A610179B13DC0A4500B705B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A610179A13DC0A4500B705B5 /* UIKit.framework */; };
+		A610179D13DC0A4500B705B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A610179C13DC0A4500B705B5 /* Foundation.framework */; };
+		A610179F13DC0A4500B705B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A610179E13DC0A4500B705B5 /* CoreGraphics.framework */; };
+		A61017A513DC0A4500B705B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A61017A313DC0A4500B705B5 /* InfoPlist.strings */; };
+		A61017A713DC0A4500B705B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A61017A613DC0A4500B705B5 /* main.m */; };
+		A61017AB13DC0A4500B705B5 /* Handling_Event_Changed_NotificationsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A61017AA13DC0A4500B705B5 /* Handling_Event_Changed_NotificationsAppDelegate.m */; };
+		A61017BD13DC0A7100B705B5 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61017BB13DC0A7100B705B5 /* EventKit.framework */; };
+		A61017BE13DC0A7100B705B5 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61017BC13DC0A7100B705B5 /* EventKitUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A610179613DC0A4500B705B5 /* Handling Event Changed Notifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Handling Event Changed Notifications.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A610179A13DC0A4500B705B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A610179C13DC0A4500B705B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A610179E13DC0A4500B705B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A61017A213DC0A4500B705B5 /* Handling Event Changed Notifications-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Handling Event Changed Notifications-Info.plist"; sourceTree = "<group>"; };
+		A61017A413DC0A4500B705B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A61017A613DC0A4500B705B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A61017A813DC0A4500B705B5 /* Handling Event Changed Notifications-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Handling Event Changed Notifications-Prefix.pch"; sourceTree = "<group>"; };
+		A61017A913DC0A4500B705B5 /* Handling_Event_Changed_NotificationsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Handling_Event_Changed_NotificationsAppDelegate.h; sourceTree = "<group>"; };
+		A61017AA13DC0A4500B705B5 /* Handling_Event_Changed_NotificationsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Handling_Event_Changed_NotificationsAppDelegate.m; sourceTree = "<group>"; };
+		A61017BB13DC0A7100B705B5 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		A61017BC13DC0A7100B705B5 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A610179313DC0A4500B705B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61017BD13DC0A7100B705B5 /* EventKit.framework in Frameworks */,
+				A61017BE13DC0A7100B705B5 /* EventKitUI.framework in Frameworks */,
+				A610179B13DC0A4500B705B5 /* UIKit.framework in Frameworks */,
+				A610179D13DC0A4500B705B5 /* Foundation.framework in Frameworks */,
+				A610179F13DC0A4500B705B5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A610178B13DC0A4500B705B5 = {
+			isa = PBXGroup;
+			children = (
+				A61017A013DC0A4500B705B5 /* Handling Event Changed Notifications */,
+				A610179913DC0A4500B705B5 /* Frameworks */,
+				A610179713DC0A4500B705B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A610179713DC0A4500B705B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A610179613DC0A4500B705B5 /* Handling Event Changed Notifications.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A610179913DC0A4500B705B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A61017BB13DC0A7100B705B5 /* EventKit.framework */,
+				A61017BC13DC0A7100B705B5 /* EventKitUI.framework */,
+				A610179A13DC0A4500B705B5 /* UIKit.framework */,
+				A610179C13DC0A4500B705B5 /* Foundation.framework */,
+				A610179E13DC0A4500B705B5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A61017A013DC0A4500B705B5 /* Handling Event Changed Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				A61017A913DC0A4500B705B5 /* Handling_Event_Changed_NotificationsAppDelegate.h */,
+				A61017AA13DC0A4500B705B5 /* Handling_Event_Changed_NotificationsAppDelegate.m */,
+				A61017A113DC0A4500B705B5 /* Supporting Files */,
+			);
+			path = "Handling Event Changed Notifications";
+			sourceTree = "<group>";
+		};
+		A61017A113DC0A4500B705B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A61017A213DC0A4500B705B5 /* Handling Event Changed Notifications-Info.plist */,
+				A61017A313DC0A4500B705B5 /* InfoPlist.strings */,
+				A61017A613DC0A4500B705B5 /* main.m */,
+				A61017A813DC0A4500B705B5 /* Handling Event Changed Notifications-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A610179513DC0A4500B705B5 /* Handling Event Changed Notifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A61017AE13DC0A4500B705B5 /* Build configuration list for PBXNativeTarget "Handling Event Changed Notifications" */;
+			buildPhases = (
+				A610179213DC0A4500B705B5 /* Sources */,
+				A610179313DC0A4500B705B5 /* Frameworks */,
+				A610179413DC0A4500B705B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Handling Event Changed Notifications";
+			productName = "Handling Event Changed Notifications";
+			productReference = A610179613DC0A4500B705B5 /* Handling Event Changed Notifications.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A610178D13DC0A4500B705B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A610179013DC0A4500B705B5 /* Build configuration list for PBXProject "Handling Event Changed Notifications" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A610178B13DC0A4500B705B5;
+			productRefGroup = A610179713DC0A4500B705B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A610179513DC0A4500B705B5 /* Handling Event Changed Notifications */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A610179413DC0A4500B705B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61017A513DC0A4500B705B5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A610179213DC0A4500B705B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61017A713DC0A4500B705B5 /* main.m in Sources */,
+				A61017AB13DC0A4500B705B5 /* Handling_Event_Changed_NotificationsAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A61017A313DC0A4500B705B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A61017A413DC0A4500B705B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A61017AC13DC0A4500B705B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A61017AD13DC0A4500B705B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A61017AF13DC0A4500B705B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Handling Event Changed Notifications/Handling Event Changed Notifications-Prefix.pch";
+				INFOPLIST_FILE = "Handling Event Changed Notifications/Handling Event Changed Notifications-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A61017B013DC0A4500B705B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Handling Event Changed Notifications/Handling Event Changed Notifications-Prefix.pch";
+				INFOPLIST_FILE = "Handling Event Changed Notifications/Handling Event Changed Notifications-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A610179013DC0A4500B705B5 /* Build configuration list for PBXProject "Handling Event Changed Notifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61017AC13DC0A4500B705B5 /* Debug */,
+				A61017AD13DC0A4500B705B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A61017AE13DC0A4500B705B5 /* Build configuration list for PBXNativeTarget "Handling Event Changed Notifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61017AF13DC0A4500B705B5 /* Debug */,
+				A61017B013DC0A4500B705B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A610178D13DC0A4500B705B5 /* Project object */;
+}

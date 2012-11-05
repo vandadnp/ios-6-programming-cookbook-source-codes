@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6293C3513C729F80027923A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6293C3413C729F80027923A /* UIKit.framework */; };
+		A6293C3713C729F80027923A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6293C3613C729F80027923A /* Foundation.framework */; };
+		A6293C3913C729F80027923A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6293C3813C729F80027923A /* CoreGraphics.framework */; };
+		A6293C3F13C729F80027923A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6293C3D13C729F80027923A /* InfoPlist.strings */; };
+		A6293C4113C729F80027923A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6293C4013C729F80027923A /* main.m */; };
+		A6293C4513C729F80027923A /* Picking_Values_with_UIPickerViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6293C4413C729F80027923A /* Picking_Values_with_UIPickerViewAppDelegate.m */; };
+		A6293C4713C729F80027923A /* Picking_Values_with_UIPickerViewViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = A6293C4613C729F80027923A /* Picking_Values_with_UIPickerViewViewController.h */; };
+		A6293C4913C729F80027923A /* Picking_Values_with_UIPickerViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6293C4813C729F80027923A /* Picking_Values_with_UIPickerViewViewController.m */; };
+		A6293C4C13C729F80027923A /* Picking_Values_with_UIPickerViewViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6293C4A13C729F80027923A /* Picking_Values_with_UIPickerViewViewController_iPhone.xib */; };
+		A6293C4F13C729F80027923A /* Picking_Values_with_UIPickerViewViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6293C4D13C729F80027923A /* Picking_Values_with_UIPickerViewViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6293C3013C729F80027923A /* Picking Values with UIPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Picking Values with UIPickerView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6293C3413C729F80027923A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6293C3613C729F80027923A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6293C3813C729F80027923A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6293C3C13C729F80027923A /* Picking Values with UIPickerView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Picking Values with UIPickerView-Info.plist"; sourceTree = "<group>"; };
+		A6293C3E13C729F80027923A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6293C4013C729F80027923A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6293C4213C729F80027923A /* Picking Values with UIPickerView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Picking Values with UIPickerView-Prefix.pch"; sourceTree = "<group>"; };
+		A6293C4313C729F80027923A /* Picking_Values_with_UIPickerViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Picking_Values_with_UIPickerViewAppDelegate.h; sourceTree = "<group>"; };
+		A6293C4413C729F80027923A /* Picking_Values_with_UIPickerViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Picking_Values_with_UIPickerViewAppDelegate.m; sourceTree = "<group>"; };
+		A6293C4613C729F80027923A /* Picking_Values_with_UIPickerViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Picking_Values_with_UIPickerViewViewController.h; sourceTree = "<group>"; };
+		A6293C4813C729F80027923A /* Picking_Values_with_UIPickerViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Picking_Values_with_UIPickerViewViewController.m; sourceTree = "<group>"; };
+		A6293C4B13C729F80027923A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Picking_Values_with_UIPickerViewViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6293C4E13C729F80027923A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Picking_Values_with_UIPickerViewViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6293C2D13C729F80027923A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6293C3513C729F80027923A /* UIKit.framework in Frameworks */,
+				A6293C3713C729F80027923A /* Foundation.framework in Frameworks */,
+				A6293C3913C729F80027923A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6293C2513C729F80027923A = {
+			isa = PBXGroup;
+			children = (
+				A6293C3A13C729F80027923A /* Picking Values with UIPickerView */,
+				A6293C3313C729F80027923A /* Frameworks */,
+				A6293C3113C729F80027923A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6293C3113C729F80027923A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6293C3013C729F80027923A /* Picking Values with UIPickerView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6293C3313C729F80027923A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6293C3413C729F80027923A /* UIKit.framework */,
+				A6293C3613C729F80027923A /* Foundation.framework */,
+				A6293C3813C729F80027923A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6293C3A13C729F80027923A /* Picking Values with UIPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				A6293C4313C729F80027923A /* Picking_Values_with_UIPickerViewAppDelegate.h */,
+				A6293C4413C729F80027923A /* Picking_Values_with_UIPickerViewAppDelegate.m */,
+				A6293C4613C729F80027923A /* Picking_Values_with_UIPickerViewViewController.h */,
+				A6293C4813C729F80027923A /* Picking_Values_with_UIPickerViewViewController.m */,
+				A6293C4A13C729F80027923A /* Picking_Values_with_UIPickerViewViewController_iPhone.xib */,
+				A6293C4D13C729F80027923A /* Picking_Values_with_UIPickerViewViewController_iPad.xib */,
+				A6293C3B13C729F80027923A /* Supporting Files */,
+			);
+			path = "Picking Values with UIPickerView";
+			sourceTree = "<group>";
+		};
+		A6293C3B13C729F80027923A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6293C3C13C729F80027923A /* Picking Values with UIPickerView-Info.plist */,
+				A6293C3D13C729F80027923A /* InfoPlist.strings */,
+				A6293C4013C729F80027923A /* main.m */,
+				A6293C4213C729F80027923A /* Picking Values with UIPickerView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6293C2F13C729F80027923A /* Picking Values with UIPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6293C5213C729F80027923A /* Build configuration list for PBXNativeTarget "Picking Values with UIPickerView" */;
+			buildPhases = (
+				A6293C2C13C729F80027923A /* Sources */,
+				A6293C2D13C729F80027923A /* Frameworks */,
+				A6293C2E13C729F80027923A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Picking Values with UIPickerView";
+			productName = "Picking Values with UIPickerView";
+			productReference = A6293C3013C729F80027923A /* Picking Values with UIPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6293C2713C729F80027923A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6293C2A13C729F80027923A /* Build configuration list for PBXProject "Picking Values with UIPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6293C2513C729F80027923A;
+			productRefGroup = A6293C3113C729F80027923A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6293C2F13C729F80027923A /* Picking Values with UIPickerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6293C2E13C729F80027923A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6293C3F13C729F80027923A /* InfoPlist.strings in Resources */,
+				A6293C4713C729F80027923A /* Picking_Values_with_UIPickerViewViewController.h in Resources */,
+				A6293C4C13C729F80027923A /* Picking_Values_with_UIPickerViewViewController_iPhone.xib in Resources */,
+				A6293C4F13C729F80027923A /* Picking_Values_with_UIPickerViewViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6293C2C13C729F80027923A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6293C4113C729F80027923A /* main.m in Sources */,
+				A6293C4513C729F80027923A /* Picking_Values_with_UIPickerViewAppDelegate.m in Sources */,
+				A6293C4913C729F80027923A /* Picking_Values_with_UIPickerViewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6293C3D13C729F80027923A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6293C3E13C729F80027923A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6293C4A13C729F80027923A /* Picking_Values_with_UIPickerViewViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6293C4B13C729F80027923A /* en */,
+			);
+			name = Picking_Values_with_UIPickerViewViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6293C4D13C729F80027923A /* Picking_Values_with_UIPickerViewViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6293C4E13C729F80027923A /* en */,
+			);
+			name = Picking_Values_with_UIPickerViewViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6293C5013C729F80027923A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6293C5113C729F80027923A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6293C5313C729F80027923A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Picking Values with UIPickerView/Picking Values with UIPickerView-Prefix.pch";
+				INFOPLIST_FILE = "Picking Values with UIPickerView/Picking Values with UIPickerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6293C5413C729F80027923A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Picking Values with UIPickerView/Picking Values with UIPickerView-Prefix.pch";
+				INFOPLIST_FILE = "Picking Values with UIPickerView/Picking Values with UIPickerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6293C2A13C729F80027923A /* Build configuration list for PBXProject "Picking Values with UIPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6293C5013C729F80027923A /* Debug */,
+				A6293C5113C729F80027923A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6293C5213C729F80027923A /* Build configuration list for PBXNativeTarget "Picking Values with UIPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6293C5313C729F80027923A /* Debug */,
+				A6293C5413C729F80027923A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6293C2713C729F80027923A /* Project object */;
+}

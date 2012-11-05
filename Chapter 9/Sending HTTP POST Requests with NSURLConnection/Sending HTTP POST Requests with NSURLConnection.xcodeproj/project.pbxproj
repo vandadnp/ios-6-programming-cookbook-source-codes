@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6F6EF0013D5F73400F84F91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F6EEFF13D5F73400F84F91 /* UIKit.framework */; };
+		A6F6EF0213D5F73400F84F91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F6EF0113D5F73400F84F91 /* Foundation.framework */; };
+		A6F6EF0413D5F73400F84F91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F6EF0313D5F73400F84F91 /* CoreGraphics.framework */; };
+		A6F6EF0A13D5F73400F84F91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6F6EF0813D5F73400F84F91 /* InfoPlist.strings */; };
+		A6F6EF0C13D5F73400F84F91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F6EF0B13D5F73400F84F91 /* main.m */; };
+		A6F6EF1013D5F73400F84F91 /* Sending_HTTP_POST_Requests_with_NSURLConnectionAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F6EF0F13D5F73400F84F91 /* Sending_HTTP_POST_Requests_with_NSURLConnectionAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6F6EEFB13D5F73400F84F91 /* Sending HTTP POST Requests with NSURLConnection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sending HTTP POST Requests with NSURLConnection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F6EEFF13D5F73400F84F91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6F6EF0113D5F73400F84F91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6F6EF0313D5F73400F84F91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6F6EF0713D5F73400F84F91 /* Sending HTTP POST Requests with NSURLConnection-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sending HTTP POST Requests with NSURLConnection-Info.plist"; sourceTree = "<group>"; };
+		A6F6EF0913D5F73400F84F91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6F6EF0B13D5F73400F84F91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6F6EF0D13D5F73400F84F91 /* Sending HTTP POST Requests with NSURLConnection-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sending HTTP POST Requests with NSURLConnection-Prefix.pch"; sourceTree = "<group>"; };
+		A6F6EF0E13D5F73400F84F91 /* Sending_HTTP_POST_Requests_with_NSURLConnectionAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sending_HTTP_POST_Requests_with_NSURLConnectionAppDelegate.h; sourceTree = "<group>"; };
+		A6F6EF0F13D5F73400F84F91 /* Sending_HTTP_POST_Requests_with_NSURLConnectionAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sending_HTTP_POST_Requests_with_NSURLConnectionAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6F6EEF813D5F73400F84F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F6EF0013D5F73400F84F91 /* UIKit.framework in Frameworks */,
+				A6F6EF0213D5F73400F84F91 /* Foundation.framework in Frameworks */,
+				A6F6EF0413D5F73400F84F91 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6F6EEF013D5F73400F84F91 = {
+			isa = PBXGroup;
+			children = (
+				A6F6EF0513D5F73400F84F91 /* Sending HTTP POST Requests with NSURLConnection */,
+				A6F6EEFE13D5F73400F84F91 /* Frameworks */,
+				A6F6EEFC13D5F73400F84F91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6F6EEFC13D5F73400F84F91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6F6EEFB13D5F73400F84F91 /* Sending HTTP POST Requests with NSURLConnection.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6F6EEFE13D5F73400F84F91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6F6EEFF13D5F73400F84F91 /* UIKit.framework */,
+				A6F6EF0113D5F73400F84F91 /* Foundation.framework */,
+				A6F6EF0313D5F73400F84F91 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6F6EF0513D5F73400F84F91 /* Sending HTTP POST Requests with NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				A6F6EF0E13D5F73400F84F91 /* Sending_HTTP_POST_Requests_with_NSURLConnectionAppDelegate.h */,
+				A6F6EF0F13D5F73400F84F91 /* Sending_HTTP_POST_Requests_with_NSURLConnectionAppDelegate.m */,
+				A6F6EF0613D5F73400F84F91 /* Supporting Files */,
+			);
+			path = "Sending HTTP POST Requests with NSURLConnection";
+			sourceTree = "<group>";
+		};
+		A6F6EF0613D5F73400F84F91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6F6EF0713D5F73400F84F91 /* Sending HTTP POST Requests with NSURLConnection-Info.plist */,
+				A6F6EF0813D5F73400F84F91 /* InfoPlist.strings */,
+				A6F6EF0B13D5F73400F84F91 /* main.m */,
+				A6F6EF0D13D5F73400F84F91 /* Sending HTTP POST Requests with NSURLConnection-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6F6EEFA13D5F73400F84F91 /* Sending HTTP POST Requests with NSURLConnection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6F6EF1313D5F73400F84F91 /* Build configuration list for PBXNativeTarget "Sending HTTP POST Requests with NSURLConnection" */;
+			buildPhases = (
+				A6F6EEF713D5F73400F84F91 /* Sources */,
+				A6F6EEF813D5F73400F84F91 /* Frameworks */,
+				A6F6EEF913D5F73400F84F91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sending HTTP POST Requests with NSURLConnection";
+			productName = "Sending HTTP POST Requests with NSURLConnection";
+			productReference = A6F6EEFB13D5F73400F84F91 /* Sending HTTP POST Requests with NSURLConnection.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6F6EEF213D5F73400F84F91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6F6EEF513D5F73400F84F91 /* Build configuration list for PBXProject "Sending HTTP POST Requests with NSURLConnection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6F6EEF013D5F73400F84F91;
+			productRefGroup = A6F6EEFC13D5F73400F84F91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6F6EEFA13D5F73400F84F91 /* Sending HTTP POST Requests with NSURLConnection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6F6EEF913D5F73400F84F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F6EF0A13D5F73400F84F91 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6F6EEF713D5F73400F84F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F6EF0C13D5F73400F84F91 /* main.m in Sources */,
+				A6F6EF1013D5F73400F84F91 /* Sending_HTTP_POST_Requests_with_NSURLConnectionAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6F6EF0813D5F73400F84F91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F6EF0913D5F73400F84F91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6F6EF1113D5F73400F84F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6F6EF1213D5F73400F84F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6F6EF1413D5F73400F84F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sending HTTP POST Requests with NSURLConnection/Sending HTTP POST Requests with NSURLConnection-Prefix.pch";
+				INFOPLIST_FILE = "Sending HTTP POST Requests with NSURLConnection/Sending HTTP POST Requests with NSURLConnection-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6F6EF1513D5F73400F84F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sending HTTP POST Requests with NSURLConnection/Sending HTTP POST Requests with NSURLConnection-Prefix.pch";
+				INFOPLIST_FILE = "Sending HTTP POST Requests with NSURLConnection/Sending HTTP POST Requests with NSURLConnection-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6F6EEF513D5F73400F84F91 /* Build configuration list for PBXProject "Sending HTTP POST Requests with NSURLConnection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F6EF1113D5F73400F84F91 /* Debug */,
+				A6F6EF1213D5F73400F84F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F6EF1313D5F73400F84F91 /* Build configuration list for PBXNativeTarget "Sending HTTP POST Requests with NSURLConnection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F6EF1413D5F73400F84F91 /* Debug */,
+				A6F6EF1513D5F73400F84F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6F6EEF213D5F73400F84F91 /* Project object */;
+}

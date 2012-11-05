@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6F4F8C713D30F8900E85E10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F4F8C613D30F8900E85E10 /* UIKit.framework */; };
+		A6F4F8C913D30F8900E85E10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F4F8C813D30F8900E85E10 /* Foundation.framework */; };
+		A6F4F8CB13D30F8900E85E10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F4F8CA13D30F8900E85E10 /* CoreGraphics.framework */; };
+		A6F4F8D113D30F8900E85E10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6F4F8CF13D30F8900E85E10 /* InfoPlist.strings */; };
+		A6F4F8D313D30F8900E85E10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F4F8D213D30F8900E85E10 /* main.m */; };
+		A6F4F8D713D30F8900E85E10 /* Animating_and_Moving_ViewsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F4F8D613D30F8900E85E10 /* Animating_and_Moving_ViewsAppDelegate.m */; };
+		A6F4F8DA13D30F8900E85E10 /* Animating_and_Moving_ViewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F4F8D913D30F8900E85E10 /* Animating_and_Moving_ViewsViewController.m */; };
+		A6F4F8DD13D30F8900E85E10 /* Animating_and_Moving_ViewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6F4F8DB13D30F8900E85E10 /* Animating_and_Moving_ViewsViewController.xib */; };
+		A6F4F8EF13D30FB000E85E10 /* GraphicsViewControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F4F8EE13D30FB000E85E10 /* GraphicsViewControllerView.m */; };
+		A6F4F8F213D3107900E85E10 /* Xcode.png in Resources */ = {isa = PBXBuildFile; fileRef = A6F4F8F113D3107900E85E10 /* Xcode.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6F4F8C213D30F8900E85E10 /* Animating and Moving Views.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animating and Moving Views.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F4F8C613D30F8900E85E10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6F4F8C813D30F8900E85E10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6F4F8CA13D30F8900E85E10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6F4F8CE13D30F8900E85E10 /* Animating and Moving Views-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Animating and Moving Views-Info.plist"; sourceTree = "<group>"; };
+		A6F4F8D013D30F8900E85E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6F4F8D213D30F8900E85E10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6F4F8D413D30F8900E85E10 /* Animating and Moving Views-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animating and Moving Views-Prefix.pch"; sourceTree = "<group>"; };
+		A6F4F8D513D30F8900E85E10 /* Animating_and_Moving_ViewsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animating_and_Moving_ViewsAppDelegate.h; sourceTree = "<group>"; };
+		A6F4F8D613D30F8900E85E10 /* Animating_and_Moving_ViewsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animating_and_Moving_ViewsAppDelegate.m; sourceTree = "<group>"; };
+		A6F4F8D813D30F8900E85E10 /* Animating_and_Moving_ViewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animating_and_Moving_ViewsViewController.h; sourceTree = "<group>"; };
+		A6F4F8D913D30F8900E85E10 /* Animating_and_Moving_ViewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animating_and_Moving_ViewsViewController.m; sourceTree = "<group>"; };
+		A6F4F8DC13D30F8900E85E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Animating_and_Moving_ViewsViewController.xib; sourceTree = "<group>"; };
+		A6F4F8ED13D30FB000E85E10 /* GraphicsViewControllerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsViewControllerView.h; sourceTree = "<group>"; };
+		A6F4F8EE13D30FB000E85E10 /* GraphicsViewControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsViewControllerView.m; sourceTree = "<group>"; };
+		A6F4F8F113D3107900E85E10 /* Xcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Xcode.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6F4F8BF13D30F8900E85E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F4F8C713D30F8900E85E10 /* UIKit.framework in Frameworks */,
+				A6F4F8C913D30F8900E85E10 /* Foundation.framework in Frameworks */,
+				A6F4F8CB13D30F8900E85E10 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6F4F8B713D30F8900E85E10 = {
+			isa = PBXGroup;
+			children = (
+				A6F4F8CC13D30F8900E85E10 /* Animating and Moving Views */,
+				A6F4F8C513D30F8900E85E10 /* Frameworks */,
+				A6F4F8C313D30F8900E85E10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6F4F8C313D30F8900E85E10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6F4F8C213D30F8900E85E10 /* Animating and Moving Views.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6F4F8C513D30F8900E85E10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6F4F8C613D30F8900E85E10 /* UIKit.framework */,
+				A6F4F8C813D30F8900E85E10 /* Foundation.framework */,
+				A6F4F8CA13D30F8900E85E10 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6F4F8CC13D30F8900E85E10 /* Animating and Moving Views */ = {
+			isa = PBXGroup;
+			children = (
+				A6F4F8D513D30F8900E85E10 /* Animating_and_Moving_ViewsAppDelegate.h */,
+				A6F4F8D613D30F8900E85E10 /* Animating_and_Moving_ViewsAppDelegate.m */,
+				A6F4F8D813D30F8900E85E10 /* Animating_and_Moving_ViewsViewController.h */,
+				A6F4F8D913D30F8900E85E10 /* Animating_and_Moving_ViewsViewController.m */,
+				A6F4F8DB13D30F8900E85E10 /* Animating_and_Moving_ViewsViewController.xib */,
+				A6F4F8CD13D30F8900E85E10 /* Supporting Files */,
+				A6F4F8ED13D30FB000E85E10 /* GraphicsViewControllerView.h */,
+				A6F4F8EE13D30FB000E85E10 /* GraphicsViewControllerView.m */,
+			);
+			path = "Animating and Moving Views";
+			sourceTree = "<group>";
+		};
+		A6F4F8CD13D30F8900E85E10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6F4F8F113D3107900E85E10 /* Xcode.png */,
+				A6F4F8CE13D30F8900E85E10 /* Animating and Moving Views-Info.plist */,
+				A6F4F8CF13D30F8900E85E10 /* InfoPlist.strings */,
+				A6F4F8D213D30F8900E85E10 /* main.m */,
+				A6F4F8D413D30F8900E85E10 /* Animating and Moving Views-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6F4F8C113D30F8900E85E10 /* Animating and Moving Views */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6F4F8E013D30F8900E85E10 /* Build configuration list for PBXNativeTarget "Animating and Moving Views" */;
+			buildPhases = (
+				A6F4F8BE13D30F8900E85E10 /* Sources */,
+				A6F4F8BF13D30F8900E85E10 /* Frameworks */,
+				A6F4F8C013D30F8900E85E10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Animating and Moving Views";
+			productName = "Animating and Moving Views";
+			productReference = A6F4F8C213D30F8900E85E10 /* Animating and Moving Views.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6F4F8B913D30F8900E85E10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6F4F8BC13D30F8900E85E10 /* Build configuration list for PBXProject "Animating and Moving Views" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6F4F8B713D30F8900E85E10;
+			productRefGroup = A6F4F8C313D30F8900E85E10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6F4F8C113D30F8900E85E10 /* Animating and Moving Views */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6F4F8C013D30F8900E85E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F4F8D113D30F8900E85E10 /* InfoPlist.strings in Resources */,
+				A6F4F8DD13D30F8900E85E10 /* Animating_and_Moving_ViewsViewController.xib in Resources */,
+				A6F4F8F213D3107900E85E10 /* Xcode.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6F4F8BE13D30F8900E85E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F4F8D313D30F8900E85E10 /* main.m in Sources */,
+				A6F4F8D713D30F8900E85E10 /* Animating_and_Moving_ViewsAppDelegate.m in Sources */,
+				A6F4F8DA13D30F8900E85E10 /* Animating_and_Moving_ViewsViewController.m in Sources */,
+				A6F4F8EF13D30FB000E85E10 /* GraphicsViewControllerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6F4F8CF13D30F8900E85E10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F4F8D013D30F8900E85E10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6F4F8DB13D30F8900E85E10 /* Animating_and_Moving_ViewsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F4F8DC13D30F8900E85E10 /* en */,
+			);
+			name = Animating_and_Moving_ViewsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6F4F8DE13D30F8900E85E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6F4F8DF13D30F8900E85E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6F4F8E113D30F8900E85E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animating and Moving Views/Animating and Moving Views-Prefix.pch";
+				INFOPLIST_FILE = "Animating and Moving Views/Animating and Moving Views-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6F4F8E213D30F8900E85E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animating and Moving Views/Animating and Moving Views-Prefix.pch";
+				INFOPLIST_FILE = "Animating and Moving Views/Animating and Moving Views-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6F4F8BC13D30F8900E85E10 /* Build configuration list for PBXProject "Animating and Moving Views" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F4F8DE13D30F8900E85E10 /* Debug */,
+				A6F4F8DF13D30F8900E85E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F4F8E013D30F8900E85E10 /* Build configuration list for PBXNativeTarget "Animating and Moving Views" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F4F8E113D30F8900E85E10 /* Debug */,
+				A6F4F8E213D30F8900E85E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6F4F8B913D30F8900E85E10 /* Project object */;
+}

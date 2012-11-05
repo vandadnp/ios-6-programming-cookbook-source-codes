@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6E9E85C13D6CD8C00DA309F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E9E85B13D6CD8C00DA309F /* UIKit.framework */; };
+		A6E9E85E13D6CD8C00DA309F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E9E85D13D6CD8C00DA309F /* Foundation.framework */; };
+		A6E9E86013D6CD8C00DA309F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E9E85F13D6CD8C00DA309F /* CoreGraphics.framework */; };
+		A6E9E86613D6CD8C00DA309F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6E9E86413D6CD8C00DA309F /* InfoPlist.strings */; };
+		A6E9E86813D6CD8C00DA309F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E9E86713D6CD8C00DA309F /* main.m */; };
+		A6E9E86C13D6CD8C00DA309F /* Integrating_Twitter_Functionality_Into_Your_AppsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E9E86B13D6CD8C00DA309F /* Integrating_Twitter_Functionality_Into_Your_AppsAppDelegate.m */; };
+		A6E9E86F13D6CD8C00DA309F /* Integrating_Twitter_Functionality_Into_Your_AppsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E9E86E13D6CD8C00DA309F /* Integrating_Twitter_Functionality_Into_Your_AppsViewController.m */; };
+		A6E9E87213D6CD8C00DA309F /* Integrating_Twitter_Functionality_Into_Your_AppsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6E9E87013D6CD8C00DA309F /* Integrating_Twitter_Functionality_Into_Your_AppsViewController_iPhone.xib */; };
+		A6E9E87513D6CD8D00DA309F /* Integrating_Twitter_Functionality_Into_Your_AppsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6E9E87313D6CD8D00DA309F /* Integrating_Twitter_Functionality_Into_Your_AppsViewController_iPad.xib */; };
+		A6E9E88613D6CE4900DA309F /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E9E88513D6CE4900DA309F /* Twitter.framework */; };
+		A6E9E88C13D6D5F900DA309F /* Anthony Robbins.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6E9E88B13D6D5F900DA309F /* Anthony Robbins.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6E9E85713D6CD8C00DA309F /* Integrating Twitter Functionality Into Your Apps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Integrating Twitter Functionality Into Your Apps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E9E85B13D6CD8C00DA309F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6E9E85D13D6CD8C00DA309F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6E9E85F13D6CD8C00DA309F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6E9E86313D6CD8C00DA309F /* Integrating Twitter Functionality Into Your Apps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Integrating Twitter Functionality Into Your Apps-Info.plist"; sourceTree = "<group>"; };
+		A6E9E86513D6CD8C00DA309F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6E9E86713D6CD8C00DA309F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6E9E86913D6CD8C00DA309F /* Integrating Twitter Functionality Into Your Apps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Integrating Twitter Functionality Into Your Apps-Prefix.pch"; sourceTree = "<group>"; };
+		A6E9E86A13D6CD8C00DA309F /* Integrating_Twitter_Functionality_Into_Your_AppsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Integrating_Twitter_Functionality_Into_Your_AppsAppDelegate.h; sourceTree = "<group>"; };
+		A6E9E86B13D6CD8C00DA309F /* Integrating_Twitter_Functionality_Into_Your_AppsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Integrating_Twitter_Functionality_Into_Your_AppsAppDelegate.m; sourceTree = "<group>"; };
+		A6E9E86D13D6CD8C00DA309F /* Integrating_Twitter_Functionality_Into_Your_AppsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Integrating_Twitter_Functionality_Into_Your_AppsViewController.h; sourceTree = "<group>"; };
+		A6E9E86E13D6CD8C00DA309F /* Integrating_Twitter_Functionality_Into_Your_AppsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Integrating_Twitter_Functionality_Into_Your_AppsViewController.m; sourceTree = "<group>"; };
+		A6E9E87113D6CD8C00DA309F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Integrating_Twitter_Functionality_Into_Your_AppsViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6E9E87413D6CD8D00DA309F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Integrating_Twitter_Functionality_Into_Your_AppsViewController_iPad.xib; sourceTree = "<group>"; };
+		A6E9E88513D6CE4900DA309F /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		A6E9E88B13D6D5F900DA309F /* Anthony Robbins.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Anthony Robbins.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6E9E85413D6CD8C00DA309F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E9E88613D6CE4900DA309F /* Twitter.framework in Frameworks */,
+				A6E9E85C13D6CD8C00DA309F /* UIKit.framework in Frameworks */,
+				A6E9E85E13D6CD8C00DA309F /* Foundation.framework in Frameworks */,
+				A6E9E86013D6CD8C00DA309F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6E9E84C13D6CD8C00DA309F = {
+			isa = PBXGroup;
+			children = (
+				A6E9E86113D6CD8C00DA309F /* Integrating Twitter Functionality Into Your Apps */,
+				A6E9E85A13D6CD8C00DA309F /* Frameworks */,
+				A6E9E85813D6CD8C00DA309F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6E9E85813D6CD8C00DA309F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6E9E85713D6CD8C00DA309F /* Integrating Twitter Functionality Into Your Apps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6E9E85A13D6CD8C00DA309F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6E9E88513D6CE4900DA309F /* Twitter.framework */,
+				A6E9E85B13D6CD8C00DA309F /* UIKit.framework */,
+				A6E9E85D13D6CD8C00DA309F /* Foundation.framework */,
+				A6E9E85F13D6CD8C00DA309F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6E9E86113D6CD8C00DA309F /* Integrating Twitter Functionality Into Your Apps */ = {
+			isa = PBXGroup;
+			children = (
+				A6E9E86A13D6CD8C00DA309F /* Integrating_Twitter_Functionality_Into_Your_AppsAppDelegate.h */,
+				A6E9E86B13D6CD8C00DA309F /* Integrating_Twitter_Functionality_Into_Your_AppsAppDelegate.m */,
+				A6E9E86D13D6CD8C00DA309F /* Integrating_Twitter_Functionality_Into_Your_AppsViewController.h */,
+				A6E9E86E13D6CD8C00DA309F /* Integrating_Twitter_Functionality_Into_Your_AppsViewController.m */,
+				A6E9E87013D6CD8C00DA309F /* Integrating_Twitter_Functionality_Into_Your_AppsViewController_iPhone.xib */,
+				A6E9E87313D6CD8D00DA309F /* Integrating_Twitter_Functionality_Into_Your_AppsViewController_iPad.xib */,
+				A6E9E86213D6CD8C00DA309F /* Supporting Files */,
+			);
+			path = "Integrating Twitter Functionality Into Your Apps";
+			sourceTree = "<group>";
+		};
+		A6E9E86213D6CD8C00DA309F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6E9E88B13D6D5F900DA309F /* Anthony Robbins.jpg */,
+				A6E9E86313D6CD8C00DA309F /* Integrating Twitter Functionality Into Your Apps-Info.plist */,
+				A6E9E86413D6CD8C00DA309F /* InfoPlist.strings */,
+				A6E9E86713D6CD8C00DA309F /* main.m */,
+				A6E9E86913D6CD8C00DA309F /* Integrating Twitter Functionality Into Your Apps-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6E9E85613D6CD8C00DA309F /* Integrating Twitter Functionality Into Your Apps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6E9E87813D6CD8D00DA309F /* Build configuration list for PBXNativeTarget "Integrating Twitter Functionality Into Your Apps" */;
+			buildPhases = (
+				A6E9E85313D6CD8C00DA309F /* Sources */,
+				A6E9E85413D6CD8C00DA309F /* Frameworks */,
+				A6E9E85513D6CD8C00DA309F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Integrating Twitter Functionality Into Your Apps";
+			productName = "Integrating Twitter Functionality Into Your Apps";
+			productReference = A6E9E85713D6CD8C00DA309F /* Integrating Twitter Functionality Into Your Apps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6E9E84E13D6CD8C00DA309F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6E9E85113D6CD8C00DA309F /* Build configuration list for PBXProject "Integrating Twitter Functionality Into Your Apps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6E9E84C13D6CD8C00DA309F;
+			productRefGroup = A6E9E85813D6CD8C00DA309F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6E9E85613D6CD8C00DA309F /* Integrating Twitter Functionality Into Your Apps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6E9E85513D6CD8C00DA309F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E9E86613D6CD8C00DA309F /* InfoPlist.strings in Resources */,
+				A6E9E87213D6CD8C00DA309F /* Integrating_Twitter_Functionality_Into_Your_AppsViewController_iPhone.xib in Resources */,
+				A6E9E87513D6CD8D00DA309F /* Integrating_Twitter_Functionality_Into_Your_AppsViewController_iPad.xib in Resources */,
+				A6E9E88C13D6D5F900DA309F /* Anthony Robbins.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6E9E85313D6CD8C00DA309F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E9E86813D6CD8C00DA309F /* main.m in Sources */,
+				A6E9E86C13D6CD8C00DA309F /* Integrating_Twitter_Functionality_Into_Your_AppsAppDelegate.m in Sources */,
+				A6E9E86F13D6CD8C00DA309F /* Integrating_Twitter_Functionality_Into_Your_AppsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6E9E86413D6CD8C00DA309F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6E9E86513D6CD8C00DA309F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6E9E87013D6CD8C00DA309F /* Integrating_Twitter_Functionality_Into_Your_AppsViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6E9E87113D6CD8C00DA309F /* en */,
+			);
+			name = Integrating_Twitter_Functionality_Into_Your_AppsViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6E9E87313D6CD8D00DA309F /* Integrating_Twitter_Functionality_Into_Your_AppsViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6E9E87413D6CD8D00DA309F /* en */,
+			);
+			name = Integrating_Twitter_Functionality_Into_Your_AppsViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6E9E87613D6CD8D00DA309F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6E9E87713D6CD8D00DA309F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6E9E87913D6CD8D00DA309F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Integrating Twitter Functionality Into Your Apps/Integrating Twitter Functionality Into Your Apps-Prefix.pch";
+				INFOPLIST_FILE = "Integrating Twitter Functionality Into Your Apps/Integrating Twitter Functionality Into Your Apps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6E9E87A13D6CD8D00DA309F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Integrating Twitter Functionality Into Your Apps/Integrating Twitter Functionality Into Your Apps-Prefix.pch";
+				INFOPLIST_FILE = "Integrating Twitter Functionality Into Your Apps/Integrating Twitter Functionality Into Your Apps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6E9E85113D6CD8C00DA309F /* Build configuration list for PBXProject "Integrating Twitter Functionality Into Your Apps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E9E87613D6CD8D00DA309F /* Debug */,
+				A6E9E87713D6CD8D00DA309F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6E9E87813D6CD8D00DA309F /* Build configuration list for PBXNativeTarget "Integrating Twitter Functionality Into Your Apps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E9E87913D6CD8D00DA309F /* Debug */,
+				A6E9E87A13D6CD8D00DA309F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6E9E84E13D6CD8C00DA309F /* Project object */;
+}

@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6214FBF13D01BCB0008C60C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6214FBE13D01BCB0008C60C /* UIKit.framework */; };
+		A6214FC113D01BCB0008C60C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6214FC013D01BCB0008C60C /* Foundation.framework */; };
+		A6214FC313D01BCB0008C60C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6214FC213D01BCB0008C60C /* CoreGraphics.framework */; };
+		A6214FC913D01BCB0008C60C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6214FC713D01BCB0008C60C /* InfoPlist.strings */; };
+		A6214FCB13D01BCB0008C60C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6214FCA13D01BCB0008C60C /* main.m */; };
+		A6214FCF13D01BCB0008C60C /* Displaying_Pins_with_Different_Colors_on_a_Map_ViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6214FCE13D01BCB0008C60C /* Displaying_Pins_with_Different_Colors_on_a_Map_ViewAppDelegate.m */; };
+		A6214FD213D01BCB0008C60C /* Displaying_Pins_with_Different_Colors_on_a_Map_ViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6214FD113D01BCB0008C60C /* Displaying_Pins_with_Different_Colors_on_a_Map_ViewViewController.m */; };
+		A6214FD513D01BCB0008C60C /* Displaying_Pins_with_Different_Colors_on_a_Map_ViewViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6214FD313D01BCB0008C60C /* Displaying_Pins_with_Different_Colors_on_a_Map_ViewViewController_iPhone.xib */; };
+		A6214FD813D01BCB0008C60C /* Displaying_Pins_with_Different_Colors_on_a_Map_ViewViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6214FD613D01BCB0008C60C /* Displaying_Pins_with_Different_Colors_on_a_Map_ViewViewController_iPad.xib */; };
+		A6214FEA13D01BE90008C60C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6214FE813D01BE90008C60C /* CoreLocation.framework */; };
+		A6214FEB13D01BE90008C60C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6214FE913D01BE90008C60C /* MapKit.framework */; };
+		A6214FEF13D01C180008C60C /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = A6214FEE13D01C180008C60C /* MyAnnotation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6214FBA13D01BCB0008C60C /* Displaying Pins with Different Colors on a Map View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Displaying Pins with Different Colors on a Map View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6214FBE13D01BCB0008C60C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6214FC013D01BCB0008C60C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6214FC213D01BCB0008C60C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6214FC613D01BCB0008C60C /* Displaying Pins with Different Colors on a Map View-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Displaying Pins with Different Colors on a Map View-Info.plist"; sourceTree = "<group>"; };
+		A6214FC813D01BCB0008C60C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6214FCA13D01BCB0008C60C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6214FCC13D01BCB0008C60C /* Displaying Pins with Different Colors on a Map View-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Displaying Pins with Different Colors on a Map View-Prefix.pch"; sourceTree = "<group>"; };
+		A6214FCD13D01BCB0008C60C /* Displaying_Pins_with_Different_Colors_on_a_Map_ViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Displaying_Pins_with_Different_Colors_on_a_Map_ViewAppDelegate.h; sourceTree = "<group>"; };
+		A6214FCE13D01BCB0008C60C /* Displaying_Pins_with_Different_Colors_on_a_Map_ViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Displaying_Pins_with_Different_Colors_on_a_Map_ViewAppDelegate.m; sourceTree = "<group>"; };
+		A6214FD013D01BCB0008C60C /* Displaying_Pins_with_Different_Colors_on_a_Map_ViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Displaying_Pins_with_Different_Colors_on_a_Map_ViewViewController.h; sourceTree = "<group>"; };
+		A6214FD113D01BCB0008C60C /* Displaying_Pins_with_Different_Colors_on_a_Map_ViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Displaying_Pins_with_Different_Colors_on_a_Map_ViewViewController.m; sourceTree = "<group>"; };
+		A6214FD413D01BCB0008C60C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Displaying_Pins_with_Different_Colors_on_a_Map_ViewViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6214FD713D01BCB0008C60C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Displaying_Pins_with_Different_Colors_on_a_Map_ViewViewController_iPad.xib; sourceTree = "<group>"; };
+		A6214FE813D01BE90008C60C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A6214FE913D01BE90008C60C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A6214FED13D01C180008C60C /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
+		A6214FEE13D01C180008C60C /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6214FB713D01BCB0008C60C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6214FEA13D01BE90008C60C /* CoreLocation.framework in Frameworks */,
+				A6214FEB13D01BE90008C60C /* MapKit.framework in Frameworks */,
+				A6214FBF13D01BCB0008C60C /* UIKit.framework in Frameworks */,
+				A6214FC113D01BCB0008C60C /* Foundation.framework in Frameworks */,
+				A6214FC313D01BCB0008C60C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6214FAF13D01BCB0008C60C = {
+			isa = PBXGroup;
+			children = (
+				A6214FC413D01BCB0008C60C /* Displaying Pins with Different Colors on a Map View */,
+				A6214FBD13D01BCB0008C60C /* Frameworks */,
+				A6214FBB13D01BCB0008C60C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6214FBB13D01BCB0008C60C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6214FBA13D01BCB0008C60C /* Displaying Pins with Different Colors on a Map View.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6214FBD13D01BCB0008C60C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6214FE813D01BE90008C60C /* CoreLocation.framework */,
+				A6214FE913D01BE90008C60C /* MapKit.framework */,
+				A6214FBE13D01BCB0008C60C /* UIKit.framework */,
+				A6214FC013D01BCB0008C60C /* Foundation.framework */,
+				A6214FC213D01BCB0008C60C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6214FC413D01BCB0008C60C /* Displaying Pins with Different Colors on a Map View */ = {
+			isa = PBXGroup;
+			children = (
+				A6214FED13D01C180008C60C /* MyAnnotation.h */,
+				A6214FEE13D01C180008C60C /* MyAnnotation.m */,
+				A6214FCD13D01BCB0008C60C /* Displaying_Pins_with_Different_Colors_on_a_Map_ViewAppDelegate.h */,
+				A6214FCE13D01BCB0008C60C /* Displaying_Pins_with_Different_Colors_on_a_Map_ViewAppDelegate.m */,
+				A6214FD013D01BCB0008C60C /* Displaying_Pins_with_Different_Colors_on_a_Map_ViewViewController.h */,
+				A6214FD113D01BCB0008C60C /* Displaying_Pins_with_Different_Colors_on_a_Map_ViewViewController.m */,
+				A6214FD313D01BCB0008C60C /* Displaying_Pins_with_Different_Colors_on_a_Map_ViewViewController_iPhone.xib */,
+				A6214FD613D01BCB0008C60C /* Displaying_Pins_with_Different_Colors_on_a_Map_ViewViewController_iPad.xib */,
+				A6214FC513D01BCB0008C60C /* Supporting Files */,
+			);
+			path = "Displaying Pins with Different Colors on a Map View";
+			sourceTree = "<group>";
+		};
+		A6214FC513D01BCB0008C60C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6214FC613D01BCB0008C60C /* Displaying Pins with Different Colors on a Map View-Info.plist */,
+				A6214FC713D01BCB0008C60C /* InfoPlist.strings */,
+				A6214FCA13D01BCB0008C60C /* main.m */,
+				A6214FCC13D01BCB0008C60C /* Displaying Pins with Different Colors on a Map View-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6214FB913D01BCB0008C60C /* Displaying Pins with Different Colors on a Map View */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6214FDB13D01BCB0008C60C /* Build configuration list for PBXNativeTarget "Displaying Pins with Different Colors on a Map View" */;
+			buildPhases = (
+				A6214FB613D01BCB0008C60C /* Sources */,
+				A6214FB713D01BCB0008C60C /* Frameworks */,
+				A6214FB813D01BCB0008C60C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Displaying Pins with Different Colors on a Map View";
+			productName = "Displaying Pins with Different Colors on a Map View";
+			productReference = A6214FBA13D01BCB0008C60C /* Displaying Pins with Different Colors on a Map View.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6214FB113D01BCB0008C60C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6214FB413D01BCB0008C60C /* Build configuration list for PBXProject "Displaying Pins with Different Colors on a Map View" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6214FAF13D01BCB0008C60C;
+			productRefGroup = A6214FBB13D01BCB0008C60C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6214FB913D01BCB0008C60C /* Displaying Pins with Different Colors on a Map View */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6214FB813D01BCB0008C60C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6214FC913D01BCB0008C60C /* InfoPlist.strings in Resources */,
+				A6214FD513D01BCB0008C60C /* Displaying_Pins_with_Different_Colors_on_a_Map_ViewViewController_iPhone.xib in Resources */,
+				A6214FD813D01BCB0008C60C /* Displaying_Pins_with_Different_Colors_on_a_Map_ViewViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6214FB613D01BCB0008C60C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6214FCB13D01BCB0008C60C /* main.m in Sources */,
+				A6214FCF13D01BCB0008C60C /* Displaying_Pins_with_Different_Colors_on_a_Map_ViewAppDelegate.m in Sources */,
+				A6214FD213D01BCB0008C60C /* Displaying_Pins_with_Different_Colors_on_a_Map_ViewViewController.m in Sources */,
+				A6214FEF13D01C180008C60C /* MyAnnotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6214FC713D01BCB0008C60C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6214FC813D01BCB0008C60C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6214FD313D01BCB0008C60C /* Displaying_Pins_with_Different_Colors_on_a_Map_ViewViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6214FD413D01BCB0008C60C /* en */,
+			);
+			name = Displaying_Pins_with_Different_Colors_on_a_Map_ViewViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6214FD613D01BCB0008C60C /* Displaying_Pins_with_Different_Colors_on_a_Map_ViewViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6214FD713D01BCB0008C60C /* en */,
+			);
+			name = Displaying_Pins_with_Different_Colors_on_a_Map_ViewViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6214FD913D01BCB0008C60C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6214FDA13D01BCB0008C60C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6214FDC13D01BCB0008C60C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Displaying Pins with Different Colors on a Map View/Displaying Pins with Different Colors on a Map View-Prefix.pch";
+				INFOPLIST_FILE = "Displaying Pins with Different Colors on a Map View/Displaying Pins with Different Colors on a Map View-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6214FDD13D01BCB0008C60C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Displaying Pins with Different Colors on a Map View/Displaying Pins with Different Colors on a Map View-Prefix.pch";
+				INFOPLIST_FILE = "Displaying Pins with Different Colors on a Map View/Displaying Pins with Different Colors on a Map View-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6214FB413D01BCB0008C60C /* Build configuration list for PBXProject "Displaying Pins with Different Colors on a Map View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6214FD913D01BCB0008C60C /* Debug */,
+				A6214FDA13D01BCB0008C60C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6214FDB13D01BCB0008C60C /* Build configuration list for PBXNativeTarget "Displaying Pins with Different Colors on a Map View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6214FDC13D01BCB0008C60C /* Debug */,
+				A6214FDD13D01BCB0008C60C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6214FB113D01BCB0008C60C /* Project object */;
+}

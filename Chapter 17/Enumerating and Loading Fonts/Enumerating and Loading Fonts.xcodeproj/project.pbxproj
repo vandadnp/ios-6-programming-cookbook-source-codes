@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6F3C00A13D2D6850019FDB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F3C00913D2D6850019FDB0 /* UIKit.framework */; };
+		A6F3C00C13D2D6850019FDB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F3C00B13D2D6850019FDB0 /* Foundation.framework */; };
+		A6F3C00E13D2D6850019FDB0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F3C00D13D2D6850019FDB0 /* CoreGraphics.framework */; };
+		A6F3C01413D2D6850019FDB0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6F3C01213D2D6850019FDB0 /* InfoPlist.strings */; };
+		A6F3C01613D2D6850019FDB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F3C01513D2D6850019FDB0 /* main.m */; };
+		A6F3C01A13D2D6850019FDB0 /* Enumerating_and_Loading_FontsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F3C01913D2D6850019FDB0 /* Enumerating_and_Loading_FontsAppDelegate.m */; };
+		A6F3C01D13D2D6850019FDB0 /* Enumerating_and_Loading_FontsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F3C01C13D2D6850019FDB0 /* Enumerating_and_Loading_FontsViewController.m */; };
+		A6F3C02013D2D6850019FDB0 /* Enumerating_and_Loading_FontsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6F3C01E13D2D6850019FDB0 /* Enumerating_and_Loading_FontsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6F3C00513D2D6850019FDB0 /* Enumerating and Loading Fonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Enumerating and Loading Fonts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F3C00913D2D6850019FDB0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6F3C00B13D2D6850019FDB0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6F3C00D13D2D6850019FDB0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6F3C01113D2D6850019FDB0 /* Enumerating and Loading Fonts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Enumerating and Loading Fonts-Info.plist"; sourceTree = "<group>"; };
+		A6F3C01313D2D6850019FDB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6F3C01513D2D6850019FDB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6F3C01713D2D6850019FDB0 /* Enumerating and Loading Fonts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Enumerating and Loading Fonts-Prefix.pch"; sourceTree = "<group>"; };
+		A6F3C01813D2D6850019FDB0 /* Enumerating_and_Loading_FontsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Enumerating_and_Loading_FontsAppDelegate.h; sourceTree = "<group>"; };
+		A6F3C01913D2D6850019FDB0 /* Enumerating_and_Loading_FontsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Enumerating_and_Loading_FontsAppDelegate.m; sourceTree = "<group>"; };
+		A6F3C01B13D2D6850019FDB0 /* Enumerating_and_Loading_FontsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Enumerating_and_Loading_FontsViewController.h; sourceTree = "<group>"; };
+		A6F3C01C13D2D6850019FDB0 /* Enumerating_and_Loading_FontsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Enumerating_and_Loading_FontsViewController.m; sourceTree = "<group>"; };
+		A6F3C01F13D2D6850019FDB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Enumerating_and_Loading_FontsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6F3C00213D2D6850019FDB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F3C00A13D2D6850019FDB0 /* UIKit.framework in Frameworks */,
+				A6F3C00C13D2D6850019FDB0 /* Foundation.framework in Frameworks */,
+				A6F3C00E13D2D6850019FDB0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6F3BFFA13D2D6850019FDB0 = {
+			isa = PBXGroup;
+			children = (
+				A6F3C00F13D2D6850019FDB0 /* Enumerating and Loading Fonts */,
+				A6F3C00813D2D6850019FDB0 /* Frameworks */,
+				A6F3C00613D2D6850019FDB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6F3C00613D2D6850019FDB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6F3C00513D2D6850019FDB0 /* Enumerating and Loading Fonts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6F3C00813D2D6850019FDB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6F3C00913D2D6850019FDB0 /* UIKit.framework */,
+				A6F3C00B13D2D6850019FDB0 /* Foundation.framework */,
+				A6F3C00D13D2D6850019FDB0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6F3C00F13D2D6850019FDB0 /* Enumerating and Loading Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A6F3C01813D2D6850019FDB0 /* Enumerating_and_Loading_FontsAppDelegate.h */,
+				A6F3C01913D2D6850019FDB0 /* Enumerating_and_Loading_FontsAppDelegate.m */,
+				A6F3C01B13D2D6850019FDB0 /* Enumerating_and_Loading_FontsViewController.h */,
+				A6F3C01C13D2D6850019FDB0 /* Enumerating_and_Loading_FontsViewController.m */,
+				A6F3C01E13D2D6850019FDB0 /* Enumerating_and_Loading_FontsViewController.xib */,
+				A6F3C01013D2D6850019FDB0 /* Supporting Files */,
+			);
+			path = "Enumerating and Loading Fonts";
+			sourceTree = "<group>";
+		};
+		A6F3C01013D2D6850019FDB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6F3C01113D2D6850019FDB0 /* Enumerating and Loading Fonts-Info.plist */,
+				A6F3C01213D2D6850019FDB0 /* InfoPlist.strings */,
+				A6F3C01513D2D6850019FDB0 /* main.m */,
+				A6F3C01713D2D6850019FDB0 /* Enumerating and Loading Fonts-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6F3C00413D2D6850019FDB0 /* Enumerating and Loading Fonts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6F3C02313D2D6850019FDB0 /* Build configuration list for PBXNativeTarget "Enumerating and Loading Fonts" */;
+			buildPhases = (
+				A6F3C00113D2D6850019FDB0 /* Sources */,
+				A6F3C00213D2D6850019FDB0 /* Frameworks */,
+				A6F3C00313D2D6850019FDB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Enumerating and Loading Fonts";
+			productName = "Enumerating and Loading Fonts";
+			productReference = A6F3C00513D2D6850019FDB0 /* Enumerating and Loading Fonts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6F3BFFC13D2D6850019FDB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6F3BFFF13D2D6850019FDB0 /* Build configuration list for PBXProject "Enumerating and Loading Fonts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6F3BFFA13D2D6850019FDB0;
+			productRefGroup = A6F3C00613D2D6850019FDB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6F3C00413D2D6850019FDB0 /* Enumerating and Loading Fonts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6F3C00313D2D6850019FDB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F3C01413D2D6850019FDB0 /* InfoPlist.strings in Resources */,
+				A6F3C02013D2D6850019FDB0 /* Enumerating_and_Loading_FontsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6F3C00113D2D6850019FDB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F3C01613D2D6850019FDB0 /* main.m in Sources */,
+				A6F3C01A13D2D6850019FDB0 /* Enumerating_and_Loading_FontsAppDelegate.m in Sources */,
+				A6F3C01D13D2D6850019FDB0 /* Enumerating_and_Loading_FontsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6F3C01213D2D6850019FDB0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F3C01313D2D6850019FDB0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6F3C01E13D2D6850019FDB0 /* Enumerating_and_Loading_FontsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F3C01F13D2D6850019FDB0 /* en */,
+			);
+			name = Enumerating_and_Loading_FontsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6F3C02113D2D6850019FDB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6F3C02213D2D6850019FDB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6F3C02413D2D6850019FDB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Enumerating and Loading Fonts/Enumerating and Loading Fonts-Prefix.pch";
+				INFOPLIST_FILE = "Enumerating and Loading Fonts/Enumerating and Loading Fonts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6F3C02513D2D6850019FDB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Enumerating and Loading Fonts/Enumerating and Loading Fonts-Prefix.pch";
+				INFOPLIST_FILE = "Enumerating and Loading Fonts/Enumerating and Loading Fonts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6F3BFFF13D2D6850019FDB0 /* Build configuration list for PBXProject "Enumerating and Loading Fonts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F3C02113D2D6850019FDB0 /* Debug */,
+				A6F3C02213D2D6850019FDB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F3C02313D2D6850019FDB0 /* Build configuration list for PBXNativeTarget "Enumerating and Loading Fonts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F3C02413D2D6850019FDB0 /* Debug */,
+				A6F3C02513D2D6850019FDB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6F3BFFC13D2D6850019FDB0 /* Project object */;
+}

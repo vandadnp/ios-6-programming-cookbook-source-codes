@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A618D6C713DD9CD000E6B81F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A618D6C613DD9CD000E6B81F /* UIKit.framework */; };
+		A618D6C913DD9CD000E6B81F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A618D6C813DD9CD000E6B81F /* Foundation.framework */; };
+		A618D6CB13DD9CD000E6B81F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A618D6CA13DD9CD000E6B81F /* CoreGraphics.framework */; };
+		A618D6D113DD9CD000E6B81F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A618D6CF13DD9CD000E6B81F /* InfoPlist.strings */; };
+		A618D6D313DD9CD000E6B81F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A618D6D213DD9CD000E6B81F /* main.m */; };
+		A618D6D713DD9CD000E6B81F /* Delegating_Tasks_with_ProtocolsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A618D6D613DD9CD000E6B81F /* Delegating_Tasks_with_ProtocolsAppDelegate.m */; };
+		A618D6F113DDA11C00E6B81F /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = A618D6F013DDA11C00E6B81F /* Father.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A618D6C213DD9CD000E6B81F /* Delegating Tasks with Protocols.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Delegating Tasks with Protocols.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A618D6C613DD9CD000E6B81F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A618D6C813DD9CD000E6B81F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A618D6CA13DD9CD000E6B81F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A618D6CE13DD9CD000E6B81F /* Delegating Tasks with Protocols-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Delegating Tasks with Protocols-Info.plist"; sourceTree = "<group>"; };
+		A618D6D013DD9CD000E6B81F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A618D6D213DD9CD000E6B81F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A618D6D413DD9CD000E6B81F /* Delegating Tasks with Protocols-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Delegating Tasks with Protocols-Prefix.pch"; sourceTree = "<group>"; };
+		A618D6D513DD9CD000E6B81F /* Delegating_Tasks_with_ProtocolsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Delegating_Tasks_with_ProtocolsAppDelegate.h; sourceTree = "<group>"; };
+		A618D6D613DD9CD000E6B81F /* Delegating_Tasks_with_ProtocolsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Delegating_Tasks_with_ProtocolsAppDelegate.m; sourceTree = "<group>"; };
+		A618D6EE13DD9FD600E6B81F /* PersonProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonProtocol.h; sourceTree = "<group>"; };
+		A618D6EF13DDA11C00E6B81F /* Father.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
+		A618D6F013DDA11C00E6B81F /* Father.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A618D6BF13DD9CD000E6B81F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A618D6C713DD9CD000E6B81F /* UIKit.framework in Frameworks */,
+				A618D6C913DD9CD000E6B81F /* Foundation.framework in Frameworks */,
+				A618D6CB13DD9CD000E6B81F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A618D6B713DD9CD000E6B81F = {
+			isa = PBXGroup;
+			children = (
+				A618D6CC13DD9CD000E6B81F /* Delegating Tasks with Protocols */,
+				A618D6C513DD9CD000E6B81F /* Frameworks */,
+				A618D6C313DD9CD000E6B81F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A618D6C313DD9CD000E6B81F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A618D6C213DD9CD000E6B81F /* Delegating Tasks with Protocols.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A618D6C513DD9CD000E6B81F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A618D6C613DD9CD000E6B81F /* UIKit.framework */,
+				A618D6C813DD9CD000E6B81F /* Foundation.framework */,
+				A618D6CA13DD9CD000E6B81F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A618D6CC13DD9CD000E6B81F /* Delegating Tasks with Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A618D6D513DD9CD000E6B81F /* Delegating_Tasks_with_ProtocolsAppDelegate.h */,
+				A618D6D613DD9CD000E6B81F /* Delegating_Tasks_with_ProtocolsAppDelegate.m */,
+				A618D6CD13DD9CD000E6B81F /* Supporting Files */,
+				A618D6EE13DD9FD600E6B81F /* PersonProtocol.h */,
+				A618D6EF13DDA11C00E6B81F /* Father.h */,
+				A618D6F013DDA11C00E6B81F /* Father.m */,
+			);
+			path = "Delegating Tasks with Protocols";
+			sourceTree = "<group>";
+		};
+		A618D6CD13DD9CD000E6B81F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A618D6CE13DD9CD000E6B81F /* Delegating Tasks with Protocols-Info.plist */,
+				A618D6CF13DD9CD000E6B81F /* InfoPlist.strings */,
+				A618D6D213DD9CD000E6B81F /* main.m */,
+				A618D6D413DD9CD000E6B81F /* Delegating Tasks with Protocols-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A618D6C113DD9CD000E6B81F /* Delegating Tasks with Protocols */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A618D6DA13DD9CD000E6B81F /* Build configuration list for PBXNativeTarget "Delegating Tasks with Protocols" */;
+			buildPhases = (
+				A618D6BE13DD9CD000E6B81F /* Sources */,
+				A618D6BF13DD9CD000E6B81F /* Frameworks */,
+				A618D6C013DD9CD000E6B81F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Delegating Tasks with Protocols";
+			productName = "Delegating Tasks with Protocols";
+			productReference = A618D6C213DD9CD000E6B81F /* Delegating Tasks with Protocols.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A618D6B913DD9CD000E6B81F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A618D6BC13DD9CD000E6B81F /* Build configuration list for PBXProject "Delegating Tasks with Protocols" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A618D6B713DD9CD000E6B81F;
+			productRefGroup = A618D6C313DD9CD000E6B81F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A618D6C113DD9CD000E6B81F /* Delegating Tasks with Protocols */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A618D6C013DD9CD000E6B81F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A618D6D113DD9CD000E6B81F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A618D6BE13DD9CD000E6B81F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A618D6D313DD9CD000E6B81F /* main.m in Sources */,
+				A618D6D713DD9CD000E6B81F /* Delegating_Tasks_with_ProtocolsAppDelegate.m in Sources */,
+				A618D6F113DDA11C00E6B81F /* Father.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A618D6CF13DD9CD000E6B81F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A618D6D013DD9CD000E6B81F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A618D6D813DD9CD000E6B81F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A618D6D913DD9CD000E6B81F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A618D6DB13DD9CD000E6B81F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Delegating Tasks with Protocols/Delegating Tasks with Protocols-Prefix.pch";
+				INFOPLIST_FILE = "Delegating Tasks with Protocols/Delegating Tasks with Protocols-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A618D6DC13DD9CD000E6B81F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Delegating Tasks with Protocols/Delegating Tasks with Protocols-Prefix.pch";
+				INFOPLIST_FILE = "Delegating Tasks with Protocols/Delegating Tasks with Protocols-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A618D6BC13DD9CD000E6B81F /* Build configuration list for PBXProject "Delegating Tasks with Protocols" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A618D6D813DD9CD000E6B81F /* Debug */,
+				A618D6D913DD9CD000E6B81F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A618D6DA13DD9CD000E6B81F /* Build configuration list for PBXNativeTarget "Delegating Tasks with Protocols" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A618D6DB13DD9CD000E6B81F /* Debug */,
+				A618D6DC13DD9CD000E6B81F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A618D6B913DD9CD000E6B81F /* Project object */;
+}

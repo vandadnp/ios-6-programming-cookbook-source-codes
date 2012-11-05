@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D947A75146E6B2900A565BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D947A74146E6B2900A565BD /* UIKit.framework */; };
+		9D947A77146E6B2900A565BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D947A76146E6B2900A565BD /* Foundation.framework */; };
+		9D947A79146E6B2900A565BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D947A78146E6B2900A565BD /* CoreGraphics.framework */; };
+		9D947A7F146E6B2900A565BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D947A7D146E6B2900A565BD /* InfoPlist.strings */; };
+		9D947A81146E6B2900A565BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D947A80146E6B2900A565BD /* main.m */; };
+		9D947A85146E6B2900A565BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D947A84146E6B2900A565BD /* AppDelegate.m */; };
+		9D947A88146E6B2900A565BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D947A87146E6B2900A565BD /* ViewController.m */; };
+		9D947A8B146E6B2900A565BD /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D947A89146E6B2900A565BD /* ViewController_iPhone.xib */; };
+		9D947A8E146E6B2900A565BD /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D947A8C146E6B2900A565BD /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9D947A70146E6B2900A565BD /* Deleting Cells and Sections from Table Views.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deleting Cells and Sections from Table Views.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D947A74146E6B2900A565BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D947A76146E6B2900A565BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D947A78146E6B2900A565BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9D947A7C146E6B2900A565BD /* Deleting Cells and Sections from Table Views-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Deleting Cells and Sections from Table Views-Info.plist"; sourceTree = "<group>"; };
+		9D947A7E146E6B2900A565BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D947A80146E6B2900A565BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D947A82146E6B2900A565BD /* Deleting Cells and Sections from Table Views-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Deleting Cells and Sections from Table Views-Prefix.pch"; sourceTree = "<group>"; };
+		9D947A83146E6B2900A565BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D947A84146E6B2900A565BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D947A86146E6B2900A565BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D947A87146E6B2900A565BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9D947A8A146E6B2900A565BD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		9D947A8D146E6B2900A565BD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D947A6D146E6B2900A565BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D947A75146E6B2900A565BD /* UIKit.framework in Frameworks */,
+				9D947A77146E6B2900A565BD /* Foundation.framework in Frameworks */,
+				9D947A79146E6B2900A565BD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D947A65146E6B2800A565BD = {
+			isa = PBXGroup;
+			children = (
+				9D947A7A146E6B2900A565BD /* Deleting Cells and Sections from Table Views */,
+				9D947A73146E6B2900A565BD /* Frameworks */,
+				9D947A71146E6B2900A565BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D947A71146E6B2900A565BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D947A70146E6B2900A565BD /* Deleting Cells and Sections from Table Views.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D947A73146E6B2900A565BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D947A74146E6B2900A565BD /* UIKit.framework */,
+				9D947A76146E6B2900A565BD /* Foundation.framework */,
+				9D947A78146E6B2900A565BD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D947A7A146E6B2900A565BD /* Deleting Cells and Sections from Table Views */ = {
+			isa = PBXGroup;
+			children = (
+				9D947A83146E6B2900A565BD /* AppDelegate.h */,
+				9D947A84146E6B2900A565BD /* AppDelegate.m */,
+				9D947A86146E6B2900A565BD /* ViewController.h */,
+				9D947A87146E6B2900A565BD /* ViewController.m */,
+				9D947A89146E6B2900A565BD /* ViewController_iPhone.xib */,
+				9D947A8C146E6B2900A565BD /* ViewController_iPad.xib */,
+				9D947A7B146E6B2900A565BD /* Supporting Files */,
+			);
+			path = "Deleting Cells and Sections from Table Views";
+			sourceTree = "<group>";
+		};
+		9D947A7B146E6B2900A565BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D947A7C146E6B2900A565BD /* Deleting Cells and Sections from Table Views-Info.plist */,
+				9D947A7D146E6B2900A565BD /* InfoPlist.strings */,
+				9D947A80146E6B2900A565BD /* main.m */,
+				9D947A82146E6B2900A565BD /* Deleting Cells and Sections from Table Views-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D947A6F146E6B2900A565BD /* Deleting Cells and Sections from Table Views */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D947A91146E6B2900A565BD /* Build configuration list for PBXNativeTarget "Deleting Cells and Sections from Table Views" */;
+			buildPhases = (
+				9D947A6C146E6B2900A565BD /* Sources */,
+				9D947A6D146E6B2900A565BD /* Frameworks */,
+				9D947A6E146E6B2900A565BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Deleting Cells and Sections from Table Views";
+			productName = "Deleting Cells and Sections from Table Views";
+			productReference = 9D947A70146E6B2900A565BD /* Deleting Cells and Sections from Table Views.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D947A67146E6B2800A565BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = 9D947A6A146E6B2800A565BD /* Build configuration list for PBXProject "Deleting Cells and Sections from Table Views" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9D947A65146E6B2800A565BD;
+			productRefGroup = 9D947A71146E6B2900A565BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D947A6F146E6B2900A565BD /* Deleting Cells and Sections from Table Views */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D947A6E146E6B2900A565BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D947A7F146E6B2900A565BD /* InfoPlist.strings in Resources */,
+				9D947A8B146E6B2900A565BD /* ViewController_iPhone.xib in Resources */,
+				9D947A8E146E6B2900A565BD /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D947A6C146E6B2900A565BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D947A81146E6B2900A565BD /* main.m in Sources */,
+				9D947A85146E6B2900A565BD /* AppDelegate.m in Sources */,
+				9D947A88146E6B2900A565BD /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9D947A7D146E6B2900A565BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D947A7E146E6B2900A565BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9D947A89146E6B2900A565BD /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D947A8A146E6B2900A565BD /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		9D947A8C146E6B2900A565BD /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D947A8D146E6B2900A565BD /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D947A8F146E6B2900A565BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D947A90146E6B2900A565BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D947A92146E6B2900A565BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Deleting Cells and Sections from Table Views/Deleting Cells and Sections from Table Views-Prefix.pch";
+				INFOPLIST_FILE = "Deleting Cells and Sections from Table Views/Deleting Cells and Sections from Table Views-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D947A93146E6B2900A565BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Deleting Cells and Sections from Table Views/Deleting Cells and Sections from Table Views-Prefix.pch";
+				INFOPLIST_FILE = "Deleting Cells and Sections from Table Views/Deleting Cells and Sections from Table Views-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D947A6A146E6B2800A565BD /* Build configuration list for PBXProject "Deleting Cells and Sections from Table Views" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D947A8F146E6B2900A565BD /* Debug */,
+				9D947A90146E6B2900A565BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D947A91146E6B2900A565BD /* Build configuration list for PBXNativeTarget "Deleting Cells and Sections from Table Views" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D947A92146E6B2900A565BD /* Debug */,
+				9D947A93146E6B2900A565BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D947A67146E6B2800A565BD /* Project object */;
+}

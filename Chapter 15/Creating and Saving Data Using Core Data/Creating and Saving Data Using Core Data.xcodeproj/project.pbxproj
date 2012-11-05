@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A60C9FAB13DADEF40098CED2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A60C9FAA13DADEF40098CED2 /* UIKit.framework */; };
+		A60C9FAD13DADEF40098CED2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A60C9FAC13DADEF40098CED2 /* Foundation.framework */; };
+		A60C9FAF13DADEF40098CED2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A60C9FAE13DADEF40098CED2 /* CoreGraphics.framework */; };
+		A60C9FB113DADEF40098CED2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A60C9FB013DADEF40098CED2 /* CoreData.framework */; };
+		A60C9FB713DADEF40098CED2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A60C9FB513DADEF40098CED2 /* InfoPlist.strings */; };
+		A60C9FB913DADEF40098CED2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A60C9FB813DADEF40098CED2 /* main.m */; };
+		A60C9FBD13DADEF40098CED2 /* Creating_and_Saving_Data_Using_Core_DataAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A60C9FBC13DADEF40098CED2 /* Creating_and_Saving_Data_Using_Core_DataAppDelegate.m */; };
+		A60C9FC013DADEF40098CED2 /* Creating_and_Saving_Data_Using_Core_Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A60C9FBE13DADEF40098CED2 /* Creating_and_Saving_Data_Using_Core_Data.xcdatamodeld */; };
+		A60C9FD213DADF2A0098CED2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A60C9FD113DADF2A0098CED2 /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A60C9FA613DADEF40098CED2 /* Creating and Saving Data Using Core Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Creating and Saving Data Using Core Data.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60C9FAA13DADEF40098CED2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A60C9FAC13DADEF40098CED2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A60C9FAE13DADEF40098CED2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A60C9FB013DADEF40098CED2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A60C9FB413DADEF40098CED2 /* Creating and Saving Data Using Core Data-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Creating and Saving Data Using Core Data-Info.plist"; sourceTree = "<group>"; };
+		A60C9FB613DADEF40098CED2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A60C9FB813DADEF40098CED2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A60C9FBA13DADEF40098CED2 /* Creating and Saving Data Using Core Data-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Creating and Saving Data Using Core Data-Prefix.pch"; sourceTree = "<group>"; };
+		A60C9FBB13DADEF40098CED2 /* Creating_and_Saving_Data_Using_Core_DataAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Creating_and_Saving_Data_Using_Core_DataAppDelegate.h; sourceTree = "<group>"; };
+		A60C9FBC13DADEF40098CED2 /* Creating_and_Saving_Data_Using_Core_DataAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Creating_and_Saving_Data_Using_Core_DataAppDelegate.m; sourceTree = "<group>"; };
+		A60C9FBF13DADEF40098CED2 /* Creating_and_Saving_Data_Using_Core_Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Creating_and_Saving_Data_Using_Core_Data.xcdatamodel; sourceTree = "<group>"; };
+		A60C9FD013DADF2A0098CED2 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A60C9FD113DADF2A0098CED2 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A60C9FA313DADEF40098CED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60C9FAB13DADEF40098CED2 /* UIKit.framework in Frameworks */,
+				A60C9FAD13DADEF40098CED2 /* Foundation.framework in Frameworks */,
+				A60C9FAF13DADEF40098CED2 /* CoreGraphics.framework in Frameworks */,
+				A60C9FB113DADEF40098CED2 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A60C9F9B13DADEF40098CED2 = {
+			isa = PBXGroup;
+			children = (
+				A60C9FB213DADEF40098CED2 /* Creating and Saving Data Using Core Data */,
+				A60C9FA913DADEF40098CED2 /* Frameworks */,
+				A60C9FA713DADEF40098CED2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A60C9FA713DADEF40098CED2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A60C9FA613DADEF40098CED2 /* Creating and Saving Data Using Core Data.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A60C9FA913DADEF40098CED2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A60C9FAA13DADEF40098CED2 /* UIKit.framework */,
+				A60C9FAC13DADEF40098CED2 /* Foundation.framework */,
+				A60C9FAE13DADEF40098CED2 /* CoreGraphics.framework */,
+				A60C9FB013DADEF40098CED2 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A60C9FB213DADEF40098CED2 /* Creating and Saving Data Using Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				A60C9FBB13DADEF40098CED2 /* Creating_and_Saving_Data_Using_Core_DataAppDelegate.h */,
+				A60C9FBC13DADEF40098CED2 /* Creating_and_Saving_Data_Using_Core_DataAppDelegate.m */,
+				A60C9FBE13DADEF40098CED2 /* Creating_and_Saving_Data_Using_Core_Data.xcdatamodeld */,
+				A60C9FD013DADF2A0098CED2 /* Person.h */,
+				A60C9FD113DADF2A0098CED2 /* Person.m */,
+				A60C9FB313DADEF40098CED2 /* Supporting Files */,
+			);
+			path = "Creating and Saving Data Using Core Data";
+			sourceTree = "<group>";
+		};
+		A60C9FB313DADEF40098CED2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A60C9FB413DADEF40098CED2 /* Creating and Saving Data Using Core Data-Info.plist */,
+				A60C9FB513DADEF40098CED2 /* InfoPlist.strings */,
+				A60C9FB813DADEF40098CED2 /* main.m */,
+				A60C9FBA13DADEF40098CED2 /* Creating and Saving Data Using Core Data-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A60C9FA513DADEF40098CED2 /* Creating and Saving Data Using Core Data */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60C9FC313DADEF40098CED2 /* Build configuration list for PBXNativeTarget "Creating and Saving Data Using Core Data" */;
+			buildPhases = (
+				A60C9FA213DADEF40098CED2 /* Sources */,
+				A60C9FA313DADEF40098CED2 /* Frameworks */,
+				A60C9FA413DADEF40098CED2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Creating and Saving Data Using Core Data";
+			productName = "Creating and Saving Data Using Core Data";
+			productReference = A60C9FA613DADEF40098CED2 /* Creating and Saving Data Using Core Data.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A60C9F9D13DADEF40098CED2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A60C9FA013DADEF40098CED2 /* Build configuration list for PBXProject "Creating and Saving Data Using Core Data" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A60C9F9B13DADEF40098CED2;
+			productRefGroup = A60C9FA713DADEF40098CED2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A60C9FA513DADEF40098CED2 /* Creating and Saving Data Using Core Data */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A60C9FA413DADEF40098CED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60C9FB713DADEF40098CED2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A60C9FA213DADEF40098CED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60C9FB913DADEF40098CED2 /* main.m in Sources */,
+				A60C9FBD13DADEF40098CED2 /* Creating_and_Saving_Data_Using_Core_DataAppDelegate.m in Sources */,
+				A60C9FC013DADEF40098CED2 /* Creating_and_Saving_Data_Using_Core_Data.xcdatamodeld in Sources */,
+				A60C9FD213DADF2A0098CED2 /* Person.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A60C9FB513DADEF40098CED2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A60C9FB613DADEF40098CED2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A60C9FC113DADEF40098CED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A60C9FC213DADEF40098CED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A60C9FC413DADEF40098CED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Creating and Saving Data Using Core Data/Creating and Saving Data Using Core Data-Prefix.pch";
+				INFOPLIST_FILE = "Creating and Saving Data Using Core Data/Creating and Saving Data Using Core Data-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A60C9FC513DADEF40098CED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Creating and Saving Data Using Core Data/Creating and Saving Data Using Core Data-Prefix.pch";
+				INFOPLIST_FILE = "Creating and Saving Data Using Core Data/Creating and Saving Data Using Core Data-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A60C9FA013DADEF40098CED2 /* Build configuration list for PBXProject "Creating and Saving Data Using Core Data" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60C9FC113DADEF40098CED2 /* Debug */,
+				A60C9FC213DADEF40098CED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A60C9FC313DADEF40098CED2 /* Build configuration list for PBXNativeTarget "Creating and Saving Data Using Core Data" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60C9FC413DADEF40098CED2 /* Debug */,
+				A60C9FC513DADEF40098CED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A60C9FBE13DADEF40098CED2 /* Creating_and_Saving_Data_Using_Core_Data.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A60C9FBF13DADEF40098CED2 /* Creating_and_Saving_Data_Using_Core_Data.xcdatamodel */,
+			);
+			currentVersion = A60C9FBF13DADEF40098CED2 /* Creating_and_Saving_Data_Using_Core_Data.xcdatamodel */;
+			path = Creating_and_Saving_Data_Using_Core_Data.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A60C9F9D13DADEF40098CED2 /* Project object */;
+}

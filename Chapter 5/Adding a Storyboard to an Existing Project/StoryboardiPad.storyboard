@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1891" systemVersion="10K540" targetRuntime="iOS.CocoaTouch.iPad" nextObjectID="32" propertyAccessControl="none" initialViewController="23">
+    <dependencies>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="884"/>
+    </dependencies>
+    <scenes>
+        <scene sceneID="29">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="28" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="22" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="26">
+                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="25"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1597" y="-525"/>
+        </scene>
+        <scene sceneID="31">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="30" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="23" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="24">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="22" kind="relationship" relationship="rootViewController" id="27"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="615" y="-525"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D5DACF1140166E7004C2169 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5DACF0140166E7004C2169 /* UIKit.framework */; };
+		9D5DACF3140166E7004C2169 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D5DACF2140166E7004C2169 /* Foundation.framework */; };
+		9D5DACF9140166E7004C2169 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D5DACF7140166E7004C2169 /* InfoPlist.strings */; };
+		9D5DACFB140166E7004C2169 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DACFA140166E7004C2169 /* main.m */; };
+		9D5DACFF140166E7004C2169 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DACFE140166E7004C2169 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9D5DACEC140166E7004C2169 /* Implementing While-Loops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Implementing While-Loops.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D5DACF0140166E7004C2169 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D5DACF2140166E7004C2169 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D5DACF6140166E7004C2169 /* Implementing While-Loops-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Implementing While-Loops-Info.plist"; sourceTree = "<group>"; };
+		9D5DACF8140166E7004C2169 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D5DACFA140166E7004C2169 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D5DACFC140166E7004C2169 /* Implementing While-Loops-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Implementing While-Loops-Prefix.pch"; sourceTree = "<group>"; };
+		9D5DACFD140166E7004C2169 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D5DACFE140166E7004C2169 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D5DACE9140166E7004C2169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5DACF1140166E7004C2169 /* UIKit.framework in Frameworks */,
+				9D5DACF3140166E7004C2169 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D5DACE1140166E7004C2169 = {
+			isa = PBXGroup;
+			children = (
+				9D5DACF4140166E7004C2169 /* Implementing While-Loops */,
+				9D5DACEF140166E7004C2169 /* Frameworks */,
+				9D5DACED140166E7004C2169 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D5DACED140166E7004C2169 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D5DACEC140166E7004C2169 /* Implementing While-Loops.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D5DACEF140166E7004C2169 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D5DACF0140166E7004C2169 /* UIKit.framework */,
+				9D5DACF2140166E7004C2169 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D5DACF4140166E7004C2169 /* Implementing While-Loops */ = {
+			isa = PBXGroup;
+			children = (
+				9D5DACFD140166E7004C2169 /* AppDelegate.h */,
+				9D5DACFE140166E7004C2169 /* AppDelegate.m */,
+				9D5DACF5140166E7004C2169 /* Supporting Files */,
+			);
+			path = "Implementing While-Loops";
+			sourceTree = "<group>";
+		};
+		9D5DACF5140166E7004C2169 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D5DACF6140166E7004C2169 /* Implementing While-Loops-Info.plist */,
+				9D5DACF7140166E7004C2169 /* InfoPlist.strings */,
+				9D5DACFA140166E7004C2169 /* main.m */,
+				9D5DACFC140166E7004C2169 /* Implementing While-Loops-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D5DACEB140166E7004C2169 /* Implementing While-Loops */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D5DAD02140166E7004C2169 /* Build configuration list for PBXNativeTarget "Implementing While-Loops" */;
+			buildPhases = (
+				9D5DACE8140166E7004C2169 /* Sources */,
+				9D5DACE9140166E7004C2169 /* Frameworks */,
+				9D5DACEA140166E7004C2169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Implementing While-Loops";
+			productName = "Implementing While-Loops";
+			productReference = 9D5DACEC140166E7004C2169 /* Implementing While-Loops.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D5DACE3140166E7004C2169 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = 9D5DACE6140166E7004C2169 /* Build configuration list for PBXProject "Implementing While-Loops" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9D5DACE1140166E7004C2169;
+			productRefGroup = 9D5DACED140166E7004C2169 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D5DACEB140166E7004C2169 /* Implementing While-Loops */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D5DACEA140166E7004C2169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5DACF9140166E7004C2169 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D5DACE8140166E7004C2169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5DACFB140166E7004C2169 /* main.m in Sources */,
+				9D5DACFF140166E7004C2169 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9D5DACF7140166E7004C2169 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D5DACF8140166E7004C2169 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D5DAD00140166E7004C2169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D5DAD01140166E7004C2169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D5DAD03140166E7004C2169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Implementing While-Loops/Implementing While-Loops-Prefix.pch";
+				INFOPLIST_FILE = "Implementing While-Loops/Implementing While-Loops-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D5DAD04140166E7004C2169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Implementing While-Loops/Implementing While-Loops-Prefix.pch";
+				INFOPLIST_FILE = "Implementing While-Loops/Implementing While-Loops-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D5DACE6140166E7004C2169 /* Build configuration list for PBXProject "Implementing While-Loops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D5DAD00140166E7004C2169 /* Debug */,
+				9D5DAD01140166E7004C2169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D5DAD02140166E7004C2169 /* Build configuration list for PBXNativeTarget "Implementing While-Loops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D5DAD03140166E7004C2169 /* Debug */,
+				9D5DAD04140166E7004C2169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D5DACE3140166E7004C2169 /* Project object */;
+}

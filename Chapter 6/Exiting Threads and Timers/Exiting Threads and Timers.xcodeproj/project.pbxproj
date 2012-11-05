@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6C2BE6E13CEFC5100415BB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C2BE6D13CEFC5100415BB1 /* UIKit.framework */; };
+		A6C2BE7013CEFC5100415BB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C2BE6F13CEFC5100415BB1 /* Foundation.framework */; };
+		A6C2BE7213CEFC5100415BB1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C2BE7113CEFC5100415BB1 /* CoreGraphics.framework */; };
+		A6C2BE7813CEFC5100415BB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6C2BE7613CEFC5100415BB1 /* InfoPlist.strings */; };
+		A6C2BE7A13CEFC5100415BB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2BE7913CEFC5100415BB1 /* main.m */; };
+		A6C2BE7E13CEFC5100415BB1 /* Exiting_Threads_and_TimersAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2BE7D13CEFC5100415BB1 /* Exiting_Threads_and_TimersAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6C2BE6913CEFC5100415BB1 /* Exiting Threads and Timers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Exiting Threads and Timers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C2BE6D13CEFC5100415BB1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6C2BE6F13CEFC5100415BB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6C2BE7113CEFC5100415BB1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6C2BE7513CEFC5100415BB1 /* Exiting Threads and Timers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Exiting Threads and Timers-Info.plist"; sourceTree = "<group>"; };
+		A6C2BE7713CEFC5100415BB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6C2BE7913CEFC5100415BB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6C2BE7B13CEFC5100415BB1 /* Exiting Threads and Timers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Exiting Threads and Timers-Prefix.pch"; sourceTree = "<group>"; };
+		A6C2BE7C13CEFC5100415BB1 /* Exiting_Threads_and_TimersAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Exiting_Threads_and_TimersAppDelegate.h; sourceTree = "<group>"; };
+		A6C2BE7D13CEFC5100415BB1 /* Exiting_Threads_and_TimersAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Exiting_Threads_and_TimersAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6C2BE6613CEFC5100415BB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C2BE6E13CEFC5100415BB1 /* UIKit.framework in Frameworks */,
+				A6C2BE7013CEFC5100415BB1 /* Foundation.framework in Frameworks */,
+				A6C2BE7213CEFC5100415BB1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6C2BE5E13CEFC5100415BB1 = {
+			isa = PBXGroup;
+			children = (
+				A6C2BE7313CEFC5100415BB1 /* Exiting Threads and Timers */,
+				A6C2BE6C13CEFC5100415BB1 /* Frameworks */,
+				A6C2BE6A13CEFC5100415BB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6C2BE6A13CEFC5100415BB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6C2BE6913CEFC5100415BB1 /* Exiting Threads and Timers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6C2BE6C13CEFC5100415BB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6C2BE6D13CEFC5100415BB1 /* UIKit.framework */,
+				A6C2BE6F13CEFC5100415BB1 /* Foundation.framework */,
+				A6C2BE7113CEFC5100415BB1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6C2BE7313CEFC5100415BB1 /* Exiting Threads and Timers */ = {
+			isa = PBXGroup;
+			children = (
+				A6C2BE7C13CEFC5100415BB1 /* Exiting_Threads_and_TimersAppDelegate.h */,
+				A6C2BE7D13CEFC5100415BB1 /* Exiting_Threads_and_TimersAppDelegate.m */,
+				A6C2BE7413CEFC5100415BB1 /* Supporting Files */,
+			);
+			path = "Exiting Threads and Timers";
+			sourceTree = "<group>";
+		};
+		A6C2BE7413CEFC5100415BB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6C2BE7513CEFC5100415BB1 /* Exiting Threads and Timers-Info.plist */,
+				A6C2BE7613CEFC5100415BB1 /* InfoPlist.strings */,
+				A6C2BE7913CEFC5100415BB1 /* main.m */,
+				A6C2BE7B13CEFC5100415BB1 /* Exiting Threads and Timers-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6C2BE6813CEFC5100415BB1 /* Exiting Threads and Timers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C2BE8113CEFC5100415BB1 /* Build configuration list for PBXNativeTarget "Exiting Threads and Timers" */;
+			buildPhases = (
+				A6C2BE6513CEFC5100415BB1 /* Sources */,
+				A6C2BE6613CEFC5100415BB1 /* Frameworks */,
+				A6C2BE6713CEFC5100415BB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Exiting Threads and Timers";
+			productName = "Exiting Threads and Timers";
+			productReference = A6C2BE6913CEFC5100415BB1 /* Exiting Threads and Timers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6C2BE6013CEFC5100415BB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6C2BE6313CEFC5100415BB1 /* Build configuration list for PBXProject "Exiting Threads and Timers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6C2BE5E13CEFC5100415BB1;
+			productRefGroup = A6C2BE6A13CEFC5100415BB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6C2BE6813CEFC5100415BB1 /* Exiting Threads and Timers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6C2BE6713CEFC5100415BB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C2BE7813CEFC5100415BB1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6C2BE6513CEFC5100415BB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C2BE7A13CEFC5100415BB1 /* main.m in Sources */,
+				A6C2BE7E13CEFC5100415BB1 /* Exiting_Threads_and_TimersAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6C2BE7613CEFC5100415BB1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C2BE7713CEFC5100415BB1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6C2BE7F13CEFC5100415BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6C2BE8013CEFC5100415BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6C2BE8213CEFC5100415BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Exiting Threads and Timers/Exiting Threads and Timers-Prefix.pch";
+				INFOPLIST_FILE = "Exiting Threads and Timers/Exiting Threads and Timers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6C2BE8313CEFC5100415BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Exiting Threads and Timers/Exiting Threads and Timers-Prefix.pch";
+				INFOPLIST_FILE = "Exiting Threads and Timers/Exiting Threads and Timers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6C2BE6313CEFC5100415BB1 /* Build configuration list for PBXProject "Exiting Threads and Timers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C2BE7F13CEFC5100415BB1 /* Debug */,
+				A6C2BE8013CEFC5100415BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C2BE8113CEFC5100415BB1 /* Build configuration list for PBXNativeTarget "Exiting Threads and Timers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C2BE8213CEFC5100415BB1 /* Debug */,
+				A6C2BE8313CEFC5100415BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6C2BE6013CEFC5100415BB1 /* Project object */;
+}

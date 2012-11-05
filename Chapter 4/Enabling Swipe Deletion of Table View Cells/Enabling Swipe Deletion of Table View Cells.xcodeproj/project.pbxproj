@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6C408E213E3225200267CFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C408E113E3225200267CFA /* UIKit.framework */; };
+		A6C408E413E3225200267CFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C408E313E3225200267CFA /* Foundation.framework */; };
+		A6C408E613E3225200267CFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C408E513E3225200267CFA /* CoreGraphics.framework */; };
+		A6C408EC13E3225200267CFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6C408EA13E3225200267CFA /* InfoPlist.strings */; };
+		A6C408EE13E3225200267CFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C408ED13E3225200267CFA /* main.m */; };
+		A6C408F213E3225200267CFA /* Enabling_Swipe_Deletion_of_Table_View_CellsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C408F113E3225200267CFA /* Enabling_Swipe_Deletion_of_Table_View_CellsAppDelegate.m */; };
+		A6C408F513E3225200267CFA /* Enabling_Swipe_Deletion_of_Table_View_CellsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C408F413E3225200267CFA /* Enabling_Swipe_Deletion_of_Table_View_CellsViewController.m */; };
+		A6C408F813E3225200267CFA /* Enabling_Swipe_Deletion_of_Table_View_CellsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C408F613E3225200267CFA /* Enabling_Swipe_Deletion_of_Table_View_CellsViewController_iPhone.xib */; };
+		A6C408FB13E3225200267CFA /* Enabling_Swipe_Deletion_of_Table_View_CellsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C408F913E3225200267CFA /* Enabling_Swipe_Deletion_of_Table_View_CellsViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6C408DD13E3225200267CFA /* Enabling Swipe Deletion of Table View Cells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Enabling Swipe Deletion of Table View Cells.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C408E113E3225200267CFA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6C408E313E3225200267CFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6C408E513E3225200267CFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6C408E913E3225200267CFA /* Enabling Swipe Deletion of Table View Cells-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Enabling Swipe Deletion of Table View Cells-Info.plist"; sourceTree = "<group>"; };
+		A6C408EB13E3225200267CFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6C408ED13E3225200267CFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6C408EF13E3225200267CFA /* Enabling Swipe Deletion of Table View Cells-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Enabling Swipe Deletion of Table View Cells-Prefix.pch"; sourceTree = "<group>"; };
+		A6C408F013E3225200267CFA /* Enabling_Swipe_Deletion_of_Table_View_CellsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Enabling_Swipe_Deletion_of_Table_View_CellsAppDelegate.h; sourceTree = "<group>"; };
+		A6C408F113E3225200267CFA /* Enabling_Swipe_Deletion_of_Table_View_CellsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Enabling_Swipe_Deletion_of_Table_View_CellsAppDelegate.m; sourceTree = "<group>"; };
+		A6C408F313E3225200267CFA /* Enabling_Swipe_Deletion_of_Table_View_CellsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Enabling_Swipe_Deletion_of_Table_View_CellsViewController.h; sourceTree = "<group>"; };
+		A6C408F413E3225200267CFA /* Enabling_Swipe_Deletion_of_Table_View_CellsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Enabling_Swipe_Deletion_of_Table_View_CellsViewController.m; sourceTree = "<group>"; };
+		A6C408F713E3225200267CFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Enabling_Swipe_Deletion_of_Table_View_CellsViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6C408FA13E3225200267CFA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Enabling_Swipe_Deletion_of_Table_View_CellsViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6C408DA13E3225200267CFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C408E213E3225200267CFA /* UIKit.framework in Frameworks */,
+				A6C408E413E3225200267CFA /* Foundation.framework in Frameworks */,
+				A6C408E613E3225200267CFA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6C408D213E3225200267CFA = {
+			isa = PBXGroup;
+			children = (
+				A6C408E713E3225200267CFA /* Enabling Swipe Deletion of Table View Cells */,
+				A6C408E013E3225200267CFA /* Frameworks */,
+				A6C408DE13E3225200267CFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6C408DE13E3225200267CFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6C408DD13E3225200267CFA /* Enabling Swipe Deletion of Table View Cells.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6C408E013E3225200267CFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6C408E113E3225200267CFA /* UIKit.framework */,
+				A6C408E313E3225200267CFA /* Foundation.framework */,
+				A6C408E513E3225200267CFA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6C408E713E3225200267CFA /* Enabling Swipe Deletion of Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A6C408F013E3225200267CFA /* Enabling_Swipe_Deletion_of_Table_View_CellsAppDelegate.h */,
+				A6C408F113E3225200267CFA /* Enabling_Swipe_Deletion_of_Table_View_CellsAppDelegate.m */,
+				A6C408F313E3225200267CFA /* Enabling_Swipe_Deletion_of_Table_View_CellsViewController.h */,
+				A6C408F413E3225200267CFA /* Enabling_Swipe_Deletion_of_Table_View_CellsViewController.m */,
+				A6C408F613E3225200267CFA /* Enabling_Swipe_Deletion_of_Table_View_CellsViewController_iPhone.xib */,
+				A6C408F913E3225200267CFA /* Enabling_Swipe_Deletion_of_Table_View_CellsViewController_iPad.xib */,
+				A6C408E813E3225200267CFA /* Supporting Files */,
+			);
+			path = "Enabling Swipe Deletion of Table View Cells";
+			sourceTree = "<group>";
+		};
+		A6C408E813E3225200267CFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6C408E913E3225200267CFA /* Enabling Swipe Deletion of Table View Cells-Info.plist */,
+				A6C408EA13E3225200267CFA /* InfoPlist.strings */,
+				A6C408ED13E3225200267CFA /* main.m */,
+				A6C408EF13E3225200267CFA /* Enabling Swipe Deletion of Table View Cells-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6C408DC13E3225200267CFA /* Enabling Swipe Deletion of Table View Cells */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C408FE13E3225200267CFA /* Build configuration list for PBXNativeTarget "Enabling Swipe Deletion of Table View Cells" */;
+			buildPhases = (
+				A6C408D913E3225200267CFA /* Sources */,
+				A6C408DA13E3225200267CFA /* Frameworks */,
+				A6C408DB13E3225200267CFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Enabling Swipe Deletion of Table View Cells";
+			productName = "Enabling Swipe Deletion of Table View Cells";
+			productReference = A6C408DD13E3225200267CFA /* Enabling Swipe Deletion of Table View Cells.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6C408D413E3225200267CFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6C408D713E3225200267CFA /* Build configuration list for PBXProject "Enabling Swipe Deletion of Table View Cells" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6C408D213E3225200267CFA;
+			productRefGroup = A6C408DE13E3225200267CFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6C408DC13E3225200267CFA /* Enabling Swipe Deletion of Table View Cells */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6C408DB13E3225200267CFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C408EC13E3225200267CFA /* InfoPlist.strings in Resources */,
+				A6C408F813E3225200267CFA /* Enabling_Swipe_Deletion_of_Table_View_CellsViewController_iPhone.xib in Resources */,
+				A6C408FB13E3225200267CFA /* Enabling_Swipe_Deletion_of_Table_View_CellsViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6C408D913E3225200267CFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C408EE13E3225200267CFA /* main.m in Sources */,
+				A6C408F213E3225200267CFA /* Enabling_Swipe_Deletion_of_Table_View_CellsAppDelegate.m in Sources */,
+				A6C408F513E3225200267CFA /* Enabling_Swipe_Deletion_of_Table_View_CellsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6C408EA13E3225200267CFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C408EB13E3225200267CFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6C408F613E3225200267CFA /* Enabling_Swipe_Deletion_of_Table_View_CellsViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C408F713E3225200267CFA /* en */,
+			);
+			name = Enabling_Swipe_Deletion_of_Table_View_CellsViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6C408F913E3225200267CFA /* Enabling_Swipe_Deletion_of_Table_View_CellsViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C408FA13E3225200267CFA /* en */,
+			);
+			name = Enabling_Swipe_Deletion_of_Table_View_CellsViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6C408FC13E3225200267CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6C408FD13E3225200267CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6C408FF13E3225200267CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Enabling Swipe Deletion of Table View Cells/Enabling Swipe Deletion of Table View Cells-Prefix.pch";
+				INFOPLIST_FILE = "Enabling Swipe Deletion of Table View Cells/Enabling Swipe Deletion of Table View Cells-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6C4090013E3225200267CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Enabling Swipe Deletion of Table View Cells/Enabling Swipe Deletion of Table View Cells-Prefix.pch";
+				INFOPLIST_FILE = "Enabling Swipe Deletion of Table View Cells/Enabling Swipe Deletion of Table View Cells-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6C408D713E3225200267CFA /* Build configuration list for PBXProject "Enabling Swipe Deletion of Table View Cells" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C408FC13E3225200267CFA /* Debug */,
+				A6C408FD13E3225200267CFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C408FE13E3225200267CFA /* Build configuration list for PBXNativeTarget "Enabling Swipe Deletion of Table View Cells" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C408FF13E3225200267CFA /* Debug */,
+				A6C4090013E3225200267CFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6C408D413E3225200267CFA /* Project object */;
+}

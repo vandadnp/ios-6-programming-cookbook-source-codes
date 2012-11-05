@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DD9456F15E68E6000DABC33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD9456E15E68E6000DABC33 /* UIKit.framework */; };
+		9DD9457115E68E6000DABC33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD9457015E68E6000DABC33 /* Foundation.framework */; };
+		9DD9457315E68E6000DABC33 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD9457215E68E6000DABC33 /* CoreGraphics.framework */; };
+		9DD9457915E68E6000DABC33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DD9457715E68E6000DABC33 /* InfoPlist.strings */; };
+		9DD9457B15E68E6000DABC33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD9457A15E68E6000DABC33 /* main.m */; };
+		9DD9457F15E68E6000DABC33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD9457E15E68E6000DABC33 /* AppDelegate.m */; };
+		9DD9458215E68E6000DABC33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD9458115E68E6000DABC33 /* ViewController.m */; };
+		9DD9458515E68E6000DABC33 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DD9458315E68E6000DABC33 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9DD9456A15E68E6000DABC33 /* Customizing the UILabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Customizing the UILabel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DD9456E15E68E6000DABC33 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9DD9457015E68E6000DABC33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9DD9457215E68E6000DABC33 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9DD9457615E68E6000DABC33 /* Customizing the UILabel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Customizing the UILabel-Info.plist"; sourceTree = "<group>"; };
+		9DD9457815E68E6000DABC33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9DD9457A15E68E6000DABC33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DD9457C15E68E6000DABC33 /* Customizing the UILabel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Customizing the UILabel-Prefix.pch"; sourceTree = "<group>"; };
+		9DD9457D15E68E6000DABC33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9DD9457E15E68E6000DABC33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9DD9458015E68E6000DABC33 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9DD9458115E68E6000DABC33 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9DD9458415E68E6000DABC33 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DD9456715E68E6000DABC33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DD9456F15E68E6000DABC33 /* UIKit.framework in Frameworks */,
+				9DD9457115E68E6000DABC33 /* Foundation.framework in Frameworks */,
+				9DD9457315E68E6000DABC33 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DD9455F15E68E6000DABC33 = {
+			isa = PBXGroup;
+			children = (
+				9DD9457415E68E6000DABC33 /* Customizing the UILabel */,
+				9DD9456D15E68E6000DABC33 /* Frameworks */,
+				9DD9456B15E68E6000DABC33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DD9456B15E68E6000DABC33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DD9456A15E68E6000DABC33 /* Customizing the UILabel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DD9456D15E68E6000DABC33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DD9456E15E68E6000DABC33 /* UIKit.framework */,
+				9DD9457015E68E6000DABC33 /* Foundation.framework */,
+				9DD9457215E68E6000DABC33 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DD9457415E68E6000DABC33 /* Customizing the UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				9DD9457D15E68E6000DABC33 /* AppDelegate.h */,
+				9DD9457E15E68E6000DABC33 /* AppDelegate.m */,
+				9DD9458015E68E6000DABC33 /* ViewController.h */,
+				9DD9458115E68E6000DABC33 /* ViewController.m */,
+				9DD9458315E68E6000DABC33 /* ViewController.xib */,
+				9DD9457515E68E6000DABC33 /* Supporting Files */,
+			);
+			path = "Customizing the UILabel";
+			sourceTree = "<group>";
+		};
+		9DD9457515E68E6000DABC33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DD9457615E68E6000DABC33 /* Customizing the UILabel-Info.plist */,
+				9DD9457715E68E6000DABC33 /* InfoPlist.strings */,
+				9DD9457A15E68E6000DABC33 /* main.m */,
+				9DD9457C15E68E6000DABC33 /* Customizing the UILabel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DD9456915E68E6000DABC33 /* Customizing the UILabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DD9458815E68E6000DABC33 /* Build configuration list for PBXNativeTarget "Customizing the UILabel" */;
+			buildPhases = (
+				9DD9456615E68E6000DABC33 /* Sources */,
+				9DD9456715E68E6000DABC33 /* Frameworks */,
+				9DD9456815E68E6000DABC33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Customizing the UILabel";
+			productName = "Customizing the UILabel";
+			productReference = 9DD9456A15E68E6000DABC33 /* Customizing the UILabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DD9456115E68E6000DABC33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = 9DD9456415E68E6000DABC33 /* Build configuration list for PBXProject "Customizing the UILabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9DD9455F15E68E6000DABC33;
+			productRefGroup = 9DD9456B15E68E6000DABC33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DD9456915E68E6000DABC33 /* Customizing the UILabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DD9456815E68E6000DABC33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DD9457915E68E6000DABC33 /* InfoPlist.strings in Resources */,
+				9DD9458515E68E6000DABC33 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DD9456615E68E6000DABC33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DD9457B15E68E6000DABC33 /* main.m in Sources */,
+				9DD9457F15E68E6000DABC33 /* AppDelegate.m in Sources */,
+				9DD9458215E68E6000DABC33 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DD9457715E68E6000DABC33 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DD9457815E68E6000DABC33 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9DD9458315E68E6000DABC33 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DD9458415E68E6000DABC33 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DD9458615E68E6000DABC33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9DD9458715E68E6000DABC33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DD9458915E68E6000DABC33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Customizing the UILabel/Customizing the UILabel-Prefix.pch";
+				INFOPLIST_FILE = "Customizing the UILabel/Customizing the UILabel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9DD9458A15E68E6000DABC33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Customizing the UILabel/Customizing the UILabel-Prefix.pch";
+				INFOPLIST_FILE = "Customizing the UILabel/Customizing the UILabel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DD9456415E68E6000DABC33 /* Build configuration list for PBXProject "Customizing the UILabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DD9458615E68E6000DABC33 /* Debug */,
+				9DD9458715E68E6000DABC33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DD9458815E68E6000DABC33 /* Build configuration list for PBXNativeTarget "Customizing the UILabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DD9458915E68E6000DABC33 /* Debug */,
+				9DD9458A15E68E6000DABC33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DD9456115E68E6000DABC33 /* Project object */;
+}

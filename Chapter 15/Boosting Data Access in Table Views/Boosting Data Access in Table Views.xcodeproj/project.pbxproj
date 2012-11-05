@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A681333B13DAFDBB003624B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A681333A13DAFDBB003624B1 /* UIKit.framework */; };
+		A681333D13DAFDBB003624B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A681333C13DAFDBB003624B1 /* Foundation.framework */; };
+		A681333F13DAFDBB003624B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A681333E13DAFDBB003624B1 /* CoreGraphics.framework */; };
+		A681334113DAFDBB003624B1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A681334013DAFDBB003624B1 /* CoreData.framework */; };
+		A681334713DAFDBB003624B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A681334513DAFDBB003624B1 /* InfoPlist.strings */; };
+		A681334913DAFDBB003624B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A681334813DAFDBB003624B1 /* main.m */; };
+		A681334D13DAFDBB003624B1 /* Boosting_Data_Access_in_Table_ViewsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A681334C13DAFDBB003624B1 /* Boosting_Data_Access_in_Table_ViewsAppDelegate.m */; };
+		A681335013DAFDBB003624B1 /* Boosting_Data_Access_in_Table_Views.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A681334E13DAFDBB003624B1 /* Boosting_Data_Access_in_Table_Views.xcdatamodeld */; };
+		A681336213DAFE47003624B1 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A681336113DAFE47003624B1 /* Person.m */; };
+		A681339513DAFFCE003624B1 /* PersonListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A681339413DAFFCE003624B1 /* PersonListViewController.m */; };
+		A681339813DAFFDB003624B1 /* AddPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A681339713DAFFDB003624B1 /* AddPersonViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A681333613DAFDBB003624B1 /* Boosting Data Access in Table Views.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Boosting Data Access in Table Views.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A681333A13DAFDBB003624B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A681333C13DAFDBB003624B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A681333E13DAFDBB003624B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A681334013DAFDBB003624B1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A681334413DAFDBB003624B1 /* Boosting Data Access in Table Views-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Boosting Data Access in Table Views-Info.plist"; sourceTree = "<group>"; };
+		A681334613DAFDBB003624B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A681334813DAFDBB003624B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A681334A13DAFDBB003624B1 /* Boosting Data Access in Table Views-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Boosting Data Access in Table Views-Prefix.pch"; sourceTree = "<group>"; };
+		A681334B13DAFDBB003624B1 /* Boosting_Data_Access_in_Table_ViewsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Boosting_Data_Access_in_Table_ViewsAppDelegate.h; sourceTree = "<group>"; };
+		A681334C13DAFDBB003624B1 /* Boosting_Data_Access_in_Table_ViewsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Boosting_Data_Access_in_Table_ViewsAppDelegate.m; sourceTree = "<group>"; };
+		A681334F13DAFDBB003624B1 /* Boosting_Data_Access_in_Table_Views.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Boosting_Data_Access_in_Table_Views.xcdatamodel; sourceTree = "<group>"; };
+		A681336013DAFE47003624B1 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A681336113DAFE47003624B1 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A681339313DAFFCE003624B1 /* PersonListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonListViewController.h; sourceTree = "<group>"; };
+		A681339413DAFFCE003624B1 /* PersonListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonListViewController.m; sourceTree = "<group>"; };
+		A681339613DAFFDB003624B1 /* AddPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddPersonViewController.h; path = ../AddPersonViewController.h; sourceTree = "<group>"; };
+		A681339713DAFFDB003624B1 /* AddPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddPersonViewController.m; path = ../AddPersonViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A681333313DAFDBB003624B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A681333B13DAFDBB003624B1 /* UIKit.framework in Frameworks */,
+				A681333D13DAFDBB003624B1 /* Foundation.framework in Frameworks */,
+				A681333F13DAFDBB003624B1 /* CoreGraphics.framework in Frameworks */,
+				A681334113DAFDBB003624B1 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A681332B13DAFDBB003624B1 = {
+			isa = PBXGroup;
+			children = (
+				A681334213DAFDBB003624B1 /* Boosting Data Access in Table Views */,
+				A681333913DAFDBB003624B1 /* Frameworks */,
+				A681333713DAFDBB003624B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A681333713DAFDBB003624B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A681333613DAFDBB003624B1 /* Boosting Data Access in Table Views.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A681333913DAFDBB003624B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A681333A13DAFDBB003624B1 /* UIKit.framework */,
+				A681333C13DAFDBB003624B1 /* Foundation.framework */,
+				A681333E13DAFDBB003624B1 /* CoreGraphics.framework */,
+				A681334013DAFDBB003624B1 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A681334213DAFDBB003624B1 /* Boosting Data Access in Table Views */ = {
+			isa = PBXGroup;
+			children = (
+				A681334B13DAFDBB003624B1 /* Boosting_Data_Access_in_Table_ViewsAppDelegate.h */,
+				A681334C13DAFDBB003624B1 /* Boosting_Data_Access_in_Table_ViewsAppDelegate.m */,
+				A681334E13DAFDBB003624B1 /* Boosting_Data_Access_in_Table_Views.xcdatamodeld */,
+				A681336013DAFE47003624B1 /* Person.h */,
+				A681336113DAFE47003624B1 /* Person.m */,
+				A681334313DAFDBB003624B1 /* Supporting Files */,
+				A681339313DAFFCE003624B1 /* PersonListViewController.h */,
+				A681339413DAFFCE003624B1 /* PersonListViewController.m */,
+				A681339613DAFFDB003624B1 /* AddPersonViewController.h */,
+				A681339713DAFFDB003624B1 /* AddPersonViewController.m */,
+			);
+			path = "Boosting Data Access in Table Views";
+			sourceTree = "<group>";
+		};
+		A681334313DAFDBB003624B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A681334413DAFDBB003624B1 /* Boosting Data Access in Table Views-Info.plist */,
+				A681334513DAFDBB003624B1 /* InfoPlist.strings */,
+				A681334813DAFDBB003624B1 /* main.m */,
+				A681334A13DAFDBB003624B1 /* Boosting Data Access in Table Views-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A681333513DAFDBB003624B1 /* Boosting Data Access in Table Views */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A681335313DAFDBB003624B1 /* Build configuration list for PBXNativeTarget "Boosting Data Access in Table Views" */;
+			buildPhases = (
+				A681333213DAFDBB003624B1 /* Sources */,
+				A681333313DAFDBB003624B1 /* Frameworks */,
+				A681333413DAFDBB003624B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Boosting Data Access in Table Views";
+			productName = "Boosting Data Access in Table Views";
+			productReference = A681333613DAFDBB003624B1 /* Boosting Data Access in Table Views.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A681332D13DAFDBB003624B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A681333013DAFDBB003624B1 /* Build configuration list for PBXProject "Boosting Data Access in Table Views" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A681332B13DAFDBB003624B1;
+			productRefGroup = A681333713DAFDBB003624B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A681333513DAFDBB003624B1 /* Boosting Data Access in Table Views */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A681333413DAFDBB003624B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A681334713DAFDBB003624B1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A681333213DAFDBB003624B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A681334913DAFDBB003624B1 /* main.m in Sources */,
+				A681334D13DAFDBB003624B1 /* Boosting_Data_Access_in_Table_ViewsAppDelegate.m in Sources */,
+				A681335013DAFDBB003624B1 /* Boosting_Data_Access_in_Table_Views.xcdatamodeld in Sources */,
+				A681336213DAFE47003624B1 /* Person.m in Sources */,
+				A681339513DAFFCE003624B1 /* PersonListViewController.m in Sources */,
+				A681339813DAFFDB003624B1 /* AddPersonViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A681334513DAFDBB003624B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A681334613DAFDBB003624B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A681335113DAFDBB003624B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A681335213DAFDBB003624B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A681335413DAFDBB003624B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Boosting Data Access in Table Views/Boosting Data Access in Table Views-Prefix.pch";
+				INFOPLIST_FILE = "Boosting Data Access in Table Views/Boosting Data Access in Table Views-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A681335513DAFDBB003624B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Boosting Data Access in Table Views/Boosting Data Access in Table Views-Prefix.pch";
+				INFOPLIST_FILE = "Boosting Data Access in Table Views/Boosting Data Access in Table Views-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A681333013DAFDBB003624B1 /* Build configuration list for PBXProject "Boosting Data Access in Table Views" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A681335113DAFDBB003624B1 /* Debug */,
+				A681335213DAFDBB003624B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A681335313DAFDBB003624B1 /* Build configuration list for PBXNativeTarget "Boosting Data Access in Table Views" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A681335413DAFDBB003624B1 /* Debug */,
+				A681335513DAFDBB003624B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A681334E13DAFDBB003624B1 /* Boosting_Data_Access_in_Table_Views.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A681334F13DAFDBB003624B1 /* Boosting_Data_Access_in_Table_Views.xcdatamodel */,
+			);
+			currentVersion = A681334F13DAFDBB003624B1 /* Boosting_Data_Access_in_Table_Views.xcdatamodel */;
+			path = Boosting_Data_Access_in_Table_Views.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A681332D13DAFDBB003624B1 /* Project object */;
+}

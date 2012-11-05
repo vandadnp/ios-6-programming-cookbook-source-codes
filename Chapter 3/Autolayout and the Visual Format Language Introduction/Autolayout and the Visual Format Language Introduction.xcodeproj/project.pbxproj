@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DA5825815DAFD81007F12EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA5825715DAFD81007F12EE /* UIKit.framework */; };
+		9DA5825A15DAFD81007F12EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA5825915DAFD81007F12EE /* Foundation.framework */; };
+		9DA5825C15DAFD81007F12EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA5825B15DAFD81007F12EE /* CoreGraphics.framework */; };
+		9DA5826215DAFD81007F12EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DA5826015DAFD81007F12EE /* InfoPlist.strings */; };
+		9DA5826415DAFD81007F12EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA5826315DAFD81007F12EE /* main.m */; };
+		9DA5826815DAFD81007F12EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA5826715DAFD81007F12EE /* AppDelegate.m */; };
+		9DA5826B15DAFD81007F12EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA5826A15DAFD81007F12EE /* ViewController.m */; };
+		9DA5826E15DAFD81007F12EE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DA5826C15DAFD81007F12EE /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9DA5825315DAFD81007F12EE /* Autolayout and the Visual Format Language Introduction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Autolayout and the Visual Format Language Introduction.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA5825715DAFD81007F12EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9DA5825915DAFD81007F12EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9DA5825B15DAFD81007F12EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9DA5825F15DAFD81007F12EE /* Autolayout and the Visual Format Language Introduction-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Autolayout and the Visual Format Language Introduction-Info.plist"; sourceTree = "<group>"; };
+		9DA5826115DAFD81007F12EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9DA5826315DAFD81007F12EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DA5826515DAFD81007F12EE /* Autolayout and the Visual Format Language Introduction-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Autolayout and the Visual Format Language Introduction-Prefix.pch"; sourceTree = "<group>"; };
+		9DA5826615DAFD81007F12EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9DA5826715DAFD81007F12EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9DA5826915DAFD81007F12EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9DA5826A15DAFD81007F12EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9DA5826D15DAFD81007F12EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DA5825015DAFD81007F12EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA5825815DAFD81007F12EE /* UIKit.framework in Frameworks */,
+				9DA5825A15DAFD81007F12EE /* Foundation.framework in Frameworks */,
+				9DA5825C15DAFD81007F12EE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DA5824815DAFD81007F12EE = {
+			isa = PBXGroup;
+			children = (
+				9DA5825D15DAFD81007F12EE /* Autolayout and the Visual Format Language Introduction */,
+				9DA5825615DAFD81007F12EE /* Frameworks */,
+				9DA5825415DAFD81007F12EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DA5825415DAFD81007F12EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DA5825315DAFD81007F12EE /* Autolayout and the Visual Format Language Introduction.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DA5825615DAFD81007F12EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DA5825715DAFD81007F12EE /* UIKit.framework */,
+				9DA5825915DAFD81007F12EE /* Foundation.framework */,
+				9DA5825B15DAFD81007F12EE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DA5825D15DAFD81007F12EE /* Autolayout and the Visual Format Language Introduction */ = {
+			isa = PBXGroup;
+			children = (
+				9DA5826615DAFD81007F12EE /* AppDelegate.h */,
+				9DA5826715DAFD81007F12EE /* AppDelegate.m */,
+				9DA5826915DAFD81007F12EE /* ViewController.h */,
+				9DA5826A15DAFD81007F12EE /* ViewController.m */,
+				9DA5826C15DAFD81007F12EE /* ViewController.xib */,
+				9DA5825E15DAFD81007F12EE /* Supporting Files */,
+			);
+			path = "Autolayout and the Visual Format Language Introduction";
+			sourceTree = "<group>";
+		};
+		9DA5825E15DAFD81007F12EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DA5825F15DAFD81007F12EE /* Autolayout and the Visual Format Language Introduction-Info.plist */,
+				9DA5826015DAFD81007F12EE /* InfoPlist.strings */,
+				9DA5826315DAFD81007F12EE /* main.m */,
+				9DA5826515DAFD81007F12EE /* Autolayout and the Visual Format Language Introduction-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DA5825215DAFD81007F12EE /* Autolayout and the Visual Format Language Introduction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DA5827115DAFD81007F12EE /* Build configuration list for PBXNativeTarget "Autolayout and the Visual Format Language Introduction" */;
+			buildPhases = (
+				9DA5824F15DAFD81007F12EE /* Sources */,
+				9DA5825015DAFD81007F12EE /* Frameworks */,
+				9DA5825115DAFD81007F12EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Autolayout and the Visual Format Language Introduction";
+			productName = "Autolayout and the Visual Format Language Introduction";
+			productReference = 9DA5825315DAFD81007F12EE /* Autolayout and the Visual Format Language Introduction.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DA5824A15DAFD81007F12EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = 9DA5824D15DAFD81007F12EE /* Build configuration list for PBXProject "Autolayout and the Visual Format Language Introduction" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9DA5824815DAFD81007F12EE;
+			productRefGroup = 9DA5825415DAFD81007F12EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DA5825215DAFD81007F12EE /* Autolayout and the Visual Format Language Introduction */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DA5825115DAFD81007F12EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA5826215DAFD81007F12EE /* InfoPlist.strings in Resources */,
+				9DA5826E15DAFD81007F12EE /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DA5824F15DAFD81007F12EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA5826415DAFD81007F12EE /* main.m in Sources */,
+				9DA5826815DAFD81007F12EE /* AppDelegate.m in Sources */,
+				9DA5826B15DAFD81007F12EE /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DA5826015DAFD81007F12EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DA5826115DAFD81007F12EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9DA5826C15DAFD81007F12EE /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DA5826D15DAFD81007F12EE /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DA5826F15DAFD81007F12EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9DA5827015DAFD81007F12EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DA5827215DAFD81007F12EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Autolayout and the Visual Format Language Introduction/Autolayout and the Visual Format Language Introduction-Prefix.pch";
+				INFOPLIST_FILE = "Autolayout and the Visual Format Language Introduction/Autolayout and the Visual Format Language Introduction-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9DA5827315DAFD81007F12EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Autolayout and the Visual Format Language Introduction/Autolayout and the Visual Format Language Introduction-Prefix.pch";
+				INFOPLIST_FILE = "Autolayout and the Visual Format Language Introduction/Autolayout and the Visual Format Language Introduction-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DA5824D15DAFD81007F12EE /* Build configuration list for PBXProject "Autolayout and the Visual Format Language Introduction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA5826F15DAFD81007F12EE /* Debug */,
+				9DA5827015DAFD81007F12EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DA5827115DAFD81007F12EE /* Build configuration list for PBXNativeTarget "Autolayout and the Visual Format Language Introduction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA5827215DAFD81007F12EE /* Debug */,
+				9DA5827315DAFD81007F12EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DA5824A15DAFD81007F12EE /* Project object */;
+}

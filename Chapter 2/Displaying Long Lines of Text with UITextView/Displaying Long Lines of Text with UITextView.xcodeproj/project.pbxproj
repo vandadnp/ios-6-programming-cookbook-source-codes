@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6B446FE13C98A0D004ABD04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B446FD13C98A0D004ABD04 /* UIKit.framework */; };
+		A6B4470013C98A0D004ABD04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B446FF13C98A0D004ABD04 /* Foundation.framework */; };
+		A6B4470213C98A0D004ABD04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B4470113C98A0D004ABD04 /* CoreGraphics.framework */; };
+		A6B4470813C98A0D004ABD04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6B4470613C98A0D004ABD04 /* InfoPlist.strings */; };
+		A6B4470A13C98A0D004ABD04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B4470913C98A0D004ABD04 /* main.m */; };
+		A6B4470E13C98A0D004ABD04 /* Displaying_Long_Lines_of_Text_with_UITextViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B4470D13C98A0D004ABD04 /* Displaying_Long_Lines_of_Text_with_UITextViewAppDelegate.m */; };
+		A6B4471013C98A0D004ABD04 /* Displaying_Long_Lines_of_Text_with_UITextViewViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = A6B4470F13C98A0D004ABD04 /* Displaying_Long_Lines_of_Text_with_UITextViewViewController.h */; };
+		A6B4471213C98A0D004ABD04 /* Displaying_Long_Lines_of_Text_with_UITextViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B4471113C98A0D004ABD04 /* Displaying_Long_Lines_of_Text_with_UITextViewViewController.m */; };
+		A6B4471513C98A0D004ABD04 /* Displaying_Long_Lines_of_Text_with_UITextViewViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6B4471313C98A0D004ABD04 /* Displaying_Long_Lines_of_Text_with_UITextViewViewController_iPhone.xib */; };
+		A6B4471813C98A0D004ABD04 /* Displaying_Long_Lines_of_Text_with_UITextViewViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6B4471613C98A0D004ABD04 /* Displaying_Long_Lines_of_Text_with_UITextViewViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6B446F913C98A0D004ABD04 /* Displaying Long Lines of Text with UITextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Displaying Long Lines of Text with UITextView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B446FD13C98A0D004ABD04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6B446FF13C98A0D004ABD04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6B4470113C98A0D004ABD04 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6B4470513C98A0D004ABD04 /* Displaying Long Lines of Text with UITextView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Displaying Long Lines of Text with UITextView-Info.plist"; sourceTree = "<group>"; };
+		A6B4470713C98A0D004ABD04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6B4470913C98A0D004ABD04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6B4470B13C98A0D004ABD04 /* Displaying Long Lines of Text with UITextView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Displaying Long Lines of Text with UITextView-Prefix.pch"; sourceTree = "<group>"; };
+		A6B4470C13C98A0D004ABD04 /* Displaying_Long_Lines_of_Text_with_UITextViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Displaying_Long_Lines_of_Text_with_UITextViewAppDelegate.h; sourceTree = "<group>"; };
+		A6B4470D13C98A0D004ABD04 /* Displaying_Long_Lines_of_Text_with_UITextViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Displaying_Long_Lines_of_Text_with_UITextViewAppDelegate.m; sourceTree = "<group>"; };
+		A6B4470F13C98A0D004ABD04 /* Displaying_Long_Lines_of_Text_with_UITextViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Displaying_Long_Lines_of_Text_with_UITextViewViewController.h; sourceTree = "<group>"; };
+		A6B4471113C98A0D004ABD04 /* Displaying_Long_Lines_of_Text_with_UITextViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Displaying_Long_Lines_of_Text_with_UITextViewViewController.m; sourceTree = "<group>"; };
+		A6B4471413C98A0D004ABD04 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Displaying_Long_Lines_of_Text_with_UITextViewViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6B4471713C98A0D004ABD04 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Displaying_Long_Lines_of_Text_with_UITextViewViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6B446F613C98A0D004ABD04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B446FE13C98A0D004ABD04 /* UIKit.framework in Frameworks */,
+				A6B4470013C98A0D004ABD04 /* Foundation.framework in Frameworks */,
+				A6B4470213C98A0D004ABD04 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6B446EE13C98A0D004ABD04 = {
+			isa = PBXGroup;
+			children = (
+				A6B4470313C98A0D004ABD04 /* Displaying Long Lines of Text with UITextView */,
+				A6B446FC13C98A0D004ABD04 /* Frameworks */,
+				A6B446FA13C98A0D004ABD04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6B446FA13C98A0D004ABD04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6B446F913C98A0D004ABD04 /* Displaying Long Lines of Text with UITextView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6B446FC13C98A0D004ABD04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6B446FD13C98A0D004ABD04 /* UIKit.framework */,
+				A6B446FF13C98A0D004ABD04 /* Foundation.framework */,
+				A6B4470113C98A0D004ABD04 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6B4470313C98A0D004ABD04 /* Displaying Long Lines of Text with UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				A6B4470C13C98A0D004ABD04 /* Displaying_Long_Lines_of_Text_with_UITextViewAppDelegate.h */,
+				A6B4470D13C98A0D004ABD04 /* Displaying_Long_Lines_of_Text_with_UITextViewAppDelegate.m */,
+				A6B4470F13C98A0D004ABD04 /* Displaying_Long_Lines_of_Text_with_UITextViewViewController.h */,
+				A6B4471113C98A0D004ABD04 /* Displaying_Long_Lines_of_Text_with_UITextViewViewController.m */,
+				A6B4471313C98A0D004ABD04 /* Displaying_Long_Lines_of_Text_with_UITextViewViewController_iPhone.xib */,
+				A6B4471613C98A0D004ABD04 /* Displaying_Long_Lines_of_Text_with_UITextViewViewController_iPad.xib */,
+				A6B4470413C98A0D004ABD04 /* Supporting Files */,
+			);
+			path = "Displaying Long Lines of Text with UITextView";
+			sourceTree = "<group>";
+		};
+		A6B4470413C98A0D004ABD04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6B4470513C98A0D004ABD04 /* Displaying Long Lines of Text with UITextView-Info.plist */,
+				A6B4470613C98A0D004ABD04 /* InfoPlist.strings */,
+				A6B4470913C98A0D004ABD04 /* main.m */,
+				A6B4470B13C98A0D004ABD04 /* Displaying Long Lines of Text with UITextView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6B446F813C98A0D004ABD04 /* Displaying Long Lines of Text with UITextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6B4471B13C98A0D004ABD04 /* Build configuration list for PBXNativeTarget "Displaying Long Lines of Text with UITextView" */;
+			buildPhases = (
+				A6B446F513C98A0D004ABD04 /* Sources */,
+				A6B446F613C98A0D004ABD04 /* Frameworks */,
+				A6B446F713C98A0D004ABD04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Displaying Long Lines of Text with UITextView";
+			productName = "Displaying Long Lines of Text with UITextView";
+			productReference = A6B446F913C98A0D004ABD04 /* Displaying Long Lines of Text with UITextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6B446F013C98A0D004ABD04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6B446F313C98A0D004ABD04 /* Build configuration list for PBXProject "Displaying Long Lines of Text with UITextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6B446EE13C98A0D004ABD04;
+			productRefGroup = A6B446FA13C98A0D004ABD04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6B446F813C98A0D004ABD04 /* Displaying Long Lines of Text with UITextView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6B446F713C98A0D004ABD04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B4470813C98A0D004ABD04 /* InfoPlist.strings in Resources */,
+				A6B4471013C98A0D004ABD04 /* Displaying_Long_Lines_of_Text_with_UITextViewViewController.h in Resources */,
+				A6B4471513C98A0D004ABD04 /* Displaying_Long_Lines_of_Text_with_UITextViewViewController_iPhone.xib in Resources */,
+				A6B4471813C98A0D004ABD04 /* Displaying_Long_Lines_of_Text_with_UITextViewViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6B446F513C98A0D004ABD04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B4470A13C98A0D004ABD04 /* main.m in Sources */,
+				A6B4470E13C98A0D004ABD04 /* Displaying_Long_Lines_of_Text_with_UITextViewAppDelegate.m in Sources */,
+				A6B4471213C98A0D004ABD04 /* Displaying_Long_Lines_of_Text_with_UITextViewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6B4470613C98A0D004ABD04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6B4470713C98A0D004ABD04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6B4471313C98A0D004ABD04 /* Displaying_Long_Lines_of_Text_with_UITextViewViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6B4471413C98A0D004ABD04 /* en */,
+			);
+			name = Displaying_Long_Lines_of_Text_with_UITextViewViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6B4471613C98A0D004ABD04 /* Displaying_Long_Lines_of_Text_with_UITextViewViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6B4471713C98A0D004ABD04 /* en */,
+			);
+			name = Displaying_Long_Lines_of_Text_with_UITextViewViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6B4471913C98A0D004ABD04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6B4471A13C98A0D004ABD04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6B4471C13C98A0D004ABD04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Displaying Long Lines of Text with UITextView/Displaying Long Lines of Text with UITextView-Prefix.pch";
+				INFOPLIST_FILE = "Displaying Long Lines of Text with UITextView/Displaying Long Lines of Text with UITextView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6B4471D13C98A0D004ABD04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Displaying Long Lines of Text with UITextView/Displaying Long Lines of Text with UITextView-Prefix.pch";
+				INFOPLIST_FILE = "Displaying Long Lines of Text with UITextView/Displaying Long Lines of Text with UITextView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6B446F313C98A0D004ABD04 /* Build configuration list for PBXProject "Displaying Long Lines of Text with UITextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B4471913C98A0D004ABD04 /* Debug */,
+				A6B4471A13C98A0D004ABD04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6B4471B13C98A0D004ABD04 /* Build configuration list for PBXNativeTarget "Displaying Long Lines of Text with UITextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B4471C13C98A0D004ABD04 /* Debug */,
+				A6B4471D13C98A0D004ABD04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6B446F013C98A0D004ABD04 /* Project object */;
+}

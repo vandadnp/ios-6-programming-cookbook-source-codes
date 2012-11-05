@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6DBBE6213C7055D008C199F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DBBE6113C7055D008C199F /* UIKit.framework */; };
+		A6DBBE6413C7055D008C199F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DBBE6313C7055D008C199F /* Foundation.framework */; };
+		A6DBBE6613C7055D008C199F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DBBE6513C7055D008C199F /* CoreGraphics.framework */; };
+		A6DBBE6C13C7055D008C199F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6DBBE6A13C7055D008C199F /* InfoPlist.strings */; };
+		A6DBBE6E13C7055D008C199F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DBBE6D13C7055D008C199F /* main.m */; };
+		A6DBBE7213C7055D008C199F /* Taking_Advantage_of_ARC__Automatic_Reference_Counting_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DBBE7113C7055D008C199F /* Taking_Advantage_of_ARC__Automatic_Reference_Counting_AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6DBBE5D13C7055D008C199F /* Taking Advantage of ARC (Automatic Reference Counting).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taking Advantage of ARC (Automatic Reference Counting).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6DBBE6113C7055D008C199F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6DBBE6313C7055D008C199F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6DBBE6513C7055D008C199F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6DBBE6913C7055D008C199F /* Taking Advantage of ARC (Automatic Reference Counting)-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Taking Advantage of ARC (Automatic Reference Counting)-Info.plist"; sourceTree = "<group>"; };
+		A6DBBE6B13C7055D008C199F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6DBBE6D13C7055D008C199F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6DBBE6F13C7055D008C199F /* Taking Advantage of ARC (Automatic Reference Counting)-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Taking Advantage of ARC (Automatic Reference Counting)-Prefix.pch"; sourceTree = "<group>"; };
+		A6DBBE7013C7055D008C199F /* Taking_Advantage_of_ARC__Automatic_Reference_Counting_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Taking_Advantage_of_ARC__Automatic_Reference_Counting_AppDelegate.h; sourceTree = "<group>"; };
+		A6DBBE7113C7055D008C199F /* Taking_Advantage_of_ARC__Automatic_Reference_Counting_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Taking_Advantage_of_ARC__Automatic_Reference_Counting_AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6DBBE5A13C7055D008C199F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DBBE6213C7055D008C199F /* UIKit.framework in Frameworks */,
+				A6DBBE6413C7055D008C199F /* Foundation.framework in Frameworks */,
+				A6DBBE6613C7055D008C199F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6DBBE5213C7055D008C199F = {
+			isa = PBXGroup;
+			children = (
+				A6DBBE6713C7055D008C199F /* Taking Advantage of ARC (Automatic Reference Counting) */,
+				A6DBBE6013C7055D008C199F /* Frameworks */,
+				A6DBBE5E13C7055D008C199F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6DBBE5E13C7055D008C199F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6DBBE5D13C7055D008C199F /* Taking Advantage of ARC (Automatic Reference Counting).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6DBBE6013C7055D008C199F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6DBBE6113C7055D008C199F /* UIKit.framework */,
+				A6DBBE6313C7055D008C199F /* Foundation.framework */,
+				A6DBBE6513C7055D008C199F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6DBBE6713C7055D008C199F /* Taking Advantage of ARC (Automatic Reference Counting) */ = {
+			isa = PBXGroup;
+			children = (
+				A6DBBE7013C7055D008C199F /* Taking_Advantage_of_ARC__Automatic_Reference_Counting_AppDelegate.h */,
+				A6DBBE7113C7055D008C199F /* Taking_Advantage_of_ARC__Automatic_Reference_Counting_AppDelegate.m */,
+				A6DBBE6813C7055D008C199F /* Supporting Files */,
+			);
+			path = "Taking Advantage of ARC (Automatic Reference Counting)";
+			sourceTree = "<group>";
+		};
+		A6DBBE6813C7055D008C199F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6DBBE6913C7055D008C199F /* Taking Advantage of ARC (Automatic Reference Counting)-Info.plist */,
+				A6DBBE6A13C7055D008C199F /* InfoPlist.strings */,
+				A6DBBE6D13C7055D008C199F /* main.m */,
+				A6DBBE6F13C7055D008C199F /* Taking Advantage of ARC (Automatic Reference Counting)-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6DBBE5C13C7055D008C199F /* Taking Advantage of ARC (Automatic Reference Counting) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6DBBE7513C7055D008C199F /* Build configuration list for PBXNativeTarget "Taking Advantage of ARC (Automatic Reference Counting)" */;
+			buildPhases = (
+				A6DBBE5913C7055D008C199F /* Sources */,
+				A6DBBE5A13C7055D008C199F /* Frameworks */,
+				A6DBBE5B13C7055D008C199F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Taking Advantage of ARC (Automatic Reference Counting)";
+			productName = "Taking Advantage of ARC (Automatic Reference Counting)";
+			productReference = A6DBBE5D13C7055D008C199F /* Taking Advantage of ARC (Automatic Reference Counting).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6DBBE5413C7055D008C199F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6DBBE5713C7055D008C199F /* Build configuration list for PBXProject "Taking Advantage of ARC (Automatic Reference Counting)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6DBBE5213C7055D008C199F;
+			productRefGroup = A6DBBE5E13C7055D008C199F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6DBBE5C13C7055D008C199F /* Taking Advantage of ARC (Automatic Reference Counting) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6DBBE5B13C7055D008C199F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DBBE6C13C7055D008C199F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6DBBE5913C7055D008C199F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DBBE6E13C7055D008C199F /* main.m in Sources */,
+				A6DBBE7213C7055D008C199F /* Taking_Advantage_of_ARC__Automatic_Reference_Counting_AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6DBBE6A13C7055D008C199F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6DBBE6B13C7055D008C199F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6DBBE7313C7055D008C199F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6DBBE7413C7055D008C199F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6DBBE7613C7055D008C199F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Taking Advantage of ARC (Automatic Reference Counting)/Taking Advantage of ARC (Automatic Reference Counting)-Prefix.pch";
+				INFOPLIST_FILE = "Taking Advantage of ARC (Automatic Reference Counting)/Taking Advantage of ARC (Automatic Reference Counting)-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6DBBE7713C7055D008C199F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Taking Advantage of ARC (Automatic Reference Counting)/Taking Advantage of ARC (Automatic Reference Counting)-Prefix.pch";
+				INFOPLIST_FILE = "Taking Advantage of ARC (Automatic Reference Counting)/Taking Advantage of ARC (Automatic Reference Counting)-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6DBBE5713C7055D008C199F /* Build configuration list for PBXProject "Taking Advantage of ARC (Automatic Reference Counting)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6DBBE7313C7055D008C199F /* Debug */,
+				A6DBBE7413C7055D008C199F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6DBBE7513C7055D008C199F /* Build configuration list for PBXNativeTarget "Taking Advantage of ARC (Automatic Reference Counting)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6DBBE7613C7055D008C199F /* Debug */,
+				A6DBBE7713C7055D008C199F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6DBBE5413C7055D008C199F /* Project object */;
+}

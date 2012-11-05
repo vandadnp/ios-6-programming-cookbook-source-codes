@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6B0AFB213C85CCA00AB0F40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B0AFB113C85CCA00AB0F40 /* UIKit.framework */; };
+		A6B0AFB413C85CCA00AB0F40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B0AFB313C85CCA00AB0F40 /* Foundation.framework */; };
+		A6B0AFB613C85CCA00AB0F40 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B0AFB513C85CCA00AB0F40 /* CoreGraphics.framework */; };
+		A6B0AFBC13C85CCA00AB0F40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6B0AFBA13C85CCA00AB0F40 /* InfoPlist.strings */; };
+		A6B0AFBE13C85CCA00AB0F40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B0AFBD13C85CCA00AB0F40 /* main.m */; };
+		A6B0AFC213C85CCA00AB0F40 /* Presenting_and_Managing_Views_with_UIViewControllerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B0AFC113C85CCA00AB0F40 /* Presenting_and_Managing_Views_with_UIViewControllerAppDelegate.m */; };
+		A6B0AFD613C85F9700AB0F40 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B0AFD513C85F9700AB0F40 /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6B0AFAD13C85CCA00AB0F40 /* Presenting and Managing Views with UIViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Presenting and Managing Views with UIViewController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B0AFB113C85CCA00AB0F40 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6B0AFB313C85CCA00AB0F40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6B0AFB513C85CCA00AB0F40 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6B0AFB913C85CCA00AB0F40 /* Presenting and Managing Views with UIViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Presenting and Managing Views with UIViewController-Info.plist"; sourceTree = "<group>"; };
+		A6B0AFBB13C85CCA00AB0F40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6B0AFBD13C85CCA00AB0F40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6B0AFBF13C85CCA00AB0F40 /* Presenting and Managing Views with UIViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Presenting and Managing Views with UIViewController-Prefix.pch"; sourceTree = "<group>"; };
+		A6B0AFC013C85CCA00AB0F40 /* Presenting_and_Managing_Views_with_UIViewControllerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Presenting_and_Managing_Views_with_UIViewControllerAppDelegate.h; sourceTree = "<group>"; };
+		A6B0AFC113C85CCA00AB0F40 /* Presenting_and_Managing_Views_with_UIViewControllerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Presenting_and_Managing_Views_with_UIViewControllerAppDelegate.m; sourceTree = "<group>"; };
+		A6B0AFD413C85F9700AB0F40 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A6B0AFD513C85F9700AB0F40 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6B0AFAA13C85CCA00AB0F40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B0AFB213C85CCA00AB0F40 /* UIKit.framework in Frameworks */,
+				A6B0AFB413C85CCA00AB0F40 /* Foundation.framework in Frameworks */,
+				A6B0AFB613C85CCA00AB0F40 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6B0AFA213C85CCA00AB0F40 = {
+			isa = PBXGroup;
+			children = (
+				A6B0AFB713C85CCA00AB0F40 /* Presenting and Managing Views with UIViewController */,
+				A6B0AFB013C85CCA00AB0F40 /* Frameworks */,
+				A6B0AFAE13C85CCA00AB0F40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6B0AFAE13C85CCA00AB0F40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6B0AFAD13C85CCA00AB0F40 /* Presenting and Managing Views with UIViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6B0AFB013C85CCA00AB0F40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6B0AFB113C85CCA00AB0F40 /* UIKit.framework */,
+				A6B0AFB313C85CCA00AB0F40 /* Foundation.framework */,
+				A6B0AFB513C85CCA00AB0F40 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6B0AFB713C85CCA00AB0F40 /* Presenting and Managing Views with UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A6B0AFC013C85CCA00AB0F40 /* Presenting_and_Managing_Views_with_UIViewControllerAppDelegate.h */,
+				A6B0AFC113C85CCA00AB0F40 /* Presenting_and_Managing_Views_with_UIViewControllerAppDelegate.m */,
+				A6B0AFB813C85CCA00AB0F40 /* Supporting Files */,
+				A6B0AFD413C85F9700AB0F40 /* RootViewController.h */,
+				A6B0AFD513C85F9700AB0F40 /* RootViewController.m */,
+			);
+			path = "Presenting and Managing Views with UIViewController";
+			sourceTree = "<group>";
+		};
+		A6B0AFB813C85CCA00AB0F40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6B0AFB913C85CCA00AB0F40 /* Presenting and Managing Views with UIViewController-Info.plist */,
+				A6B0AFBA13C85CCA00AB0F40 /* InfoPlist.strings */,
+				A6B0AFBD13C85CCA00AB0F40 /* main.m */,
+				A6B0AFBF13C85CCA00AB0F40 /* Presenting and Managing Views with UIViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6B0AFAC13C85CCA00AB0F40 /* Presenting and Managing Views with UIViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6B0AFC513C85CCA00AB0F40 /* Build configuration list for PBXNativeTarget "Presenting and Managing Views with UIViewController" */;
+			buildPhases = (
+				A6B0AFA913C85CCA00AB0F40 /* Sources */,
+				A6B0AFAA13C85CCA00AB0F40 /* Frameworks */,
+				A6B0AFAB13C85CCA00AB0F40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Presenting and Managing Views with UIViewController";
+			productName = "Presenting and Managing Views with UIViewController";
+			productReference = A6B0AFAD13C85CCA00AB0F40 /* Presenting and Managing Views with UIViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6B0AFA413C85CCA00AB0F40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6B0AFA713C85CCA00AB0F40 /* Build configuration list for PBXProject "Presenting and Managing Views with UIViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6B0AFA213C85CCA00AB0F40;
+			productRefGroup = A6B0AFAE13C85CCA00AB0F40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6B0AFAC13C85CCA00AB0F40 /* Presenting and Managing Views with UIViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6B0AFAB13C85CCA00AB0F40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B0AFBC13C85CCA00AB0F40 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6B0AFA913C85CCA00AB0F40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B0AFBE13C85CCA00AB0F40 /* main.m in Sources */,
+				A6B0AFC213C85CCA00AB0F40 /* Presenting_and_Managing_Views_with_UIViewControllerAppDelegate.m in Sources */,
+				A6B0AFD613C85F9700AB0F40 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6B0AFBA13C85CCA00AB0F40 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6B0AFBB13C85CCA00AB0F40 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6B0AFC313C85CCA00AB0F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6B0AFC413C85CCA00AB0F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6B0AFC613C85CCA00AB0F40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Presenting and Managing Views with UIViewController/Presenting and Managing Views with UIViewController-Prefix.pch";
+				INFOPLIST_FILE = "Presenting and Managing Views with UIViewController/Presenting and Managing Views with UIViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6B0AFC713C85CCA00AB0F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Presenting and Managing Views with UIViewController/Presenting and Managing Views with UIViewController-Prefix.pch";
+				INFOPLIST_FILE = "Presenting and Managing Views with UIViewController/Presenting and Managing Views with UIViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6B0AFA713C85CCA00AB0F40 /* Build configuration list for PBXProject "Presenting and Managing Views with UIViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B0AFC313C85CCA00AB0F40 /* Debug */,
+				A6B0AFC413C85CCA00AB0F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6B0AFC513C85CCA00AB0F40 /* Build configuration list for PBXNativeTarget "Presenting and Managing Views with UIViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B0AFC613C85CCA00AB0F40 /* Debug */,
+				A6B0AFC713C85CCA00AB0F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6B0AFA413C85CCA00AB0F40 /* Project object */;
+}

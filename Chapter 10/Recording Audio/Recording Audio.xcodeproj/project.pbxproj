@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A605FE4913D08F8D00E1EBBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A605FE4813D08F8D00E1EBBB /* UIKit.framework */; };
+		A605FE4B13D08F8D00E1EBBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A605FE4A13D08F8D00E1EBBB /* Foundation.framework */; };
+		A605FE4D13D08F8D00E1EBBB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A605FE4C13D08F8D00E1EBBB /* CoreGraphics.framework */; };
+		A605FE5313D08F8D00E1EBBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A605FE5113D08F8D00E1EBBB /* InfoPlist.strings */; };
+		A605FE5513D08F8D00E1EBBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A605FE5413D08F8D00E1EBBB /* main.m */; };
+		A605FE5913D08F8D00E1EBBB /* Recording_AudioAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A605FE5813D08F8D00E1EBBB /* Recording_AudioAppDelegate.m */; };
+		A605FE5C13D08F8D00E1EBBB /* Recording_AudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A605FE5B13D08F8D00E1EBBB /* Recording_AudioViewController.m */; };
+		A605FE5F13D08F8D00E1EBBB /* Recording_AudioViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A605FE5D13D08F8D00E1EBBB /* Recording_AudioViewController_iPhone.xib */; };
+		A605FE6213D08F8D00E1EBBB /* Recording_AudioViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A605FE6013D08F8D00E1EBBB /* Recording_AudioViewController_iPad.xib */; };
+		A605FE7613D08FBF00E1EBBB /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A605FE7513D08FBF00E1EBBB /* CoreAudio.framework */; };
+		A605FE7813D08FC800E1EBBB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A605FE7713D08FC800E1EBBB /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A605FE4413D08F8D00E1EBBB /* Recording Audio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recording Audio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A605FE4813D08F8D00E1EBBB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A605FE4A13D08F8D00E1EBBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A605FE4C13D08F8D00E1EBBB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A605FE5013D08F8D00E1EBBB /* Recording Audio-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recording Audio-Info.plist"; sourceTree = "<group>"; };
+		A605FE5213D08F8D00E1EBBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A605FE5413D08F8D00E1EBBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A605FE5613D08F8D00E1EBBB /* Recording Audio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recording Audio-Prefix.pch"; sourceTree = "<group>"; };
+		A605FE5713D08F8D00E1EBBB /* Recording_AudioAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Recording_AudioAppDelegate.h; sourceTree = "<group>"; };
+		A605FE5813D08F8D00E1EBBB /* Recording_AudioAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recording_AudioAppDelegate.m; sourceTree = "<group>"; };
+		A605FE5A13D08F8D00E1EBBB /* Recording_AudioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Recording_AudioViewController.h; sourceTree = "<group>"; };
+		A605FE5B13D08F8D00E1EBBB /* Recording_AudioViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recording_AudioViewController.m; sourceTree = "<group>"; };
+		A605FE5E13D08F8D00E1EBBB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Recording_AudioViewController_iPhone.xib; sourceTree = "<group>"; };
+		A605FE6113D08F8D00E1EBBB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Recording_AudioViewController_iPad.xib; sourceTree = "<group>"; };
+		A605FE7513D08FBF00E1EBBB /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		A605FE7713D08FC800E1EBBB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A605FE4113D08F8D00E1EBBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A605FE7813D08FC800E1EBBB /* AVFoundation.framework in Frameworks */,
+				A605FE7613D08FBF00E1EBBB /* CoreAudio.framework in Frameworks */,
+				A605FE4913D08F8D00E1EBBB /* UIKit.framework in Frameworks */,
+				A605FE4B13D08F8D00E1EBBB /* Foundation.framework in Frameworks */,
+				A605FE4D13D08F8D00E1EBBB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A605FE3913D08F8D00E1EBBB = {
+			isa = PBXGroup;
+			children = (
+				A605FE4E13D08F8D00E1EBBB /* Recording Audio */,
+				A605FE4713D08F8D00E1EBBB /* Frameworks */,
+				A605FE4513D08F8D00E1EBBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A605FE4513D08F8D00E1EBBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A605FE4413D08F8D00E1EBBB /* Recording Audio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A605FE4713D08F8D00E1EBBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A605FE7713D08FC800E1EBBB /* AVFoundation.framework */,
+				A605FE7513D08FBF00E1EBBB /* CoreAudio.framework */,
+				A605FE4813D08F8D00E1EBBB /* UIKit.framework */,
+				A605FE4A13D08F8D00E1EBBB /* Foundation.framework */,
+				A605FE4C13D08F8D00E1EBBB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A605FE4E13D08F8D00E1EBBB /* Recording Audio */ = {
+			isa = PBXGroup;
+			children = (
+				A605FE5713D08F8D00E1EBBB /* Recording_AudioAppDelegate.h */,
+				A605FE5813D08F8D00E1EBBB /* Recording_AudioAppDelegate.m */,
+				A605FE5A13D08F8D00E1EBBB /* Recording_AudioViewController.h */,
+				A605FE5B13D08F8D00E1EBBB /* Recording_AudioViewController.m */,
+				A605FE5D13D08F8D00E1EBBB /* Recording_AudioViewController_iPhone.xib */,
+				A605FE6013D08F8D00E1EBBB /* Recording_AudioViewController_iPad.xib */,
+				A605FE4F13D08F8D00E1EBBB /* Supporting Files */,
+			);
+			path = "Recording Audio";
+			sourceTree = "<group>";
+		};
+		A605FE4F13D08F8D00E1EBBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A605FE5013D08F8D00E1EBBB /* Recording Audio-Info.plist */,
+				A605FE5113D08F8D00E1EBBB /* InfoPlist.strings */,
+				A605FE5413D08F8D00E1EBBB /* main.m */,
+				A605FE5613D08F8D00E1EBBB /* Recording Audio-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A605FE4313D08F8D00E1EBBB /* Recording Audio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A605FE6513D08F8D00E1EBBB /* Build configuration list for PBXNativeTarget "Recording Audio" */;
+			buildPhases = (
+				A605FE4013D08F8D00E1EBBB /* Sources */,
+				A605FE4113D08F8D00E1EBBB /* Frameworks */,
+				A605FE4213D08F8D00E1EBBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recording Audio";
+			productName = "Recording Audio";
+			productReference = A605FE4413D08F8D00E1EBBB /* Recording Audio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A605FE3B13D08F8D00E1EBBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A605FE3E13D08F8D00E1EBBB /* Build configuration list for PBXProject "Recording Audio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A605FE3913D08F8D00E1EBBB;
+			productRefGroup = A605FE4513D08F8D00E1EBBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A605FE4313D08F8D00E1EBBB /* Recording Audio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A605FE4213D08F8D00E1EBBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A605FE5313D08F8D00E1EBBB /* InfoPlist.strings in Resources */,
+				A605FE5F13D08F8D00E1EBBB /* Recording_AudioViewController_iPhone.xib in Resources */,
+				A605FE6213D08F8D00E1EBBB /* Recording_AudioViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A605FE4013D08F8D00E1EBBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A605FE5513D08F8D00E1EBBB /* main.m in Sources */,
+				A605FE5913D08F8D00E1EBBB /* Recording_AudioAppDelegate.m in Sources */,
+				A605FE5C13D08F8D00E1EBBB /* Recording_AudioViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A605FE5113D08F8D00E1EBBB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A605FE5213D08F8D00E1EBBB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A605FE5D13D08F8D00E1EBBB /* Recording_AudioViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A605FE5E13D08F8D00E1EBBB /* en */,
+			);
+			name = Recording_AudioViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A605FE6013D08F8D00E1EBBB /* Recording_AudioViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A605FE6113D08F8D00E1EBBB /* en */,
+			);
+			name = Recording_AudioViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A605FE6313D08F8D00E1EBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A605FE6413D08F8D00E1EBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A605FE6613D08F8D00E1EBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recording Audio/Recording Audio-Prefix.pch";
+				INFOPLIST_FILE = "Recording Audio/Recording Audio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A605FE6713D08F8D00E1EBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recording Audio/Recording Audio-Prefix.pch";
+				INFOPLIST_FILE = "Recording Audio/Recording Audio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A605FE3E13D08F8D00E1EBBB /* Build configuration list for PBXProject "Recording Audio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A605FE6313D08F8D00E1EBBB /* Debug */,
+				A605FE6413D08F8D00E1EBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A605FE6513D08F8D00E1EBBB /* Build configuration list for PBXNativeTarget "Recording Audio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A605FE6613D08F8D00E1EBBB /* Debug */,
+				A605FE6713D08F8D00E1EBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A605FE3B13D08F8D00E1EBBB /* Project object */;
+}

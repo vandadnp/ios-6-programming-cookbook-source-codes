@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6EA713113D07CD9000D181B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EA713013D07CD9000D181B /* UIKit.framework */; };
+		A6EA713313D07CD9000D181B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EA713213D07CD9000D181B /* Foundation.framework */; };
+		A6EA713513D07CD9000D181B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EA713413D07CD9000D181B /* CoreGraphics.framework */; };
+		A6EA713B13D07CD9000D181B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6EA713913D07CD9000D181B /* InfoPlist.strings */; };
+		A6EA713D13D07CD9000D181B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA713C13D07CD9000D181B /* main.m */; };
+		A6EA714113D07CD9000D181B /* Detecting_Pinch_GesturesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA714013D07CD9000D181B /* Detecting_Pinch_GesturesAppDelegate.m */; };
+		A6EA714413D07CD9000D181B /* Detecting_Pinch_GesturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EA714313D07CD9000D181B /* Detecting_Pinch_GesturesViewController.m */; };
+		A6EA714713D07CD9000D181B /* Detecting_Pinch_GesturesViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6EA714513D07CD9000D181B /* Detecting_Pinch_GesturesViewController_iPhone.xib */; };
+		A6EA714A13D07CD9000D181B /* Detecting_Pinch_GesturesViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6EA714813D07CD9000D181B /* Detecting_Pinch_GesturesViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6EA712C13D07CD9000D181B /* Detecting Pinch Gestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Detecting Pinch Gestures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6EA713013D07CD9000D181B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6EA713213D07CD9000D181B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6EA713413D07CD9000D181B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6EA713813D07CD9000D181B /* Detecting Pinch Gestures-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Detecting Pinch Gestures-Info.plist"; sourceTree = "<group>"; };
+		A6EA713A13D07CD9000D181B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6EA713C13D07CD9000D181B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6EA713E13D07CD9000D181B /* Detecting Pinch Gestures-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Detecting Pinch Gestures-Prefix.pch"; sourceTree = "<group>"; };
+		A6EA713F13D07CD9000D181B /* Detecting_Pinch_GesturesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Detecting_Pinch_GesturesAppDelegate.h; sourceTree = "<group>"; };
+		A6EA714013D07CD9000D181B /* Detecting_Pinch_GesturesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Detecting_Pinch_GesturesAppDelegate.m; sourceTree = "<group>"; };
+		A6EA714213D07CD9000D181B /* Detecting_Pinch_GesturesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Detecting_Pinch_GesturesViewController.h; sourceTree = "<group>"; };
+		A6EA714313D07CD9000D181B /* Detecting_Pinch_GesturesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Detecting_Pinch_GesturesViewController.m; sourceTree = "<group>"; };
+		A6EA714613D07CD9000D181B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Detecting_Pinch_GesturesViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6EA714913D07CD9000D181B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Detecting_Pinch_GesturesViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6EA712913D07CD9000D181B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EA713113D07CD9000D181B /* UIKit.framework in Frameworks */,
+				A6EA713313D07CD9000D181B /* Foundation.framework in Frameworks */,
+				A6EA713513D07CD9000D181B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6EA712113D07CD9000D181B = {
+			isa = PBXGroup;
+			children = (
+				A6EA713613D07CD9000D181B /* Detecting Pinch Gestures */,
+				A6EA712F13D07CD9000D181B /* Frameworks */,
+				A6EA712D13D07CD9000D181B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6EA712D13D07CD9000D181B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6EA712C13D07CD9000D181B /* Detecting Pinch Gestures.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6EA712F13D07CD9000D181B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6EA713013D07CD9000D181B /* UIKit.framework */,
+				A6EA713213D07CD9000D181B /* Foundation.framework */,
+				A6EA713413D07CD9000D181B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6EA713613D07CD9000D181B /* Detecting Pinch Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				A6EA713F13D07CD9000D181B /* Detecting_Pinch_GesturesAppDelegate.h */,
+				A6EA714013D07CD9000D181B /* Detecting_Pinch_GesturesAppDelegate.m */,
+				A6EA714213D07CD9000D181B /* Detecting_Pinch_GesturesViewController.h */,
+				A6EA714313D07CD9000D181B /* Detecting_Pinch_GesturesViewController.m */,
+				A6EA714513D07CD9000D181B /* Detecting_Pinch_GesturesViewController_iPhone.xib */,
+				A6EA714813D07CD9000D181B /* Detecting_Pinch_GesturesViewController_iPad.xib */,
+				A6EA713713D07CD9000D181B /* Supporting Files */,
+			);
+			path = "Detecting Pinch Gestures";
+			sourceTree = "<group>";
+		};
+		A6EA713713D07CD9000D181B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6EA713813D07CD9000D181B /* Detecting Pinch Gestures-Info.plist */,
+				A6EA713913D07CD9000D181B /* InfoPlist.strings */,
+				A6EA713C13D07CD9000D181B /* main.m */,
+				A6EA713E13D07CD9000D181B /* Detecting Pinch Gestures-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6EA712B13D07CD9000D181B /* Detecting Pinch Gestures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6EA714D13D07CD9000D181B /* Build configuration list for PBXNativeTarget "Detecting Pinch Gestures" */;
+			buildPhases = (
+				A6EA712813D07CD9000D181B /* Sources */,
+				A6EA712913D07CD9000D181B /* Frameworks */,
+				A6EA712A13D07CD9000D181B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Detecting Pinch Gestures";
+			productName = "Detecting Pinch Gestures";
+			productReference = A6EA712C13D07CD9000D181B /* Detecting Pinch Gestures.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6EA712313D07CD9000D181B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6EA712613D07CD9000D181B /* Build configuration list for PBXProject "Detecting Pinch Gestures" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6EA712113D07CD9000D181B;
+			productRefGroup = A6EA712D13D07CD9000D181B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6EA712B13D07CD9000D181B /* Detecting Pinch Gestures */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6EA712A13D07CD9000D181B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EA713B13D07CD9000D181B /* InfoPlist.strings in Resources */,
+				A6EA714713D07CD9000D181B /* Detecting_Pinch_GesturesViewController_iPhone.xib in Resources */,
+				A6EA714A13D07CD9000D181B /* Detecting_Pinch_GesturesViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6EA712813D07CD9000D181B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EA713D13D07CD9000D181B /* main.m in Sources */,
+				A6EA714113D07CD9000D181B /* Detecting_Pinch_GesturesAppDelegate.m in Sources */,
+				A6EA714413D07CD9000D181B /* Detecting_Pinch_GesturesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6EA713913D07CD9000D181B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6EA713A13D07CD9000D181B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6EA714513D07CD9000D181B /* Detecting_Pinch_GesturesViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6EA714613D07CD9000D181B /* en */,
+			);
+			name = Detecting_Pinch_GesturesViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6EA714813D07CD9000D181B /* Detecting_Pinch_GesturesViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6EA714913D07CD9000D181B /* en */,
+			);
+			name = Detecting_Pinch_GesturesViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6EA714B13D07CD9000D181B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6EA714C13D07CD9000D181B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6EA714E13D07CD9000D181B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Detecting Pinch Gestures/Detecting Pinch Gestures-Prefix.pch";
+				INFOPLIST_FILE = "Detecting Pinch Gestures/Detecting Pinch Gestures-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6EA714F13D07CD9000D181B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Detecting Pinch Gestures/Detecting Pinch Gestures-Prefix.pch";
+				INFOPLIST_FILE = "Detecting Pinch Gestures/Detecting Pinch Gestures-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6EA712613D07CD9000D181B /* Build configuration list for PBXProject "Detecting Pinch Gestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EA714B13D07CD9000D181B /* Debug */,
+				A6EA714C13D07CD9000D181B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6EA714D13D07CD9000D181B /* Build configuration list for PBXNativeTarget "Detecting Pinch Gestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EA714E13D07CD9000D181B /* Debug */,
+				A6EA714F13D07CD9000D181B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6EA712313D07CD9000D181B /* Project object */;
+}

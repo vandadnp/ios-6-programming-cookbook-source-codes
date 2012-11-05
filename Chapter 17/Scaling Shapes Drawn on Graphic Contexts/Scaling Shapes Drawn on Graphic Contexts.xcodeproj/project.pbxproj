@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6F4F81513D309D400E85E10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F4F81413D309D400E85E10 /* UIKit.framework */; };
+		A6F4F81713D309D400E85E10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F4F81613D309D400E85E10 /* Foundation.framework */; };
+		A6F4F81913D309D400E85E10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F4F81813D309D400E85E10 /* CoreGraphics.framework */; };
+		A6F4F81F13D309D400E85E10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6F4F81D13D309D400E85E10 /* InfoPlist.strings */; };
+		A6F4F82113D309D400E85E10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F4F82013D309D400E85E10 /* main.m */; };
+		A6F4F82513D309D400E85E10 /* Scaling_Shapes_Drawn_on_Graphic_ContextsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F4F82413D309D400E85E10 /* Scaling_Shapes_Drawn_on_Graphic_ContextsAppDelegate.m */; };
+		A6F4F82813D309D400E85E10 /* Scaling_Shapes_Drawn_on_Graphic_ContextsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F4F82713D309D400E85E10 /* Scaling_Shapes_Drawn_on_Graphic_ContextsViewController.m */; };
+		A6F4F82B13D309D400E85E10 /* Scaling_Shapes_Drawn_on_Graphic_ContextsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6F4F82913D309D400E85E10 /* Scaling_Shapes_Drawn_on_Graphic_ContextsViewController.xib */; };
+		A6F4F83D13D309EB00E85E10 /* GraphicsViewControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F4F83C13D309EB00E85E10 /* GraphicsViewControllerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6F4F81013D309D400E85E10 /* Scaling Shapes Drawn on Graphic Contexts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scaling Shapes Drawn on Graphic Contexts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F4F81413D309D400E85E10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6F4F81613D309D400E85E10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6F4F81813D309D400E85E10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6F4F81C13D309D400E85E10 /* Scaling Shapes Drawn on Graphic Contexts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Scaling Shapes Drawn on Graphic Contexts-Info.plist"; sourceTree = "<group>"; };
+		A6F4F81E13D309D400E85E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6F4F82013D309D400E85E10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6F4F82213D309D400E85E10 /* Scaling Shapes Drawn on Graphic Contexts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Scaling Shapes Drawn on Graphic Contexts-Prefix.pch"; sourceTree = "<group>"; };
+		A6F4F82313D309D400E85E10 /* Scaling_Shapes_Drawn_on_Graphic_ContextsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scaling_Shapes_Drawn_on_Graphic_ContextsAppDelegate.h; sourceTree = "<group>"; };
+		A6F4F82413D309D400E85E10 /* Scaling_Shapes_Drawn_on_Graphic_ContextsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scaling_Shapes_Drawn_on_Graphic_ContextsAppDelegate.m; sourceTree = "<group>"; };
+		A6F4F82613D309D400E85E10 /* Scaling_Shapes_Drawn_on_Graphic_ContextsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scaling_Shapes_Drawn_on_Graphic_ContextsViewController.h; sourceTree = "<group>"; };
+		A6F4F82713D309D400E85E10 /* Scaling_Shapes_Drawn_on_Graphic_ContextsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scaling_Shapes_Drawn_on_Graphic_ContextsViewController.m; sourceTree = "<group>"; };
+		A6F4F82A13D309D400E85E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Scaling_Shapes_Drawn_on_Graphic_ContextsViewController.xib; sourceTree = "<group>"; };
+		A6F4F83B13D309EB00E85E10 /* GraphicsViewControllerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsViewControllerView.h; sourceTree = "<group>"; };
+		A6F4F83C13D309EB00E85E10 /* GraphicsViewControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsViewControllerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6F4F80D13D309D400E85E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F4F81513D309D400E85E10 /* UIKit.framework in Frameworks */,
+				A6F4F81713D309D400E85E10 /* Foundation.framework in Frameworks */,
+				A6F4F81913D309D400E85E10 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6F4F80513D309D400E85E10 = {
+			isa = PBXGroup;
+			children = (
+				A6F4F81A13D309D400E85E10 /* Scaling Shapes Drawn on Graphic Contexts */,
+				A6F4F81313D309D400E85E10 /* Frameworks */,
+				A6F4F81113D309D400E85E10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6F4F81113D309D400E85E10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6F4F81013D309D400E85E10 /* Scaling Shapes Drawn on Graphic Contexts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6F4F81313D309D400E85E10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6F4F81413D309D400E85E10 /* UIKit.framework */,
+				A6F4F81613D309D400E85E10 /* Foundation.framework */,
+				A6F4F81813D309D400E85E10 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6F4F81A13D309D400E85E10 /* Scaling Shapes Drawn on Graphic Contexts */ = {
+			isa = PBXGroup;
+			children = (
+				A6F4F82313D309D400E85E10 /* Scaling_Shapes_Drawn_on_Graphic_ContextsAppDelegate.h */,
+				A6F4F82413D309D400E85E10 /* Scaling_Shapes_Drawn_on_Graphic_ContextsAppDelegate.m */,
+				A6F4F82613D309D400E85E10 /* Scaling_Shapes_Drawn_on_Graphic_ContextsViewController.h */,
+				A6F4F82713D309D400E85E10 /* Scaling_Shapes_Drawn_on_Graphic_ContextsViewController.m */,
+				A6F4F82913D309D400E85E10 /* Scaling_Shapes_Drawn_on_Graphic_ContextsViewController.xib */,
+				A6F4F81B13D309D400E85E10 /* Supporting Files */,
+				A6F4F83B13D309EB00E85E10 /* GraphicsViewControllerView.h */,
+				A6F4F83C13D309EB00E85E10 /* GraphicsViewControllerView.m */,
+			);
+			path = "Scaling Shapes Drawn on Graphic Contexts";
+			sourceTree = "<group>";
+		};
+		A6F4F81B13D309D400E85E10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6F4F81C13D309D400E85E10 /* Scaling Shapes Drawn on Graphic Contexts-Info.plist */,
+				A6F4F81D13D309D400E85E10 /* InfoPlist.strings */,
+				A6F4F82013D309D400E85E10 /* main.m */,
+				A6F4F82213D309D400E85E10 /* Scaling Shapes Drawn on Graphic Contexts-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6F4F80F13D309D400E85E10 /* Scaling Shapes Drawn on Graphic Contexts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6F4F82E13D309D400E85E10 /* Build configuration list for PBXNativeTarget "Scaling Shapes Drawn on Graphic Contexts" */;
+			buildPhases = (
+				A6F4F80C13D309D400E85E10 /* Sources */,
+				A6F4F80D13D309D400E85E10 /* Frameworks */,
+				A6F4F80E13D309D400E85E10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Scaling Shapes Drawn on Graphic Contexts";
+			productName = "Scaling Shapes Drawn on Graphic Contexts";
+			productReference = A6F4F81013D309D400E85E10 /* Scaling Shapes Drawn on Graphic Contexts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6F4F80713D309D400E85E10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6F4F80A13D309D400E85E10 /* Build configuration list for PBXProject "Scaling Shapes Drawn on Graphic Contexts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6F4F80513D309D400E85E10;
+			productRefGroup = A6F4F81113D309D400E85E10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6F4F80F13D309D400E85E10 /* Scaling Shapes Drawn on Graphic Contexts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6F4F80E13D309D400E85E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F4F81F13D309D400E85E10 /* InfoPlist.strings in Resources */,
+				A6F4F82B13D309D400E85E10 /* Scaling_Shapes_Drawn_on_Graphic_ContextsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6F4F80C13D309D400E85E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F4F82113D309D400E85E10 /* main.m in Sources */,
+				A6F4F82513D309D400E85E10 /* Scaling_Shapes_Drawn_on_Graphic_ContextsAppDelegate.m in Sources */,
+				A6F4F82813D309D400E85E10 /* Scaling_Shapes_Drawn_on_Graphic_ContextsViewController.m in Sources */,
+				A6F4F83D13D309EB00E85E10 /* GraphicsViewControllerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6F4F81D13D309D400E85E10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F4F81E13D309D400E85E10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6F4F82913D309D400E85E10 /* Scaling_Shapes_Drawn_on_Graphic_ContextsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F4F82A13D309D400E85E10 /* en */,
+			);
+			name = Scaling_Shapes_Drawn_on_Graphic_ContextsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6F4F82C13D309D400E85E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6F4F82D13D309D400E85E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6F4F82F13D309D400E85E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scaling Shapes Drawn on Graphic Contexts/Scaling Shapes Drawn on Graphic Contexts-Prefix.pch";
+				INFOPLIST_FILE = "Scaling Shapes Drawn on Graphic Contexts/Scaling Shapes Drawn on Graphic Contexts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6F4F83013D309D400E85E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Scaling Shapes Drawn on Graphic Contexts/Scaling Shapes Drawn on Graphic Contexts-Prefix.pch";
+				INFOPLIST_FILE = "Scaling Shapes Drawn on Graphic Contexts/Scaling Shapes Drawn on Graphic Contexts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6F4F80A13D309D400E85E10 /* Build configuration list for PBXProject "Scaling Shapes Drawn on Graphic Contexts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F4F82C13D309D400E85E10 /* Debug */,
+				A6F4F82D13D309D400E85E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F4F82E13D309D400E85E10 /* Build configuration list for PBXNativeTarget "Scaling Shapes Drawn on Graphic Contexts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F4F82F13D309D400E85E10 /* Debug */,
+				A6F4F83013D309D400E85E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6F4F80713D309D400E85E10 /* Project object */;
+}

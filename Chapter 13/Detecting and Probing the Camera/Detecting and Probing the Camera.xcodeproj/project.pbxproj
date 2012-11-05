@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6E2312513D950400012741B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E2312413D950400012741B /* UIKit.framework */; };
+		A6E2312713D950400012741B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E2312613D950400012741B /* Foundation.framework */; };
+		A6E2312913D950400012741B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E2312813D950400012741B /* CoreGraphics.framework */; };
+		A6E2312F13D950400012741B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6E2312D13D950400012741B /* InfoPlist.strings */; };
+		A6E2313113D950400012741B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E2313013D950400012741B /* main.m */; };
+		A6E2313513D950400012741B /* Detecting_and_Probing_the_CameraAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E2313413D950400012741B /* Detecting_and_Probing_the_CameraAppDelegate.m */; };
+		A6E2314613D950620012741B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E2314513D950620012741B /* MobileCoreServices.framework */; };
+		A6E2314913D950660012741B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E2314813D950660012741B /* AssetsLibrary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6E2312013D950400012741B /* Detecting and Probing the Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Detecting and Probing the Camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E2312413D950400012741B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6E2312613D950400012741B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6E2312813D950400012741B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6E2312C13D950400012741B /* Detecting and Probing the Camera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Detecting and Probing the Camera-Info.plist"; sourceTree = "<group>"; };
+		A6E2312E13D950400012741B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6E2313013D950400012741B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6E2313213D950400012741B /* Detecting and Probing the Camera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Detecting and Probing the Camera-Prefix.pch"; sourceTree = "<group>"; };
+		A6E2313313D950400012741B /* Detecting_and_Probing_the_CameraAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Detecting_and_Probing_the_CameraAppDelegate.h; sourceTree = "<group>"; };
+		A6E2313413D950400012741B /* Detecting_and_Probing_the_CameraAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Detecting_and_Probing_the_CameraAppDelegate.m; sourceTree = "<group>"; };
+		A6E2314513D950620012741B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A6E2314813D950660012741B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6E2311D13D950400012741B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E2314913D950660012741B /* AssetsLibrary.framework in Frameworks */,
+				A6E2314613D950620012741B /* MobileCoreServices.framework in Frameworks */,
+				A6E2312513D950400012741B /* UIKit.framework in Frameworks */,
+				A6E2312713D950400012741B /* Foundation.framework in Frameworks */,
+				A6E2312913D950400012741B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6E2311513D950400012741B = {
+			isa = PBXGroup;
+			children = (
+				A6E2312A13D950400012741B /* Detecting and Probing the Camera */,
+				A6E2312313D950400012741B /* Frameworks */,
+				A6E2312113D950400012741B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6E2312113D950400012741B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6E2312013D950400012741B /* Detecting and Probing the Camera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6E2312313D950400012741B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6E2314813D950660012741B /* AssetsLibrary.framework */,
+				A6E2314513D950620012741B /* MobileCoreServices.framework */,
+				A6E2312413D950400012741B /* UIKit.framework */,
+				A6E2312613D950400012741B /* Foundation.framework */,
+				A6E2312813D950400012741B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6E2312A13D950400012741B /* Detecting and Probing the Camera */ = {
+			isa = PBXGroup;
+			children = (
+				A6E2313313D950400012741B /* Detecting_and_Probing_the_CameraAppDelegate.h */,
+				A6E2313413D950400012741B /* Detecting_and_Probing_the_CameraAppDelegate.m */,
+				A6E2312B13D950400012741B /* Supporting Files */,
+			);
+			path = "Detecting and Probing the Camera";
+			sourceTree = "<group>";
+		};
+		A6E2312B13D950400012741B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6E2312C13D950400012741B /* Detecting and Probing the Camera-Info.plist */,
+				A6E2312D13D950400012741B /* InfoPlist.strings */,
+				A6E2313013D950400012741B /* main.m */,
+				A6E2313213D950400012741B /* Detecting and Probing the Camera-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6E2311F13D950400012741B /* Detecting and Probing the Camera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6E2313813D950400012741B /* Build configuration list for PBXNativeTarget "Detecting and Probing the Camera" */;
+			buildPhases = (
+				A6E2311C13D950400012741B /* Sources */,
+				A6E2311D13D950400012741B /* Frameworks */,
+				A6E2311E13D950400012741B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Detecting and Probing the Camera";
+			productName = "Detecting and Probing the Camera";
+			productReference = A6E2312013D950400012741B /* Detecting and Probing the Camera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6E2311713D950400012741B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6E2311A13D950400012741B /* Build configuration list for PBXProject "Detecting and Probing the Camera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6E2311513D950400012741B;
+			productRefGroup = A6E2312113D950400012741B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6E2311F13D950400012741B /* Detecting and Probing the Camera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6E2311E13D950400012741B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E2312F13D950400012741B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6E2311C13D950400012741B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E2313113D950400012741B /* main.m in Sources */,
+				A6E2313513D950400012741B /* Detecting_and_Probing_the_CameraAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6E2312D13D950400012741B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6E2312E13D950400012741B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6E2313613D950400012741B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6E2313713D950400012741B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6E2313913D950400012741B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Detecting and Probing the Camera/Detecting and Probing the Camera-Prefix.pch";
+				INFOPLIST_FILE = "Detecting and Probing the Camera/Detecting and Probing the Camera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6E2313A13D950400012741B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Detecting and Probing the Camera/Detecting and Probing the Camera-Prefix.pch";
+				INFOPLIST_FILE = "Detecting and Probing the Camera/Detecting and Probing the Camera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6E2311A13D950400012741B /* Build configuration list for PBXProject "Detecting and Probing the Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E2313613D950400012741B /* Debug */,
+				A6E2313713D950400012741B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6E2313813D950400012741B /* Build configuration list for PBXNativeTarget "Detecting and Probing the Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E2313913D950400012741B /* Debug */,
+				A6E2313A13D950400012741B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6E2311713D950400012741B /* Project object */;
+}

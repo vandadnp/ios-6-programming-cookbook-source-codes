@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6B3D83613C8A3E800F2A199 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B3D83513C8A3E800F2A199 /* UIKit.framework */; };
+		A6B3D83813C8A3E800F2A199 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B3D83713C8A3E800F2A199 /* Foundation.framework */; };
+		A6B3D83A13C8A3E800F2A199 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B3D83913C8A3E800F2A199 /* CoreGraphics.framework */; };
+		A6B3D88413C8AFB400F2A199 /* FirstTab.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B3D87513C8AFB300F2A199 /* FirstTab.png */; };
+		A6B3D88513C8AFB400F2A199 /* FirstTab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B3D87613C8AFB300F2A199 /* FirstTab@2x.png */; };
+		A6B3D88613C8AFB400F2A199 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B3D87813C8AFB300F2A199 /* FirstViewController.m */; };
+		A6B3D88713C8AFB400F2A199 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B3D87913C8AFB300F2A199 /* main.m */; };
+		A6B3D88913C8AFB400F2A199 /* Presenting_Multiple_View_Controllers_with_UITabBarControllerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B3D87D13C8AFB300F2A199 /* Presenting_Multiple_View_Controllers_with_UITabBarControllerAppDelegate.m */; };
+		A6B3D88A13C8AFB400F2A199 /* SecondTab.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B3D87E13C8AFB300F2A199 /* SecondTab.png */; };
+		A6B3D88B13C8AFB400F2A199 /* SecondTab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B3D87F13C8AFB300F2A199 /* SecondTab@2x.png */; };
+		A6B3D88C13C8AFB400F2A199 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B3D88113C8AFB300F2A199 /* SecondViewController.m */; };
+		A6B3D88D13C8AFB400F2A199 /* TabIcons.psd in Resources */ = {isa = PBXBuildFile; fileRef = A6B3D88213C8AFB300F2A199 /* TabIcons.psd */; };
+		A6B3D88F13C8B05600F2A199 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6B3D87313C8AFB300F2A199 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6B3D83113C8A3E800F2A199 /* Presenting Multiple View Controllers with UITabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Presenting Multiple View Controllers with UITabBarController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B3D83513C8A3E800F2A199 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6B3D83713C8A3E800F2A199 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6B3D83913C8A3E800F2A199 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6B3D87413C8AFB300F2A199 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6B3D87513C8AFB300F2A199 /* FirstTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FirstTab.png; sourceTree = "<group>"; };
+		A6B3D87613C8AFB300F2A199 /* FirstTab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FirstTab@2x.png"; sourceTree = "<group>"; };
+		A6B3D87713C8AFB300F2A199 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A6B3D87813C8AFB300F2A199 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A6B3D87913C8AFB300F2A199 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6B3D87A13C8AFB300F2A199 /* Presenting Multiple View Controllers with UITabBarController-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Presenting Multiple View Controllers with UITabBarController-Info.plist"; sourceTree = "<group>"; };
+		A6B3D87B13C8AFB300F2A199 /* Presenting Multiple View Controllers with UITabBarController-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Presenting Multiple View Controllers with UITabBarController-Prefix.pch"; sourceTree = "<group>"; };
+		A6B3D87C13C8AFB300F2A199 /* Presenting_Multiple_View_Controllers_with_UITabBarControllerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Presenting_Multiple_View_Controllers_with_UITabBarControllerAppDelegate.h; sourceTree = "<group>"; };
+		A6B3D87D13C8AFB300F2A199 /* Presenting_Multiple_View_Controllers_with_UITabBarControllerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Presenting_Multiple_View_Controllers_with_UITabBarControllerAppDelegate.m; sourceTree = "<group>"; };
+		A6B3D87E13C8AFB300F2A199 /* SecondTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SecondTab.png; sourceTree = "<group>"; };
+		A6B3D87F13C8AFB300F2A199 /* SecondTab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SecondTab@2x.png"; sourceTree = "<group>"; };
+		A6B3D88013C8AFB300F2A199 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A6B3D88113C8AFB300F2A199 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A6B3D88213C8AFB300F2A199 /* TabIcons.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = TabIcons.psd; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6B3D82E13C8A3E800F2A199 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B3D83613C8A3E800F2A199 /* UIKit.framework in Frameworks */,
+				A6B3D83813C8A3E800F2A199 /* Foundation.framework in Frameworks */,
+				A6B3D83A13C8A3E800F2A199 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6B3D82613C8A3E800F2A199 = {
+			isa = PBXGroup;
+			children = (
+				A6B3D87213C8AFB300F2A199 /* Presenting Multiple View Controllers with UITabBarController */,
+				A6B3D83413C8A3E800F2A199 /* Frameworks */,
+				A6B3D83213C8A3E800F2A199 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6B3D83213C8A3E800F2A199 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6B3D83113C8A3E800F2A199 /* Presenting Multiple View Controllers with UITabBarController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6B3D83413C8A3E800F2A199 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6B3D83513C8A3E800F2A199 /* UIKit.framework */,
+				A6B3D83713C8A3E800F2A199 /* Foundation.framework */,
+				A6B3D83913C8A3E800F2A199 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6B3D87213C8AFB300F2A199 /* Presenting Multiple View Controllers with UITabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				A6B3D87C13C8AFB300F2A199 /* Presenting_Multiple_View_Controllers_with_UITabBarControllerAppDelegate.h */,
+				A6B3D87D13C8AFB300F2A199 /* Presenting_Multiple_View_Controllers_with_UITabBarControllerAppDelegate.m */,
+				A6B3D88E13C8AFB800F2A199 /* Supporting Files */,
+				A6B3D87713C8AFB300F2A199 /* FirstViewController.h */,
+				A6B3D87813C8AFB300F2A199 /* FirstViewController.m */,
+				A6B3D88013C8AFB300F2A199 /* SecondViewController.h */,
+				A6B3D88113C8AFB300F2A199 /* SecondViewController.m */,
+			);
+			path = "Presenting Multiple View Controllers with UITabBarController";
+			sourceTree = "<group>";
+		};
+		A6B3D88E13C8AFB800F2A199 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6B3D87B13C8AFB300F2A199 /* Presenting Multiple View Controllers with UITabBarController-Prefix.pch */,
+				A6B3D87313C8AFB300F2A199 /* InfoPlist.strings */,
+				A6B3D87513C8AFB300F2A199 /* FirstTab.png */,
+				A6B3D87613C8AFB300F2A199 /* FirstTab@2x.png */,
+				A6B3D87913C8AFB300F2A199 /* main.m */,
+				A6B3D87E13C8AFB300F2A199 /* SecondTab.png */,
+				A6B3D87F13C8AFB300F2A199 /* SecondTab@2x.png */,
+				A6B3D87A13C8AFB300F2A199 /* Presenting Multiple View Controllers with UITabBarController-Info.plist */,
+				A6B3D88213C8AFB300F2A199 /* TabIcons.psd */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6B3D83013C8A3E800F2A199 /* Presenting Multiple View Controllers with UITabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6B3D84913C8A3E800F2A199 /* Build configuration list for PBXNativeTarget "Presenting Multiple View Controllers with UITabBarController" */;
+			buildPhases = (
+				A6B3D82D13C8A3E800F2A199 /* Sources */,
+				A6B3D82E13C8A3E800F2A199 /* Frameworks */,
+				A6B3D82F13C8A3E800F2A199 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Presenting Multiple View Controllers with UITabBarController";
+			productName = "Presenting Multiple View Controllers with UITabBar";
+			productReference = A6B3D83113C8A3E800F2A199 /* Presenting Multiple View Controllers with UITabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6B3D82813C8A3E800F2A199 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6B3D82B13C8A3E800F2A199 /* Build configuration list for PBXProject "Presenting Multiple View Controllers with UITabBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6B3D82613C8A3E800F2A199;
+			productRefGroup = A6B3D83213C8A3E800F2A199 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6B3D83013C8A3E800F2A199 /* Presenting Multiple View Controllers with UITabBarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6B3D82F13C8A3E800F2A199 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B3D88F13C8B05600F2A199 /* InfoPlist.strings in Resources */,
+				A6B3D88413C8AFB400F2A199 /* FirstTab.png in Resources */,
+				A6B3D88513C8AFB400F2A199 /* FirstTab@2x.png in Resources */,
+				A6B3D88A13C8AFB400F2A199 /* SecondTab.png in Resources */,
+				A6B3D88B13C8AFB400F2A199 /* SecondTab@2x.png in Resources */,
+				A6B3D88D13C8AFB400F2A199 /* TabIcons.psd in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6B3D82D13C8A3E800F2A199 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B3D88613C8AFB400F2A199 /* FirstViewController.m in Sources */,
+				A6B3D88713C8AFB400F2A199 /* main.m in Sources */,
+				A6B3D88913C8AFB400F2A199 /* Presenting_Multiple_View_Controllers_with_UITabBarControllerAppDelegate.m in Sources */,
+				A6B3D88C13C8AFB400F2A199 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6B3D87313C8AFB300F2A199 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6B3D87413C8AFB300F2A199 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6B3D84713C8A3E800F2A199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6B3D84813C8A3E800F2A199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6B3D84A13C8A3E800F2A199 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Presenting Multiple View Controllers with UITabBarController/Presenting Multiple View Controllers with UITabBarController-Prefix.pch";
+				INFOPLIST_FILE = "Presenting Multiple View Controllers with UITabBarController/Presenting Multiple View Controllers with UITabBarController-Info.plist";
+				PRODUCT_NAME = "Presenting Multiple View Controllers with UITabBarController";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6B3D84B13C8A3E800F2A199 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Presenting Multiple View Controllers with UITabBarController/Presenting Multiple View Controllers with UITabBarController-Prefix.pch";
+				INFOPLIST_FILE = "Presenting Multiple View Controllers with UITabBarController/Presenting Multiple View Controllers with UITabBarController-Info.plist";
+				PRODUCT_NAME = "Presenting Multiple View Controllers with UITabBarController";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6B3D82B13C8A3E800F2A199 /* Build configuration list for PBXProject "Presenting Multiple View Controllers with UITabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B3D84713C8A3E800F2A199 /* Debug */,
+				A6B3D84813C8A3E800F2A199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6B3D84913C8A3E800F2A199 /* Build configuration list for PBXNativeTarget "Presenting Multiple View Controllers with UITabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B3D84A13C8A3E800F2A199 /* Debug */,
+				A6B3D84B13C8A3E800F2A199 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6B3D82813C8A3E800F2A199 /* Project object */;
+}

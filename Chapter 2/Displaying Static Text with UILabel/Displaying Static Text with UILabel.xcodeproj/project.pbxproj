@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6F7C0B513C95D3F00073D30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F7C0B413C95D3F00073D30 /* UIKit.framework */; };
+		A6F7C0B713C95D3F00073D30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F7C0B613C95D3F00073D30 /* Foundation.framework */; };
+		A6F7C0B913C95D3F00073D30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F7C0B813C95D3F00073D30 /* CoreGraphics.framework */; };
+		A6F7C0BF13C95D3F00073D30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6F7C0BD13C95D3F00073D30 /* InfoPlist.strings */; };
+		A6F7C0C113C95D3F00073D30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F7C0C013C95D3F00073D30 /* main.m */; };
+		A6F7C0C513C95D3F00073D30 /* Displaying_Static_Text_with_UILabelAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F7C0C413C95D3F00073D30 /* Displaying_Static_Text_with_UILabelAppDelegate.m */; };
+		A6F7C0C713C95D3F00073D30 /* Displaying_Static_Text_with_UILabelViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = A6F7C0C613C95D3F00073D30 /* Displaying_Static_Text_with_UILabelViewController.h */; };
+		A6F7C0C913C95D3F00073D30 /* Displaying_Static_Text_with_UILabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F7C0C813C95D3F00073D30 /* Displaying_Static_Text_with_UILabelViewController.m */; };
+		A6F7C0CC13C95D3F00073D30 /* Displaying_Static_Text_with_UILabelViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6F7C0CA13C95D3F00073D30 /* Displaying_Static_Text_with_UILabelViewController_iPhone.xib */; };
+		A6F7C0CF13C95D3F00073D30 /* Displaying_Static_Text_with_UILabelViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6F7C0CD13C95D3F00073D30 /* Displaying_Static_Text_with_UILabelViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6F7C0B013C95D3F00073D30 /* Displaying Static Text with UILabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Displaying Static Text with UILabel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F7C0B413C95D3F00073D30 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6F7C0B613C95D3F00073D30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6F7C0B813C95D3F00073D30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6F7C0BC13C95D3F00073D30 /* Displaying Static Text with UILabel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Displaying Static Text with UILabel-Info.plist"; sourceTree = "<group>"; };
+		A6F7C0BE13C95D3F00073D30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6F7C0C013C95D3F00073D30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6F7C0C213C95D3F00073D30 /* Displaying Static Text with UILabel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Displaying Static Text with UILabel-Prefix.pch"; sourceTree = "<group>"; };
+		A6F7C0C313C95D3F00073D30 /* Displaying_Static_Text_with_UILabelAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Displaying_Static_Text_with_UILabelAppDelegate.h; sourceTree = "<group>"; };
+		A6F7C0C413C95D3F00073D30 /* Displaying_Static_Text_with_UILabelAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Displaying_Static_Text_with_UILabelAppDelegate.m; sourceTree = "<group>"; };
+		A6F7C0C613C95D3F00073D30 /* Displaying_Static_Text_with_UILabelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Displaying_Static_Text_with_UILabelViewController.h; sourceTree = "<group>"; };
+		A6F7C0C813C95D3F00073D30 /* Displaying_Static_Text_with_UILabelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Displaying_Static_Text_with_UILabelViewController.m; sourceTree = "<group>"; };
+		A6F7C0CB13C95D3F00073D30 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Displaying_Static_Text_with_UILabelViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6F7C0CE13C95D3F00073D30 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Displaying_Static_Text_with_UILabelViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6F7C0AD13C95D3F00073D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F7C0B513C95D3F00073D30 /* UIKit.framework in Frameworks */,
+				A6F7C0B713C95D3F00073D30 /* Foundation.framework in Frameworks */,
+				A6F7C0B913C95D3F00073D30 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6F7C0A513C95D3F00073D30 = {
+			isa = PBXGroup;
+			children = (
+				A6F7C0BA13C95D3F00073D30 /* Displaying Static Text with UILabel */,
+				A6F7C0B313C95D3F00073D30 /* Frameworks */,
+				A6F7C0B113C95D3F00073D30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6F7C0B113C95D3F00073D30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6F7C0B013C95D3F00073D30 /* Displaying Static Text with UILabel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6F7C0B313C95D3F00073D30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6F7C0B413C95D3F00073D30 /* UIKit.framework */,
+				A6F7C0B613C95D3F00073D30 /* Foundation.framework */,
+				A6F7C0B813C95D3F00073D30 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6F7C0BA13C95D3F00073D30 /* Displaying Static Text with UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				A6F7C0C313C95D3F00073D30 /* Displaying_Static_Text_with_UILabelAppDelegate.h */,
+				A6F7C0C413C95D3F00073D30 /* Displaying_Static_Text_with_UILabelAppDelegate.m */,
+				A6F7C0C613C95D3F00073D30 /* Displaying_Static_Text_with_UILabelViewController.h */,
+				A6F7C0C813C95D3F00073D30 /* Displaying_Static_Text_with_UILabelViewController.m */,
+				A6F7C0CA13C95D3F00073D30 /* Displaying_Static_Text_with_UILabelViewController_iPhone.xib */,
+				A6F7C0CD13C95D3F00073D30 /* Displaying_Static_Text_with_UILabelViewController_iPad.xib */,
+				A6F7C0BB13C95D3F00073D30 /* Supporting Files */,
+			);
+			path = "Displaying Static Text with UILabel";
+			sourceTree = "<group>";
+		};
+		A6F7C0BB13C95D3F00073D30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6F7C0BC13C95D3F00073D30 /* Displaying Static Text with UILabel-Info.plist */,
+				A6F7C0BD13C95D3F00073D30 /* InfoPlist.strings */,
+				A6F7C0C013C95D3F00073D30 /* main.m */,
+				A6F7C0C213C95D3F00073D30 /* Displaying Static Text with UILabel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6F7C0AF13C95D3F00073D30 /* Displaying Static Text with UILabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6F7C0D213C95D3F00073D30 /* Build configuration list for PBXNativeTarget "Displaying Static Text with UILabel" */;
+			buildPhases = (
+				A6F7C0AC13C95D3F00073D30 /* Sources */,
+				A6F7C0AD13C95D3F00073D30 /* Frameworks */,
+				A6F7C0AE13C95D3F00073D30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Displaying Static Text with UILabel";
+			productName = "Displaying Static Text with UILabel";
+			productReference = A6F7C0B013C95D3F00073D30 /* Displaying Static Text with UILabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6F7C0A713C95D3F00073D30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6F7C0AA13C95D3F00073D30 /* Build configuration list for PBXProject "Displaying Static Text with UILabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6F7C0A513C95D3F00073D30;
+			productRefGroup = A6F7C0B113C95D3F00073D30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6F7C0AF13C95D3F00073D30 /* Displaying Static Text with UILabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6F7C0AE13C95D3F00073D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F7C0BF13C95D3F00073D30 /* InfoPlist.strings in Resources */,
+				A6F7C0C713C95D3F00073D30 /* Displaying_Static_Text_with_UILabelViewController.h in Resources */,
+				A6F7C0CC13C95D3F00073D30 /* Displaying_Static_Text_with_UILabelViewController_iPhone.xib in Resources */,
+				A6F7C0CF13C95D3F00073D30 /* Displaying_Static_Text_with_UILabelViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6F7C0AC13C95D3F00073D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F7C0C113C95D3F00073D30 /* main.m in Sources */,
+				A6F7C0C513C95D3F00073D30 /* Displaying_Static_Text_with_UILabelAppDelegate.m in Sources */,
+				A6F7C0C913C95D3F00073D30 /* Displaying_Static_Text_with_UILabelViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6F7C0BD13C95D3F00073D30 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F7C0BE13C95D3F00073D30 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6F7C0CA13C95D3F00073D30 /* Displaying_Static_Text_with_UILabelViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F7C0CB13C95D3F00073D30 /* en */,
+			);
+			name = Displaying_Static_Text_with_UILabelViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6F7C0CD13C95D3F00073D30 /* Displaying_Static_Text_with_UILabelViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F7C0CE13C95D3F00073D30 /* en */,
+			);
+			name = Displaying_Static_Text_with_UILabelViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6F7C0D013C95D3F00073D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6F7C0D113C95D3F00073D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6F7C0D313C95D3F00073D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Displaying Static Text with UILabel/Displaying Static Text with UILabel-Prefix.pch";
+				INFOPLIST_FILE = "Displaying Static Text with UILabel/Displaying Static Text with UILabel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6F7C0D413C95D3F00073D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Displaying Static Text with UILabel/Displaying Static Text with UILabel-Prefix.pch";
+				INFOPLIST_FILE = "Displaying Static Text with UILabel/Displaying Static Text with UILabel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6F7C0AA13C95D3F00073D30 /* Build configuration list for PBXProject "Displaying Static Text with UILabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F7C0D013C95D3F00073D30 /* Debug */,
+				A6F7C0D113C95D3F00073D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F7C0D213C95D3F00073D30 /* Build configuration list for PBXNativeTarget "Displaying Static Text with UILabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F7C0D313C95D3F00073D30 /* Debug */,
+				A6F7C0D413C95D3F00073D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6F7C0A713C95D3F00073D30 /* Project object */;
+}

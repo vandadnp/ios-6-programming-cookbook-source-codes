@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6E8883313CAE81400AE474B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E8883213CAE81400AE474B /* UIKit.framework */; };
+		A6E8883513CAE81400AE474B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E8883413CAE81400AE474B /* Foundation.framework */; };
+		A6E8883713CAE81400AE474B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E8883613CAE81400AE474B /* CoreGraphics.framework */; };
+		A6E8883D13CAE81400AE474B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6E8883B13CAE81400AE474B /* InfoPlist.strings */; };
+		A6E8883F13CAE81400AE474B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E8883E13CAE81400AE474B /* main.m */; };
+		A6E8884313CAE81400AE474B /* Displaying_an_Image_on_a_Navigation_BarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E8884213CAE81400AE474B /* Displaying_an_Image_on_a_Navigation_BarAppDelegate.m */; };
+		A6E8884A13CAE83500AE474B /* FullSizeLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E8884913CAE83500AE474B /* FullSizeLogo.png */; };
+		A6E8885713CAE84700AE474B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E8885613CAE84700AE474B /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6E8882E13CAE81400AE474B /* Displaying an Image on a Navigation Bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Displaying an Image on a Navigation Bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E8883213CAE81400AE474B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6E8883413CAE81400AE474B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6E8883613CAE81400AE474B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6E8883A13CAE81400AE474B /* Displaying an Image on a Navigation Bar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Displaying an Image on a Navigation Bar-Info.plist"; sourceTree = "<group>"; };
+		A6E8883C13CAE81400AE474B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6E8883E13CAE81400AE474B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6E8884013CAE81400AE474B /* Displaying an Image on a Navigation Bar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Displaying an Image on a Navigation Bar-Prefix.pch"; sourceTree = "<group>"; };
+		A6E8884113CAE81400AE474B /* Displaying_an_Image_on_a_Navigation_BarAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Displaying_an_Image_on_a_Navigation_BarAppDelegate.h; sourceTree = "<group>"; };
+		A6E8884213CAE81400AE474B /* Displaying_an_Image_on_a_Navigation_BarAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Displaying_an_Image_on_a_Navigation_BarAppDelegate.m; sourceTree = "<group>"; };
+		A6E8884913CAE83500AE474B /* FullSizeLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FullSizeLogo.png; sourceTree = "<group>"; };
+		A6E8885513CAE84700AE474B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A6E8885613CAE84700AE474B /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6E8882B13CAE81400AE474B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E8883313CAE81400AE474B /* UIKit.framework in Frameworks */,
+				A6E8883513CAE81400AE474B /* Foundation.framework in Frameworks */,
+				A6E8883713CAE81400AE474B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6E8882313CAE81400AE474B = {
+			isa = PBXGroup;
+			children = (
+				A6E8883813CAE81400AE474B /* Displaying an Image on a Navigation Bar */,
+				A6E8883113CAE81400AE474B /* Frameworks */,
+				A6E8882F13CAE81400AE474B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6E8882F13CAE81400AE474B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6E8882E13CAE81400AE474B /* Displaying an Image on a Navigation Bar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6E8883113CAE81400AE474B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6E8883213CAE81400AE474B /* UIKit.framework */,
+				A6E8883413CAE81400AE474B /* Foundation.framework */,
+				A6E8883613CAE81400AE474B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6E8883813CAE81400AE474B /* Displaying an Image on a Navigation Bar */ = {
+			isa = PBXGroup;
+			children = (
+				A6E8884113CAE81400AE474B /* Displaying_an_Image_on_a_Navigation_BarAppDelegate.h */,
+				A6E8884213CAE81400AE474B /* Displaying_an_Image_on_a_Navigation_BarAppDelegate.m */,
+				A6E8883913CAE81400AE474B /* Supporting Files */,
+				A6E8885513CAE84700AE474B /* RootViewController.h */,
+				A6E8885613CAE84700AE474B /* RootViewController.m */,
+			);
+			path = "Displaying an Image on a Navigation Bar";
+			sourceTree = "<group>";
+		};
+		A6E8883913CAE81400AE474B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6E8884913CAE83500AE474B /* FullSizeLogo.png */,
+				A6E8883A13CAE81400AE474B /* Displaying an Image on a Navigation Bar-Info.plist */,
+				A6E8883B13CAE81400AE474B /* InfoPlist.strings */,
+				A6E8883E13CAE81400AE474B /* main.m */,
+				A6E8884013CAE81400AE474B /* Displaying an Image on a Navigation Bar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6E8882D13CAE81400AE474B /* Displaying an Image on a Navigation Bar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6E8884613CAE81400AE474B /* Build configuration list for PBXNativeTarget "Displaying an Image on a Navigation Bar" */;
+			buildPhases = (
+				A6E8882A13CAE81400AE474B /* Sources */,
+				A6E8882B13CAE81400AE474B /* Frameworks */,
+				A6E8882C13CAE81400AE474B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Displaying an Image on a Navigation Bar";
+			productName = "Displaying an Image on a Navigation Bar";
+			productReference = A6E8882E13CAE81400AE474B /* Displaying an Image on a Navigation Bar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6E8882513CAE81400AE474B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6E8882813CAE81400AE474B /* Build configuration list for PBXProject "Displaying an Image on a Navigation Bar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6E8882313CAE81400AE474B;
+			productRefGroup = A6E8882F13CAE81400AE474B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6E8882D13CAE81400AE474B /* Displaying an Image on a Navigation Bar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6E8882C13CAE81400AE474B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E8883D13CAE81400AE474B /* InfoPlist.strings in Resources */,
+				A6E8884A13CAE83500AE474B /* FullSizeLogo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6E8882A13CAE81400AE474B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E8883F13CAE81400AE474B /* main.m in Sources */,
+				A6E8884313CAE81400AE474B /* Displaying_an_Image_on_a_Navigation_BarAppDelegate.m in Sources */,
+				A6E8885713CAE84700AE474B /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6E8883B13CAE81400AE474B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6E8883C13CAE81400AE474B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6E8884413CAE81400AE474B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6E8884513CAE81400AE474B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6E8884713CAE81400AE474B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Displaying an Image on a Navigation Bar/Displaying an Image on a Navigation Bar-Prefix.pch";
+				INFOPLIST_FILE = "Displaying an Image on a Navigation Bar/Displaying an Image on a Navigation Bar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6E8884813CAE81400AE474B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Displaying an Image on a Navigation Bar/Displaying an Image on a Navigation Bar-Prefix.pch";
+				INFOPLIST_FILE = "Displaying an Image on a Navigation Bar/Displaying an Image on a Navigation Bar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6E8882813CAE81400AE474B /* Build configuration list for PBXProject "Displaying an Image on a Navigation Bar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E8884413CAE81400AE474B /* Debug */,
+				A6E8884513CAE81400AE474B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6E8884613CAE81400AE474B /* Build configuration list for PBXNativeTarget "Displaying an Image on a Navigation Bar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E8884713CAE81400AE474B /* Debug */,
+				A6E8884813CAE81400AE474B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6E8882513CAE81400AE474B /* Project object */;
+}

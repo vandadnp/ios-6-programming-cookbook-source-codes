@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6C6574B13D73FB7000CEE9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C6574A13D73FB7000CEE9C /* UIKit.framework */; };
+		A6C6574D13D73FB7000CEE9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C6574C13D73FB7000CEE9C /* Foundation.framework */; };
+		A6C6574F13D73FB7000CEE9C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C6574E13D73FB7000CEE9C /* CoreGraphics.framework */; };
+		A6C6575513D73FB7000CEE9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6C6575313D73FB7000CEE9C /* InfoPlist.strings */; };
+		A6C6575713D73FB7000CEE9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C6575613D73FB7000CEE9C /* main.m */; };
+		A6C6575B13D73FB7000CEE9C /* Saving_and_Loading_the_State_of_Multitasking_iOS_AppsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C6575A13D73FB7000CEE9C /* Saving_and_Loading_the_State_of_Multitasking_iOS_AppsAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6C6574613D73FB7000CEE9C /* Saving and Loading the State of Multitasking iOS Apps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Saving and Loading the State of Multitasking iOS Apps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C6574A13D73FB7000CEE9C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6C6574C13D73FB7000CEE9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6C6574E13D73FB7000CEE9C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6C6575213D73FB7000CEE9C /* Saving and Loading the State of Multitasking iOS Apps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Saving and Loading the State of Multitasking iOS Apps-Info.plist"; sourceTree = "<group>"; };
+		A6C6575413D73FB7000CEE9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6C6575613D73FB7000CEE9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6C6575813D73FB7000CEE9C /* Saving and Loading the State of Multitasking iOS Apps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Saving and Loading the State of Multitasking iOS Apps-Prefix.pch"; sourceTree = "<group>"; };
+		A6C6575913D73FB7000CEE9C /* Saving_and_Loading_the_State_of_Multitasking_iOS_AppsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Saving_and_Loading_the_State_of_Multitasking_iOS_AppsAppDelegate.h; sourceTree = "<group>"; };
+		A6C6575A13D73FB7000CEE9C /* Saving_and_Loading_the_State_of_Multitasking_iOS_AppsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Saving_and_Loading_the_State_of_Multitasking_iOS_AppsAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6C6574313D73FB7000CEE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C6574B13D73FB7000CEE9C /* UIKit.framework in Frameworks */,
+				A6C6574D13D73FB7000CEE9C /* Foundation.framework in Frameworks */,
+				A6C6574F13D73FB7000CEE9C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6C6573B13D73FB7000CEE9C = {
+			isa = PBXGroup;
+			children = (
+				A6C6575013D73FB7000CEE9C /* Saving and Loading the State of Multitasking iOS Apps */,
+				A6C6574913D73FB7000CEE9C /* Frameworks */,
+				A6C6574713D73FB7000CEE9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6C6574713D73FB7000CEE9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6C6574613D73FB7000CEE9C /* Saving and Loading the State of Multitasking iOS Apps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6C6574913D73FB7000CEE9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6C6574A13D73FB7000CEE9C /* UIKit.framework */,
+				A6C6574C13D73FB7000CEE9C /* Foundation.framework */,
+				A6C6574E13D73FB7000CEE9C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6C6575013D73FB7000CEE9C /* Saving and Loading the State of Multitasking iOS Apps */ = {
+			isa = PBXGroup;
+			children = (
+				A6C6575913D73FB7000CEE9C /* Saving_and_Loading_the_State_of_Multitasking_iOS_AppsAppDelegate.h */,
+				A6C6575A13D73FB7000CEE9C /* Saving_and_Loading_the_State_of_Multitasking_iOS_AppsAppDelegate.m */,
+				A6C6575113D73FB7000CEE9C /* Supporting Files */,
+			);
+			path = "Saving and Loading the State of Multitasking iOS Apps";
+			sourceTree = "<group>";
+		};
+		A6C6575113D73FB7000CEE9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6C6575213D73FB7000CEE9C /* Saving and Loading the State of Multitasking iOS Apps-Info.plist */,
+				A6C6575313D73FB7000CEE9C /* InfoPlist.strings */,
+				A6C6575613D73FB7000CEE9C /* main.m */,
+				A6C6575813D73FB7000CEE9C /* Saving and Loading the State of Multitasking iOS Apps-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6C6574513D73FB7000CEE9C /* Saving and Loading the State of Multitasking iOS Apps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C6575E13D73FB7000CEE9C /* Build configuration list for PBXNativeTarget "Saving and Loading the State of Multitasking iOS Apps" */;
+			buildPhases = (
+				A6C6574213D73FB7000CEE9C /* Sources */,
+				A6C6574313D73FB7000CEE9C /* Frameworks */,
+				A6C6574413D73FB7000CEE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Saving and Loading the State of Multitasking iOS Apps";
+			productName = "Saving and Loading the State of Multitasking iOS Apps";
+			productReference = A6C6574613D73FB7000CEE9C /* Saving and Loading the State of Multitasking iOS Apps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6C6573D13D73FB7000CEE9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6C6574013D73FB7000CEE9C /* Build configuration list for PBXProject "Saving and Loading the State of Multitasking iOS Apps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6C6573B13D73FB7000CEE9C;
+			productRefGroup = A6C6574713D73FB7000CEE9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6C6574513D73FB7000CEE9C /* Saving and Loading the State of Multitasking iOS Apps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6C6574413D73FB7000CEE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C6575513D73FB7000CEE9C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6C6574213D73FB7000CEE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C6575713D73FB7000CEE9C /* main.m in Sources */,
+				A6C6575B13D73FB7000CEE9C /* Saving_and_Loading_the_State_of_Multitasking_iOS_AppsAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6C6575313D73FB7000CEE9C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C6575413D73FB7000CEE9C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6C6575C13D73FB7000CEE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6C6575D13D73FB7000CEE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6C6575F13D73FB7000CEE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Saving and Loading the State of Multitasking iOS Apps/Saving and Loading the State of Multitasking iOS Apps-Prefix.pch";
+				INFOPLIST_FILE = "Saving and Loading the State of Multitasking iOS Apps/Saving and Loading the State of Multitasking iOS Apps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6C6576013D73FB7000CEE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Saving and Loading the State of Multitasking iOS Apps/Saving and Loading the State of Multitasking iOS Apps-Prefix.pch";
+				INFOPLIST_FILE = "Saving and Loading the State of Multitasking iOS Apps/Saving and Loading the State of Multitasking iOS Apps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6C6574013D73FB7000CEE9C /* Build configuration list for PBXProject "Saving and Loading the State of Multitasking iOS Apps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C6575C13D73FB7000CEE9C /* Debug */,
+				A6C6575D13D73FB7000CEE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C6575E13D73FB7000CEE9C /* Build configuration list for PBXNativeTarget "Saving and Loading the State of Multitasking iOS Apps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C6575F13D73FB7000CEE9C /* Debug */,
+				A6C6576013D73FB7000CEE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6C6573D13D73FB7000CEE9C /* Project object */;
+}

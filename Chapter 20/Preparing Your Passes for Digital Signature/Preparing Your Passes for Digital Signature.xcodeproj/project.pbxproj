@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DAA359315CE727700C0C8EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DAA359215CE727700C0C8EA /* UIKit.framework */; };
+		9DAA359515CE727700C0C8EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DAA359415CE727700C0C8EA /* Foundation.framework */; };
+		9DAA359715CE727700C0C8EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DAA359615CE727700C0C8EA /* CoreGraphics.framework */; };
+		9DAA359D15CE727700C0C8EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DAA359B15CE727700C0C8EA /* InfoPlist.strings */; };
+		9DAA359F15CE727700C0C8EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAA359E15CE727700C0C8EA /* main.m */; };
+		9DAA35A315CE727700C0C8EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAA35A215CE727700C0C8EA /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9DAA358E15CE727700C0C8EA /* Preparing Your Passes for Digital Signature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Preparing Your Passes for Digital Signature.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DAA359215CE727700C0C8EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9DAA359415CE727700C0C8EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9DAA359615CE727700C0C8EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9DAA359A15CE727700C0C8EA /* Preparing Your Passes for Digital Signature-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Preparing Your Passes for Digital Signature-Info.plist"; sourceTree = "<group>"; };
+		9DAA359C15CE727700C0C8EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9DAA359E15CE727700C0C8EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DAA35A015CE727700C0C8EA /* Preparing Your Passes for Digital Signature-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Preparing Your Passes for Digital Signature-Prefix.pch"; sourceTree = "<group>"; };
+		9DAA35A115CE727700C0C8EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9DAA35A215CE727700C0C8EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9DAA35AA15CE728B00C0C8EA /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		9DAA35AB15CE728B00C0C8EA /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		9DAA35AC15CE728B00C0C8EA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		9DAA35AD15CE728B00C0C8EA /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		9DAA35AE15CE728B00C0C8EA /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		9DAA35AF15CE728B00C0C8EA /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		9DAA35B015CE728B00C0C8EA /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		9DAA35B115CE728B00C0C8EA /* pass.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pass.json; sourceTree = "<group>"; };
+		9DAA35B315CE728B00C0C8EA /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		9DAA35B415CE728B00C0C8EA /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DAA358B15CE727700C0C8EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DAA359315CE727700C0C8EA /* UIKit.framework in Frameworks */,
+				9DAA359515CE727700C0C8EA /* Foundation.framework in Frameworks */,
+				9DAA359715CE727700C0C8EA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DAA358315CE727700C0C8EA = {
+			isa = PBXGroup;
+			children = (
+				9DAA359815CE727700C0C8EA /* Preparing Your Passes for Digital Signature */,
+				9DAA359115CE727700C0C8EA /* Frameworks */,
+				9DAA358F15CE727700C0C8EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DAA358F15CE727700C0C8EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DAA358E15CE727700C0C8EA /* Preparing Your Passes for Digital Signature.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DAA359115CE727700C0C8EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DAA359215CE727700C0C8EA /* UIKit.framework */,
+				9DAA359415CE727700C0C8EA /* Foundation.framework */,
+				9DAA359615CE727700C0C8EA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DAA359815CE727700C0C8EA /* Preparing Your Passes for Digital Signature */ = {
+			isa = PBXGroup;
+			children = (
+				9DAA35A915CE728B00C0C8EA /* pass */,
+				9DAA35A115CE727700C0C8EA /* AppDelegate.h */,
+				9DAA35A215CE727700C0C8EA /* AppDelegate.m */,
+				9DAA359915CE727700C0C8EA /* Supporting Files */,
+			);
+			path = "Preparing Your Passes for Digital Signature";
+			sourceTree = "<group>";
+		};
+		9DAA359915CE727700C0C8EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DAA359A15CE727700C0C8EA /* Preparing Your Passes for Digital Signature-Info.plist */,
+				9DAA359B15CE727700C0C8EA /* InfoPlist.strings */,
+				9DAA359E15CE727700C0C8EA /* main.m */,
+				9DAA35A015CE727700C0C8EA /* Preparing Your Passes for Digital Signature-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DAA35A915CE728B00C0C8EA /* pass */ = {
+			isa = PBXGroup;
+			children = (
+				9DAA35AA15CE728B00C0C8EA /* background.png */,
+				9DAA35AB15CE728B00C0C8EA /* background@2x.png */,
+				9DAA35AC15CE728B00C0C8EA /* icon.png */,
+				9DAA35AD15CE728B00C0C8EA /* icon@2x.png */,
+				9DAA35AE15CE728B00C0C8EA /* logo.png */,
+				9DAA35AF15CE728B00C0C8EA /* logo@2x.png */,
+				9DAA35B015CE728B00C0C8EA /* manifest.json */,
+				9DAA35B115CE728B00C0C8EA /* pass.json */,
+				9DAA35B315CE728B00C0C8EA /* thumbnail.png */,
+				9DAA35B415CE728B00C0C8EA /* thumbnail@2x.png */,
+			);
+			path = pass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DAA358D15CE727700C0C8EA /* Preparing Your Passes for Digital Signature */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DAA35A615CE727700C0C8EA /* Build configuration list for PBXNativeTarget "Preparing Your Passes for Digital Signature" */;
+			buildPhases = (
+				9DAA358A15CE727700C0C8EA /* Sources */,
+				9DAA358B15CE727700C0C8EA /* Frameworks */,
+				9DAA358C15CE727700C0C8EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Preparing Your Passes for Digital Signature";
+			productName = "Preparing Your Passes for Digital Signature";
+			productReference = 9DAA358E15CE727700C0C8EA /* Preparing Your Passes for Digital Signature.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DAA358515CE727700C0C8EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = 9DAA358815CE727700C0C8EA /* Build configuration list for PBXProject "Preparing Your Passes for Digital Signature" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9DAA358315CE727700C0C8EA;
+			productRefGroup = 9DAA358F15CE727700C0C8EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DAA358D15CE727700C0C8EA /* Preparing Your Passes for Digital Signature */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DAA358C15CE727700C0C8EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DAA359D15CE727700C0C8EA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DAA358A15CE727700C0C8EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DAA359F15CE727700C0C8EA /* main.m in Sources */,
+				9DAA35A315CE727700C0C8EA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DAA359B15CE727700C0C8EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DAA359C15CE727700C0C8EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DAA35A415CE727700C0C8EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9DAA35A515CE727700C0C8EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DAA35A715CE727700C0C8EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Preparing Your Passes for Digital Signature/Preparing Your Passes for Digital Signature-Prefix.pch";
+				INFOPLIST_FILE = "Preparing Your Passes for Digital Signature/Preparing Your Passes for Digital Signature-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9DAA35A815CE727700C0C8EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Preparing Your Passes for Digital Signature/Preparing Your Passes for Digital Signature-Prefix.pch";
+				INFOPLIST_FILE = "Preparing Your Passes for Digital Signature/Preparing Your Passes for Digital Signature-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DAA358815CE727700C0C8EA /* Build configuration list for PBXProject "Preparing Your Passes for Digital Signature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DAA35A415CE727700C0C8EA /* Debug */,
+				9DAA35A515CE727700C0C8EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DAA35A615CE727700C0C8EA /* Build configuration list for PBXNativeTarget "Preparing Your Passes for Digital Signature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DAA35A715CE727700C0C8EA /* Debug */,
+				9DAA35A815CE727700C0C8EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DAA358515CE727700C0C8EA /* Project object */;
+}

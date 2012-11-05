@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A633E67913E1EA0C00620082 /* PopoverContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A633E67813E1EA0C00620082 /* PopoverContentViewController.m */; };
+		A6C6F8B713E13A6A0063A948 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C6F8B613E13A6A0063A948 /* UIKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		A6C6F8B913E13A6A0063A948 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C6F8B813E13A6A0063A948 /* Foundation.framework */; };
+		A6C6F8BB13E13A6A0063A948 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C6F8BA13E13A6A0063A948 /* CoreGraphics.framework */; };
+		A6C6F8C113E13A6A0063A948 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6C6F8BF13E13A6A0063A948 /* InfoPlist.strings */; };
+		A6C6F8C313E13A6A0063A948 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C6F8C213E13A6A0063A948 /* main.m */; };
+		A6C6F8C713E13A6A0063A948 /* Displaying_Popovers_with_UIPopoverControllerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C6F8C613E13A6A0063A948 /* Displaying_Popovers_with_UIPopoverControllerAppDelegate.m */; };
+		A6C6F8CA13E13A6A0063A948 /* Displaying_Popovers_with_UIPopoverControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C6F8C913E13A6A0063A948 /* Displaying_Popovers_with_UIPopoverControllerViewController.m */; };
+		A6C6F8CD13E13A6A0063A948 /* Displaying_Popovers_with_UIPopoverControllerViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C6F8CB13E13A6A0063A948 /* Displaying_Popovers_with_UIPopoverControllerViewController_iPhone.xib */; };
+		A6C6F8D013E13A6A0063A948 /* Displaying_Popovers_with_UIPopoverControllerViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C6F8CE13E13A6A0063A948 /* Displaying_Popovers_with_UIPopoverControllerViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A633E67713E1EA0C00620082 /* PopoverContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverContentViewController.h; sourceTree = "<group>"; };
+		A633E67813E1EA0C00620082 /* PopoverContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverContentViewController.m; sourceTree = "<group>"; };
+		A6C6F8B213E13A6A0063A948 /* Displaying Popovers with UIPopoverController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Displaying Popovers with UIPopoverController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C6F8B613E13A6A0063A948 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6C6F8B813E13A6A0063A948 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6C6F8BA13E13A6A0063A948 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6C6F8BE13E13A6A0063A948 /* Displaying Popovers with UIPopoverController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Displaying Popovers with UIPopoverController-Info.plist"; sourceTree = "<group>"; };
+		A6C6F8C013E13A6A0063A948 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6C6F8C213E13A6A0063A948 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6C6F8C413E13A6A0063A948 /* Displaying Popovers with UIPopoverController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Displaying Popovers with UIPopoverController-Prefix.pch"; sourceTree = "<group>"; };
+		A6C6F8C513E13A6A0063A948 /* Displaying_Popovers_with_UIPopoverControllerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Displaying_Popovers_with_UIPopoverControllerAppDelegate.h; sourceTree = "<group>"; };
+		A6C6F8C613E13A6A0063A948 /* Displaying_Popovers_with_UIPopoverControllerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Displaying_Popovers_with_UIPopoverControllerAppDelegate.m; sourceTree = "<group>"; };
+		A6C6F8C813E13A6A0063A948 /* Displaying_Popovers_with_UIPopoverControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Displaying_Popovers_with_UIPopoverControllerViewController.h; sourceTree = "<group>"; };
+		A6C6F8C913E13A6A0063A948 /* Displaying_Popovers_with_UIPopoverControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Displaying_Popovers_with_UIPopoverControllerViewController.m; sourceTree = "<group>"; };
+		A6C6F8CC13E13A6A0063A948 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Displaying_Popovers_with_UIPopoverControllerViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6C6F8CF13E13A6A0063A948 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Displaying_Popovers_with_UIPopoverControllerViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6C6F8AF13E13A6A0063A948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C6F8B713E13A6A0063A948 /* UIKit.framework in Frameworks */,
+				A6C6F8B913E13A6A0063A948 /* Foundation.framework in Frameworks */,
+				A6C6F8BB13E13A6A0063A948 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6C6F8A713E13A6A0063A948 = {
+			isa = PBXGroup;
+			children = (
+				A6C6F8BC13E13A6A0063A948 /* Displaying Popovers with UIPopoverController */,
+				A6C6F8B513E13A6A0063A948 /* Frameworks */,
+				A6C6F8B313E13A6A0063A948 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6C6F8B313E13A6A0063A948 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6C6F8B213E13A6A0063A948 /* Displaying Popovers with UIPopoverController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6C6F8B513E13A6A0063A948 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6C6F8B613E13A6A0063A948 /* UIKit.framework */,
+				A6C6F8B813E13A6A0063A948 /* Foundation.framework */,
+				A6C6F8BA13E13A6A0063A948 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6C6F8BC13E13A6A0063A948 /* Displaying Popovers with UIPopoverController */ = {
+			isa = PBXGroup;
+			children = (
+				A6C6F8C513E13A6A0063A948 /* Displaying_Popovers_with_UIPopoverControllerAppDelegate.h */,
+				A6C6F8C613E13A6A0063A948 /* Displaying_Popovers_with_UIPopoverControllerAppDelegate.m */,
+				A6C6F8C813E13A6A0063A948 /* Displaying_Popovers_with_UIPopoverControllerViewController.h */,
+				A6C6F8C913E13A6A0063A948 /* Displaying_Popovers_with_UIPopoverControllerViewController.m */,
+				A6C6F8CB13E13A6A0063A948 /* Displaying_Popovers_with_UIPopoverControllerViewController_iPhone.xib */,
+				A6C6F8CE13E13A6A0063A948 /* Displaying_Popovers_with_UIPopoverControllerViewController_iPad.xib */,
+				A6C6F8BD13E13A6A0063A948 /* Supporting Files */,
+				A633E67713E1EA0C00620082 /* PopoverContentViewController.h */,
+				A633E67813E1EA0C00620082 /* PopoverContentViewController.m */,
+			);
+			path = "Displaying Popovers with UIPopoverController";
+			sourceTree = "<group>";
+		};
+		A6C6F8BD13E13A6A0063A948 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6C6F8BE13E13A6A0063A948 /* Displaying Popovers with UIPopoverController-Info.plist */,
+				A6C6F8BF13E13A6A0063A948 /* InfoPlist.strings */,
+				A6C6F8C213E13A6A0063A948 /* main.m */,
+				A6C6F8C413E13A6A0063A948 /* Displaying Popovers with UIPopoverController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6C6F8B113E13A6A0063A948 /* Displaying Popovers with UIPopoverController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C6F8D313E13A6A0063A948 /* Build configuration list for PBXNativeTarget "Displaying Popovers with UIPopoverController" */;
+			buildPhases = (
+				A6C6F8AE13E13A6A0063A948 /* Sources */,
+				A6C6F8AF13E13A6A0063A948 /* Frameworks */,
+				A6C6F8B013E13A6A0063A948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Displaying Popovers with UIPopoverController";
+			productName = "Displaying Popovers with UIPopoverController";
+			productReference = A6C6F8B213E13A6A0063A948 /* Displaying Popovers with UIPopoverController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6C6F8A913E13A6A0063A948 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6C6F8AC13E13A6A0063A948 /* Build configuration list for PBXProject "Displaying Popovers with UIPopoverController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6C6F8A713E13A6A0063A948;
+			productRefGroup = A6C6F8B313E13A6A0063A948 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6C6F8B113E13A6A0063A948 /* Displaying Popovers with UIPopoverController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6C6F8B013E13A6A0063A948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C6F8C113E13A6A0063A948 /* InfoPlist.strings in Resources */,
+				A6C6F8CD13E13A6A0063A948 /* Displaying_Popovers_with_UIPopoverControllerViewController_iPhone.xib in Resources */,
+				A6C6F8D013E13A6A0063A948 /* Displaying_Popovers_with_UIPopoverControllerViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6C6F8AE13E13A6A0063A948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C6F8C313E13A6A0063A948 /* main.m in Sources */,
+				A6C6F8C713E13A6A0063A948 /* Displaying_Popovers_with_UIPopoverControllerAppDelegate.m in Sources */,
+				A6C6F8CA13E13A6A0063A948 /* Displaying_Popovers_with_UIPopoverControllerViewController.m in Sources */,
+				A633E67913E1EA0C00620082 /* PopoverContentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6C6F8BF13E13A6A0063A948 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C6F8C013E13A6A0063A948 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6C6F8CB13E13A6A0063A948 /* Displaying_Popovers_with_UIPopoverControllerViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C6F8CC13E13A6A0063A948 /* en */,
+			);
+			name = Displaying_Popovers_with_UIPopoverControllerViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6C6F8CE13E13A6A0063A948 /* Displaying_Popovers_with_UIPopoverControllerViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C6F8CF13E13A6A0063A948 /* en */,
+			);
+			name = Displaying_Popovers_with_UIPopoverControllerViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6C6F8D113E13A6A0063A948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6C6F8D213E13A6A0063A948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6C6F8D413E13A6A0063A948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Displaying Popovers with UIPopoverController/Displaying Popovers with UIPopoverController-Prefix.pch";
+				INFOPLIST_FILE = "Displaying Popovers with UIPopoverController/Displaying Popovers with UIPopoverController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6C6F8D513E13A6A0063A948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Displaying Popovers with UIPopoverController/Displaying Popovers with UIPopoverController-Prefix.pch";
+				INFOPLIST_FILE = "Displaying Popovers with UIPopoverController/Displaying Popovers with UIPopoverController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6C6F8AC13E13A6A0063A948 /* Build configuration list for PBXProject "Displaying Popovers with UIPopoverController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C6F8D113E13A6A0063A948 /* Debug */,
+				A6C6F8D213E13A6A0063A948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C6F8D313E13A6A0063A948 /* Build configuration list for PBXNativeTarget "Displaying Popovers with UIPopoverController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C6F8D413E13A6A0063A948 /* Debug */,
+				A6C6F8D513E13A6A0063A948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6C6F8A913E13A6A0063A948 /* Project object */;
+}

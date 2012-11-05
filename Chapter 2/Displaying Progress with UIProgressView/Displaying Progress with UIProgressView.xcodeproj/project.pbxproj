@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D742027140D484200D09C1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D742026140D484200D09C1E /* UIKit.framework */; };
+		9D742029140D484200D09C1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D742028140D484200D09C1E /* Foundation.framework */; };
+		9D74202F140D484200D09C1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D74202D140D484200D09C1E /* InfoPlist.strings */; };
+		9D742031140D484200D09C1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D742030140D484200D09C1E /* main.m */; };
+		9D742035140D484200D09C1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D742034140D484200D09C1E /* AppDelegate.m */; };
+		9D742038140D484200D09C1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D742037140D484200D09C1E /* ViewController.m */; };
+		9D74203B140D484200D09C1E /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D742039140D484200D09C1E /* ViewController_iPhone.xib */; };
+		9D74203E140D484200D09C1E /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D74203C140D484200D09C1E /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9D742022140D484200D09C1E /* Displaying Progress with UIProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Displaying Progress with UIProgressView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D742026140D484200D09C1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9D742028140D484200D09C1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9D74202C140D484200D09C1E /* Displaying Progress with UIProgressView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Displaying Progress with UIProgressView-Info.plist"; sourceTree = "<group>"; };
+		9D74202E140D484200D09C1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D742030140D484200D09C1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D742032140D484200D09C1E /* Displaying Progress with UIProgressView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Displaying Progress with UIProgressView-Prefix.pch"; sourceTree = "<group>"; };
+		9D742033140D484200D09C1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D742034140D484200D09C1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D742036140D484200D09C1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D742037140D484200D09C1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9D74203A140D484200D09C1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		9D74203D140D484200D09C1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D74201F140D484200D09C1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D742027140D484200D09C1E /* UIKit.framework in Frameworks */,
+				9D742029140D484200D09C1E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D742017140D484200D09C1E = {
+			isa = PBXGroup;
+			children = (
+				9D74202A140D484200D09C1E /* Displaying Progress with UIProgressView */,
+				9D742025140D484200D09C1E /* Frameworks */,
+				9D742023140D484200D09C1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D742023140D484200D09C1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D742022140D484200D09C1E /* Displaying Progress with UIProgressView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D742025140D484200D09C1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D742026140D484200D09C1E /* UIKit.framework */,
+				9D742028140D484200D09C1E /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D74202A140D484200D09C1E /* Displaying Progress with UIProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				9D742033140D484200D09C1E /* AppDelegate.h */,
+				9D742034140D484200D09C1E /* AppDelegate.m */,
+				9D742036140D484200D09C1E /* ViewController.h */,
+				9D742037140D484200D09C1E /* ViewController.m */,
+				9D742039140D484200D09C1E /* ViewController_iPhone.xib */,
+				9D74203C140D484200D09C1E /* ViewController_iPad.xib */,
+				9D74202B140D484200D09C1E /* Supporting Files */,
+			);
+			path = "Displaying Progress with UIProgressView";
+			sourceTree = "<group>";
+		};
+		9D74202B140D484200D09C1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D74202C140D484200D09C1E /* Displaying Progress with UIProgressView-Info.plist */,
+				9D74202D140D484200D09C1E /* InfoPlist.strings */,
+				9D742030140D484200D09C1E /* main.m */,
+				9D742032140D484200D09C1E /* Displaying Progress with UIProgressView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D742021140D484200D09C1E /* Displaying Progress with UIProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D742041140D484200D09C1E /* Build configuration list for PBXNativeTarget "Displaying Progress with UIProgressView" */;
+			buildPhases = (
+				9D74201E140D484200D09C1E /* Sources */,
+				9D74201F140D484200D09C1E /* Frameworks */,
+				9D742020140D484200D09C1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Displaying Progress with UIProgressView";
+			productName = "Displaying Progress with UIProgressView";
+			productReference = 9D742022140D484200D09C1E /* Displaying Progress with UIProgressView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D742019140D484200D09C1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = 9D74201C140D484200D09C1E /* Build configuration list for PBXProject "Displaying Progress with UIProgressView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9D742017140D484200D09C1E;
+			productRefGroup = 9D742023140D484200D09C1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D742021140D484200D09C1E /* Displaying Progress with UIProgressView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D742020140D484200D09C1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D74202F140D484200D09C1E /* InfoPlist.strings in Resources */,
+				9D74203B140D484200D09C1E /* ViewController_iPhone.xib in Resources */,
+				9D74203E140D484200D09C1E /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D74201E140D484200D09C1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D742031140D484200D09C1E /* main.m in Sources */,
+				9D742035140D484200D09C1E /* AppDelegate.m in Sources */,
+				9D742038140D484200D09C1E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9D74202D140D484200D09C1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D74202E140D484200D09C1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9D742039140D484200D09C1E /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D74203A140D484200D09C1E /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		9D74203C140D484200D09C1E /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D74203D140D484200D09C1E /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D74203F140D484200D09C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D742040140D484200D09C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D742042140D484200D09C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Displaying Progress with UIProgressView/Displaying Progress with UIProgressView-Prefix.pch";
+				INFOPLIST_FILE = "Displaying Progress with UIProgressView/Displaying Progress with UIProgressView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9D742043140D484200D09C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Displaying Progress with UIProgressView/Displaying Progress with UIProgressView-Prefix.pch";
+				INFOPLIST_FILE = "Displaying Progress with UIProgressView/Displaying Progress with UIProgressView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D74201C140D484200D09C1E /* Build configuration list for PBXProject "Displaying Progress with UIProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D74203F140D484200D09C1E /* Debug */,
+				9D742040140D484200D09C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D742041140D484200D09C1E /* Build configuration list for PBXNativeTarget "Displaying Progress with UIProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D742042140D484200D09C1E /* Debug */,
+				9D742043140D484200D09C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D742019140D484200D09C1E /* Project object */;
+}

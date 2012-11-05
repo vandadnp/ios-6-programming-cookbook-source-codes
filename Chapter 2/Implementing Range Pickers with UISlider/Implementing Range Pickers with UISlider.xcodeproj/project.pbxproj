@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6293CB213C75EAC0027923A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6293CB113C75EAC0027923A /* UIKit.framework */; };
+		A6293CB413C75EAC0027923A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6293CB313C75EAC0027923A /* Foundation.framework */; };
+		A6293CB613C75EAC0027923A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6293CB513C75EAC0027923A /* CoreGraphics.framework */; };
+		A6293CBC13C75EAC0027923A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6293CBA13C75EAC0027923A /* InfoPlist.strings */; };
+		A6293CBE13C75EAC0027923A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6293CBD13C75EAC0027923A /* main.m */; };
+		A6293CC213C75EAC0027923A /* Implementing_Range_Pickers_with_UISliderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6293CC113C75EAC0027923A /* Implementing_Range_Pickers_with_UISliderAppDelegate.m */; };
+		A6293CC413C75EAC0027923A /* Implementing_Range_Pickers_with_UISliderViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = A6293CC313C75EAC0027923A /* Implementing_Range_Pickers_with_UISliderViewController.h */; };
+		A6293CC613C75EAC0027923A /* Implementing_Range_Pickers_with_UISliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6293CC513C75EAC0027923A /* Implementing_Range_Pickers_with_UISliderViewController.m */; };
+		A6293CC913C75EAC0027923A /* Implementing_Range_Pickers_with_UISliderViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6293CC713C75EAC0027923A /* Implementing_Range_Pickers_with_UISliderViewController_iPhone.xib */; };
+		A6293CCC13C75EAC0027923A /* Implementing_Range_Pickers_with_UISliderViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6293CCA13C75EAC0027923A /* Implementing_Range_Pickers_with_UISliderViewController_iPad.xib */; };
+		A63CB91713C83DA300773270 /* ThumbHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = A63CB91313C83DA300773270 /* ThumbHighlighted.png */; };
+		A63CB91813C83DA300773270 /* ThumbHighlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A63CB91413C83DA300773270 /* ThumbHighlighted@2x.png */; };
+		A63CB91913C83DA300773270 /* ThumbNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = A63CB91513C83DA300773270 /* ThumbNormal.png */; };
+		A63CB91A13C83DA300773270 /* ThumbNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A63CB91613C83DA300773270 /* ThumbNormal@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6293CAD13C75EAC0027923A /* Implementing Range Pickers with UISlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Implementing Range Pickers with UISlider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6293CB113C75EAC0027923A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6293CB313C75EAC0027923A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6293CB513C75EAC0027923A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6293CB913C75EAC0027923A /* Implementing Range Pickers with UISlider-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Implementing Range Pickers with UISlider-Info.plist"; sourceTree = "<group>"; };
+		A6293CBB13C75EAC0027923A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6293CBD13C75EAC0027923A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6293CBF13C75EAC0027923A /* Implementing Range Pickers with UISlider-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Implementing Range Pickers with UISlider-Prefix.pch"; sourceTree = "<group>"; };
+		A6293CC013C75EAC0027923A /* Implementing_Range_Pickers_with_UISliderAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Implementing_Range_Pickers_with_UISliderAppDelegate.h; sourceTree = "<group>"; };
+		A6293CC113C75EAC0027923A /* Implementing_Range_Pickers_with_UISliderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Implementing_Range_Pickers_with_UISliderAppDelegate.m; sourceTree = "<group>"; };
+		A6293CC313C75EAC0027923A /* Implementing_Range_Pickers_with_UISliderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Implementing_Range_Pickers_with_UISliderViewController.h; sourceTree = "<group>"; };
+		A6293CC513C75EAC0027923A /* Implementing_Range_Pickers_with_UISliderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Implementing_Range_Pickers_with_UISliderViewController.m; sourceTree = "<group>"; };
+		A6293CC813C75EAC0027923A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Implementing_Range_Pickers_with_UISliderViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6293CCB13C75EAC0027923A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Implementing_Range_Pickers_with_UISliderViewController_iPad.xib; sourceTree = "<group>"; };
+		A63CB91313C83DA300773270 /* ThumbHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ThumbHighlighted.png; sourceTree = "<group>"; };
+		A63CB91413C83DA300773270 /* ThumbHighlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThumbHighlighted@2x.png"; sourceTree = "<group>"; };
+		A63CB91513C83DA300773270 /* ThumbNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ThumbNormal.png; sourceTree = "<group>"; };
+		A63CB91613C83DA300773270 /* ThumbNormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ThumbNormal@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6293CAA13C75EAC0027923A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6293CB213C75EAC0027923A /* UIKit.framework in Frameworks */,
+				A6293CB413C75EAC0027923A /* Foundation.framework in Frameworks */,
+				A6293CB613C75EAC0027923A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6293CA213C75EAC0027923A = {
+			isa = PBXGroup;
+			children = (
+				A6293CB713C75EAC0027923A /* Implementing Range Pickers with UISlider */,
+				A6293CB013C75EAC0027923A /* Frameworks */,
+				A6293CAE13C75EAC0027923A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6293CAE13C75EAC0027923A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6293CAD13C75EAC0027923A /* Implementing Range Pickers with UISlider.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6293CB013C75EAC0027923A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6293CB113C75EAC0027923A /* UIKit.framework */,
+				A6293CB313C75EAC0027923A /* Foundation.framework */,
+				A6293CB513C75EAC0027923A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6293CB713C75EAC0027923A /* Implementing Range Pickers with UISlider */ = {
+			isa = PBXGroup;
+			children = (
+				A6293CC013C75EAC0027923A /* Implementing_Range_Pickers_with_UISliderAppDelegate.h */,
+				A6293CC113C75EAC0027923A /* Implementing_Range_Pickers_with_UISliderAppDelegate.m */,
+				A6293CC313C75EAC0027923A /* Implementing_Range_Pickers_with_UISliderViewController.h */,
+				A6293CC513C75EAC0027923A /* Implementing_Range_Pickers_with_UISliderViewController.m */,
+				A6293CC713C75EAC0027923A /* Implementing_Range_Pickers_with_UISliderViewController_iPhone.xib */,
+				A6293CCA13C75EAC0027923A /* Implementing_Range_Pickers_with_UISliderViewController_iPad.xib */,
+				A6293CB813C75EAC0027923A /* Supporting Files */,
+			);
+			path = "Implementing Range Pickers with UISlider";
+			sourceTree = "<group>";
+		};
+		A6293CB813C75EAC0027923A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A63CB91313C83DA300773270 /* ThumbHighlighted.png */,
+				A63CB91413C83DA300773270 /* ThumbHighlighted@2x.png */,
+				A63CB91513C83DA300773270 /* ThumbNormal.png */,
+				A63CB91613C83DA300773270 /* ThumbNormal@2x.png */,
+				A6293CB913C75EAC0027923A /* Implementing Range Pickers with UISlider-Info.plist */,
+				A6293CBA13C75EAC0027923A /* InfoPlist.strings */,
+				A6293CBD13C75EAC0027923A /* main.m */,
+				A6293CBF13C75EAC0027923A /* Implementing Range Pickers with UISlider-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6293CAC13C75EAC0027923A /* Implementing Range Pickers with UISlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6293CCF13C75EAC0027923A /* Build configuration list for PBXNativeTarget "Implementing Range Pickers with UISlider" */;
+			buildPhases = (
+				A6293CA913C75EAC0027923A /* Sources */,
+				A6293CAA13C75EAC0027923A /* Frameworks */,
+				A6293CAB13C75EAC0027923A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Implementing Range Pickers with UISlider";
+			productName = "Implementing Range Pickers with UISlider";
+			productReference = A6293CAD13C75EAC0027923A /* Implementing Range Pickers with UISlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6293CA413C75EAC0027923A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6293CA713C75EAC0027923A /* Build configuration list for PBXProject "Implementing Range Pickers with UISlider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6293CA213C75EAC0027923A;
+			productRefGroup = A6293CAE13C75EAC0027923A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6293CAC13C75EAC0027923A /* Implementing Range Pickers with UISlider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6293CAB13C75EAC0027923A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6293CBC13C75EAC0027923A /* InfoPlist.strings in Resources */,
+				A6293CC413C75EAC0027923A /* Implementing_Range_Pickers_with_UISliderViewController.h in Resources */,
+				A6293CC913C75EAC0027923A /* Implementing_Range_Pickers_with_UISliderViewController_iPhone.xib in Resources */,
+				A6293CCC13C75EAC0027923A /* Implementing_Range_Pickers_with_UISliderViewController_iPad.xib in Resources */,
+				A63CB91713C83DA300773270 /* ThumbHighlighted.png in Resources */,
+				A63CB91813C83DA300773270 /* ThumbHighlighted@2x.png in Resources */,
+				A63CB91913C83DA300773270 /* ThumbNormal.png in Resources */,
+				A63CB91A13C83DA300773270 /* ThumbNormal@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6293CA913C75EAC0027923A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6293CBE13C75EAC0027923A /* main.m in Sources */,
+				A6293CC213C75EAC0027923A /* Implementing_Range_Pickers_with_UISliderAppDelegate.m in Sources */,
+				A6293CC613C75EAC0027923A /* Implementing_Range_Pickers_with_UISliderViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6293CBA13C75EAC0027923A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6293CBB13C75EAC0027923A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6293CC713C75EAC0027923A /* Implementing_Range_Pickers_with_UISliderViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6293CC813C75EAC0027923A /* en */,
+			);
+			name = Implementing_Range_Pickers_with_UISliderViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6293CCA13C75EAC0027923A /* Implementing_Range_Pickers_with_UISliderViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6293CCB13C75EAC0027923A /* en */,
+			);
+			name = Implementing_Range_Pickers_with_UISliderViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6293CCD13C75EAC0027923A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6293CCE13C75EAC0027923A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6293CD013C75EAC0027923A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Implementing Range Pickers with UISlider/Implementing Range Pickers with UISlider-Prefix.pch";
+				INFOPLIST_FILE = "Implementing Range Pickers with UISlider/Implementing Range Pickers with UISlider-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6293CD113C75EAC0027923A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Implementing Range Pickers with UISlider/Implementing Range Pickers with UISlider-Prefix.pch";
+				INFOPLIST_FILE = "Implementing Range Pickers with UISlider/Implementing Range Pickers with UISlider-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6293CA713C75EAC0027923A /* Build configuration list for PBXProject "Implementing Range Pickers with UISlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6293CCD13C75EAC0027923A /* Debug */,
+				A6293CCE13C75EAC0027923A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6293CCF13C75EAC0027923A /* Build configuration list for PBXNativeTarget "Implementing Range Pickers with UISlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6293CD013C75EAC0027923A /* Debug */,
+				A6293CD113C75EAC0027923A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6293CA413C75EAC0027923A /* Project object */;
+}

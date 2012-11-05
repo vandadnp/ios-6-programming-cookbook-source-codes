@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6C13AD813C9F36000A48597 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C13AD713C9F36000A48597 /* UIKit.framework */; };
+		A6C13ADA13C9F36000A48597 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C13AD913C9F36000A48597 /* Foundation.framework */; };
+		A6C13ADC13C9F36000A48597 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C13ADB13C9F36000A48597 /* CoreGraphics.framework */; };
+		A6C13AE213C9F36100A48597 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6C13AE013C9F36100A48597 /* InfoPlist.strings */; };
+		A6C13AE413C9F36100A48597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C13AE313C9F36100A48597 /* main.m */; };
+		A6C13AE813C9F36100A48597 /* Loading_Web_Pages_with_UIWebViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C13AE713C9F36100A48597 /* Loading_Web_Pages_with_UIWebViewAppDelegate.m */; };
+		A6C13AEA13C9F36100A48597 /* Loading_Web_Pages_with_UIWebViewViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = A6C13AE913C9F36100A48597 /* Loading_Web_Pages_with_UIWebViewViewController.h */; };
+		A6C13AEC13C9F36100A48597 /* Loading_Web_Pages_with_UIWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C13AEB13C9F36100A48597 /* Loading_Web_Pages_with_UIWebViewViewController.m */; };
+		A6C13AEF13C9F36100A48597 /* Loading_Web_Pages_with_UIWebViewViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C13AED13C9F36100A48597 /* Loading_Web_Pages_with_UIWebViewViewController_iPhone.xib */; };
+		A6C13AF213C9F36100A48597 /* Loading_Web_Pages_with_UIWebViewViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C13AF013C9F36100A48597 /* Loading_Web_Pages_with_UIWebViewViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6C13AD313C9F36000A48597 /* Loading Web Pages with UIWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Loading Web Pages with UIWebView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C13AD713C9F36000A48597 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6C13AD913C9F36000A48597 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6C13ADB13C9F36000A48597 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6C13ADF13C9F36100A48597 /* Loading Web Pages with UIWebView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Loading Web Pages with UIWebView-Info.plist"; sourceTree = "<group>"; };
+		A6C13AE113C9F36100A48597 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6C13AE313C9F36100A48597 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6C13AE513C9F36100A48597 /* Loading Web Pages with UIWebView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Loading Web Pages with UIWebView-Prefix.pch"; sourceTree = "<group>"; };
+		A6C13AE613C9F36100A48597 /* Loading_Web_Pages_with_UIWebViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Loading_Web_Pages_with_UIWebViewAppDelegate.h; sourceTree = "<group>"; };
+		A6C13AE713C9F36100A48597 /* Loading_Web_Pages_with_UIWebViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Loading_Web_Pages_with_UIWebViewAppDelegate.m; sourceTree = "<group>"; };
+		A6C13AE913C9F36100A48597 /* Loading_Web_Pages_with_UIWebViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Loading_Web_Pages_with_UIWebViewViewController.h; sourceTree = "<group>"; };
+		A6C13AEB13C9F36100A48597 /* Loading_Web_Pages_with_UIWebViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Loading_Web_Pages_with_UIWebViewViewController.m; sourceTree = "<group>"; };
+		A6C13AEE13C9F36100A48597 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Loading_Web_Pages_with_UIWebViewViewController_iPhone.xib; sourceTree = "<group>"; };
+		A6C13AF113C9F36100A48597 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Loading_Web_Pages_with_UIWebViewViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6C13AD013C9F36000A48597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C13AD813C9F36000A48597 /* UIKit.framework in Frameworks */,
+				A6C13ADA13C9F36000A48597 /* Foundation.framework in Frameworks */,
+				A6C13ADC13C9F36000A48597 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6C13AC813C9F36000A48597 = {
+			isa = PBXGroup;
+			children = (
+				A6C13ADD13C9F36000A48597 /* Loading Web Pages with UIWebView */,
+				A6C13AD613C9F36000A48597 /* Frameworks */,
+				A6C13AD413C9F36000A48597 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6C13AD413C9F36000A48597 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6C13AD313C9F36000A48597 /* Loading Web Pages with UIWebView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6C13AD613C9F36000A48597 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6C13AD713C9F36000A48597 /* UIKit.framework */,
+				A6C13AD913C9F36000A48597 /* Foundation.framework */,
+				A6C13ADB13C9F36000A48597 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6C13ADD13C9F36000A48597 /* Loading Web Pages with UIWebView */ = {
+			isa = PBXGroup;
+			children = (
+				A6C13AE613C9F36100A48597 /* Loading_Web_Pages_with_UIWebViewAppDelegate.h */,
+				A6C13AE713C9F36100A48597 /* Loading_Web_Pages_with_UIWebViewAppDelegate.m */,
+				A6C13AE913C9F36100A48597 /* Loading_Web_Pages_with_UIWebViewViewController.h */,
+				A6C13AEB13C9F36100A48597 /* Loading_Web_Pages_with_UIWebViewViewController.m */,
+				A6C13AED13C9F36100A48597 /* Loading_Web_Pages_with_UIWebViewViewController_iPhone.xib */,
+				A6C13AF013C9F36100A48597 /* Loading_Web_Pages_with_UIWebViewViewController_iPad.xib */,
+				A6C13ADE13C9F36000A48597 /* Supporting Files */,
+			);
+			path = "Loading Web Pages with UIWebView";
+			sourceTree = "<group>";
+		};
+		A6C13ADE13C9F36000A48597 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6C13ADF13C9F36100A48597 /* Loading Web Pages with UIWebView-Info.plist */,
+				A6C13AE013C9F36100A48597 /* InfoPlist.strings */,
+				A6C13AE313C9F36100A48597 /* main.m */,
+				A6C13AE513C9F36100A48597 /* Loading Web Pages with UIWebView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6C13AD213C9F36000A48597 /* Loading Web Pages with UIWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C13AF513C9F36100A48597 /* Build configuration list for PBXNativeTarget "Loading Web Pages with UIWebView" */;
+			buildPhases = (
+				A6C13ACF13C9F36000A48597 /* Sources */,
+				A6C13AD013C9F36000A48597 /* Frameworks */,
+				A6C13AD113C9F36000A48597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Loading Web Pages with UIWebView";
+			productName = "Loading Web Pages with UIWebView";
+			productReference = A6C13AD313C9F36000A48597 /* Loading Web Pages with UIWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6C13ACA13C9F36000A48597 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6C13ACD13C9F36000A48597 /* Build configuration list for PBXProject "Loading Web Pages with UIWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6C13AC813C9F36000A48597;
+			productRefGroup = A6C13AD413C9F36000A48597 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6C13AD213C9F36000A48597 /* Loading Web Pages with UIWebView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6C13AD113C9F36000A48597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C13AE213C9F36100A48597 /* InfoPlist.strings in Resources */,
+				A6C13AEA13C9F36100A48597 /* Loading_Web_Pages_with_UIWebViewViewController.h in Resources */,
+				A6C13AEF13C9F36100A48597 /* Loading_Web_Pages_with_UIWebViewViewController_iPhone.xib in Resources */,
+				A6C13AF213C9F36100A48597 /* Loading_Web_Pages_with_UIWebViewViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6C13ACF13C9F36000A48597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C13AE413C9F36100A48597 /* main.m in Sources */,
+				A6C13AE813C9F36100A48597 /* Loading_Web_Pages_with_UIWebViewAppDelegate.m in Sources */,
+				A6C13AEC13C9F36100A48597 /* Loading_Web_Pages_with_UIWebViewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6C13AE013C9F36100A48597 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C13AE113C9F36100A48597 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6C13AED13C9F36100A48597 /* Loading_Web_Pages_with_UIWebViewViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C13AEE13C9F36100A48597 /* en */,
+			);
+			name = Loading_Web_Pages_with_UIWebViewViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A6C13AF013C9F36100A48597 /* Loading_Web_Pages_with_UIWebViewViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C13AF113C9F36100A48597 /* en */,
+			);
+			name = Loading_Web_Pages_with_UIWebViewViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6C13AF313C9F36100A48597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6C13AF413C9F36100A48597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6C13AF613C9F36100A48597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Loading Web Pages with UIWebView/Loading Web Pages with UIWebView-Prefix.pch";
+				INFOPLIST_FILE = "Loading Web Pages with UIWebView/Loading Web Pages with UIWebView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6C13AF713C9F36100A48597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Loading Web Pages with UIWebView/Loading Web Pages with UIWebView-Prefix.pch";
+				INFOPLIST_FILE = "Loading Web Pages with UIWebView/Loading Web Pages with UIWebView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6C13ACD13C9F36000A48597 /* Build configuration list for PBXProject "Loading Web Pages with UIWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C13AF313C9F36100A48597 /* Debug */,
+				A6C13AF413C9F36100A48597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C13AF513C9F36100A48597 /* Build configuration list for PBXNativeTarget "Loading Web Pages with UIWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C13AF613C9F36100A48597 /* Debug */,
+				A6C13AF713C9F36100A48597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6C13ACA13C9F36000A48597 /* Project object */;
+}

@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A62BA12B13C9B0EE0060F652 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A62BA12A13C9B0EE0060F652 /* UIKit.framework */; };
+		A62BA12D13C9B0EE0060F652 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A62BA12C13C9B0EE0060F652 /* Foundation.framework */; };
+		A62BA12F13C9B0EE0060F652 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A62BA12E13C9B0EE0060F652 /* CoreGraphics.framework */; };
+		A62BA13513C9B0EE0060F652 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A62BA13313C9B0EE0060F652 /* InfoPlist.strings */; };
+		A62BA13713C9B0EE0060F652 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A62BA13613C9B0EE0060F652 /* main.m */; };
+		A62BA13B13C9B0EE0060F652 /* Displaying_Images_with_UIImageViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A62BA13A13C9B0EE0060F652 /* Displaying_Images_with_UIImageViewAppDelegate.m */; };
+		A62BA13D13C9B0EE0060F652 /* Displaying_Images_with_UIImageViewViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = A62BA13C13C9B0EE0060F652 /* Displaying_Images_with_UIImageViewViewController.h */; };
+		A62BA13F13C9B0EE0060F652 /* Displaying_Images_with_UIImageViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A62BA13E13C9B0EE0060F652 /* Displaying_Images_with_UIImageViewViewController.m */; };
+		A62BA14213C9B0EE0060F652 /* Displaying_Images_with_UIImageViewViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A62BA14013C9B0EE0060F652 /* Displaying_Images_with_UIImageViewViewController_iPhone.xib */; };
+		A62BA14513C9B0EE0060F652 /* Displaying_Images_with_UIImageViewViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A62BA14313C9B0EE0060F652 /* Displaying_Images_with_UIImageViewViewController_iPad.xib */; };
+		A62BA15613C9B2AA0060F652 /* MacBookAir.png in Resources */ = {isa = PBXBuildFile; fileRef = A62BA15513C9B2AA0060F652 /* MacBookAir.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A62BA12613C9B0EE0060F652 /* Displaying Images with UIImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Displaying Images with UIImageView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62BA12A13C9B0EE0060F652 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A62BA12C13C9B0EE0060F652 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A62BA12E13C9B0EE0060F652 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A62BA13213C9B0EE0060F652 /* Displaying Images with UIImageView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Displaying Images with UIImageView-Info.plist"; sourceTree = "<group>"; };
+		A62BA13413C9B0EE0060F652 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A62BA13613C9B0EE0060F652 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A62BA13813C9B0EE0060F652 /* Displaying Images with UIImageView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Displaying Images with UIImageView-Prefix.pch"; sourceTree = "<group>"; };
+		A62BA13913C9B0EE0060F652 /* Displaying_Images_with_UIImageViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Displaying_Images_with_UIImageViewAppDelegate.h; sourceTree = "<group>"; };
+		A62BA13A13C9B0EE0060F652 /* Displaying_Images_with_UIImageViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Displaying_Images_with_UIImageViewAppDelegate.m; sourceTree = "<group>"; };
+		A62BA13C13C9B0EE0060F652 /* Displaying_Images_with_UIImageViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Displaying_Images_with_UIImageViewViewController.h; sourceTree = "<group>"; };
+		A62BA13E13C9B0EE0060F652 /* Displaying_Images_with_UIImageViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Displaying_Images_with_UIImageViewViewController.m; sourceTree = "<group>"; };
+		A62BA14113C9B0EE0060F652 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Displaying_Images_with_UIImageViewViewController_iPhone.xib; sourceTree = "<group>"; };
+		A62BA14413C9B0EE0060F652 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Displaying_Images_with_UIImageViewViewController_iPad.xib; sourceTree = "<group>"; };
+		A62BA15513C9B2AA0060F652 /* MacBookAir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MacBookAir.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A62BA12313C9B0EE0060F652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62BA12B13C9B0EE0060F652 /* UIKit.framework in Frameworks */,
+				A62BA12D13C9B0EE0060F652 /* Foundation.framework in Frameworks */,
+				A62BA12F13C9B0EE0060F652 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A62BA11B13C9B0EE0060F652 = {
+			isa = PBXGroup;
+			children = (
+				A62BA13013C9B0EE0060F652 /* Displaying Images with UIImageView */,
+				A62BA12913C9B0EE0060F652 /* Frameworks */,
+				A62BA12713C9B0EE0060F652 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A62BA12713C9B0EE0060F652 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A62BA12613C9B0EE0060F652 /* Displaying Images with UIImageView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A62BA12913C9B0EE0060F652 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A62BA12A13C9B0EE0060F652 /* UIKit.framework */,
+				A62BA12C13C9B0EE0060F652 /* Foundation.framework */,
+				A62BA12E13C9B0EE0060F652 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A62BA13013C9B0EE0060F652 /* Displaying Images with UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				A62BA13913C9B0EE0060F652 /* Displaying_Images_with_UIImageViewAppDelegate.h */,
+				A62BA13A13C9B0EE0060F652 /* Displaying_Images_with_UIImageViewAppDelegate.m */,
+				A62BA13C13C9B0EE0060F652 /* Displaying_Images_with_UIImageViewViewController.h */,
+				A62BA13E13C9B0EE0060F652 /* Displaying_Images_with_UIImageViewViewController.m */,
+				A62BA14013C9B0EE0060F652 /* Displaying_Images_with_UIImageViewViewController_iPhone.xib */,
+				A62BA14313C9B0EE0060F652 /* Displaying_Images_with_UIImageViewViewController_iPad.xib */,
+				A62BA13113C9B0EE0060F652 /* Supporting Files */,
+			);
+			path = "Displaying Images with UIImageView";
+			sourceTree = "<group>";
+		};
+		A62BA13113C9B0EE0060F652 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A62BA15513C9B2AA0060F652 /* MacBookAir.png */,
+				A62BA13213C9B0EE0060F652 /* Displaying Images with UIImageView-Info.plist */,
+				A62BA13313C9B0EE0060F652 /* InfoPlist.strings */,
+				A62BA13613C9B0EE0060F652 /* main.m */,
+				A62BA13813C9B0EE0060F652 /* Displaying Images with UIImageView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A62BA12513C9B0EE0060F652 /* Displaying Images with UIImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A62BA14813C9B0EE0060F652 /* Build configuration list for PBXNativeTarget "Displaying Images with UIImageView" */;
+			buildPhases = (
+				A62BA12213C9B0EE0060F652 /* Sources */,
+				A62BA12313C9B0EE0060F652 /* Frameworks */,
+				A62BA12413C9B0EE0060F652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Displaying Images with UIImageView";
+			productName = "Displaying Images with UIImageView";
+			productReference = A62BA12613C9B0EE0060F652 /* Displaying Images with UIImageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A62BA11D13C9B0EE0060F652 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A62BA12013C9B0EE0060F652 /* Build configuration list for PBXProject "Displaying Images with UIImageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A62BA11B13C9B0EE0060F652;
+			productRefGroup = A62BA12713C9B0EE0060F652 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A62BA12513C9B0EE0060F652 /* Displaying Images with UIImageView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A62BA12413C9B0EE0060F652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62BA13513C9B0EE0060F652 /* InfoPlist.strings in Resources */,
+				A62BA13D13C9B0EE0060F652 /* Displaying_Images_with_UIImageViewViewController.h in Resources */,
+				A62BA14213C9B0EE0060F652 /* Displaying_Images_with_UIImageViewViewController_iPhone.xib in Resources */,
+				A62BA14513C9B0EE0060F652 /* Displaying_Images_with_UIImageViewViewController_iPad.xib in Resources */,
+				A62BA15613C9B2AA0060F652 /* MacBookAir.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A62BA12213C9B0EE0060F652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62BA13713C9B0EE0060F652 /* main.m in Sources */,
+				A62BA13B13C9B0EE0060F652 /* Displaying_Images_with_UIImageViewAppDelegate.m in Sources */,
+				A62BA13F13C9B0EE0060F652 /* Displaying_Images_with_UIImageViewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A62BA13313C9B0EE0060F652 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A62BA13413C9B0EE0060F652 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A62BA14013C9B0EE0060F652 /* Displaying_Images_with_UIImageViewViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A62BA14113C9B0EE0060F652 /* en */,
+			);
+			name = Displaying_Images_with_UIImageViewViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A62BA14313C9B0EE0060F652 /* Displaying_Images_with_UIImageViewViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A62BA14413C9B0EE0060F652 /* en */,
+			);
+			name = Displaying_Images_with_UIImageViewViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A62BA14613C9B0EE0060F652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A62BA14713C9B0EE0060F652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A62BA14913C9B0EE0060F652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Displaying Images with UIImageView/Displaying Images with UIImageView-Prefix.pch";
+				INFOPLIST_FILE = "Displaying Images with UIImageView/Displaying Images with UIImageView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A62BA14A13C9B0EE0060F652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Displaying Images with UIImageView/Displaying Images with UIImageView-Prefix.pch";
+				INFOPLIST_FILE = "Displaying Images with UIImageView/Displaying Images with UIImageView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A62BA12013C9B0EE0060F652 /* Build configuration list for PBXProject "Displaying Images with UIImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A62BA14613C9B0EE0060F652 /* Debug */,
+				A62BA14713C9B0EE0060F652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A62BA14813C9B0EE0060F652 /* Build configuration list for PBXNativeTarget "Displaying Images with UIImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A62BA14913C9B0EE0060F652 /* Debug */,
+				A62BA14A13C9B0EE0060F652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A62BA11D13C9B0EE0060F652 /* Project object */;
+}

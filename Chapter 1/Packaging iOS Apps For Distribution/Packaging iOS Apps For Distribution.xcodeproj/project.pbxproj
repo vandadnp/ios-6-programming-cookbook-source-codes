@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6DBBDD913C6F4E9008C199F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DBBDD813C6F4E9008C199F /* UIKit.framework */; };
+		A6DBBDDB13C6F4E9008C199F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DBBDDA13C6F4E9008C199F /* Foundation.framework */; };
+		A6DBBDDD13C6F4E9008C199F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DBBDDC13C6F4E9008C199F /* CoreGraphics.framework */; };
+		A6DBBDE313C6F4E9008C199F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6DBBDE113C6F4E9008C199F /* InfoPlist.strings */; };
+		A6DBBDE513C6F4E9008C199F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DBBDE413C6F4E9008C199F /* main.m */; };
+		A6DBBDE913C6F4E9008C199F /* Packaging_iOS_Apps_For_DistributionAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DBBDE813C6F4E9008C199F /* Packaging_iOS_Apps_For_DistributionAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6DBBDD413C6F4E9008C199F /* Packaging iOS Apps For Distribution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Packaging iOS Apps For Distribution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6DBBDD813C6F4E9008C199F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6DBBDDA13C6F4E9008C199F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6DBBDDC13C6F4E9008C199F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6DBBDE013C6F4E9008C199F /* Packaging iOS Apps For Distribution-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Packaging iOS Apps For Distribution-Info.plist"; sourceTree = "<group>"; };
+		A6DBBDE213C6F4E9008C199F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6DBBDE413C6F4E9008C199F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6DBBDE613C6F4E9008C199F /* Packaging iOS Apps For Distribution-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Packaging iOS Apps For Distribution-Prefix.pch"; sourceTree = "<group>"; };
+		A6DBBDE713C6F4E9008C199F /* Packaging_iOS_Apps_For_DistributionAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Packaging_iOS_Apps_For_DistributionAppDelegate.h; sourceTree = "<group>"; };
+		A6DBBDE813C6F4E9008C199F /* Packaging_iOS_Apps_For_DistributionAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Packaging_iOS_Apps_For_DistributionAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6DBBDD113C6F4E9008C199F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DBBDD913C6F4E9008C199F /* UIKit.framework in Frameworks */,
+				A6DBBDDB13C6F4E9008C199F /* Foundation.framework in Frameworks */,
+				A6DBBDDD13C6F4E9008C199F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6DBBDC913C6F4E9008C199F = {
+			isa = PBXGroup;
+			children = (
+				A6DBBDDE13C6F4E9008C199F /* Packaging iOS Apps For Distribution */,
+				A6DBBDD713C6F4E9008C199F /* Frameworks */,
+				A6DBBDD513C6F4E9008C199F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6DBBDD513C6F4E9008C199F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6DBBDD413C6F4E9008C199F /* Packaging iOS Apps For Distribution.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6DBBDD713C6F4E9008C199F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6DBBDD813C6F4E9008C199F /* UIKit.framework */,
+				A6DBBDDA13C6F4E9008C199F /* Foundation.framework */,
+				A6DBBDDC13C6F4E9008C199F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6DBBDDE13C6F4E9008C199F /* Packaging iOS Apps For Distribution */ = {
+			isa = PBXGroup;
+			children = (
+				A6DBBDE713C6F4E9008C199F /* Packaging_iOS_Apps_For_DistributionAppDelegate.h */,
+				A6DBBDE813C6F4E9008C199F /* Packaging_iOS_Apps_For_DistributionAppDelegate.m */,
+				A6DBBDDF13C6F4E9008C199F /* Supporting Files */,
+			);
+			path = "Packaging iOS Apps For Distribution";
+			sourceTree = "<group>";
+		};
+		A6DBBDDF13C6F4E9008C199F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6DBBDE013C6F4E9008C199F /* Packaging iOS Apps For Distribution-Info.plist */,
+				A6DBBDE113C6F4E9008C199F /* InfoPlist.strings */,
+				A6DBBDE413C6F4E9008C199F /* main.m */,
+				A6DBBDE613C6F4E9008C199F /* Packaging iOS Apps For Distribution-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6DBBDD313C6F4E9008C199F /* Packaging iOS Apps For Distribution */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6DBBDEC13C6F4E9008C199F /* Build configuration list for PBXNativeTarget "Packaging iOS Apps For Distribution" */;
+			buildPhases = (
+				A6DBBDD013C6F4E9008C199F /* Sources */,
+				A6DBBDD113C6F4E9008C199F /* Frameworks */,
+				A6DBBDD213C6F4E9008C199F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Packaging iOS Apps For Distribution";
+			productName = "Packaging iOS Apps For Distribution";
+			productReference = A6DBBDD413C6F4E9008C199F /* Packaging iOS Apps For Distribution.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6DBBDCB13C6F4E9008C199F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Pixolity Ltd.";
+			};
+			buildConfigurationList = A6DBBDCE13C6F4E9008C199F /* Build configuration list for PBXProject "Packaging iOS Apps For Distribution" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6DBBDC913C6F4E9008C199F;
+			productRefGroup = A6DBBDD513C6F4E9008C199F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6DBBDD313C6F4E9008C199F /* Packaging iOS Apps For Distribution */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6DBBDD213C6F4E9008C199F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DBBDE313C6F4E9008C199F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6DBBDD013C6F4E9008C199F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6DBBDE513C6F4E9008C199F /* main.m in Sources */,
+				A6DBBDE913C6F4E9008C199F /* Packaging_iOS_Apps_For_DistributionAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6DBBDE113C6F4E9008C199F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6DBBDE213C6F4E9008C199F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6DBBDEA13C6F4E9008C199F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6DBBDEB13C6F4E9008C199F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6DBBDED13C6F4E9008C199F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Packaging iOS Apps For Distribution/Packaging iOS Apps For Distribution-Prefix.pch";
+				INFOPLIST_FILE = "Packaging iOS Apps For Distribution/Packaging iOS Apps For Distribution-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6DBBDEE13C6F4E9008C199F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Packaging iOS Apps For Distribution/Packaging iOS Apps For Distribution-Prefix.pch";
+				INFOPLIST_FILE = "Packaging iOS Apps For Distribution/Packaging iOS Apps For Distribution-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6DBBDCE13C6F4E9008C199F /* Build configuration list for PBXProject "Packaging iOS Apps For Distribution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6DBBDEA13C6F4E9008C199F /* Debug */,
+				A6DBBDEB13C6F4E9008C199F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6DBBDEC13C6F4E9008C199F /* Build configuration list for PBXNativeTarget "Packaging iOS Apps For Distribution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6DBBDED13C6F4E9008C199F /* Debug */,
+				A6DBBDEE13C6F4E9008C199F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6DBBDCB13C6F4E9008C199F /* Project object */;
+}
